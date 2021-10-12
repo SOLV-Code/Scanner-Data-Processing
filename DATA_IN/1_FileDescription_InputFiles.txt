@@ -1,0 +1,98 @@
+DESCRIPTION OF INPUT FILES
+
+
+Now using:
+
+
+# SBC Chinook input files sourced from 
+# https://github.com/SOLV-Code/SBC-Ck-Dashboards-2.0/tree/master/DATA/DerivedData/2_SummaryOutput
+Chinook_SBC_ByPop.csv =    FlatFile_For_COSEWIC_ByPop.csv 
+Chinook_SBC_ByCU.csv =    FlatFile_For_COSEWIC_ByCU.csv 
+
+# Fraser Sockeye input files sourced from:
+# Tracy Cone files 
+# Note: did some separate diagnostics of Annacis File vs. nuSEDS file -> Check folder  DATA_TRACKING
+Sockeye_Fraser_ByPop.csv =    SKAll(Aug 2019).csv
+# also using code by Bronwyn MacDonald to generate CU level infilled file.
+# this also uses the following additional input files
+# Sockeye_Fraser_Expansion_Years.csv = Expansion Years.csv
+# Sockeye_Fraser_CU_Streams.csv = CU_Streams.csv
+# Recruit time series from PSC "sockdat" file, saved here as
+# Sockeye_Fraser_SR_Data.csv
+
+# Fraser Coho input files sourced from:
+# Bronwyn MacDonald files
+Coho_Fraser_ByCU = All IFC CUs BY Table_EC.max=NA_infill=TRUE.csv
+Coho_Fraser_ByPop = ALL IFC streams spawners_EC.new=NA, infill=TRUE.csv
+
+
+
+
+
+NEED TO UPDATE THE REST OF THIS FILE
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------
+ Raw_nuSEDS_FraserSockeye.csv
+------------------------------------
+
+Version: April 25, 2019
+
+Notes:
+* extracted directly from nuSEDS by Bruce Baxter using the 24 CUs from the 2018 status update
+* Added a new PopName_Mod column to distinguish between CUs (e.g. two different "25 Mile River" in two different CUs)
+  This new col uses "GEOGRAPHICAL_EXTNT_OF_ESTIMATE" and where needed adds a 3 letter CU identifier (e.g. "25 MILE CREEK" to "
+  "25 mile creek estu") or modifies it to match  the pop names used in the Annacis files 
+  (e.g. "n. end chilko lake" and "north end chilko lake"). 
+
+
+To Do
+* build quality control and infill(?) steps to mirror SBC CK steps, or just use as a cross check against
+  SPN_Sockeye_Fraser_ByPop.csv developed by Tracy Cone at Annacis -> need WG guidance
+
+
+
+--------------------------------------
+ SPN_Sockeye_Fraser_ByPop.csv
+--------------------------------------
+
+Version: March 21, 2019
+
+Notes:
+* available file provided by Bronwyn MacDonald
+* Added a new PopName_Mod column to distinguish between CUs (e.g. two different "25 Mile River" in two different CUs)
+     This new col uses "Stock Name(stream)" and the adds a detail identifier (e.g. "EStu" or "Early") where needed.
+		Also fixes spelling discrepancies to match the nuSEDs entry (e.g. "creek, lower" to "creek-lower")
+
+To Do:
+* get official latest version from Tracy Cone
+
+
+-----------------------------------------
+ nuSEDS_Prepped_Chinook_SB.csv
+-----------------------------------------
+
+Version: April 25, 2019
+
+Notes:
+* copied from SBC Ck repo
+* This is the raw prepped data (key variables extracted for verified sites, but no quality filtering or infilling yet!)
+
+
+To Do
+* Need to discuss with WG re: which data version to use for SOS
+
+
+
+
+
+
