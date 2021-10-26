@@ -171,6 +171,7 @@ for(i in 1:dim(cu.list)[1]){
 #	CHECK THAT LOOKUPS AND INPUT VALUES ARE FED IN PROPERLY
 	
     print(paste("starting  BMAC changes for", cu.name, series.do))
+
     
 	if(cu.lookup.sub$Cyclic==TRUE){
         # Set to NA first (AbsAbd BMs don't need to be changed)   
@@ -184,7 +185,7 @@ for(i in 1:dim(cu.list)[1]){
         all.cyc.yrs <- seq(from=cyclic.bm.sub$Cycle[cyclic.bm.sub$cyc == cycs], to=last(cu.yrs), by=cu.avggen)
         cyc.yrs <- all.cyc.yrs[all.cyc.yrs >= retro.start.use]
         
-        # puts dominant BM into all rows?
+        # puts dominant BM into all rows
         metrics.tmp[metrics.tmp$Metric == "RelAbd", c("LBM","UBM")] <- cyclic.bm.sub[(cyclic.bm.sub$cyc == cycs) ,c("RelAbd_LBM","RelAbd_UBM")]
     
       
@@ -201,8 +202,8 @@ for(i in 1:dim(cu.list)[1]){
         first.abund <- cu.series[cu.yrs==first.cycyr]
         metrics.tmp <- rbind(sub, filter(metrics.tmp, Metric != "RelAbd"))
         
-        # AbsAbd 
-        metrics.tmp$Value[metrics.tmp$Metric == "AbsAbd"] <-  cu.series[cu.yrs>=retro.start.use]
+        # AbsAbd   *********************** BMAC replaced this Oct 22 2021 to DOMINANT cycle abundance only for COSEWIC criteria
+        metrics.tmp$Value[metrics.tmp$Metric == "AbsAbd"] <-  sub$Value  # cu.series[cu.yrs>=retro.start.use]
         
         # Insert Statuses
         metrics.tmp <- metrics.tmp %>%
@@ -229,8 +230,9 @@ for(i in 1:dim(cu.list)[1]){
                                    out.exp = cu.slope.specs$out.exp,
                                    na.rm=cu.slope.specs$na.rm)
       
-          }
+    }
     
+
     if(!cu.slope.specs$slope.smooth){trend.series <- cu.series}
     
     if(FALSE){ # for debug only
@@ -248,6 +250,9 @@ for(i in 1:dim(cu.list)[1]){
     test.out 
     }
 
+   
+  
+    
     # if("WSPMetrics" %in% (.packages())){detach("package:WSPMetrics")}
     # library(MetricsCOSEWIC)  
 
