@@ -17,7 +17,7 @@ source("CART/synopticFunction_Source.R")
 #retro.status.df.stat <- metrics.reorg.status
 publ.status <- read.csv("DATA/Publ_Status_Reorg_Status.csv")
 
-setwd("../"); setwd("SOS-Data-Processing")
+setwd("../"); setwd("Scanner-Data-Processing")
 
 # From GPs 3_Synoptic code
   cu.lookup <- read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
@@ -85,7 +85,7 @@ setwd("../"); setwd("SOS-Data-Processing")
 sots3.trial <- synoptic(data.df = metrics.synoptic.values, algorithm = "StateOfTheSalmon3",
                                                  group.var = "Species")
 
-write.csv(sots3.trial$data,"Retro_Results_SotS3_Aug42021.csv",row.names = FALSE)
+write.csv(sots3.trial$data,"Retro_Results_SotS3.csv",row.names = FALSE)
 
 
 # ----- Get the ratios and build the dataframe for metrics
@@ -138,8 +138,8 @@ metrics.scanner <-  metrics.tmp2  %>%   filter(!Metric %in% c("ProbDeclBelowLBM"
   
 # Could pull in the Benchmarks and comparison values from metrics.raw also if wanted
 # but will require wrangling because the metrics names are different for the LBM and UBM ones
-setwd("../")
-metrics.dummy <- read.csv("SOS-Data-Processing/DATA_LOOKUP_FILES/METRICS_FILE_BY_CU_dummy.csv")
+#setwd("../")
+metrics.dummy <- read.csv("DATA_LOOKUP_FILES/METRICS_FILE_BY_CU_dummy.csv")
 
 
 # Metrics.dummy uses CU_IDs from NuSEDs for the tool NOT the ones used in the data prep code, so must match these
@@ -153,19 +153,29 @@ metrics.out <- metrics.dummy %>% select(-X) %>%
                                  filter(!is.na(Stock))%>%
                                  filter(!Metric == "IntStatus") %>%
                                  rbind(metrics.scanner)
-
+setwd("../")
 write.csv(metrics.out, "build_PStat_data/data/METRICS_FILE_BY_CU_forPSST.csv")
 
 # ========================= NOW fix the escapement/recruit datasets, since I had to sub values into the WILD columns for (Chum) to get the metrics to run!
 # ALSO remove the Trends data for Fraser SK
 
-cu.data <- read.csv("SOS-Data-Processing/DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv")
+cu.data <- read.csv("Scanner-Data-Processing/DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv")
 
 # Remove the Trends data for all CUs - no longer needed and was only different for FR SK
+  # Addded Oct 25 2021 to add Rel Abd metric values to time series
+  cu.lookup$CU_ID <- gsub("-","_", cu.lookup$CU_ID)
+  relabd.metric <- metrics.scanner %>% filter(Metric=="RelLBM")
+
 cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
                          mutate(SpnForAbd_Wild = case_when(CU_ID %in% c("CM-02", "CM-03", "CM-04", "CM-05", "CM-06", "CM-07", "CM-08", "CM-09") ~ NA_real_, 
                                                            TRUE ~ SpnForAbd_Wild)) %>%
-                        rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild )   
+                        rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%   
+                        # Added Oct 25 2021 to have the timeseries used for assessing relative abunance metrics as an option for plotting in the Scanner 
+                        left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
+                        rename(OLD_CU_ID=CU_ID, CU_ID=CU_ID_Alt2_CULookup) %>%
+                        left_join(select(relabd.metric, CU_ID, Year, Compare), by=c("CU_ID","Year")) %>%
+                        select(-CU_ID) %>%
+                        rename(CU_ID=OLD_CU_ID, RelAbd_metric_ts=Compare)
 
 write.csv(cu.clean, "build_PStat_data/data/MERGED_FLAT_FILE_BY_CU_CLEAN.csv")
 # REmove the "wild" from FR CM
