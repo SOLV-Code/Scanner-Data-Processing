@@ -183,7 +183,7 @@ write.csv(cu.clean, "build_PStat_data/data/MERGED_FLAT_FILE_BY_CU_CLEAN.csv")
 
 # Same for the POP file
 #pop.info <- read.csv("build_PStat_data/data/PopLookup.csv")
-pop.data <- read.csv("SOS-Data-Processing/DATA_OUT/MERGED_FLAT_FILE_BY_POP.csv")
+pop.data <- read.csv("Scanner-Data-Processing/DATA_OUT/MERGED_FLAT_FILE_BY_POP.csv")
 
 
 

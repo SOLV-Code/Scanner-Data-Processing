@@ -97,7 +97,7 @@ for(i in 1:dim(cu.list)[1]){
   #   list(avg.type = "geomean", recent.excl = FALSE, lt.smooth = TRUE,
   #         rel.avg.type = "regular", min.lt.yrs = 20, min.perc.yrs = 20)
   
-  cu.avg.specs <- list(avg.type = "median", #cu.lookup.sub$AvgType ,
+  cu.avg.specs <- list(avg.type =cu.lookup.sub$AvgType ,
                        recent.excl= cu.lookup.sub$AvgRecentExcl,  # use all for the long-term avg?
                        lt.smooth=cu.lookup.sub$AvgSmooth,
                        rel.avg.type = cu.lookup.sub$RelAbd_AvgData,
@@ -176,7 +176,8 @@ for(i in 1:dim(cu.list)[1]){
 	if(cu.lookup.sub$Cyclic==TRUE){
         # Set to NA first (AbsAbd BMs don't need to be changed)   
         metrics.tmp[metrics.tmp$Metric == "RelAbd", c("Value","LBM","UBM","Status")] <- NA
-        metrics.tmp[metrics.tmp$Metric == "AbsAbd", c("Value","Status")] <- NA
+       # metrics.tmp[metrics.tmp$Metric == "AbsAbd", c("Value","Status")] <- NA   # Changed Nov 9 2021 as we decided to use the geom average for 
+                                                                                  # cyclic CUs, which is what is used for the regular CUs
          
         # Dominant cycle Benchmarks for RelAbd
        # cycs <-rep(seq(from=1,to=cu.avggen), length=length(cu.yrs))   CHANGES MAY 28 2021 to REFER TO THE CYCLE LINE INSTEAD OF YEAR SO WORKS ON RETRO
@@ -202,8 +203,9 @@ for(i in 1:dim(cu.list)[1]){
         first.abund <- cu.series[cu.yrs==first.cycyr]
         metrics.tmp <- rbind(sub, filter(metrics.tmp, Metric != "RelAbd"))
         
-        # AbsAbd   *********************** BMAC replaced this Oct 22 2021 to DOMINANT cycle abundance only for COSEWIC criteria
-        metrics.tmp$Value[metrics.tmp$Metric == "AbsAbd"] <-  sub$Value  # cu.series[cu.yrs>=retro.start.use]
+        # AbsAbd   *********************** BMAC replaced this Oct 22 2021 to DOMINANT cycle abundance only for COSEWIC criteria BUT NO LONGER USING THIS SEE ABOVE 09/11/2021
+        #metrics.tmp$Value[metrics.tmp$Metric == "AbsAbd"] <-  sub$Value  # cu.series[cu.yrs>=retro.start.use]
+        
         
         # Insert Statuses
         metrics.tmp <- metrics.tmp %>%
