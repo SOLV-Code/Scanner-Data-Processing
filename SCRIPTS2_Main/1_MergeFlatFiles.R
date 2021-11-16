@@ -12,12 +12,12 @@ flat.fr.cm<- read.csv("DATA_OUT/Cleaned_FlatFile_ByPop_FraserChum_all.csv",strin
 flat.isc.cm<- read.csv("DATA_OUT/Cleaned_FlatFile_byPop_ISCChum.csv",stringsAsFactors = FALSE)
 
 # find common variables
-vars.use <- intersect(intersect(intersect(intersect(intersect(names(flat.fr.sk),names(flat.sbc.ck)),names(flat.fr.co)), names(flat.fr.pk)), 
-                                                              names(flat.fr.cm)), names(flat.isc.cm)) 
+vars.use <- intersect(intersect(intersect(intersect(intersect(names(flat.fr.sk),names(flat.sbc.ck)),names(flat.fr.co)), names(flat.fr.pk)),
+                                                              names(flat.fr.cm)), names(flat.isc.cm))
 
-flat.merged <- bind_rows(list(Sk_Fraser= select(flat.fr.sk,vars.use),Ck_SBC = select(flat.sbc.ck,vars.use),
-                              Co_Fraser = select(flat.fr.co,vars.use), Pk_Fraser = select(flat.fr.pk,vars.use),
-                              Cm_Fraser = select(flat.fr.cm,vars.use), Cm_ISC = select(flat.isc.cm, vars.use)),
+flat.merged <- bind_rows(list(Sk_Fraser= select(flat.fr.sk,all_of(vars.use)),Ck_SBC = select(flat.sbc.ck,all_of(vars.use)),
+                              Co_Fraser = select(flat.fr.co,all_of(vars.use)), Pk_Fraser = select(flat.fr.pk,vars.use),
+                              Cm_Fraser = select(flat.fr.cm,all_of(vars.use)), Cm_ISC = select(flat.isc.cm, all_of(vars.use))),
                 .id = "DataSet")
 head(flat.merged)
 write.csv(flat.merged,"DATA_OUT/MERGED_FLAT_FILE_BY_POP.csv",row.names = FALSE)
@@ -35,15 +35,15 @@ flat.fr.cm.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_FraserChum.csv",string
 flat.isc.cm.cu<- read.csv("DATA_OUT/Cleaned_FlatFile_byCU_ISCChum.csv",stringsAsFactors = FALSE)
 
 # find common variables
-vars.use <- intersect(intersect(intersect(intersect(intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)), 
-                                names(flat.fr.pk.cu)),names(flat.fr.cm.cu)), names(flat.isc.cm.cu)) 
+vars.use <- intersect(intersect(intersect(intersect(intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
+                                names(flat.fr.pk.cu)),names(flat.fr.cm.cu)), names(flat.isc.cm.cu))
 
-flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,vars.use),
-                              Ck_SBC = select(flat.sbc.ck.cu,vars.use),
-                              Co_Fraser= select(flat.fr.co.cu,vars.use),
-                              Pk_Fraser = select(flat.fr.pk.cu, vars.use),
-                              Cm_Fraser = select(flat.fr.cm.cu, vars.use),
-                              Cm_ISC = select(flat.isc.cm.cu, vars.use)), 
+flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use)),
+                              Ck_SBC = select(flat.sbc.ck.cu,all_of(vars.use)),
+                              Co_Fraser= select(flat.fr.co.cu,all_of(vars.use)),
+                              Pk_Fraser = select(flat.fr.pk.cu, all_of(vars.use)),
+                              Cm_Fraser = select(flat.fr.cm.cu, all_of(vars.use)),
+                              Cm_ISC = select(flat.isc.cm.cu, all_of(vars.use))),
                             .id = "DataSet")
 head(flat.merged.cu)
 write.csv(flat.merged.cu,"DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",row.names = FALSE)
