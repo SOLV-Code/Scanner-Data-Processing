@@ -1,3 +1,7 @@
+
+# NOTE: THIS SCRIPT DOES NOT YET RUN ON THE GITHUB VERSION OF THE REPO!
+
+
 # Data prep for Scanner
 # Aug 4 2021
 # BMac changed this to build the file GP needs to run synoptic and also the file that is read into the Scanner tool
