@@ -550,10 +550,10 @@
 "549","Lower Thompson",1997,"Tranquille R",29
 "550","Lower Thompson",1998,"Bonaparte R",63
 "551","Lower Thompson",1998,"Brook Cr",NA
-"552","Lower Thompson",1998,"Clapperton Cr",NA
+"552","Lower Thompson",1998,"Clapperton Cr",0
 "553","Lower Thompson",1998,"Coldwater R",691
 "554","Lower Thompson",1998,"Deadman R",131
-"555","Lower Thompson",1998,"Guichon Cr",NA
+"555","Lower Thompson",1998,"Guichon Cr",0
 "556","Lower Thompson",1998,"Juliet Cr",NA
 "557","Lower Thompson",1998,"Kamloops Lake",NA
 "558","Lower Thompson",1998,"Maka Cr",NA
@@ -568,7 +568,7 @@
 "567","Lower Thompson",1998,"Tranquille R",9
 "568","Lower Thompson",1999,"Bonaparte R",42
 "569","Lower Thompson",1999,"Brook Cr",NA
-"570","Lower Thompson",1999,"Clapperton Cr",NA
+"570","Lower Thompson",1999,"Clapperton Cr",0
 "571","Lower Thompson",1999,"Coldwater R",1812
 "572","Lower Thompson",1999,"Deadman R",1089
 "573","Lower Thompson",1999,"Guichon Cr",165
@@ -629,7 +629,7 @@
 "628","Lower Thompson",2002,"Juliet Cr",NA
 "629","Lower Thompson",2002,"Kamloops Lake",NA
 "630","Lower Thompson",2002,"Maka Cr",NA
-"631","Lower Thompson",2002,"Nicola R (DAM)",NA
+"631","Lower Thompson",2002,"Nicola R (DAM)",0
 "632","Lower Thompson",2002,"Nicola R (DOT)",55
 "633","Lower Thompson",2002,"Nooaitch Cr",NA
 "634","Lower Thompson",2002,"Quilchena Cr",NA
@@ -647,7 +647,7 @@
 "646","Lower Thompson",2003,"Juliet Cr",NA
 "647","Lower Thompson",2003,"Kamloops Lake",NA
 "648","Lower Thompson",2003,"Maka Cr",NA
-"649","Lower Thompson",2003,"Nicola R (DAM)",NA
+"649","Lower Thompson",2003,"Nicola R (DAM)",0
 "650","Lower Thompson",2003,"Nicola R (DOT)",3
 "651","Lower Thompson",2003,"Nooaitch Cr",NA
 "652","Lower Thompson",2003,"Quilchena Cr",NA
@@ -709,7 +709,7 @@
 "708","Lower Thompson",2006,"Spahomin Cr",NA
 "709","Lower Thompson",2006,"Spius Cr",316
 "710","Lower Thompson",2006,"Thompson R",NA
-"711","Lower Thompson",2006,"Tranquille R",NA
+"711","Lower Thompson",2006,"Tranquille R",0
 "712","Lower Thompson",2007,"Bonaparte R",1251
 "713","Lower Thompson",2007,"Brook Cr",NA
 "714","Lower Thompson",2007,"Clapperton Cr",NA
@@ -727,10 +727,10 @@
 "726","Lower Thompson",2007,"Spahomin Cr",NA
 "727","Lower Thompson",2007,"Spius Cr",2446
 "728","Lower Thompson",2007,"Thompson R",NA
-"729","Lower Thompson",2007,"Tranquille R",NA
+"729","Lower Thompson",2007,"Tranquille R",0
 "730","Lower Thompson",2008,"Bonaparte R",337
 "731","Lower Thompson",2008,"Brook Cr",NA
-"732","Lower Thompson",2008,"Clapperton Cr",NA
+"732","Lower Thompson",2008,"Clapperton Cr",0
 "733","Lower Thompson",2008,"Coldwater R",1754
 "734","Lower Thompson",2008,"Deadman R",783
 "735","Lower Thompson",2008,"Guichon Cr",0
@@ -738,43 +738,43 @@
 "737","Lower Thompson",2008,"Kamloops Lake",NA
 "738","Lower Thompson",2008,"Maka Cr",NA
 "739","Lower Thompson",2008,"Nicola R (DAM)",0
-"740","Lower Thompson",2008,"Nicola R (DOT)",NA
+"740","Lower Thompson",2008,"Nicola R (DOT)",0
 "741","Lower Thompson",2008,"Nooaitch Cr",NA
 "742","Lower Thompson",2008,"Quilchena Cr",NA
 "743","Lower Thompson",2008,"Skuhun Cr",NA
 "744","Lower Thompson",2008,"Spahomin Cr",NA
 "745","Lower Thompson",2008,"Spius Cr",926
 "746","Lower Thompson",2008,"Thompson R",NA
-"747","Lower Thompson",2008,"Tranquille R",NA
+"747","Lower Thompson",2008,"Tranquille R",0
 "748","Lower Thompson",2009,"Bonaparte R",385
 "749","Lower Thompson",2009,"Brook Cr",NA
-"750","Lower Thompson",2009,"Clapperton Cr",NA
+"750","Lower Thompson",2009,"Clapperton Cr",0
 "751","Lower Thompson",2009,"Coldwater R",2751
 "752","Lower Thompson",2009,"Deadman R",455
 "753","Lower Thompson",2009,"Guichon Cr",18
 "754","Lower Thompson",2009,"Juliet Cr",NA
 "755","Lower Thompson",2009,"Kamloops Lake",NA
 "756","Lower Thompson",2009,"Maka Cr",NA
-"757","Lower Thompson",2009,"Nicola R (DAM)",NA
-"758","Lower Thompson",2009,"Nicola R (DOT)",NA
+"757","Lower Thompson",2009,"Nicola R (DAM)",0
+"758","Lower Thompson",2009,"Nicola R (DOT)",0
 "759","Lower Thompson",2009,"Nooaitch Cr",NA
 "760","Lower Thompson",2009,"Quilchena Cr",NA
 "761","Lower Thompson",2009,"Skuhun Cr",NA
-"762","Lower Thompson",2009,"Spahomin Cr",NA
+"762","Lower Thompson",2009,"Spahomin Cr",0
 "763","Lower Thompson",2009,"Spius Cr",1152
 "764","Lower Thompson",2009,"Thompson R",NA
 "765","Lower Thompson",2009,"Tranquille R",25
 "766","Lower Thompson",2010,"Bonaparte R",1794
 "767","Lower Thompson",2010,"Brook Cr",NA
-"768","Lower Thompson",2010,"Clapperton Cr",NA
+"768","Lower Thompson",2010,"Clapperton Cr",0
 "769","Lower Thompson",2010,"Coldwater R",4659
 "770","Lower Thompson",2010,"Deadman R",2819
-"771","Lower Thompson",2010,"Guichon Cr",NA
+"771","Lower Thompson",2010,"Guichon Cr",0
 "772","Lower Thompson",2010,"Juliet Cr",NA
 "773","Lower Thompson",2010,"Kamloops Lake",NA
 "774","Lower Thompson",2010,"Maka Cr",NA
-"775","Lower Thompson",2010,"Nicola R (DAM)",NA
-"776","Lower Thompson",2010,"Nicola R (DOT)",NA
+"775","Lower Thompson",2010,"Nicola R (DAM)",0
+"776","Lower Thompson",2010,"Nicola R (DOT)",0
 "777","Lower Thompson",2010,"Nooaitch Cr",NA
 "778","Lower Thompson",2010,"Quilchena Cr",NA
 "779","Lower Thompson",2010,"Skuhun Cr",NA
@@ -792,24 +792,24 @@
 "791","Lower Thompson",2011,"Kamloops Lake",NA
 "792","Lower Thompson",2011,"Maka Cr",NA
 "793","Lower Thompson",2011,"Nicola R (DAM)",2
-"794","Lower Thompson",2011,"Nicola R (DOT)",NA
+"794","Lower Thompson",2011,"Nicola R (DOT)",0
 "795","Lower Thompson",2011,"Nooaitch Cr",NA
 "796","Lower Thompson",2011,"Quilchena Cr",NA
 "797","Lower Thompson",2011,"Skuhun Cr",NA
-"798","Lower Thompson",2011,"Spahomin Cr",NA
+"798","Lower Thompson",2011,"Spahomin Cr",0
 "799","Lower Thompson",2011,"Spius Cr",1762
 "800","Lower Thompson",2011,"Thompson R",NA
 "801","Lower Thompson",2011,"Tranquille R",13
 "802","Lower Thompson",2012,"Bonaparte R",1534
 "803","Lower Thompson",2012,"Brook Cr",NA
-"804","Lower Thompson",2012,"Clapperton Cr",NA
+"804","Lower Thompson",2012,"Clapperton Cr",0
 "805","Lower Thompson",2012,"Coldwater R",2320
 "806","Lower Thompson",2012,"Deadman R",4775
-"807","Lower Thompson",2012,"Guichon Cr",NA
+"807","Lower Thompson",2012,"Guichon Cr",0
 "808","Lower Thompson",2012,"Juliet Cr",NA
 "809","Lower Thompson",2012,"Kamloops Lake",NA
 "810","Lower Thompson",2012,"Maka Cr",NA
-"811","Lower Thompson",2012,"Nicola R (DAM)",NA
+"811","Lower Thompson",2012,"Nicola R (DAM)",0
 "812","Lower Thompson",2012,"Nicola R (DOT)",0
 "813","Lower Thompson",2012,"Nooaitch Cr",NA
 "814","Lower Thompson",2012,"Quilchena Cr",NA
@@ -820,14 +820,14 @@
 "819","Lower Thompson",2012,"Tranquille R",158
 "820","Lower Thompson",2013,"Bonaparte R",2029
 "821","Lower Thompson",2013,"Brook Cr",NA
-"822","Lower Thompson",2013,"Clapperton Cr",NA
+"822","Lower Thompson",2013,"Clapperton Cr",0
 "823","Lower Thompson",2013,"Coldwater R",5625
 "824","Lower Thompson",2013,"Deadman R",3064
-"825","Lower Thompson",2013,"Guichon Cr",NA
+"825","Lower Thompson",2013,"Guichon Cr",0
 "826","Lower Thompson",2013,"Juliet Cr",NA
 "827","Lower Thompson",2013,"Kamloops Lake",NA
 "828","Lower Thompson",2013,"Maka Cr",NA
-"829","Lower Thompson",2013,"Nicola R (DAM)",NA
+"829","Lower Thompson",2013,"Nicola R (DAM)",0
 "830","Lower Thompson",2013,"Nicola R (DOT)",5
 "831","Lower Thompson",2013,"Nooaitch Cr",NA
 "832","Lower Thompson",2013,"Quilchena Cr",NA
@@ -838,15 +838,15 @@
 "837","Lower Thompson",2013,"Tranquille R",71
 "838","Lower Thompson",2014,"Bonaparte R",1175
 "839","Lower Thompson",2014,"Brook Cr",NA
-"840","Lower Thompson",2014,"Clapperton Cr",NA
+"840","Lower Thompson",2014,"Clapperton Cr",0
 "841","Lower Thompson",2014,"Coldwater R",3711
 "842","Lower Thompson",2014,"Deadman R",1355
 "843","Lower Thompson",2014,"Guichon Cr",4
 "844","Lower Thompson",2014,"Juliet Cr",NA
 "845","Lower Thompson",2014,"Kamloops Lake",NA
 "846","Lower Thompson",2014,"Maka Cr",NA
-"847","Lower Thompson",2014,"Nicola R (DAM)",NA
-"848","Lower Thompson",2014,"Nicola R (DOT)",NA
+"847","Lower Thompson",2014,"Nicola R (DAM)",0
+"848","Lower Thompson",2014,"Nicola R (DOT)",0
 "849","Lower Thompson",2014,"Nooaitch Cr",NA
 "850","Lower Thompson",2014,"Quilchena Cr",NA
 "851","Lower Thompson",2014,"Skuhun Cr",NA
@@ -856,15 +856,15 @@
 "855","Lower Thompson",2014,"Tranquille R",55
 "856","Lower Thompson",2015,"Bonaparte R",699
 "857","Lower Thompson",2015,"Brook Cr",NA
-"858","Lower Thompson",2015,"Clapperton Cr",NA
+"858","Lower Thompson",2015,"Clapperton Cr",0
 "859","Lower Thompson",2015,"Coldwater R",2294
 "860","Lower Thompson",2015,"Deadman R",1259
 "861","Lower Thompson",2015,"Guichon Cr",0
 "862","Lower Thompson",2015,"Juliet Cr",NA
 "863","Lower Thompson",2015,"Kamloops Lake",NA
 "864","Lower Thompson",2015,"Maka Cr",NA
-"865","Lower Thompson",2015,"Nicola R (DAM)",NA
-"866","Lower Thompson",2015,"Nicola R (DOT)",NA
+"865","Lower Thompson",2015,"Nicola R (DAM)",0
+"866","Lower Thompson",2015,"Nicola R (DOT)",0
 "867","Lower Thompson",2015,"Nooaitch Cr",NA
 "868","Lower Thompson",2015,"Quilchena Cr",NA
 "869","Lower Thompson",2015,"Skuhun Cr",NA
@@ -874,15 +874,15 @@
 "873","Lower Thompson",2015,"Tranquille R",7
 "874","Lower Thompson",2016,"Bonaparte R",3247
 "875","Lower Thompson",2016,"Brook Cr",NA
-"876","Lower Thompson",2016,"Clapperton Cr",NA
+"876","Lower Thompson",2016,"Clapperton Cr",0
 "877","Lower Thompson",2016,"Coldwater R",5707
 "878","Lower Thompson",2016,"Deadman R",2782
-"879","Lower Thompson",2016,"Guichon Cr",NA
+"879","Lower Thompson",2016,"Guichon Cr",0
 "880","Lower Thompson",2016,"Juliet Cr",NA
 "881","Lower Thompson",2016,"Kamloops Lake",NA
 "882","Lower Thompson",2016,"Maka Cr",NA
 "883","Lower Thompson",2016,"Nicola R (DAM)",17
-"884","Lower Thompson",2016,"Nicola R (DOT)",NA
+"884","Lower Thompson",2016,"Nicola R (DOT)",0
 "885","Lower Thompson",2016,"Nooaitch Cr",NA
 "886","Lower Thompson",2016,"Quilchena Cr",NA
 "887","Lower Thompson",2016,"Skuhun Cr",NA
@@ -910,7 +910,7 @@
 "909","Lower Thompson",2017,"Tranquille R",12
 "910","Lower Thompson",2018,"Bonaparte R",NA
 "911","Lower Thompson",2018,"Brook Cr",NA
-"912","Lower Thompson",2018,"Clapperton Cr",NA
+"912","Lower Thompson",2018,"Clapperton Cr",0
 "913","Lower Thompson",2018,"Coldwater R",4283
 "914","Lower Thompson",2018,"Deadman R",640
 "915","Lower Thompson",2018,"Guichon Cr",6
@@ -928,7 +928,7 @@
 "927","Lower Thompson",2018,"Tranquille R",3
 "928","Lower Thompson",2019,"Bonaparte R",2918
 "929","Lower Thompson",2019,"Brook Cr",NA
-"930","Lower Thompson",2019,"Clapperton Cr",NA
+"930","Lower Thompson",2019,"Clapperton Cr",0
 "931","Lower Thompson",2019,"Coldwater R",7031
 "932","Lower Thompson",2019,"Deadman R",1680
 "933","Lower Thompson",2019,"Guichon Cr",19
@@ -938,9 +938,9 @@
 "937","Lower Thompson",2019,"Nicola R (DAM)",39
 "938","Lower Thompson",2019,"Nicola R (DOT)",6
 "939","Lower Thompson",2019,"Nooaitch Cr",NA
-"940","Lower Thompson",2019,"Quilchena Cr",NA
+"940","Lower Thompson",2019,"Quilchena Cr",0
 "941","Lower Thompson",2019,"Skuhun Cr",NA
-"942","Lower Thompson",2019,"Spahomin Cr",NA
+"942","Lower Thompson",2019,"Spahomin Cr",0
 "943","Lower Thompson",2019,"Spius Cr",1648
 "944","Lower Thompson",2019,"Thompson R",NA
 "945","Lower Thompson",2019,"Tranquille R",21
@@ -2448,7 +2448,7 @@
 "2447","Middle Fraser",1999,"Nazko R",NA
 "2448","Middle Fraser",1999,"Nechako R",NA
 "2449","Middle Fraser",1999,"Off-set Cr",NA
-"2450","Middle Fraser",1999,"Penfold Cr",NA
+"2450","Middle Fraser",1999,"Penfold Cr",0
 "2451","Middle Fraser",1999,"Polly Cr",NA
 "2452","Middle Fraser",1999,"Portage Cr",80
 "2453","Middle Fraser",1999,"Quesnel R",NA
@@ -2474,10 +2474,10 @@
 "2473","Middle Fraser",2000,"Baker Cr",NA
 "2474","Middle Fraser",2000,"Beaver Cr",8
 "2475","Middle Fraser",2000,"Bill Miner Cr",NA
-"2476","Middle Fraser",2000,"Blue Lead Cr",NA
+"2476","Middle Fraser",2000,"Blue Lead Cr",0
 "2477","Middle Fraser",2000,"Bridge R",276
 "2478","Middle Fraser",2000,"Brittany Cr",NA
-"2479","Middle Fraser",2000,"Cayoosh Cr",NA
+"2479","Middle Fraser",2000,"Cayoosh Cr",0
 "2480","Middle Fraser",2000,"Chilako R",NA
 "2481","Middle Fraser",2000,"Chilcotin R (upr)",NA
 "2482","Middle Fraser",2000,"Chilko R",152
@@ -2503,7 +2503,7 @@
 "2502","Middle Fraser",2000,"Meldrum Cr",NA
 "2503","Middle Fraser",2000,"Minton Cr",NA
 "2504","Middle Fraser",2000,"Mitchell R",480
-"2505","Middle Fraser",2000,"Moffat Cr",NA
+"2505","Middle Fraser",2000,"Moffat Cr",0
 "2506","Middle Fraser",2000,"Narcosli Cr",NA
 "2507","Middle Fraser",2000,"Nataniko R",NA
 "2508","Middle Fraser",2000,"Nazko R",NA
@@ -2520,7 +2520,7 @@
 "2519","Middle Fraser",2000,"Stein R",NA
 "2520","Middle Fraser",2000,"Summit Cr",92
 "2521","Middle Fraser",2000,"Taseko R",NA
-"2522","Middle Fraser",2000,"Tisdale Cr",NA
+"2522","Middle Fraser",2000,"Tisdale Cr",0
 "2523","Middle Fraser",2000,"Twan Cr",NA
 "2524","Middle Fraser",2000,"Victoria Cr",NA
 "2525","Middle Fraser",2000,"Wasko Cr",NA
@@ -2528,19 +2528,19 @@
 "2527","Middle Fraser",2000,"West Road R",NA
 "2528","Middle Fraser",2000,"Whitecap Cr",NA
 "2529","Middle Fraser",2000,"Williams Cr",NA
-"2530","Middle Fraser",2000,"Woodjam Cr",NA
+"2530","Middle Fraser",2000,"Woodjam Cr",0
 "2531","Middle Fraser",2000,"Yalakom R",NA
 "2532","Middle Fraser",2001,"Ahbau Cr",6
 "2533","Middle Fraser",2001,"Baezaeko R",NA
 "2534","Middle Fraser",2001,"Baker Cr",NA
 "2535","Middle Fraser",2001,"Beaver Cr",NA
 "2536","Middle Fraser",2001,"Bill Miner Cr",NA
-"2537","Middle Fraser",2001,"Blue Lead Cr",NA
+"2537","Middle Fraser",2001,"Blue Lead Cr",0
 "2538","Middle Fraser",2001,"Bridge R",634
 "2539","Middle Fraser",2001,"Brittany Cr",NA
 "2540","Middle Fraser",2001,"Cayoosh Cr",43
 "2541","Middle Fraser",2001,"Chilako R",NA
-"2542","Middle Fraser",2001,"Chilcotin R (upr)",NA
+"2542","Middle Fraser",2001,"Chilcotin R (upr)",0
 "2543","Middle Fraser",2001,"Chilko R",669
 "2544","Middle Fraser",2001,"Clisbako R",NA
 "2545","Middle Fraser",2001,"Clusko Cr",NA
@@ -2596,7 +2596,7 @@
 "2595","Middle Fraser",2002,"Baker Cr",NA
 "2596","Middle Fraser",2002,"Beaver Cr",NA
 "2597","Middle Fraser",2002,"Bill Miner Cr",NA
-"2598","Middle Fraser",2002,"Blue Lead Cr",NA
+"2598","Middle Fraser",2002,"Blue Lead Cr",0
 "2599","Middle Fraser",2002,"Bridge R",321
 "2600","Middle Fraser",2002,"Brittany Cr",NA
 "2601","Middle Fraser",2002,"Cayoosh Cr",15
@@ -2631,7 +2631,7 @@
 "2630","Middle Fraser",2002,"Nazko R",NA
 "2631","Middle Fraser",2002,"Nechako R",NA
 "2632","Middle Fraser",2002,"Off-set Cr",NA
-"2633","Middle Fraser",2002,"Penfold Cr",NA
+"2633","Middle Fraser",2002,"Penfold Cr",0
 "2634","Middle Fraser",2002,"Polly Cr",NA
 "2635","Middle Fraser",2002,"Portage Cr",42
 "2636","Middle Fraser",2002,"Quesnel R",NA
@@ -2640,7 +2640,7 @@
 "2639","Middle Fraser",2002,"Sovereign Cr",NA
 "2640","Middle Fraser",2002,"Spider Cr",NA
 "2641","Middle Fraser",2002,"Stein R",NA
-"2642","Middle Fraser",2002,"Summit Cr",NA
+"2642","Middle Fraser",2002,"Summit Cr",0
 "2643","Middle Fraser",2002,"Taseko R",NA
 "2644","Middle Fraser",2002,"Tisdale Cr",NA
 "2645","Middle Fraser",2002,"Twan Cr",NA
@@ -2657,7 +2657,7 @@
 "2656","Middle Fraser",2003,"Baker Cr",NA
 "2657","Middle Fraser",2003,"Beaver Cr",NA
 "2658","Middle Fraser",2003,"Bill Miner Cr",NA
-"2659","Middle Fraser",2003,"Blue Lead Cr",NA
+"2659","Middle Fraser",2003,"Blue Lead Cr",0
 "2660","Middle Fraser",2003,"Bridge R",1466
 "2661","Middle Fraser",2003,"Brittany Cr",NA
 "2662","Middle Fraser",2003,"Cayoosh Cr",NA
@@ -2686,7 +2686,7 @@
 "2685","Middle Fraser",2003,"Meldrum Cr",NA
 "2686","Middle Fraser",2003,"Minton Cr",NA
 "2687","Middle Fraser",2003,"Mitchell R",27
-"2688","Middle Fraser",2003,"Moffat Cr",NA
+"2688","Middle Fraser",2003,"Moffat Cr",0
 "2689","Middle Fraser",2003,"Narcosli Cr",NA
 "2690","Middle Fraser",2003,"Nataniko R",NA
 "2691","Middle Fraser",2003,"Nazko R",NA
@@ -2701,7 +2701,7 @@
 "2700","Middle Fraser",2003,"Sovereign Cr",NA
 "2701","Middle Fraser",2003,"Spider Cr",NA
 "2702","Middle Fraser",2003,"Stein R",NA
-"2703","Middle Fraser",2003,"Summit Cr",NA
+"2703","Middle Fraser",2003,"Summit Cr",0
 "2704","Middle Fraser",2003,"Taseko R",NA
 "2705","Middle Fraser",2003,"Tisdale Cr",NA
 "2706","Middle Fraser",2003,"Twan Cr",NA
@@ -2710,7 +2710,7 @@
 "2709","Middle Fraser",2003,"Watson Bar Cr",NA
 "2710","Middle Fraser",2003,"West Road R",NA
 "2711","Middle Fraser",2003,"Whitecap Cr",NA
-"2712","Middle Fraser",2003,"Williams Cr",NA
+"2712","Middle Fraser",2003,"Williams Cr",0
 "2713","Middle Fraser",2003,"Woodjam Cr",NA
 "2714","Middle Fraser",2003,"Yalakom R",NA
 "2715","Middle Fraser",2004,"Ahbau Cr",NA
@@ -2718,7 +2718,7 @@
 "2717","Middle Fraser",2004,"Baker Cr",NA
 "2718","Middle Fraser",2004,"Beaver Cr",NA
 "2719","Middle Fraser",2004,"Bill Miner Cr",NA
-"2720","Middle Fraser",2004,"Blue Lead Cr",NA
+"2720","Middle Fraser",2004,"Blue Lead Cr",0
 "2721","Middle Fraser",2004,"Bridge R",336
 "2722","Middle Fraser",2004,"Brittany Cr",NA
 "2723","Middle Fraser",2004,"Cayoosh Cr",NA
@@ -2747,7 +2747,7 @@
 "2746","Middle Fraser",2004,"Meldrum Cr",NA
 "2747","Middle Fraser",2004,"Minton Cr",NA
 "2748","Middle Fraser",2004,"Mitchell R",321
-"2749","Middle Fraser",2004,"Moffat Cr",NA
+"2749","Middle Fraser",2004,"Moffat Cr",0
 "2750","Middle Fraser",2004,"Narcosli Cr",NA
 "2751","Middle Fraser",2004,"Nataniko R",NA
 "2752","Middle Fraser",2004,"Nazko R",NA
@@ -2767,19 +2767,19 @@
 "2766","Middle Fraser",2004,"Tisdale Cr",NA
 "2767","Middle Fraser",2004,"Twan Cr",NA
 "2768","Middle Fraser",2004,"Victoria Cr",NA
-"2769","Middle Fraser",2004,"Wasko Cr",NA
+"2769","Middle Fraser",2004,"Wasko Cr",0
 "2770","Middle Fraser",2004,"Watson Bar Cr",NA
 "2771","Middle Fraser",2004,"West Road R",NA
 "2772","Middle Fraser",2004,"Whitecap Cr",NA
 "2773","Middle Fraser",2004,"Williams Cr",NA
 "2774","Middle Fraser",2004,"Woodjam Cr",NA
-"2775","Middle Fraser",2004,"Yalakom R",NA
+"2775","Middle Fraser",2004,"Yalakom R",0
 "2776","Middle Fraser",2005,"Ahbau Cr",NA
 "2777","Middle Fraser",2005,"Baezaeko R",NA
 "2778","Middle Fraser",2005,"Baker Cr",NA
 "2779","Middle Fraser",2005,"Beaver Cr",NA
-"2780","Middle Fraser",2005,"Bill Miner Cr",NA
-"2781","Middle Fraser",2005,"Blue Lead Cr",NA
+"2780","Middle Fraser",2005,"Bill Miner Cr",0
+"2781","Middle Fraser",2005,"Blue Lead Cr",0
 "2782","Middle Fraser",2005,"Bridge R",562
 "2783","Middle Fraser",2005,"Brittany Cr",NA
 "2784","Middle Fraser",2005,"Cayoosh Cr",NA
@@ -2808,13 +2808,13 @@
 "2807","Middle Fraser",2005,"Meldrum Cr",NA
 "2808","Middle Fraser",2005,"Minton Cr",NA
 "2809","Middle Fraser",2005,"Mitchell R",225
-"2810","Middle Fraser",2005,"Moffat Cr",NA
+"2810","Middle Fraser",2005,"Moffat Cr",0
 "2811","Middle Fraser",2005,"Narcosli Cr",NA
 "2812","Middle Fraser",2005,"Nataniko R",NA
 "2813","Middle Fraser",2005,"Nazko R",NA
 "2814","Middle Fraser",2005,"Nechako R",NA
 "2815","Middle Fraser",2005,"Off-set Cr",NA
-"2816","Middle Fraser",2005,"Penfold Cr",NA
+"2816","Middle Fraser",2005,"Penfold Cr",0
 "2817","Middle Fraser",2005,"Polly Cr",NA
 "2818","Middle Fraser",2005,"Portage Cr",6
 "2819","Middle Fraser",2005,"Quesnel R",NA
@@ -2834,13 +2834,13 @@
 "2833","Middle Fraser",2005,"Whitecap Cr",NA
 "2834","Middle Fraser",2005,"Williams Cr",NA
 "2835","Middle Fraser",2005,"Woodjam Cr",NA
-"2836","Middle Fraser",2005,"Yalakom R",NA
+"2836","Middle Fraser",2005,"Yalakom R",0
 "2837","Middle Fraser",2006,"Ahbau Cr",NA
 "2838","Middle Fraser",2006,"Baezaeko R",NA
 "2839","Middle Fraser",2006,"Baker Cr",NA
 "2840","Middle Fraser",2006,"Beaver Cr",NA
 "2841","Middle Fraser",2006,"Bill Miner Cr",NA
-"2842","Middle Fraser",2006,"Blue Lead Cr",NA
+"2842","Middle Fraser",2006,"Blue Lead Cr",0
 "2843","Middle Fraser",2006,"Bridge R",492
 "2844","Middle Fraser",2006,"Brittany Cr",NA
 "2845","Middle Fraser",2006,"Cayoosh Cr",NA
@@ -2884,12 +2884,12 @@
 "2883","Middle Fraser",2006,"Sovereign Cr",NA
 "2884","Middle Fraser",2006,"Spider Cr",NA
 "2885","Middle Fraser",2006,"Stein R",NA
-"2886","Middle Fraser",2006,"Summit Cr",NA
+"2886","Middle Fraser",2006,"Summit Cr",0
 "2887","Middle Fraser",2006,"Taseko R",NA
-"2888","Middle Fraser",2006,"Tisdale Cr",NA
+"2888","Middle Fraser",2006,"Tisdale Cr",0
 "2889","Middle Fraser",2006,"Twan Cr",NA
 "2890","Middle Fraser",2006,"Victoria Cr",NA
-"2891","Middle Fraser",2006,"Wasko Cr",NA
+"2891","Middle Fraser",2006,"Wasko Cr",0
 "2892","Middle Fraser",2006,"Watson Bar Cr",NA
 "2893","Middle Fraser",2006,"West Road R",NA
 "2894","Middle Fraser",2006,"Whitecap Cr",NA
@@ -2918,7 +2918,7 @@
 "2917","Middle Fraser",2007,"Government Cr",NA
 "2918","Middle Fraser",2007,"Hawks Cr",NA
 "2919","Middle Fraser",2007,"Haylemore Cr",NA
-"2920","Middle Fraser",2007,"Hazeltine Cr (Edney)",NA
+"2920","Middle Fraser",2007,"Hazeltine Cr (Edney)",0
 "2921","Middle Fraser",2007,"Hixon Cr",NA
 "2922","Middle Fraser",2007,"Horsefly R",351
 "2923","Middle Fraser",2007,"John-Boyd Cr",NA
@@ -2962,7 +2962,7 @@
 "2961","Middle Fraser",2008,"Baker Cr",NA
 "2962","Middle Fraser",2008,"Beaver Cr",NA
 "2963","Middle Fraser",2008,"Bill Miner Cr",NA
-"2964","Middle Fraser",2008,"Blue Lead Cr",NA
+"2964","Middle Fraser",2008,"Blue Lead Cr",0
 "2965","Middle Fraser",2008,"Bridge R",69
 "2966","Middle Fraser",2008,"Brittany Cr",NA
 "2967","Middle Fraser",2008,"Cayoosh Cr",NA
@@ -2979,11 +2979,11 @@
 "2978","Middle Fraser",2008,"Government Cr",NA
 "2979","Middle Fraser",2008,"Hawks Cr",NA
 "2980","Middle Fraser",2008,"Haylemore Cr",NA
-"2981","Middle Fraser",2008,"Hazeltine Cr (Edney)",NA
+"2981","Middle Fraser",2008,"Hazeltine Cr (Edney)",0
 "2982","Middle Fraser",2008,"Hixon Cr",NA
 "2983","Middle Fraser",2008,"Horsefly R",27
 "2984","Middle Fraser",2008,"John-Boyd Cr",NA
-"2985","Middle Fraser",2008,"Little Horsefly R",NA
+"2985","Middle Fraser",2008,"Little Horsefly R",0
 "2986","Middle Fraser",2008,"Little Swift R",NA
 "2987","Middle Fraser",2008,"Mackin Cr",NA
 "2988","Middle Fraser",2008,"McKinley Cr",396
@@ -2991,7 +2991,7 @@
 "2990","Middle Fraser",2008,"Meldrum Cr",NA
 "2991","Middle Fraser",2008,"Minton Cr",NA
 "2992","Middle Fraser",2008,"Mitchell R",66
-"2993","Middle Fraser",2008,"Moffat Cr",NA
+"2993","Middle Fraser",2008,"Moffat Cr",0
 "2994","Middle Fraser",2008,"Narcosli Cr",NA
 "2995","Middle Fraser",2008,"Nataniko R",NA
 "2996","Middle Fraser",2008,"Nazko R",NA
@@ -3008,10 +3008,10 @@
 "3007","Middle Fraser",2008,"Stein R",NA
 "3008","Middle Fraser",2008,"Summit Cr",12
 "3009","Middle Fraser",2008,"Taseko R",NA
-"3010","Middle Fraser",2008,"Tisdale Cr",NA
+"3010","Middle Fraser",2008,"Tisdale Cr",0
 "3011","Middle Fraser",2008,"Twan Cr",NA
 "3012","Middle Fraser",2008,"Victoria Cr",NA
-"3013","Middle Fraser",2008,"Wasko Cr",NA
+"3013","Middle Fraser",2008,"Wasko Cr",0
 "3014","Middle Fraser",2008,"Watson Bar Cr",NA
 "3015","Middle Fraser",2008,"West Road R",NA
 "3016","Middle Fraser",2008,"Whitecap Cr",NA
@@ -3040,7 +3040,7 @@
 "3039","Middle Fraser",2009,"Government Cr",NA
 "3040","Middle Fraser",2009,"Hawks Cr",NA
 "3041","Middle Fraser",2009,"Haylemore Cr",NA
-"3042","Middle Fraser",2009,"Hazeltine Cr (Edney)",NA
+"3042","Middle Fraser",2009,"Hazeltine Cr (Edney)",0
 "3043","Middle Fraser",2009,"Hixon Cr",NA
 "3044","Middle Fraser",2009,"Horsefly R",83
 "3045","Middle Fraser",2009,"John-Boyd Cr",NA
@@ -3052,7 +3052,7 @@
 "3051","Middle Fraser",2009,"Meldrum Cr",NA
 "3052","Middle Fraser",2009,"Minton Cr",NA
 "3053","Middle Fraser",2009,"Mitchell R",90
-"3054","Middle Fraser",2009,"Moffat Cr",NA
+"3054","Middle Fraser",2009,"Moffat Cr",0
 "3055","Middle Fraser",2009,"Narcosli Cr",NA
 "3056","Middle Fraser",2009,"Nataniko R",NA
 "3057","Middle Fraser",2009,"Nazko R",NA
@@ -3072,7 +3072,7 @@
 "3071","Middle Fraser",2009,"Tisdale Cr",NA
 "3072","Middle Fraser",2009,"Twan Cr",NA
 "3073","Middle Fraser",2009,"Victoria Cr",NA
-"3074","Middle Fraser",2009,"Wasko Cr",NA
+"3074","Middle Fraser",2009,"Wasko Cr",0
 "3075","Middle Fraser",2009,"Watson Bar Cr",NA
 "3076","Middle Fraser",2009,"West Road R",NA
 "3077","Middle Fraser",2009,"Whitecap Cr",NA
@@ -3101,7 +3101,7 @@
 "3100","Middle Fraser",2010,"Government Cr",NA
 "3101","Middle Fraser",2010,"Hawks Cr",NA
 "3102","Middle Fraser",2010,"Haylemore Cr",NA
-"3103","Middle Fraser",2010,"Hazeltine Cr (Edney)",NA
+"3103","Middle Fraser",2010,"Hazeltine Cr (Edney)",0
 "3104","Middle Fraser",2010,"Hixon Cr",NA
 "3105","Middle Fraser",2010,"Horsefly R",812
 "3106","Middle Fraser",2010,"John-Boyd Cr",NA
@@ -3113,7 +3113,7 @@
 "3112","Middle Fraser",2010,"Meldrum Cr",NA
 "3113","Middle Fraser",2010,"Minton Cr",NA
 "3114","Middle Fraser",2010,"Mitchell R",183
-"3115","Middle Fraser",2010,"Moffat Cr",NA
+"3115","Middle Fraser",2010,"Moffat Cr",0
 "3116","Middle Fraser",2010,"Narcosli Cr",NA
 "3117","Middle Fraser",2010,"Nataniko R",NA
 "3118","Middle Fraser",2010,"Nazko R",NA
@@ -3138,7 +3138,7 @@
 "3137","Middle Fraser",2010,"West Road R",NA
 "3138","Middle Fraser",2010,"Whitecap Cr",NA
 "3139","Middle Fraser",2010,"Williams Cr",NA
-"3140","Middle Fraser",2010,"Woodjam Cr",NA
+"3140","Middle Fraser",2010,"Woodjam Cr",0
 "3141","Middle Fraser",2010,"Yalakom R",NA
 "3142","Middle Fraser",2011,"Ahbau Cr",NA
 "3143","Middle Fraser",2011,"Baezaeko R",NA
@@ -3174,7 +3174,7 @@
 "3173","Middle Fraser",2011,"Meldrum Cr",NA
 "3174","Middle Fraser",2011,"Minton Cr",NA
 "3175","Middle Fraser",2011,"Mitchell R",153
-"3176","Middle Fraser",2011,"Moffat Cr",NA
+"3176","Middle Fraser",2011,"Moffat Cr",0
 "3177","Middle Fraser",2011,"Narcosli Cr",NA
 "3178","Middle Fraser",2011,"Nataniko R",NA
 "3179","Middle Fraser",2011,"Nazko R",NA
@@ -3223,7 +3223,7 @@
 "3222","Middle Fraser",2012,"Government Cr",NA
 "3223","Middle Fraser",2012,"Hawks Cr",NA
 "3224","Middle Fraser",2012,"Haylemore Cr",NA
-"3225","Middle Fraser",2012,"Hazeltine Cr (Edney)",NA
+"3225","Middle Fraser",2012,"Hazeltine Cr (Edney)",0
 "3226","Middle Fraser",2012,"Hixon Cr",NA
 "3227","Middle Fraser",2012,"Horsefly R",106
 "3228","Middle Fraser",2012,"John-Boyd Cr",NA
@@ -3235,7 +3235,7 @@
 "3234","Middle Fraser",2012,"Meldrum Cr",NA
 "3235","Middle Fraser",2012,"Minton Cr",NA
 "3236","Middle Fraser",2012,"Mitchell R",30
-"3237","Middle Fraser",2012,"Moffat Cr",NA
+"3237","Middle Fraser",2012,"Moffat Cr",0
 "3238","Middle Fraser",2012,"Narcosli Cr",NA
 "3239","Middle Fraser",2012,"Nataniko R",NA
 "3240","Middle Fraser",2012,"Nazko R",NA
@@ -3255,7 +3255,7 @@
 "3254","Middle Fraser",2012,"Tisdale Cr",NA
 "3255","Middle Fraser",2012,"Twan Cr",NA
 "3256","Middle Fraser",2012,"Victoria Cr",NA
-"3257","Middle Fraser",2012,"Wasko Cr",NA
+"3257","Middle Fraser",2012,"Wasko Cr",0
 "3258","Middle Fraser",2012,"Watson Bar Cr",NA
 "3259","Middle Fraser",2012,"West Road R",NA
 "3260","Middle Fraser",2012,"Whitecap Cr",NA
@@ -3284,7 +3284,7 @@
 "3283","Middle Fraser",2013,"Government Cr",NA
 "3284","Middle Fraser",2013,"Hawks Cr",NA
 "3285","Middle Fraser",2013,"Haylemore Cr",NA
-"3286","Middle Fraser",2013,"Hazeltine Cr (Edney)",NA
+"3286","Middle Fraser",2013,"Hazeltine Cr (Edney)",0
 "3287","Middle Fraser",2013,"Hixon Cr",NA
 "3288","Middle Fraser",2013,"Horsefly R",1596
 "3289","Middle Fraser",2013,"John-Boyd Cr",NA
@@ -3296,7 +3296,7 @@
 "3295","Middle Fraser",2013,"Meldrum Cr",NA
 "3296","Middle Fraser",2013,"Minton Cr",NA
 "3297","Middle Fraser",2013,"Mitchell R",192
-"3298","Middle Fraser",2013,"Moffat Cr",NA
+"3298","Middle Fraser",2013,"Moffat Cr",0
 "3299","Middle Fraser",2013,"Narcosli Cr",NA
 "3300","Middle Fraser",2013,"Nataniko R",NA
 "3301","Middle Fraser",2013,"Nazko R",NA
@@ -3313,7 +3313,7 @@
 "3312","Middle Fraser",2013,"Stein R",NA
 "3313","Middle Fraser",2013,"Summit Cr",NA
 "3314","Middle Fraser",2013,"Taseko R",NA
-"3315","Middle Fraser",2013,"Tisdale Cr",NA
+"3315","Middle Fraser",2013,"Tisdale Cr",0
 "3316","Middle Fraser",2013,"Twan Cr",NA
 "3317","Middle Fraser",2013,"Victoria Cr",NA
 "3318","Middle Fraser",2013,"Wasko Cr",15
@@ -3328,7 +3328,7 @@
 "3327","Middle Fraser",2014,"Baker Cr",NA
 "3328","Middle Fraser",2014,"Beaver Cr",NA
 "3329","Middle Fraser",2014,"Bill Miner Cr",NA
-"3330","Middle Fraser",2014,"Blue Lead Cr",NA
+"3330","Middle Fraser",2014,"Blue Lead Cr",0
 "3331","Middle Fraser",2014,"Bridge R",1270
 "3332","Middle Fraser",2014,"Brittany Cr",NA
 "3333","Middle Fraser",2014,"Cayoosh Cr",NA
@@ -3357,7 +3357,7 @@
 "3356","Middle Fraser",2014,"Meldrum Cr",NA
 "3357","Middle Fraser",2014,"Minton Cr",NA
 "3358","Middle Fraser",2014,"Mitchell R",9
-"3359","Middle Fraser",2014,"Moffat Cr",NA
+"3359","Middle Fraser",2014,"Moffat Cr",0
 "3360","Middle Fraser",2014,"Narcosli Cr",NA
 "3361","Middle Fraser",2014,"Nataniko R",NA
 "3362","Middle Fraser",2014,"Nazko R",NA
@@ -3389,7 +3389,7 @@
 "3388","Middle Fraser",2015,"Baker Cr",NA
 "3389","Middle Fraser",2015,"Beaver Cr",NA
 "3390","Middle Fraser",2015,"Bill Miner Cr",NA
-"3391","Middle Fraser",2015,"Blue Lead Cr",NA
+"3391","Middle Fraser",2015,"Blue Lead Cr",0
 "3392","Middle Fraser",2015,"Bridge R",566
 "3393","Middle Fraser",2015,"Brittany Cr",NA
 "3394","Middle Fraser",2015,"Cayoosh Cr",NA
@@ -3418,13 +3418,13 @@
 "3417","Middle Fraser",2015,"Meldrum Cr",NA
 "3418","Middle Fraser",2015,"Minton Cr",NA
 "3419","Middle Fraser",2015,"Mitchell R",6
-"3420","Middle Fraser",2015,"Moffat Cr",NA
+"3420","Middle Fraser",2015,"Moffat Cr",0
 "3421","Middle Fraser",2015,"Narcosli Cr",NA
 "3422","Middle Fraser",2015,"Nataniko R",NA
 "3423","Middle Fraser",2015,"Nazko R",NA
 "3424","Middle Fraser",2015,"Nechako R",NA
 "3425","Middle Fraser",2015,"Off-set Cr",NA
-"3426","Middle Fraser",2015,"Penfold Cr",NA
+"3426","Middle Fraser",2015,"Penfold Cr",0
 "3427","Middle Fraser",2015,"Polly Cr",NA
 "3428","Middle Fraser",2015,"Portage Cr",8
 "3429","Middle Fraser",2015,"Quesnel R",NA
@@ -3435,10 +3435,10 @@
 "3434","Middle Fraser",2015,"Stein R",NA
 "3435","Middle Fraser",2015,"Summit Cr",3
 "3436","Middle Fraser",2015,"Taseko R",NA
-"3437","Middle Fraser",2015,"Tisdale Cr",NA
+"3437","Middle Fraser",2015,"Tisdale Cr",0
 "3438","Middle Fraser",2015,"Twan Cr",NA
 "3439","Middle Fraser",2015,"Victoria Cr",NA
-"3440","Middle Fraser",2015,"Wasko Cr",NA
+"3440","Middle Fraser",2015,"Wasko Cr",0
 "3441","Middle Fraser",2015,"Watson Bar Cr",NA
 "3442","Middle Fraser",2015,"West Road R",NA
 "3443","Middle Fraser",2015,"Whitecap Cr",NA
@@ -3467,7 +3467,7 @@
 "3466","Middle Fraser",2016,"Government Cr",NA
 "3467","Middle Fraser",2016,"Hawks Cr",NA
 "3468","Middle Fraser",2016,"Haylemore Cr",NA
-"3469","Middle Fraser",2016,"Hazeltine Cr (Edney)",NA
+"3469","Middle Fraser",2016,"Hazeltine Cr (Edney)",0
 "3470","Middle Fraser",2016,"Hixon Cr",NA
 "3471","Middle Fraser",2016,"Horsefly R",498
 "3472","Middle Fraser",2016,"John-Boyd Cr",NA
@@ -3479,7 +3479,7 @@
 "3478","Middle Fraser",2016,"Meldrum Cr",NA
 "3479","Middle Fraser",2016,"Minton Cr",NA
 "3480","Middle Fraser",2016,"Mitchell R",1215
-"3481","Middle Fraser",2016,"Moffat Cr",NA
+"3481","Middle Fraser",2016,"Moffat Cr",0
 "3482","Middle Fraser",2016,"Narcosli Cr",NA
 "3483","Middle Fraser",2016,"Nataniko R",NA
 "3484","Middle Fraser",2016,"Nazko R",NA
@@ -3633,7 +3633,7 @@
 "3632","Middle Fraser",2019,"Baker Cr",NA
 "3633","Middle Fraser",2019,"Beaver Cr",NA
 "3634","Middle Fraser",2019,"Bill Miner Cr",NA
-"3635","Middle Fraser",2019,"Blue Lead Cr",NA
+"3635","Middle Fraser",2019,"Blue Lead Cr",0
 "3636","Middle Fraser",2019,"Bridge R",1071
 "3637","Middle Fraser",2019,"Brittany Cr",NA
 "3638","Middle Fraser",2019,"Cayoosh Cr",NA
@@ -3677,7 +3677,7 @@
 "3676","Middle Fraser",2019,"Sovereign Cr",NA
 "3677","Middle Fraser",2019,"Spider Cr",NA
 "3678","Middle Fraser",2019,"Stein R",NA
-"3679","Middle Fraser",2019,"Summit Cr",NA
+"3679","Middle Fraser",2019,"Summit Cr",0
 "3680","Middle Fraser",2019,"Taseko R",NA
 "3681","Middle Fraser",2019,"Tisdale Cr",NA
 "3682","Middle Fraser",2019,"Twan Cr",NA
@@ -5201,7 +5201,7 @@
 "5200","North Thompson",1999,"N Thompson R (upr) at outlet of Miledge Cr",NA
 "5201","North Thompson",1999,"Paul Cr",10
 "5202","North Thompson",1999,"Peddie Cr",NA
-"5203","North Thompson",1999,"Peterson Cr",NA
+"5203","North Thompson",1999,"Peterson Cr",0
 "5204","North Thompson",1999,"Pig Channel",537
 "5205","North Thompson",1999,"Pyramid Cr",NA
 "5206","North Thompson",1999,"Raft R",324
@@ -5210,7 +5210,7 @@
 "5209","North Thompson",1999,"Serpentine Cr",NA
 "5210","North Thompson",1999,"Shannon Cr",7
 "5211","North Thompson",1999,"Slate Channel",NA
-"5212","North Thompson",1999,"Thunder R",NA
+"5212","North Thompson",1999,"Thunder R",0
 "5213","North Thompson",1999,"Tumtum Cr",65
 "5214","North Thompson",1999,"Vermelin Cr",NA
 "5215","North Thompson",1999,"Wire Cache Cr",77
@@ -5223,7 +5223,7 @@
 "5222","North Thompson",2000,"Birch Island Channel",110
 "5223","North Thompson",2000,"Birk Cr",NA
 "5224","North Thompson",2000,"Blue R",163
-"5225","North Thompson",2000,"Brookfield Cr",NA
+"5225","North Thompson",2000,"Brookfield Cr",0
 "5226","North Thompson",2000,"Canvas Cr",NA
 "5227","North Thompson",2000,"Cedar Cr",7
 "5228","North Thompson",2000,"Chappell Cr",NA
@@ -5241,7 +5241,7 @@
 "5240","North Thompson",2000,"Finn Cr",5
 "5241","North Thompson",2000,"Fishtrap Cr",NA
 "5242","North Thompson",2000,"Goose Cr",4
-"5243","North Thompson",2000,"Haggard Cr",NA
+"5243","North Thompson",2000,"Haggard Cr",0
 "5244","North Thompson",2000,"Harper Cr",8
 "5245","North Thompson",2000,"Heffley Cr",NA
 "5246","North Thompson",2000,"Jamieson Cr",NA
@@ -5272,7 +5272,7 @@
 "5271","North Thompson",2000,"Shannon Cr",13
 "5272","North Thompson",2000,"Slate Channel",NA
 "5273","North Thompson",2000,"Thunder R",1
-"5274","North Thompson",2000,"Tumtum Cr",NA
+"5274","North Thompson",2000,"Tumtum Cr",0
 "5275","North Thompson",2000,"Vermelin Cr",NA
 "5276","North Thompson",2000,"Wire Cache Cr",2
 "5277","North Thompson",2001,"Albreda R",1710
@@ -5284,7 +5284,7 @@
 "5283","North Thompson",2001,"Birch Island Channel",990
 "5284","North Thompson",2001,"Birk Cr",NA
 "5285","North Thompson",2001,"Blue R",2469
-"5286","North Thompson",2001,"Brookfield Cr",NA
+"5286","North Thompson",2001,"Brookfield Cr",0
 "5287","North Thompson",2001,"Canvas Cr",NA
 "5288","North Thompson",2001,"Cedar Cr",19
 "5289","North Thompson",2001,"Chappell Cr",NA
@@ -5301,9 +5301,9 @@
 "5300","North Thompson",2001,"Fennell Cr",2707
 "5301","North Thompson",2001,"Finn Cr",157
 "5302","North Thompson",2001,"Fishtrap Cr",NA
-"5303","North Thompson",2001,"Goose Cr",NA
+"5303","North Thompson",2001,"Goose Cr",0
 "5304","North Thompson",2001,"Haggard Cr",25
-"5305","North Thompson",2001,"Harper Cr",NA
+"5305","North Thompson",2001,"Harper Cr",0
 "5306","North Thompson",2001,"Heffley Cr",NA
 "5307","North Thompson",2001,"Jamieson Cr",NA
 "5308","North Thompson",2001,"Lemieux Cr",2405
@@ -5335,7 +5335,7 @@
 "5334","North Thompson",2001,"Thunder R",2
 "5335","North Thompson",2001,"Tumtum Cr",39
 "5336","North Thompson",2001,"Vermelin Cr",NA
-"5337","North Thompson",2001,"Wire Cache Cr",NA
+"5337","North Thompson",2001,"Wire Cache Cr",0
 "5338","North Thompson",2002,"Albreda R",1058
 "5339","North Thompson",2002,"Allan Cr",NA
 "5340","North Thompson",2002,"Avola Cr",124
@@ -5353,7 +5353,7 @@
 "5352","North Thompson",2002,"Clemina Cr",0
 "5353","North Thompson",2002,"Cook Cr",109
 "5354","North Thompson",2002,"Crossing Cr",32
-"5355","North Thompson",2002,"Darlington Cr",NA
+"5355","North Thompson",2002,"Darlington Cr",0
 "5356","North Thompson",2002,"Dominion Cr",NA
 "5357","North Thompson",2002,"Dora Cr",1
 "5358","North Thompson",2002,"Dunn Cr",4477
@@ -5414,7 +5414,7 @@
 "5413","North Thompson",2003,"Clemina Cr",1
 "5414","North Thompson",2003,"Cook Cr",77
 "5415","North Thompson",2003,"Crossing Cr",10
-"5416","North Thompson",2003,"Darlington Cr",NA
+"5416","North Thompson",2003,"Darlington Cr",0
 "5417","North Thompson",2003,"Dominion Cr",NA
 "5418","North Thompson",2003,"Dora Cr",4
 "5419","North Thompson",2003,"Dunn Cr",2286
@@ -5430,7 +5430,7 @@
 "5429","North Thompson",2003,"Jamieson Cr",NA
 "5430","North Thompson",2003,"Lemieux Cr",129
 "5431","North Thompson",2003,"Lempriere Cr",NA
-"5432","North Thompson",2003,"Lindquist Cr",NA
+"5432","North Thompson",2003,"Lindquist Cr",0
 "5433","North Thompson",2003,"Louis Cr",1005
 "5434","North Thompson",2003,"Lyon Cr",1595
 "5435","North Thompson",2003,"Mahood R",3
@@ -5454,7 +5454,7 @@
 "5453","North Thompson",2003,"Serpentine Cr",NA
 "5454","North Thompson",2003,"Shannon Cr",7
 "5455","North Thompson",2003,"Slate Channel",NA
-"5456","North Thompson",2003,"Thunder R",NA
+"5456","North Thompson",2003,"Thunder R",0
 "5457","North Thompson",2003,"Tumtum Cr",39
 "5458","North Thompson",2003,"Vermelin Cr",NA
 "5459","North Thompson",2003,"Wire Cache Cr",19
@@ -5467,11 +5467,11 @@
 "5466","North Thompson",2004,"Birch Island Channel",89
 "5467","North Thompson",2004,"Birk Cr",NA
 "5468","North Thompson",2004,"Blue R",1921
-"5469","North Thompson",2004,"Brookfield Cr",NA
+"5469","North Thompson",2004,"Brookfield Cr",0
 "5470","North Thompson",2004,"Canvas Cr",NA
 "5471","North Thompson",2004,"Cedar Cr",10
 "5472","North Thompson",2004,"Chappell Cr",NA
-"5473","North Thompson",2004,"Clearwater R",NA
+"5473","North Thompson",2004,"Clearwater R",0
 "5474","North Thompson",2004,"Clemina Cr",2
 "5475","North Thompson",2004,"Cook Cr",288
 "5476","North Thompson",2004,"Crossing Cr",NA
@@ -5485,7 +5485,7 @@
 "5484","North Thompson",2004,"Finn Cr",144
 "5485","North Thompson",2004,"Fishtrap Cr",NA
 "5486","North Thompson",2004,"Goose Cr",NA
-"5487","North Thompson",2004,"Haggard Cr",NA
+"5487","North Thompson",2004,"Haggard Cr",0
 "5488","North Thompson",2004,"Harper Cr",2
 "5489","North Thompson",2004,"Heffley Cr",NA
 "5490","North Thompson",2004,"Jamieson Cr",NA
@@ -5494,7 +5494,7 @@
 "5493","North Thompson",2004,"Lindquist Cr",7
 "5494","North Thompson",2004,"Louis Cr",1113
 "5495","North Thompson",2004,"Lyon Cr",1606
-"5496","North Thompson",2004,"Mahood R",NA
+"5496","North Thompson",2004,"Mahood R",0
 "5497","North Thompson",2004,"Mann Cr",7
 "5498","North Thompson",2004,"Manteau Cr",NA
 "5499","North Thompson",2004,"McTaggart Cr",NA
@@ -5506,12 +5506,12 @@
 "5505","North Thompson",2004,"N Thompson R (upr) at outlet of Miledge Cr",NA
 "5506","North Thompson",2004,"Paul Cr",10
 "5507","North Thompson",2004,"Peddie Cr",NA
-"5508","North Thompson",2004,"Peterson Cr",NA
+"5508","North Thompson",2004,"Peterson Cr",0
 "5509","North Thompson",2004,"Pig Channel",323
 "5510","North Thompson",2004,"Pyramid Cr",NA
 "5511","North Thompson",2004,"Raft R",264
 "5512","North Thompson",2004,"Reg Christie Cr",92
-"5513","North Thompson",2004,"Saskum Cr",NA
+"5513","North Thompson",2004,"Saskum Cr",0
 "5514","North Thompson",2004,"Serpentine Cr",NA
 "5515","North Thompson",2004,"Shannon Cr",31
 "5516","North Thompson",2004,"Slate Channel",NA
@@ -5525,14 +5525,14 @@
 "5524","North Thompson",2005,"Barriere R",184
 "5525","North Thompson",2005,"Barriere R (lwr)",NA
 "5526","North Thompson",2005,"Barriere R (upr)",NA
-"5527","North Thompson",2005,"Birch Island Channel",NA
+"5527","North Thompson",2005,"Birch Island Channel",0
 "5528","North Thompson",2005,"Birk Cr",NA
 "5529","North Thompson",2005,"Blue R",311
 "5530","North Thompson",2005,"Brookfield Cr",NA
 "5531","North Thompson",2005,"Canvas Cr",NA
 "5532","North Thompson",2005,"Cedar Cr",5
 "5533","North Thompson",2005,"Chappell Cr",NA
-"5534","North Thompson",2005,"Clearwater R",NA
+"5534","North Thompson",2005,"Clearwater R",0
 "5535","North Thompson",2005,"Clemina Cr",NA
 "5536","North Thompson",2005,"Cook Cr",206
 "5537","North Thompson",2005,"Crossing Cr",NA
@@ -5565,14 +5565,14 @@
 "5564","North Thompson",2005,"N Thompson R (mid)",144
 "5565","North Thompson",2005,"N Thompson R (upr)",48
 "5566","North Thompson",2005,"N Thompson R (upr) at outlet of Miledge Cr",NA
-"5567","North Thompson",2005,"Paul Cr",NA
+"5567","North Thompson",2005,"Paul Cr",0
 "5568","North Thompson",2005,"Peddie Cr",NA
 "5569","North Thompson",2005,"Peterson Cr",2
 "5570","North Thompson",2005,"Pig Channel",32
 "5571","North Thompson",2005,"Pyramid Cr",NA
 "5572","North Thompson",2005,"Raft R",60
 "5573","North Thompson",2005,"Reg Christie Cr",16
-"5574","North Thompson",2005,"Saskum Cr",NA
+"5574","North Thompson",2005,"Saskum Cr",0
 "5575","North Thompson",2005,"Serpentine Cr",NA
 "5576","North Thompson",2005,"Shannon Cr",23
 "5577","North Thompson",2005,"Slate Channel",NA
@@ -5586,7 +5586,7 @@
 "5585","North Thompson",2006,"Barriere R",760
 "5586","North Thompson",2006,"Barriere R (lwr)",NA
 "5587","North Thompson",2006,"Barriere R (upr)",NA
-"5588","North Thompson",2006,"Birch Island Channel",NA
+"5588","North Thompson",2006,"Birch Island Channel",0
 "5589","North Thompson",2006,"Birk Cr",NA
 "5590","North Thompson",2006,"Blue R",948
 "5591","North Thompson",2006,"Brookfield Cr",NA
@@ -5595,25 +5595,25 @@
 "5594","North Thompson",2006,"Chappell Cr",NA
 "5595","North Thompson",2006,"Clearwater R",NA
 "5596","North Thompson",2006,"Clemina Cr",NA
-"5597","North Thompson",2006,"Cook Cr",NA
+"5597","North Thompson",2006,"Cook Cr",0
 "5598","North Thompson",2006,"Crossing Cr",NA
-"5599","North Thompson",2006,"Darlington Cr",NA
+"5599","North Thompson",2006,"Darlington Cr",0
 "5600","North Thompson",2006,"Dominion Cr",NA
 "5601","North Thompson",2006,"Dora Cr",NA
 "5602","North Thompson",2006,"Dunn Cr",620
-"5603","North Thompson",2006,"E Barriere R",NA
+"5603","North Thompson",2006,"E Barriere R",0
 "5604","North Thompson",2006,"Engineered Channel",NA
 "5605","North Thompson",2006,"Fennell Cr",190
 "5606","North Thompson",2006,"Finn Cr",13
 "5607","North Thompson",2006,"Fishtrap Cr",NA
 "5608","North Thompson",2006,"Goose Cr",NA
-"5609","North Thompson",2006,"Haggard Cr",NA
-"5610","North Thompson",2006,"Harper Cr",NA
+"5609","North Thompson",2006,"Haggard Cr",0
+"5610","North Thompson",2006,"Harper Cr",0
 "5611","North Thompson",2006,"Heffley Cr",NA
 "5612","North Thompson",2006,"Jamieson Cr",NA
 "5613","North Thompson",2006,"Lemieux Cr",82
 "5614","North Thompson",2006,"Lempriere Cr",NA
-"5615","North Thompson",2006,"Lindquist Cr",NA
+"5615","North Thompson",2006,"Lindquist Cr",0
 "5616","North Thompson",2006,"Louis Cr",182
 "5617","North Thompson",2006,"Lyon Cr",160
 "5618","North Thompson",2006,"Mahood R",NA
@@ -5628,11 +5628,11 @@
 "5627","North Thompson",2006,"N Thompson R (upr) at outlet of Miledge Cr",NA
 "5628","North Thompson",2006,"Paul Cr",5
 "5629","North Thompson",2006,"Peddie Cr",NA
-"5630","North Thompson",2006,"Peterson Cr",NA
+"5630","North Thompson",2006,"Peterson Cr",0
 "5631","North Thompson",2006,"Pig Channel",72
 "5632","North Thompson",2006,"Pyramid Cr",NA
 "5633","North Thompson",2006,"Raft R",167
-"5634","North Thompson",2006,"Reg Christie Cr",NA
+"5634","North Thompson",2006,"Reg Christie Cr",0
 "5635","North Thompson",2006,"Saskum Cr",3
 "5636","North Thompson",2006,"Serpentine Cr",NA
 "5637","North Thompson",2006,"Shannon Cr",3
@@ -5708,7 +5708,7 @@
 "5707","North Thompson",2008,"Barriere R",204
 "5708","North Thompson",2008,"Barriere R (lwr)",NA
 "5709","North Thompson",2008,"Barriere R (upr)",NA
-"5710","North Thompson",2008,"Birch Island Channel",NA
+"5710","North Thompson",2008,"Birch Island Channel",0
 "5711","North Thompson",2008,"Birk Cr",NA
 "5712","North Thompson",2008,"Blue R",368
 "5713","North Thompson",2008,"Brookfield Cr",NA
@@ -5719,8 +5719,8 @@
 "5718","North Thompson",2008,"Clemina Cr",NA
 "5719","North Thompson",2008,"Cook Cr",406
 "5720","North Thompson",2008,"Crossing Cr",NA
-"5721","North Thompson",2008,"Darlington Cr",NA
-"5722","North Thompson",2008,"Dominion Cr",NA
+"5721","North Thompson",2008,"Darlington Cr",0
+"5722","North Thompson",2008,"Dominion Cr",0
 "5723","North Thompson",2008,"Dora Cr",NA
 "5724","North Thompson",2008,"Dunn Cr",914
 "5725","North Thompson",2008,"E Barriere R",8
@@ -5730,7 +5730,7 @@
 "5729","North Thompson",2008,"Fishtrap Cr",NA
 "5730","North Thompson",2008,"Goose Cr",NA
 "5731","North Thompson",2008,"Haggard Cr",2
-"5732","North Thompson",2008,"Harper Cr",NA
+"5732","North Thompson",2008,"Harper Cr",0
 "5733","North Thompson",2008,"Heffley Cr",NA
 "5734","North Thompson",2008,"Jamieson Cr",NA
 "5735","North Thompson",2008,"Lemieux Cr",186
@@ -5739,7 +5739,7 @@
 "5738","North Thompson",2008,"Louis Cr",649
 "5739","North Thompson",2008,"Lyon Cr",179
 "5740","North Thompson",2008,"Mahood R",NA
-"5741","North Thompson",2008,"Mann Cr",NA
+"5741","North Thompson",2008,"Mann Cr",0
 "5742","North Thompson",2008,"Manteau Cr",NA
 "5743","North Thompson",2008,"McTaggart Cr",NA
 "5744","North Thompson",2008,"Miledge Cr",37
@@ -5748,14 +5748,14 @@
 "5747","North Thompson",2008,"N Thompson R (mid)",3
 "5748","North Thompson",2008,"N Thompson R (upr)",204
 "5749","North Thompson",2008,"N Thompson R (upr) at outlet of Miledge Cr",NA
-"5750","North Thompson",2008,"Paul Cr",NA
+"5750","North Thompson",2008,"Paul Cr",0
 "5751","North Thompson",2008,"Peddie Cr",NA
 "5752","North Thompson",2008,"Peterson Cr",2
 "5753","North Thompson",2008,"Pig Channel",7
 "5754","North Thompson",2008,"Pyramid Cr",NA
 "5755","North Thompson",2008,"Raft R",59
 "5756","North Thompson",2008,"Reg Christie Cr",2
-"5757","North Thompson",2008,"Saskum Cr",NA
+"5757","North Thompson",2008,"Saskum Cr",0
 "5758","North Thompson",2008,"Serpentine Cr",NA
 "5759","North Thompson",2008,"Shannon Cr",15
 "5760","North Thompson",2008,"Slate Channel",NA
@@ -5780,17 +5780,17 @@
 "5779","North Thompson",2009,"Clemina Cr",NA
 "5780","North Thompson",2009,"Cook Cr",69
 "5781","North Thompson",2009,"Crossing Cr",NA
-"5782","North Thompson",2009,"Darlington Cr",NA
+"5782","North Thompson",2009,"Darlington Cr",0
 "5783","North Thompson",2009,"Dominion Cr",NA
 "5784","North Thompson",2009,"Dora Cr",NA
 "5785","North Thompson",2009,"Dunn Cr",1105
-"5786","North Thompson",2009,"E Barriere R",NA
+"5786","North Thompson",2009,"E Barriere R",0
 "5787","North Thompson",2009,"Engineered Channel",NA
 "5788","North Thompson",2009,"Fennell Cr",495
 "5789","North Thompson",2009,"Finn Cr",13
 "5790","North Thompson",2009,"Fishtrap Cr",NA
 "5791","North Thompson",2009,"Goose Cr",NA
-"5792","North Thompson",2009,"Haggard Cr",NA
+"5792","North Thompson",2009,"Haggard Cr",0
 "5793","North Thompson",2009,"Harper Cr",26
 "5794","North Thompson",2009,"Heffley Cr",NA
 "5795","North Thompson",2009,"Jamieson Cr",NA
@@ -5809,21 +5809,21 @@
 "5808","North Thompson",2009,"N Thompson R (mid)",144
 "5809","North Thompson",2009,"N Thompson R (upr)",741
 "5810","North Thompson",2009,"N Thompson R (upr) at outlet of Miledge Cr",NA
-"5811","North Thompson",2009,"Paul Cr",NA
+"5811","North Thompson",2009,"Paul Cr",0
 "5812","North Thompson",2009,"Peddie Cr",NA
 "5813","North Thompson",2009,"Peterson Cr",5
 "5814","North Thompson",2009,"Pig Channel",625
 "5815","North Thompson",2009,"Pyramid Cr",NA
 "5816","North Thompson",2009,"Raft R",725
 "5817","North Thompson",2009,"Reg Christie Cr",119
-"5818","North Thompson",2009,"Saskum Cr",NA
+"5818","North Thompson",2009,"Saskum Cr",0
 "5819","North Thompson",2009,"Serpentine Cr",NA
 "5820","North Thompson",2009,"Shannon Cr",6
 "5821","North Thompson",2009,"Slate Channel",NA
 "5822","North Thompson",2009,"Thunder R",NA
 "5823","North Thompson",2009,"Tumtum Cr",3
 "5824","North Thompson",2009,"Vermelin Cr",NA
-"5825","North Thompson",2009,"Wire Cache Cr",NA
+"5825","North Thompson",2009,"Wire Cache Cr",0
 "5826","North Thompson",2010,"Albreda R",829
 "5827","North Thompson",2010,"Allan Cr",NA
 "5828","North Thompson",2010,"Avola Cr",111
@@ -5841,7 +5841,7 @@
 "5840","North Thompson",2010,"Clemina Cr",NA
 "5841","North Thompson",2010,"Cook Cr",73
 "5842","North Thompson",2010,"Crossing Cr",NA
-"5843","North Thompson",2010,"Darlington Cr",NA
+"5843","North Thompson",2010,"Darlington Cr",0
 "5844","North Thompson",2010,"Dominion Cr",16
 "5845","North Thompson",2010,"Dora Cr",NA
 "5846","North Thompson",2010,"Dunn Cr",1717
@@ -5857,7 +5857,7 @@
 "5856","North Thompson",2010,"Jamieson Cr",NA
 "5857","North Thompson",2010,"Lemieux Cr",958
 "5858","North Thompson",2010,"Lempriere Cr",NA
-"5859","North Thompson",2010,"Lindquist Cr",NA
+"5859","North Thompson",2010,"Lindquist Cr",0
 "5860","North Thompson",2010,"Louis Cr",978
 "5861","North Thompson",2010,"Lyon Cr",647
 "5862","North Thompson",2010,"Mahood R",NA
@@ -5870,7 +5870,7 @@
 "5869","North Thompson",2010,"N Thompson R (mid)",32
 "5870","North Thompson",2010,"N Thompson R (upr)",1043
 "5871","North Thompson",2010,"N Thompson R (upr) at outlet of Miledge Cr",NA
-"5872","North Thompson",2010,"Paul Cr",NA
+"5872","North Thompson",2010,"Paul Cr",0
 "5873","North Thompson",2010,"Peddie Cr",NA
 "5874","North Thompson",2010,"Peterson Cr",2
 "5875","North Thompson",2010,"Pig Channel",167
@@ -5884,7 +5884,7 @@
 "5883","North Thompson",2010,"Thunder R",NA
 "5884","North Thompson",2010,"Tumtum Cr",12
 "5885","North Thompson",2010,"Vermelin Cr",NA
-"5886","North Thompson",2010,"Wire Cache Cr",NA
+"5886","North Thompson",2010,"Wire Cache Cr",0
 "5887","North Thompson",2011,"Albreda R",336
 "5888","North Thompson",2011,"Allan Cr",NA
 "5889","North Thompson",2011,"Avola Cr",87
@@ -5902,7 +5902,7 @@
 "5901","North Thompson",2011,"Clemina Cr",NA
 "5902","North Thompson",2011,"Cook Cr",290
 "5903","North Thompson",2011,"Crossing Cr",NA
-"5904","North Thompson",2011,"Darlington Cr",NA
+"5904","North Thompson",2011,"Darlington Cr",0
 "5905","North Thompson",2011,"Dominion Cr",12
 "5906","North Thompson",2011,"Dora Cr",NA
 "5907","North Thompson",2011,"Dunn Cr",1753
@@ -5913,19 +5913,19 @@
 "5912","North Thompson",2011,"Fishtrap Cr",NA
 "5913","North Thompson",2011,"Goose Cr",NA
 "5914","North Thompson",2011,"Haggard Cr",2
-"5915","North Thompson",2011,"Harper Cr",NA
+"5915","North Thompson",2011,"Harper Cr",0
 "5916","North Thompson",2011,"Heffley Cr",NA
 "5917","North Thompson",2011,"Jamieson Cr",NA
 "5918","North Thompson",2011,"Lemieux Cr",702
 "5919","North Thompson",2011,"Lempriere Cr",NA
-"5920","North Thompson",2011,"Lindquist Cr",NA
+"5920","North Thompson",2011,"Lindquist Cr",0
 "5921","North Thompson",2011,"Louis Cr",1766
 "5922","North Thompson",2011,"Lyon Cr",743
 "5923","North Thompson",2011,"Mahood R",NA
 "5924","North Thompson",2011,"Mann Cr",108
 "5925","North Thompson",2011,"Manteau Cr",NA
 "5926","North Thompson",2011,"McTaggart Cr",NA
-"5927","North Thompson",2011,"Miledge Cr",NA
+"5927","North Thompson",2011,"Miledge Cr",0
 "5928","North Thompson",2011,"Mud R",NA
 "5929","North Thompson",2011,"N Thompson R (lwr)",NA
 "5930","North Thompson",2011,"N Thompson R (mid)",105
@@ -5933,19 +5933,19 @@
 "5932","North Thompson",2011,"N Thompson R (upr) at outlet of Miledge Cr",NA
 "5933","North Thompson",2011,"Paul Cr",10
 "5934","North Thompson",2011,"Peddie Cr",NA
-"5935","North Thompson",2011,"Peterson Cr",NA
+"5935","North Thompson",2011,"Peterson Cr",0
 "5936","North Thompson",2011,"Pig Channel",121
 "5937","North Thompson",2011,"Pyramid Cr",NA
 "5938","North Thompson",2011,"Raft R",223
 "5939","North Thompson",2011,"Reg Christie Cr",4
-"5940","North Thompson",2011,"Saskum Cr",NA
+"5940","North Thompson",2011,"Saskum Cr",0
 "5941","North Thompson",2011,"Serpentine Cr",NA
 "5942","North Thompson",2011,"Shannon Cr",15
 "5943","North Thompson",2011,"Slate Channel",NA
 "5944","North Thompson",2011,"Thunder R",NA
 "5945","North Thompson",2011,"Tumtum Cr",20
 "5946","North Thompson",2011,"Vermelin Cr",NA
-"5947","North Thompson",2011,"Wire Cache Cr",NA
+"5947","North Thompson",2011,"Wire Cache Cr",0
 "5948","North Thompson",2012,"Albreda R",1136
 "5949","North Thompson",2012,"Allan Cr",NA
 "5950","North Thompson",2012,"Avola Cr",351
@@ -5967,13 +5967,13 @@
 "5966","North Thompson",2012,"Dominion Cr",28
 "5967","North Thompson",2012,"Dora Cr",NA
 "5968","North Thompson",2012,"Dunn Cr",3795
-"5969","North Thompson",2012,"E Barriere R",NA
+"5969","North Thompson",2012,"E Barriere R",0
 "5970","North Thompson",2012,"Engineered Channel",NA
 "5971","North Thompson",2012,"Fennell Cr",1245
 "5972","North Thompson",2012,"Finn Cr",21
 "5973","North Thompson",2012,"Fishtrap Cr",NA
 "5974","North Thompson",2012,"Goose Cr",NA
-"5975","North Thompson",2012,"Haggard Cr",NA
+"5975","North Thompson",2012,"Haggard Cr",0
 "5976","North Thompson",2012,"Harper Cr",33
 "5977","North Thompson",2012,"Heffley Cr",NA
 "5978","North Thompson",2012,"Jamieson Cr",NA
@@ -5999,7 +5999,7 @@
 "5998","North Thompson",2012,"Pyramid Cr",NA
 "5999","North Thompson",2012,"Raft R",1614
 "6000","North Thompson",2012,"Reg Christie Cr",66
-"6001","North Thompson",2012,"Saskum Cr",NA
+"6001","North Thompson",2012,"Saskum Cr",0
 "6002","North Thompson",2012,"Serpentine Cr",NA
 "6003","North Thompson",2012,"Shannon Cr",58
 "6004","North Thompson",2012,"Slate Channel",NA
@@ -6024,7 +6024,7 @@
 "6023","North Thompson",2013,"Clemina Cr",NA
 "6024","North Thompson",2013,"Cook Cr",194
 "6025","North Thompson",2013,"Crossing Cr",NA
-"6026","North Thompson",2013,"Darlington Cr",NA
+"6026","North Thompson",2013,"Darlington Cr",0
 "6027","North Thompson",2013,"Dominion Cr",4
 "6028","North Thompson",2013,"Dora Cr",NA
 "6029","North Thompson",2013,"Dunn Cr",2877
@@ -6040,7 +6040,7 @@
 "6039","North Thompson",2013,"Jamieson Cr",NA
 "6040","North Thompson",2013,"Lemieux Cr",2043
 "6041","North Thompson",2013,"Lempriere Cr",NA
-"6042","North Thompson",2013,"Lindquist Cr",NA
+"6042","North Thompson",2013,"Lindquist Cr",0
 "6043","North Thompson",2013,"Louis Cr",1361
 "6044","North Thompson",2013,"Lyon Cr",993
 "6045","North Thompson",2013,"Mahood R",NA
@@ -6055,26 +6055,26 @@
 "6054","North Thompson",2013,"N Thompson R (upr) at outlet of Miledge Cr",NA
 "6055","North Thompson",2013,"Paul Cr",18
 "6056","North Thompson",2013,"Peddie Cr",NA
-"6057","North Thompson",2013,"Peterson Cr",NA
+"6057","North Thompson",2013,"Peterson Cr",0
 "6058","North Thompson",2013,"Pig Channel",377
 "6059","North Thompson",2013,"Pyramid Cr",NA
 "6060","North Thompson",2013,"Raft R",1301
 "6061","North Thompson",2013,"Reg Christie Cr",37
 "6062","North Thompson",2013,"Saskum Cr",23
 "6063","North Thompson",2013,"Serpentine Cr",NA
-"6064","North Thompson",2013,"Shannon Cr",NA
+"6064","North Thompson",2013,"Shannon Cr",0
 "6065","North Thompson",2013,"Slate Channel",NA
 "6066","North Thompson",2013,"Thunder R",NA
-"6067","North Thompson",2013,"Tumtum Cr",NA
+"6067","North Thompson",2013,"Tumtum Cr",0
 "6068","North Thompson",2013,"Vermelin Cr",NA
-"6069","North Thompson",2013,"Wire Cache Cr",NA
+"6069","North Thompson",2013,"Wire Cache Cr",0
 "6070","North Thompson",2014,"Albreda R",372
 "6071","North Thompson",2014,"Allan Cr",NA
 "6072","North Thompson",2014,"Avola Cr",306
 "6073","North Thompson",2014,"Barriere R",84
 "6074","North Thompson",2014,"Barriere R (lwr)",NA
 "6075","North Thompson",2014,"Barriere R (upr)",NA
-"6076","North Thompson",2014,"Birch Island Channel",NA
+"6076","North Thompson",2014,"Birch Island Channel",0
 "6077","North Thompson",2014,"Birk Cr",NA
 "6078","North Thompson",2014,"Blue R",25
 "6079","North Thompson",2014,"Brookfield Cr",NA
@@ -6085,7 +6085,7 @@
 "6084","North Thompson",2014,"Clemina Cr",NA
 "6085","North Thompson",2014,"Cook Cr",178
 "6086","North Thompson",2014,"Crossing Cr",NA
-"6087","North Thompson",2014,"Darlington Cr",NA
+"6087","North Thompson",2014,"Darlington Cr",0
 "6088","North Thompson",2014,"Dominion Cr",9
 "6089","North Thompson",2014,"Dora Cr",NA
 "6090","North Thompson",2014,"Dunn Cr",962
@@ -6101,7 +6101,7 @@
 "6100","North Thompson",2014,"Jamieson Cr",NA
 "6101","North Thompson",2014,"Lemieux Cr",695
 "6102","North Thompson",2014,"Lempriere Cr",NA
-"6103","North Thompson",2014,"Lindquist Cr",NA
+"6103","North Thompson",2014,"Lindquist Cr",0
 "6104","North Thompson",2014,"Louis Cr",952
 "6105","North Thompson",2014,"Lyon Cr",993
 "6106","North Thompson",2014,"Mahood R",NA
@@ -6114,7 +6114,7 @@
 "6113","North Thompson",2014,"N Thompson R (mid)",12
 "6114","North Thompson",2014,"N Thompson R (upr)",69
 "6115","North Thompson",2014,"N Thompson R (upr) at outlet of Miledge Cr",NA
-"6116","North Thompson",2014,"Paul Cr",NA
+"6116","North Thompson",2014,"Paul Cr",0
 "6117","North Thompson",2014,"Peddie Cr",NA
 "6118","North Thompson",2014,"Peterson Cr",3
 "6119","North Thompson",2014,"Pig Channel",35
@@ -6140,13 +6140,13 @@
 "6139","North Thompson",2015,"Blue R",128
 "6140","North Thompson",2015,"Brookfield Cr",NA
 "6141","North Thompson",2015,"Canvas Cr",NA
-"6142","North Thompson",2015,"Cedar Cr",NA
+"6142","North Thompson",2015,"Cedar Cr",0
 "6143","North Thompson",2015,"Chappell Cr",NA
 "6144","North Thompson",2015,"Clearwater R",NA
 "6145","North Thompson",2015,"Clemina Cr",NA
 "6146","North Thompson",2015,"Cook Cr",14
 "6147","North Thompson",2015,"Crossing Cr",NA
-"6148","North Thompson",2015,"Darlington Cr",NA
+"6148","North Thompson",2015,"Darlington Cr",0
 "6149","North Thompson",2015,"Dominion Cr",19
 "6150","North Thompson",2015,"Dora Cr",NA
 "6151","North Thompson",2015,"Dunn Cr",597
@@ -6162,7 +6162,7 @@
 "6161","North Thompson",2015,"Jamieson Cr",NA
 "6162","North Thompson",2015,"Lemieux Cr",351
 "6163","North Thompson",2015,"Lempriere Cr",NA
-"6164","North Thompson",2015,"Lindquist Cr",NA
+"6164","North Thompson",2015,"Lindquist Cr",0
 "6165","North Thompson",2015,"Louis Cr",59
 "6166","North Thompson",2015,"Lyon Cr",288
 "6167","North Thompson",2015,"Mahood R",NA
@@ -6184,7 +6184,7 @@
 "6183","North Thompson",2015,"Reg Christie Cr",7
 "6184","North Thompson",2015,"Saskum Cr",NA
 "6185","North Thompson",2015,"Serpentine Cr",NA
-"6186","North Thompson",2015,"Shannon Cr",NA
+"6186","North Thompson",2015,"Shannon Cr",0
 "6187","North Thompson",2015,"Slate Channel",NA
 "6188","North Thompson",2015,"Thunder R",NA
 "6189","North Thompson",2015,"Tumtum Cr",10
@@ -6217,7 +6217,7 @@
 "6216","North Thompson",2016,"Finn Cr",41
 "6217","North Thompson",2016,"Fishtrap Cr",NA
 "6218","North Thompson",2016,"Goose Cr",NA
-"6219","North Thompson",2016,"Haggard Cr",NA
+"6219","North Thompson",2016,"Haggard Cr",0
 "6220","North Thompson",2016,"Harper Cr",22
 "6221","North Thompson",2016,"Heffley Cr",NA
 "6222","North Thompson",2016,"Jamieson Cr",NA
@@ -6267,8 +6267,8 @@
 "6266","North Thompson",2017,"Clearwater R",NA
 "6267","North Thompson",2017,"Clemina Cr",NA
 "6268","North Thompson",2017,"Cook Cr",201
-"6269","North Thompson",2017,"Crossing Cr",NA
-"6270","North Thompson",2017,"Darlington Cr",NA
+"6269","North Thompson",2017,"Crossing Cr",0
+"6270","North Thompson",2017,"Darlington Cr",0
 "6271","North Thompson",2017,"Dominion Cr",15
 "6272","North Thompson",2017,"Dora Cr",NA
 "6273","North Thompson",2017,"Dunn Cr",1426
@@ -6294,12 +6294,12 @@
 "6293","North Thompson",2017,"Miledge Cr",65
 "6294","North Thompson",2017,"Mud R",NA
 "6295","North Thompson",2017,"N Thompson R (lwr)",NA
-"6296","North Thompson",2017,"N Thompson R (mid)",NA
+"6296","North Thompson",2017,"N Thompson R (mid)",0
 "6297","North Thompson",2017,"N Thompson R (upr)",24
 "6298","North Thompson",2017,"N Thompson R (upr) at outlet of Miledge Cr",NA
-"6299","North Thompson",2017,"Paul Cr",NA
+"6299","North Thompson",2017,"Paul Cr",0
 "6300","North Thompson",2017,"Peddie Cr",NA
-"6301","North Thompson",2017,"Peterson Cr",NA
+"6301","North Thompson",2017,"Peterson Cr",0
 "6302","North Thompson",2017,"Pig Channel",236
 "6303","North Thompson",2017,"Pyramid Cr",NA
 "6304","North Thompson",2017,"Raft R",815
@@ -7866,7 +7866,7 @@
 "7865","South Thompson",1998,"Ashton Cr",NA
 "7866","South Thompson",1998,"Bessette Cr",167
 "7867","South Thompson",1998,"Blurton Cr",2
-"7868","South Thompson",1998,"Bolean Cr",NA
+"7868","South Thompson",1998,"Bolean Cr",0
 "7869","South Thompson",1998,"Brash Cr",NA
 "7870","South Thompson",1998,"Burton Cr",NA
 "7871","South Thompson",1998,"Canoe Cr",15
@@ -7879,7 +7879,7 @@
 "7878","South Thompson",1998,"Dudgeon Cr",NA
 "7879","South Thompson",1998,"Duteau Cr",41
 "7880","South Thompson",1998,"Eagle R",2692
-"7881","South Thompson",1998,"Fortune Cr",NA
+"7881","South Thompson",1998,"Fortune Cr",0
 "7882","South Thompson",1998,"Gold Cr ",NA
 "7883","South Thompson",1998,"Gollen Cr",NA
 "7884","South Thompson",1998,"Harbour Cr",84
@@ -7901,7 +7901,7 @@
 "7900","South Thompson",1998,"Oliver Cr",NA
 "7901","South Thompson",1998,"Onyx Cr",1
 "7902","South Thompson",1998,"Owlhead Cr",24
-"7903","South Thompson",1998,"Palmer Cr",NA
+"7903","South Thompson",1998,"Palmer Cr",0
 "7904","South Thompson",1998,"Perry R",11
 "7905","South Thompson",1998,"Ross Cr",NA
 "7906","South Thompson",1998,"S Thompson R",NA
@@ -7925,16 +7925,16 @@
 "7924","South Thompson",1999,"Adams R (lwr)",96
 "7925","South Thompson",1999,"Adams R (upr)",100
 "7926","South Thompson",1999,"Anstey R",2
-"7927","South Thompson",1999,"Ashton Cr",NA
+"7927","South Thompson",1999,"Ashton Cr",0
 "7928","South Thompson",1999,"Bessette Cr",39
 "7929","South Thompson",1999,"Blurton Cr",6
-"7930","South Thompson",1999,"Bolean Cr",NA
-"7931","South Thompson",1999,"Brash Cr",NA
+"7930","South Thompson",1999,"Bolean Cr",0
+"7931","South Thompson",1999,"Brash Cr",0
 "7932","South Thompson",1999,"Burton Cr",NA
 "7933","South Thompson",1999,"Canoe Cr",12
 "7934","South Thompson",1999,"Cayenne Cr",5
 "7935","South Thompson",1999,"Celista Cr",4
-"7936","South Thompson",1999,"Cooke Cr",NA
+"7936","South Thompson",1999,"Cooke Cr",0
 "7937","South Thompson",1999,"Crazy Cr",1
 "7938","South Thompson",1999,"Creighton Cr",22
 "7939","South Thompson",1999,"Danforth Cr (Kingfisher Cr)",6
@@ -7963,7 +7963,7 @@
 "7962","South Thompson",1999,"Oliver Cr",NA
 "7963","South Thompson",1999,"Onyx Cr",1
 "7964","South Thompson",1999,"Owlhead Cr",1
-"7965","South Thompson",1999,"Palmer Cr",NA
+"7965","South Thompson",1999,"Palmer Cr",0
 "7966","South Thompson",1999,"Perry R",9
 "7967","South Thompson",1999,"Ross Cr",NA
 "7968","South Thompson",1999,"S Thompson R",NA
@@ -7989,8 +7989,8 @@
 "7988","South Thompson",2000,"Anstey R",22
 "7989","South Thompson",2000,"Ashton Cr",NA
 "7990","South Thompson",2000,"Bessette Cr",21
-"7991","South Thompson",2000,"Blurton Cr",NA
-"7992","South Thompson",2000,"Bolean Cr",NA
+"7991","South Thompson",2000,"Blurton Cr",0
+"7992","South Thompson",2000,"Bolean Cr",0
 "7993","South Thompson",2000,"Brash Cr",NA
 "7994","South Thompson",2000,"Burton Cr",NA
 "7995","South Thompson",2000,"Canoe Cr",7
@@ -8003,7 +8003,7 @@
 "8002","South Thompson",2000,"Dudgeon Cr",NA
 "8003","South Thompson",2000,"Duteau Cr",14
 "8004","South Thompson",2000,"Eagle R",1739
-"8005","South Thompson",2000,"Fortune Cr",NA
+"8005","South Thompson",2000,"Fortune Cr",0
 "8006","South Thompson",2000,"Gold Cr ",NA
 "8007","South Thompson",2000,"Gollen Cr",NA
 "8008","South Thompson",2000,"Harbour Cr",42
@@ -8024,7 +8024,7 @@
 "8023","South Thompson",2000,"Noisy Cr",0
 "8024","South Thompson",2000,"Oliver Cr",NA
 "8025","South Thompson",2000,"Onyx Cr",1
-"8026","South Thompson",2000,"Owlhead Cr",NA
+"8026","South Thompson",2000,"Owlhead Cr",0
 "8027","South Thompson",2000,"Palmer Cr",NA
 "8028","South Thompson",2000,"Perry R",6
 "8029","South Thompson",2000,"Ross Cr",NA
@@ -8049,23 +8049,23 @@
 "8048","South Thompson",2001,"Adams R (lwr)",129
 "8049","South Thompson",2001,"Adams R (upr)",1612
 "8050","South Thompson",2001,"Anstey R",38
-"8051","South Thompson",2001,"Ashton Cr",NA
+"8051","South Thompson",2001,"Ashton Cr",0
 "8052","South Thompson",2001,"Bessette Cr",48
 "8053","South Thompson",2001,"Blurton Cr",6
 "8054","South Thompson",2001,"Bolean Cr",58
-"8055","South Thompson",2001,"Brash Cr",NA
+"8055","South Thompson",2001,"Brash Cr",0
 "8056","South Thompson",2001,"Burton Cr",NA
-"8057","South Thompson",2001,"Canoe Cr",NA
+"8057","South Thompson",2001,"Canoe Cr",0
 "8058","South Thompson",2001,"Cayenne Cr",0
 "8059","South Thompson",2001,"Celista Cr",18
 "8060","South Thompson",2001,"Cooke Cr",NA
-"8061","South Thompson",2001,"Crazy Cr",NA
+"8061","South Thompson",2001,"Crazy Cr",0
 "8062","South Thompson",2001,"Creighton Cr",85
 "8063","South Thompson",2001,"Danforth Cr (Kingfisher Cr)",177
 "8064","South Thompson",2001,"Dudgeon Cr",NA
 "8065","South Thompson",2001,"Duteau Cr",112
 "8066","South Thompson",2001,"Eagle R",6407
-"8067","South Thompson",2001,"Fortune Cr",NA
+"8067","South Thompson",2001,"Fortune Cr",0
 "8068","South Thompson",2001,"Gold Cr ",NA
 "8069","South Thompson",2001,"Gollen Cr",NA
 "8070","South Thompson",2001,"Harbour Cr",253
@@ -8075,7 +8075,7 @@
 "8074","South Thompson",2001,"Hlina Cr",NA
 "8075","South Thompson",2001,"Hunakwa Cr",68
 "8076","South Thompson",2001,"Ireland Cr",94
-"8077","South Thompson",2001,"Johnson Cr",NA
+"8077","South Thompson",2001,"Johnson Cr",0
 "8078","South Thompson",2001,"Kingfisher Cr",NA
 "8079","South Thompson",2001,"Little R",NA
 "8080","South Thompson",2001,"Little Shuswap L",NA
@@ -8086,10 +8086,10 @@
 "8085","South Thompson",2001,"Noisy Cr",5
 "8086","South Thompson",2001,"Oliver Cr",NA
 "8087","South Thompson",2001,"Onyx Cr",4
-"8088","South Thompson",2001,"Owlhead Cr",NA
-"8089","South Thompson",2001,"Palmer Cr",NA
+"8088","South Thompson",2001,"Owlhead Cr",0
+"8089","South Thompson",2001,"Palmer Cr",0
 "8090","South Thompson",2001,"Perry R",80
-"8091","South Thompson",2001,"Ross Cr",NA
+"8091","South Thompson",2001,"Ross Cr",0
 "8092","South Thompson",2001,"S Thompson R",NA
 "8093","South Thompson",2001,"Salmon R",158
 "8094","South Thompson",2001,"Scotch Cr",34
@@ -8104,7 +8104,7 @@
 "8103","South Thompson",2001,"Teto Cr",NA
 "8104","South Thompson",2001,"Trinity Cr",17
 "8105","South Thompson",2001,"Tsikwustum Cr",NA
-"8106","South Thompson",2001,"Tsuius Cr",NA
+"8106","South Thompson",2001,"Tsuius Cr",0
 "8107","South Thompson",2001,"Wap Cr",556
 "8108","South Thompson",2001,"Wright Cr",25
 "8109","South Thompson",2001,"Yard Cr",13
@@ -8121,13 +8121,13 @@
 "8120","South Thompson",2002,"Cayenne Cr",16
 "8121","South Thompson",2002,"Celista Cr",17
 "8122","South Thompson",2002,"Cooke Cr",NA
-"8123","South Thompson",2002,"Crazy Cr",NA
+"8123","South Thompson",2002,"Crazy Cr",0
 "8124","South Thompson",2002,"Creighton Cr",49
 "8125","South Thompson",2002,"Danforth Cr (Kingfisher Cr)",2
 "8126","South Thompson",2002,"Dudgeon Cr",NA
 "8127","South Thompson",2002,"Duteau Cr",175
 "8128","South Thompson",2002,"Eagle R",6129
-"8129","South Thompson",2002,"Fortune Cr",NA
+"8129","South Thompson",2002,"Fortune Cr",0
 "8130","South Thompson",2002,"Gold Cr ",NA
 "8131","South Thompson",2002,"Gollen Cr",NA
 "8132","South Thompson",2002,"Harbour Cr",203
@@ -8138,20 +8138,20 @@
 "8137","South Thompson",2002,"Hunakwa Cr",21
 "8138","South Thompson",2002,"Ireland Cr",34
 "8139","South Thompson",2002,"Johnson Cr",6
-"8140","South Thompson",2002,"Kingfisher Cr",NA
+"8140","South Thompson",2002,"Kingfisher Cr",0
 "8141","South Thompson",2002,"Little R",NA
 "8142","South Thompson",2002,"Little Shuswap L",NA
 "8143","South Thompson",2002,"Loftus Cr",NA
 "8144","South Thompson",2002,"McNomee Cr",346
 "8145","South Thompson",2002,"Momich R",30
 "8146","South Thompson",2002,"Nikwikwaia Cr",1
-"8147","South Thompson",2002,"Noisy Cr",NA
+"8147","South Thompson",2002,"Noisy Cr",0
 "8148","South Thompson",2002,"Oliver Cr",NA
-"8149","South Thompson",2002,"Onyx Cr",NA
-"8150","South Thompson",2002,"Owlhead Cr",NA
+"8149","South Thompson",2002,"Onyx Cr",0
+"8150","South Thompson",2002,"Owlhead Cr",0
 "8151","South Thompson",2002,"Palmer Cr",NA
 "8152","South Thompson",2002,"Perry R",40
-"8153","South Thompson",2002,"Ross Cr",NA
+"8153","South Thompson",2002,"Ross Cr",0
 "8154","South Thompson",2002,"S Thompson R",NA
 "8155","South Thompson",2002,"Salmon R",123
 "8156","South Thompson",2002,"Scotch Cr",33
@@ -8172,10 +8172,10 @@
 "8171","South Thompson",2002,"Yard Cr",5
 "8172","South Thompson",2003,"Adams R (lwr)",83
 "8173","South Thompson",2003,"Adams R (upr)",357
-"8174","South Thompson",2003,"Anstey R",NA
+"8174","South Thompson",2003,"Anstey R",0
 "8175","South Thompson",2003,"Ashton Cr",NA
 "8176","South Thompson",2003,"Bessette Cr",78
-"8177","South Thompson",2003,"Blurton Cr",NA
+"8177","South Thompson",2003,"Blurton Cr",0
 "8178","South Thompson",2003,"Bolean Cr",15
 "8179","South Thompson",2003,"Brash Cr",NA
 "8180","South Thompson",2003,"Burton Cr",NA
@@ -8183,37 +8183,37 @@
 "8182","South Thompson",2003,"Cayenne Cr",5
 "8183","South Thompson",2003,"Celista Cr",6
 "8184","South Thompson",2003,"Cooke Cr",NA
-"8185","South Thompson",2003,"Crazy Cr",NA
+"8185","South Thompson",2003,"Crazy Cr",0
 "8186","South Thompson",2003,"Creighton Cr",24
-"8187","South Thompson",2003,"Danforth Cr (Kingfisher Cr)",NA
+"8187","South Thompson",2003,"Danforth Cr (Kingfisher Cr)",0
 "8188","South Thompson",2003,"Dudgeon Cr",NA
 "8189","South Thompson",2003,"Duteau Cr",19
 "8190","South Thompson",2003,"Eagle R",1255
-"8191","South Thompson",2003,"Fortune Cr",NA
+"8191","South Thompson",2003,"Fortune Cr",0
 "8192","South Thompson",2003,"Gold Cr ",NA
 "8193","South Thompson",2003,"Gollen Cr",NA
 "8194","South Thompson",2003,"Harbour Cr",544
-"8195","South Thompson",2003,"Harris Cr",NA
+"8195","South Thompson",2003,"Harris Cr",0
 "8196","South Thompson",2003,"Hemlock Cr",NA
 "8197","South Thompson",2003,"Hiuihill Cr",18
 "8198","South Thompson",2003,"Hlina Cr",NA
 "8199","South Thompson",2003,"Hunakwa Cr",9
 "8200","South Thompson",2003,"Ireland Cr",15
 "8201","South Thompson",2003,"Johnson Cr",3
-"8202","South Thompson",2003,"Kingfisher Cr",NA
+"8202","South Thompson",2003,"Kingfisher Cr",0
 "8203","South Thompson",2003,"Little R",NA
 "8204","South Thompson",2003,"Little Shuswap L",NA
 "8205","South Thompson",2003,"Loftus Cr",NA
 "8206","South Thompson",2003,"McNomee Cr",58
 "8207","South Thompson",2003,"Momich R",103
 "8208","South Thompson",2003,"Nikwikwaia Cr",3
-"8209","South Thompson",2003,"Noisy Cr",NA
+"8209","South Thompson",2003,"Noisy Cr",0
 "8210","South Thompson",2003,"Oliver Cr",NA
-"8211","South Thompson",2003,"Onyx Cr",NA
+"8211","South Thompson",2003,"Onyx Cr",0
 "8212","South Thompson",2003,"Owlhead Cr",1
 "8213","South Thompson",2003,"Palmer Cr",NA
 "8214","South Thompson",2003,"Perry R",8
-"8215","South Thompson",2003,"Ross Cr",NA
+"8215","South Thompson",2003,"Ross Cr",0
 "8216","South Thompson",2003,"S Thompson R",NA
 "8217","South Thompson",2003,"Salmon R",18
 "8218","South Thompson",2003,"Scotch Cr",21
@@ -8251,7 +8251,7 @@
 "8250","South Thompson",2004,"Dudgeon Cr",NA
 "8251","South Thompson",2004,"Duteau Cr",370
 "8252","South Thompson",2004,"Eagle R",5422
-"8253","South Thompson",2004,"Fortune Cr",NA
+"8253","South Thompson",2004,"Fortune Cr",0
 "8254","South Thompson",2004,"Gold Cr ",NA
 "8255","South Thompson",2004,"Gollen Cr",NA
 "8256","South Thompson",2004,"Harbour Cr",155
@@ -8262,17 +8262,17 @@
 "8261","South Thompson",2004,"Hunakwa Cr",92
 "8262","South Thompson",2004,"Ireland Cr",92
 "8263","South Thompson",2004,"Johnson Cr",17
-"8264","South Thompson",2004,"Kingfisher Cr",NA
+"8264","South Thompson",2004,"Kingfisher Cr",0
 "8265","South Thompson",2004,"Little R",NA
 "8266","South Thompson",2004,"Little Shuswap L",NA
 "8267","South Thompson",2004,"Loftus Cr",NA
 "8268","South Thompson",2004,"McNomee Cr",173
 "8269","South Thompson",2004,"Momich R",128
 "8270","South Thompson",2004,"Nikwikwaia Cr",12
-"8271","South Thompson",2004,"Noisy Cr",NA
+"8271","South Thompson",2004,"Noisy Cr",0
 "8272","South Thompson",2004,"Oliver Cr",NA
-"8273","South Thompson",2004,"Onyx Cr",NA
-"8274","South Thompson",2004,"Owlhead Cr",NA
+"8273","South Thompson",2004,"Onyx Cr",0
+"8274","South Thompson",2004,"Owlhead Cr",0
 "8275","South Thompson",2004,"Palmer Cr",NA
 "8276","South Thompson",2004,"Perry R",16
 "8277","South Thompson",2004,"Ross Cr",NA
@@ -8286,7 +8286,7 @@
 "8285","South Thompson",2004,"Sinmax Cr",30
 "8286","South Thompson",2004,"South Pass Cr",30
 "8287","South Thompson",2004,"Sunset Cr",NA
-"8288","South Thompson",2004,"Tappen Cr",NA
+"8288","South Thompson",2004,"Tappen Cr",0
 "8289","South Thompson",2004,"Teto Cr",NA
 "8290","South Thompson",2004,"Trinity Cr",19
 "8291","South Thompson",2004,"Tsikwustum Cr",NA
@@ -8299,11 +8299,11 @@
 "8298","South Thompson",2005,"Anstey R",6
 "8299","South Thompson",2005,"Ashton Cr",NA
 "8300","South Thompson",2005,"Bessette Cr",15
-"8301","South Thompson",2005,"Blurton Cr",NA
+"8301","South Thompson",2005,"Blurton Cr",0
 "8302","South Thompson",2005,"Bolean Cr",NA
 "8303","South Thompson",2005,"Brash Cr",NA
 "8304","South Thompson",2005,"Burton Cr",NA
-"8305","South Thompson",2005,"Canoe Cr",NA
+"8305","South Thompson",2005,"Canoe Cr",0
 "8306","South Thompson",2005,"Cayenne Cr",0
 "8307","South Thompson",2005,"Celista Cr",23
 "8308","South Thompson",2005,"Cooke Cr",NA
@@ -8319,11 +8319,11 @@
 "8318","South Thompson",2005,"Harbour Cr",13
 "8319","South Thompson",2005,"Harris Cr",54
 "8320","South Thompson",2005,"Hemlock Cr",NA
-"8321","South Thompson",2005,"Hiuihill Cr",NA
+"8321","South Thompson",2005,"Hiuihill Cr",0
 "8322","South Thompson",2005,"Hlina Cr",NA
 "8323","South Thompson",2005,"Hunakwa Cr",26
 "8324","South Thompson",2005,"Ireland Cr",28
-"8325","South Thompson",2005,"Johnson Cr",NA
+"8325","South Thompson",2005,"Johnson Cr",0
 "8326","South Thompson",2005,"Kingfisher Cr",NA
 "8327","South Thompson",2005,"Little R",NA
 "8328","South Thompson",2005,"Little Shuswap L",NA
@@ -8348,7 +8348,7 @@
 "8347","South Thompson",2005,"Sinmax Cr",23
 "8348","South Thompson",2005,"South Pass Cr",5
 "8349","South Thompson",2005,"Sunset Cr",NA
-"8350","South Thompson",2005,"Tappen Cr",NA
+"8350","South Thompson",2005,"Tappen Cr",0
 "8351","South Thompson",2005,"Teto Cr",NA
 "8352","South Thompson",2005,"Trinity Cr",5
 "8353","South Thompson",2005,"Tsikwustum Cr",NA
@@ -8361,21 +8361,21 @@
 "8360","South Thompson",2006,"Anstey R",3
 "8361","South Thompson",2006,"Ashton Cr",NA
 "8362","South Thompson",2006,"Bessette Cr",21
-"8363","South Thompson",2006,"Blurton Cr",NA
+"8363","South Thompson",2006,"Blurton Cr",0
 "8364","South Thompson",2006,"Bolean Cr",NA
 "8365","South Thompson",2006,"Brash Cr",NA
 "8366","South Thompson",2006,"Burton Cr",NA
 "8367","South Thompson",2006,"Canoe Cr",7
 "8368","South Thompson",2006,"Cayenne Cr",8
-"8369","South Thompson",2006,"Celista Cr",NA
+"8369","South Thompson",2006,"Celista Cr",0
 "8370","South Thompson",2006,"Cooke Cr",NA
 "8371","South Thompson",2006,"Crazy Cr",1
-"8372","South Thompson",2006,"Creighton Cr",NA
-"8373","South Thompson",2006,"Danforth Cr (Kingfisher Cr)",NA
+"8372","South Thompson",2006,"Creighton Cr",0
+"8373","South Thompson",2006,"Danforth Cr (Kingfisher Cr)",0
 "8374","South Thompson",2006,"Dudgeon Cr",NA
 "8375","South Thompson",2006,"Duteau Cr",26
 "8376","South Thompson",2006,"Eagle R",591
-"8377","South Thompson",2006,"Fortune Cr",NA
+"8377","South Thompson",2006,"Fortune Cr",0
 "8378","South Thompson",2006,"Gold Cr ",NA
 "8379","South Thompson",2006,"Gollen Cr",NA
 "8380","South Thompson",2006,"Harbour Cr",20
@@ -8393,16 +8393,16 @@
 "8392","South Thompson",2006,"McNomee Cr",5
 "8393","South Thompson",2006,"Momich R",55
 "8394","South Thompson",2006,"Nikwikwaia Cr",10
-"8395","South Thompson",2006,"Noisy Cr",NA
+"8395","South Thompson",2006,"Noisy Cr",0
 "8396","South Thompson",2006,"Oliver Cr",NA
 "8397","South Thompson",2006,"Onyx Cr",1
 "8398","South Thompson",2006,"Owlhead Cr",1
-"8399","South Thompson",2006,"Palmer Cr",NA
+"8399","South Thompson",2006,"Palmer Cr",0
 "8400","South Thompson",2006,"Perry R",5
 "8401","South Thompson",2006,"Ross Cr",NA
 "8402","South Thompson",2006,"S Thompson R",NA
 "8403","South Thompson",2006,"Salmon R",11
-"8404","South Thompson",2006,"Scotch Cr",NA
+"8404","South Thompson",2006,"Scotch Cr",0
 "8405","South Thompson",2006,"Senn Cr",59
 "8406","South Thompson",2006,"Seymour R",45
 "8407","South Thompson",2006,"Shuswap R (lwr)",429
@@ -8412,11 +8412,11 @@
 "8411","South Thompson",2006,"Sunset Cr",NA
 "8412","South Thompson",2006,"Tappen Cr",3
 "8413","South Thompson",2006,"Teto Cr",NA
-"8414","South Thompson",2006,"Trinity Cr",NA
+"8414","South Thompson",2006,"Trinity Cr",0
 "8415","South Thompson",2006,"Tsikwustum Cr",NA
 "8416","South Thompson",2006,"Tsuius Cr",NA
 "8417","South Thompson",2006,"Wap Cr",45
-"8418","South Thompson",2006,"Wright Cr",NA
+"8418","South Thompson",2006,"Wright Cr",0
 "8419","South Thompson",2006,"Yard Cr",2
 "8420","South Thompson",2007,"Adams R (lwr)",NA
 "8421","South Thompson",2007,"Adams R (upr)",2523
@@ -8437,7 +8437,7 @@
 "8436","South Thompson",2007,"Dudgeon Cr",NA
 "8437","South Thompson",2007,"Duteau Cr",363
 "8438","South Thompson",2007,"Eagle R",3310
-"8439","South Thompson",2007,"Fortune Cr",NA
+"8439","South Thompson",2007,"Fortune Cr",0
 "8440","South Thompson",2007,"Gold Cr ",NA
 "8441","South Thompson",2007,"Gollen Cr",NA
 "8442","South Thompson",2007,"Harbour Cr",589
@@ -8454,12 +8454,12 @@
 "8453","South Thompson",2007,"Loftus Cr",NA
 "8454","South Thompson",2007,"McNomee Cr",46
 "8455","South Thompson",2007,"Momich R",43
-"8456","South Thompson",2007,"Nikwikwaia Cr",NA
-"8457","South Thompson",2007,"Noisy Cr",NA
+"8456","South Thompson",2007,"Nikwikwaia Cr",0
+"8457","South Thompson",2007,"Noisy Cr",0
 "8458","South Thompson",2007,"Oliver Cr",NA
 "8459","South Thompson",2007,"Onyx Cr",7
-"8460","South Thompson",2007,"Owlhead Cr",NA
-"8461","South Thompson",2007,"Palmer Cr",NA
+"8460","South Thompson",2007,"Owlhead Cr",0
+"8461","South Thompson",2007,"Palmer Cr",0
 "8462","South Thompson",2007,"Perry R",30
 "8463","South Thompson",2007,"Ross Cr",NA
 "8464","South Thompson",2007,"S Thompson R",NA
@@ -8472,14 +8472,14 @@
 "8471","South Thompson",2007,"Sinmax Cr",18
 "8472","South Thompson",2007,"South Pass Cr",17
 "8473","South Thompson",2007,"Sunset Cr",NA
-"8474","South Thompson",2007,"Tappen Cr",NA
+"8474","South Thompson",2007,"Tappen Cr",0
 "8475","South Thompson",2007,"Teto Cr",NA
 "8476","South Thompson",2007,"Trinity Cr",5
 "8477","South Thompson",2007,"Tsikwustum Cr",NA
 "8478","South Thompson",2007,"Tsuius Cr",NA
 "8479","South Thompson",2007,"Wap Cr",570
 "8480","South Thompson",2007,"Wright Cr",6
-"8481","South Thompson",2007,"Yard Cr",NA
+"8481","South Thompson",2007,"Yard Cr",0
 "8482","South Thompson",2008,"Adams R (lwr)",NA
 "8483","South Thompson",2008,"Adams R (upr)",132
 "8484","South Thompson",2008,"Anstey R",10
@@ -8491,7 +8491,7 @@
 "8490","South Thompson",2008,"Burton Cr",NA
 "8491","South Thompson",2008,"Canoe Cr",146
 "8492","South Thompson",2008,"Cayenne Cr",19
-"8493","South Thompson",2008,"Celista Cr",NA
+"8493","South Thompson",2008,"Celista Cr",0
 "8494","South Thompson",2008,"Cooke Cr",NA
 "8495","South Thompson",2008,"Crazy Cr",2
 "8496","South Thompson",2008,"Creighton Cr",12
@@ -8499,7 +8499,7 @@
 "8498","South Thompson",2008,"Dudgeon Cr",NA
 "8499","South Thompson",2008,"Duteau Cr",73
 "8500","South Thompson",2008,"Eagle R",1025
-"8501","South Thompson",2008,"Fortune Cr",NA
+"8501","South Thompson",2008,"Fortune Cr",0
 "8502","South Thompson",2008,"Gold Cr ",NA
 "8503","South Thompson",2008,"Gollen Cr",NA
 "8504","South Thompson",2008,"Harbour Cr",10
@@ -8517,11 +8517,11 @@
 "8516","South Thompson",2008,"McNomee Cr",33
 "8517","South Thompson",2008,"Momich R",10
 "8518","South Thompson",2008,"Nikwikwaia Cr",3
-"8519","South Thompson",2008,"Noisy Cr",NA
+"8519","South Thompson",2008,"Noisy Cr",0
 "8520","South Thompson",2008,"Oliver Cr",NA
-"8521","South Thompson",2008,"Onyx Cr",NA
-"8522","South Thompson",2008,"Owlhead Cr",NA
-"8523","South Thompson",2008,"Palmer Cr",NA
+"8521","South Thompson",2008,"Onyx Cr",0
+"8522","South Thompson",2008,"Owlhead Cr",0
+"8523","South Thompson",2008,"Palmer Cr",0
 "8524","South Thompson",2008,"Perry R",13
 "8525","South Thompson",2008,"Ross Cr",NA
 "8526","South Thompson",2008,"S Thompson R",NA
@@ -8532,11 +8532,11 @@
 "8531","South Thompson",2008,"Shuswap R (lwr)",2238
 "8532","South Thompson",2008,"Shuswap R (mid)",988
 "8533","South Thompson",2008,"Sinmax Cr",16
-"8534","South Thompson",2008,"South Pass Cr",NA
+"8534","South Thompson",2008,"South Pass Cr",0
 "8535","South Thompson",2008,"Sunset Cr",NA
 "8536","South Thompson",2008,"Tappen Cr",8
 "8537","South Thompson",2008,"Teto Cr",NA
-"8538","South Thompson",2008,"Trinity Cr",NA
+"8538","South Thompson",2008,"Trinity Cr",0
 "8539","South Thompson",2008,"Tsikwustum Cr",NA
 "8540","South Thompson",2008,"Tsuius Cr",NA
 "8541","South Thompson",2008,"Wap Cr",798
@@ -8553,9 +8553,9 @@
 "8552","South Thompson",2009,"Burton Cr",NA
 "8553","South Thompson",2009,"Canoe Cr",13
 "8554","South Thompson",2009,"Cayenne Cr",16
-"8555","South Thompson",2009,"Celista Cr",NA
+"8555","South Thompson",2009,"Celista Cr",0
 "8556","South Thompson",2009,"Cooke Cr",NA
-"8557","South Thompson",2009,"Crazy Cr",NA
+"8557","South Thompson",2009,"Crazy Cr",0
 "8558","South Thompson",2009,"Creighton Cr",33
 "8559","South Thompson",2009,"Danforth Cr (Kingfisher Cr)",26
 "8560","South Thompson",2009,"Dudgeon Cr",NA
@@ -8582,28 +8582,28 @@
 "8581","South Thompson",2009,"Noisy Cr",1
 "8582","South Thompson",2009,"Oliver Cr",NA
 "8583","South Thompson",2009,"Onyx Cr",1
-"8584","South Thompson",2009,"Owlhead Cr",NA
+"8584","South Thompson",2009,"Owlhead Cr",0
 "8585","South Thompson",2009,"Palmer Cr",NA
-"8586","South Thompson",2009,"Perry R",NA
+"8586","South Thompson",2009,"Perry R",0
 "8587","South Thompson",2009,"Ross Cr",NA
 "8588","South Thompson",2009,"S Thompson R",NA
 "8589","South Thompson",2009,"Salmon R",24
 "8590","South Thompson",2009,"Scotch Cr",16
-"8591","South Thompson",2009,"Senn Cr",NA
+"8591","South Thompson",2009,"Senn Cr",0
 "8592","South Thompson",2009,"Seymour R",5
 "8593","South Thompson",2009,"Shuswap R (lwr)",168
 "8594","South Thompson",2009,"Shuswap R (mid)",462
 "8595","South Thompson",2009,"Sinmax Cr",83
 "8596","South Thompson",2009,"South Pass Cr",27
 "8597","South Thompson",2009,"Sunset Cr",NA
-"8598","South Thompson",2009,"Tappen Cr",NA
+"8598","South Thompson",2009,"Tappen Cr",0
 "8599","South Thompson",2009,"Teto Cr",NA
 "8600","South Thompson",2009,"Trinity Cr",4
 "8601","South Thompson",2009,"Tsikwustum Cr",NA
 "8602","South Thompson",2009,"Tsuius Cr",NA
 "8603","South Thompson",2009,"Wap Cr",444
 "8604","South Thompson",2009,"Wright Cr",2
-"8605","South Thompson",2009,"Yard Cr",NA
+"8605","South Thompson",2009,"Yard Cr",0
 "8606","South Thompson",2010,"Adams R (lwr)",NA
 "8607","South Thompson",2010,"Adams R (upr)",1863
 "8608","South Thompson",2010,"Anstey R",6
@@ -8643,9 +8643,9 @@
 "8642","South Thompson",2010,"Nikwikwaia Cr",8
 "8643","South Thompson",2010,"Noisy Cr",1
 "8644","South Thompson",2010,"Oliver Cr",NA
-"8645","South Thompson",2010,"Onyx Cr",NA
-"8646","South Thompson",2010,"Owlhead Cr",NA
-"8647","South Thompson",2010,"Palmer Cr",NA
+"8645","South Thompson",2010,"Onyx Cr",0
+"8646","South Thompson",2010,"Owlhead Cr",0
+"8647","South Thompson",2010,"Palmer Cr",0
 "8648","South Thompson",2010,"Perry R",13
 "8649","South Thompson",2010,"Ross Cr",NA
 "8650","South Thompson",2010,"S Thompson R",NA
@@ -8659,7 +8659,7 @@
 "8658","South Thompson",2010,"South Pass Cr",26
 "8659","South Thompson",2010,"Sunset Cr",NA
 "8660","South Thompson",2010,"Tappen Cr",4
-"8661","South Thompson",2010,"Teto Cr",NA
+"8661","South Thompson",2010,"Teto Cr",0
 "8662","South Thompson",2010,"Trinity Cr",9
 "8663","South Thompson",2010,"Tsikwustum Cr",NA
 "8664","South Thompson",2010,"Tsuius Cr",NA
@@ -8677,9 +8677,9 @@
 "8676","South Thompson",2011,"Burton Cr",NA
 "8677","South Thompson",2011,"Canoe Cr",0
 "8678","South Thompson",2011,"Cayenne Cr",7
-"8679","South Thompson",2011,"Celista Cr",NA
+"8679","South Thompson",2011,"Celista Cr",0
 "8680","South Thompson",2011,"Cooke Cr",NA
-"8681","South Thompson",2011,"Crazy Cr",NA
+"8681","South Thompson",2011,"Crazy Cr",0
 "8682","South Thompson",2011,"Creighton Cr",48
 "8683","South Thompson",2011,"Danforth Cr (Kingfisher Cr)",109
 "8684","South Thompson",2011,"Dudgeon Cr",NA
@@ -8699,16 +8699,16 @@
 "8698","South Thompson",2011,"Kingfisher Cr",NA
 "8699","South Thompson",2011,"Little R",NA
 "8700","South Thompson",2011,"Little Shuswap L",NA
-"8701","South Thompson",2011,"Loftus Cr",NA
-"8702","South Thompson",2011,"McNomee Cr",NA
+"8701","South Thompson",2011,"Loftus Cr",0
+"8702","South Thompson",2011,"McNomee Cr",0
 "8703","South Thompson",2011,"Momich R",23
 "8704","South Thompson",2011,"Nikwikwaia Cr",7
 "8705","South Thompson",2011,"Noisy Cr",1
 "8706","South Thompson",2011,"Oliver Cr",NA
-"8707","South Thompson",2011,"Onyx Cr",NA
+"8707","South Thompson",2011,"Onyx Cr",0
 "8708","South Thompson",2011,"Owlhead Cr",2
 "8709","South Thompson",2011,"Palmer Cr",NA
-"8710","South Thompson",2011,"Perry R",NA
+"8710","South Thompson",2011,"Perry R",0
 "8711","South Thompson",2011,"Ross Cr",NA
 "8712","South Thompson",2011,"S Thompson R",NA
 "8713","South Thompson",2011,"Salmon R",720
@@ -8726,7 +8726,7 @@
 "8725","South Thompson",2011,"Tsikwustum Cr",NA
 "8726","South Thompson",2011,"Tsuius Cr",NA
 "8727","South Thompson",2011,"Wap Cr",138
-"8728","South Thompson",2011,"Wright Cr",NA
+"8728","South Thompson",2011,"Wright Cr",0
 "8729","South Thompson",2011,"Yard Cr",4
 "8730","South Thompson",2012,"Adams R (lwr)",NA
 "8731","South Thompson",2012,"Adams R (upr)",1371
@@ -8737,7 +8737,7 @@
 "8736","South Thompson",2012,"Bolean Cr",NA
 "8737","South Thompson",2012,"Brash Cr",NA
 "8738","South Thompson",2012,"Burton Cr",NA
-"8739","South Thompson",2012,"Canoe Cr",NA
+"8739","South Thompson",2012,"Canoe Cr",0
 "8740","South Thompson",2012,"Cayenne Cr",27
 "8741","South Thompson",2012,"Celista Cr",5
 "8742","South Thompson",2012,"Cooke Cr",NA
@@ -8761,15 +8761,15 @@
 "8760","South Thompson",2012,"Kingfisher Cr",NA
 "8761","South Thompson",2012,"Little R",NA
 "8762","South Thompson",2012,"Little Shuswap L",NA
-"8763","South Thompson",2012,"Loftus Cr",NA
+"8763","South Thompson",2012,"Loftus Cr",0
 "8764","South Thompson",2012,"McNomee Cr",72
 "8765","South Thompson",2012,"Momich R",52
 "8766","South Thompson",2012,"Nikwikwaia Cr",18
 "8767","South Thompson",2012,"Noisy Cr",2
 "8768","South Thompson",2012,"Oliver Cr",NA
-"8769","South Thompson",2012,"Onyx Cr",NA
+"8769","South Thompson",2012,"Onyx Cr",0
 "8770","South Thompson",2012,"Owlhead Cr",7
-"8771","South Thompson",2012,"Palmer Cr",NA
+"8771","South Thompson",2012,"Palmer Cr",0
 "8772","South Thompson",2012,"Perry R",8
 "8773","South Thompson",2012,"Ross Cr",NA
 "8774","South Thompson",2012,"S Thompson R",NA
@@ -8782,13 +8782,13 @@
 "8781","South Thompson",2012,"Sinmax Cr",138
 "8782","South Thompson",2012,"South Pass Cr",18
 "8783","South Thompson",2012,"Sunset Cr",NA
-"8784","South Thompson",2012,"Tappen Cr",NA
+"8784","South Thompson",2012,"Tappen Cr",0
 "8785","South Thompson",2012,"Teto Cr",NA
 "8786","South Thompson",2012,"Trinity Cr",13
 "8787","South Thompson",2012,"Tsikwustum Cr",NA
 "8788","South Thompson",2012,"Tsuius Cr",NA
 "8789","South Thompson",2012,"Wap Cr",2898
-"8790","South Thompson",2012,"Wright Cr",NA
+"8790","South Thompson",2012,"Wright Cr",0
 "8791","South Thompson",2012,"Yard Cr",27
 "8792","South Thompson",2013,"Adams R (lwr)",NA
 "8793","South Thompson",2013,"Adams R (upr)",2130
@@ -8799,17 +8799,17 @@
 "8798","South Thompson",2013,"Bolean Cr",0
 "8799","South Thompson",2013,"Brash Cr",NA
 "8800","South Thompson",2013,"Burton Cr",NA
-"8801","South Thompson",2013,"Canoe Cr",NA
+"8801","South Thompson",2013,"Canoe Cr",0
 "8802","South Thompson",2013,"Cayenne Cr",9
 "8803","South Thompson",2013,"Celista Cr",32
 "8804","South Thompson",2013,"Cooke Cr",NA
-"8805","South Thompson",2013,"Crazy Cr",NA
+"8805","South Thompson",2013,"Crazy Cr",0
 "8806","South Thompson",2013,"Creighton Cr",49
 "8807","South Thompson",2013,"Danforth Cr (Kingfisher Cr)",168
 "8808","South Thompson",2013,"Dudgeon Cr",NA
 "8809","South Thompson",2013,"Duteau Cr",362
 "8810","South Thompson",2013,"Eagle R",2374
-"8811","South Thompson",2013,"Fortune Cr",NA
+"8811","South Thompson",2013,"Fortune Cr",0
 "8812","South Thompson",2013,"Gold Cr ",NA
 "8813","South Thompson",2013,"Gollen Cr",NA
 "8814","South Thompson",2013,"Harbour Cr",96
@@ -8823,14 +8823,14 @@
 "8822","South Thompson",2013,"Kingfisher Cr",NA
 "8823","South Thompson",2013,"Little R",NA
 "8824","South Thompson",2013,"Little Shuswap L",NA
-"8825","South Thompson",2013,"Loftus Cr",NA
+"8825","South Thompson",2013,"Loftus Cr",0
 "8826","South Thompson",2013,"McNomee Cr",56
 "8827","South Thompson",2013,"Momich R",35
 "8828","South Thompson",2013,"Nikwikwaia Cr",9
 "8829","South Thompson",2013,"Noisy Cr",2
 "8830","South Thompson",2013,"Oliver Cr",NA
 "8831","South Thompson",2013,"Onyx Cr",8
-"8832","South Thompson",2013,"Owlhead Cr",NA
+"8832","South Thompson",2013,"Owlhead Cr",0
 "8833","South Thompson",2013,"Palmer Cr",NA
 "8834","South Thompson",2013,"Perry R",8
 "8835","South Thompson",2013,"Ross Cr",NA
@@ -8845,27 +8845,27 @@
 "8844","South Thompson",2013,"South Pass Cr",24
 "8845","South Thompson",2013,"Sunset Cr",NA
 "8846","South Thompson",2013,"Tappen Cr",17
-"8847","South Thompson",2013,"Teto Cr",NA
+"8847","South Thompson",2013,"Teto Cr",0
 "8848","South Thompson",2013,"Trinity Cr",13
 "8849","South Thompson",2013,"Tsikwustum Cr",NA
 "8850","South Thompson",2013,"Tsuius Cr",NA
 "8851","South Thompson",2013,"Wap Cr",721
-"8852","South Thompson",2013,"Wright Cr",NA
+"8852","South Thompson",2013,"Wright Cr",0
 "8853","South Thompson",2013,"Yard Cr",5
 "8854","South Thompson",2014,"Adams R (lwr)",NA
 "8855","South Thompson",2014,"Adams R (upr)",252
-"8856","South Thompson",2014,"Anstey R",NA
+"8856","South Thompson",2014,"Anstey R",0
 "8857","South Thompson",2014,"Ashton Cr",NA
 "8858","South Thompson",2014,"Bessette Cr",17
 "8859","South Thompson",2014,"Blurton Cr",1
 "8860","South Thompson",2014,"Bolean Cr",NA
 "8861","South Thompson",2014,"Brash Cr",NA
 "8862","South Thompson",2014,"Burton Cr",NA
-"8863","South Thompson",2014,"Canoe Cr",NA
+"8863","South Thompson",2014,"Canoe Cr",0
 "8864","South Thompson",2014,"Cayenne Cr",6
 "8865","South Thompson",2014,"Celista Cr",25
 "8866","South Thompson",2014,"Cooke Cr",NA
-"8867","South Thompson",2014,"Crazy Cr",NA
+"8867","South Thompson",2014,"Crazy Cr",0
 "8868","South Thompson",2014,"Creighton Cr",35
 "8869","South Thompson",2014,"Danforth Cr (Kingfisher Cr)",14
 "8870","South Thompson",2014,"Dudgeon Cr",NA
@@ -8885,11 +8885,11 @@
 "8884","South Thompson",2014,"Kingfisher Cr",NA
 "8885","South Thompson",2014,"Little R",NA
 "8886","South Thompson",2014,"Little Shuswap L",NA
-"8887","South Thompson",2014,"Loftus Cr",NA
+"8887","South Thompson",2014,"Loftus Cr",0
 "8888","South Thompson",2014,"McNomee Cr",14
 "8889","South Thompson",2014,"Momich R",9
 "8890","South Thompson",2014,"Nikwikwaia Cr",3
-"8891","South Thompson",2014,"Noisy Cr",NA
+"8891","South Thompson",2014,"Noisy Cr",0
 "8892","South Thompson",2014,"Oliver Cr",NA
 "8893","South Thompson",2014,"Onyx Cr",3
 "8894","South Thompson",2014,"Owlhead Cr",6
@@ -8904,7 +8904,7 @@
 "8903","South Thompson",2014,"Shuswap R (lwr)",81
 "8904","South Thompson",2014,"Shuswap R (mid)",111
 "8905","South Thompson",2014,"Sinmax Cr",34
-"8906","South Thompson",2014,"South Pass Cr",NA
+"8906","South Thompson",2014,"South Pass Cr",0
 "8907","South Thompson",2014,"Sunset Cr",NA
 "8908","South Thompson",2014,"Tappen Cr",17
 "8909","South Thompson",2014,"Teto Cr",3
@@ -8913,10 +8913,10 @@
 "8912","South Thompson",2014,"Tsuius Cr",NA
 "8913","South Thompson",2014,"Wap Cr",33
 "8914","South Thompson",2014,"Wright Cr",6
-"8915","South Thompson",2014,"Yard Cr",NA
+"8915","South Thompson",2014,"Yard Cr",0
 "8916","South Thompson",2015,"Adams R (lwr)",NA
 "8917","South Thompson",2015,"Adams R (upr)",96
-"8918","South Thompson",2015,"Anstey R",NA
+"8918","South Thompson",2015,"Anstey R",0
 "8919","South Thompson",2015,"Ashton Cr",NA
 "8920","South Thompson",2015,"Bessette Cr",12
 "8921","South Thompson",2015,"Blurton Cr",NA
@@ -8927,9 +8927,9 @@
 "8926","South Thompson",2015,"Cayenne Cr",8
 "8927","South Thompson",2015,"Celista Cr",2
 "8928","South Thompson",2015,"Cooke Cr",NA
-"8929","South Thompson",2015,"Crazy Cr",NA
+"8929","South Thompson",2015,"Crazy Cr",0
 "8930","South Thompson",2015,"Creighton Cr",16
-"8931","South Thompson",2015,"Danforth Cr (Kingfisher Cr)",NA
+"8931","South Thompson",2015,"Danforth Cr (Kingfisher Cr)",0
 "8932","South Thompson",2015,"Dudgeon Cr",NA
 "8933","South Thompson",2015,"Duteau Cr",13
 "8934","South Thompson",2015,"Eagle R",1643
@@ -8941,20 +8941,20 @@
 "8940","South Thompson",2015,"Hemlock Cr",NA
 "8941","South Thompson",2015,"Hiuihill Cr",4
 "8942","South Thompson",2015,"Hlina Cr",NA
-"8943","South Thompson",2015,"Hunakwa Cr",NA
+"8943","South Thompson",2015,"Hunakwa Cr",0
 "8944","South Thompson",2015,"Ireland Cr",NA
 "8945","South Thompson",2015,"Johnson Cr",NA
 "8946","South Thompson",2015,"Kingfisher Cr",NA
 "8947","South Thompson",2015,"Little R",NA
 "8948","South Thompson",2015,"Little Shuswap L",NA
-"8949","South Thompson",2015,"Loftus Cr",NA
+"8949","South Thompson",2015,"Loftus Cr",0
 "8950","South Thompson",2015,"McNomee Cr",4
-"8951","South Thompson",2015,"Momich R",NA
+"8951","South Thompson",2015,"Momich R",0
 "8952","South Thompson",2015,"Nikwikwaia Cr",4
 "8953","South Thompson",2015,"Noisy Cr",NA
 "8954","South Thompson",2015,"Oliver Cr",NA
-"8955","South Thompson",2015,"Onyx Cr",NA
-"8956","South Thompson",2015,"Owlhead Cr",NA
+"8955","South Thompson",2015,"Onyx Cr",0
+"8956","South Thompson",2015,"Owlhead Cr",0
 "8957","South Thompson",2015,"Palmer Cr",NA
 "8958","South Thompson",2015,"Perry R",0
 "8959","South Thompson",2015,"Ross Cr",NA
@@ -8974,8 +8974,8 @@
 "8973","South Thompson",2015,"Tsikwustum Cr",NA
 "8974","South Thompson",2015,"Tsuius Cr",NA
 "8975","South Thompson",2015,"Wap Cr",8
-"8976","South Thompson",2015,"Wright Cr",NA
-"8977","South Thompson",2015,"Yard Cr",NA
+"8976","South Thompson",2015,"Wright Cr",0
+"8977","South Thompson",2015,"Yard Cr",0
 "8978","South Thompson",2016,"Adams R (lwr)",NA
 "8979","South Thompson",2016,"Adams R (upr)",2589
 "8980","South Thompson",2016,"Anstey R",NA
@@ -8985,7 +8985,7 @@
 "8984","South Thompson",2016,"Bolean Cr",NA
 "8985","South Thompson",2016,"Brash Cr",NA
 "8986","South Thompson",2016,"Burton Cr",NA
-"8987","South Thompson",2016,"Canoe Cr",NA
+"8987","South Thompson",2016,"Canoe Cr",0
 "8988","South Thompson",2016,"Cayenne Cr",3
 "8989","South Thompson",2016,"Celista Cr",3
 "8990","South Thompson",2016,"Cooke Cr",NA
@@ -9009,7 +9009,7 @@
 "9008","South Thompson",2016,"Kingfisher Cr",NA
 "9009","South Thompson",2016,"Little R",NA
 "9010","South Thompson",2016,"Little Shuswap L",NA
-"9011","South Thompson",2016,"Loftus Cr",NA
+"9011","South Thompson",2016,"Loftus Cr",0
 "9012","South Thompson",2016,"McNomee Cr",83
 "9013","South Thompson",2016,"Momich R",13
 "9014","South Thompson",2016,"Nikwikwaia Cr",8
@@ -9018,7 +9018,7 @@
 "9017","South Thompson",2016,"Onyx Cr",3
 "9018","South Thompson",2016,"Owlhead Cr",6
 "9019","South Thompson",2016,"Palmer Cr",NA
-"9020","South Thompson",2016,"Perry R",NA
+"9020","South Thompson",2016,"Perry R",0
 "9021","South Thompson",2016,"Ross Cr",NA
 "9022","South Thompson",2016,"S Thompson R",NA
 "9023","South Thompson",2016,"Salmon R",1363
@@ -9047,7 +9047,7 @@
 "9046","South Thompson",2017,"Bolean Cr",NA
 "9047","South Thompson",2017,"Brash Cr",NA
 "9048","South Thompson",2017,"Burton Cr",NA
-"9049","South Thompson",2017,"Canoe Cr",NA
+"9049","South Thompson",2017,"Canoe Cr",0
 "9050","South Thompson",2017,"Cayenne Cr",28
 "9051","South Thompson",2017,"Celista Cr",3
 "9052","South Thompson",2017,"Cooke Cr",NA
@@ -9063,8 +9063,8 @@
 "9062","South Thompson",2017,"Harbour Cr",73
 "9063","South Thompson",2017,"Harris Cr",108
 "9064","South Thompson",2017,"Hemlock Cr",NA
-"9065","South Thompson",2017,"Hiuihill Cr",NA
-"9066","South Thompson",2017,"Hlina Cr",NA
+"9065","South Thompson",2017,"Hiuihill Cr",0
+"9066","South Thompson",2017,"Hlina Cr",0
 "9067","South Thompson",2017,"Hunakwa Cr",9
 "9068","South Thompson",2017,"Ireland Cr",11
 "9069","South Thompson",2017,"Johnson Cr",NA
@@ -9077,15 +9077,15 @@
 "9076","South Thompson",2017,"Nikwikwaia Cr",20
 "9077","South Thompson",2017,"Noisy Cr",NA
 "9078","South Thompson",2017,"Oliver Cr",NA
-"9079","South Thompson",2017,"Onyx Cr",NA
-"9080","South Thompson",2017,"Owlhead Cr",NA
+"9079","South Thompson",2017,"Onyx Cr",0
+"9080","South Thompson",2017,"Owlhead Cr",0
 "9081","South Thompson",2017,"Palmer Cr",NA
 "9082","South Thompson",2017,"Perry R",2
 "9083","South Thompson",2017,"Ross Cr",NA
 "9084","South Thompson",2017,"S Thompson R",NA
 "9085","South Thompson",2017,"Salmon R",596
 "9086","South Thompson",2017,"Scotch Cr",54
-"9087","South Thompson",2017,"Senn Cr",NA
+"9087","South Thompson",2017,"Senn Cr",0
 "9088","South Thompson",2017,"Seymour R",NA
 "9089","South Thompson",2017,"Shuswap R (lwr)",24
 "9090","South Thompson",2017,"Shuswap R (mid)",51
@@ -9098,8 +9098,8 @@
 "9097","South Thompson",2017,"Tsikwustum Cr",NA
 "9098","South Thompson",2017,"Tsuius Cr",NA
 "9099","South Thompson",2017,"Wap Cr",339
-"9100","South Thompson",2017,"Wright Cr",NA
-"9101","South Thompson",2017,"Yard Cr",NA
+"9100","South Thompson",2017,"Wright Cr",0
+"9101","South Thompson",2017,"Yard Cr",0
 "9102","South Thompson",2018,"Adams R (lwr)",NA
 "9103","South Thompson",2018,"Adams R (upr)",966
 "9104","South Thompson",2018,"Anstey R",3

@@ -1,4 +1,4 @@
-# Data Exploration and Org for IFCoho data from Lynda Sept 23 2019
+# Data Exploration and Org for IFCoho data 
 # Written by Bronwyn MacDonald
 # October 21 2019
 
@@ -49,7 +49,7 @@ library(forcats)
 
 #setwd("Coho/Lynda Ritchie Sept 19 2019")
 
-COHO <- read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Data from Lynda June 2020.csv")
+COHO <- read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Data 1975-2020_Nov 2021.csv")
 exceptions <- as.vector(read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Infill exceptions.csv",header=FALSE))
 
 #setwd(homedir)
@@ -64,7 +64,7 @@ CUs <- CU.file %>% filter(Base.Unit.Species == "CO")
 
 Coho.sub<- COHO %>% select(Brood.Year, Return.Year, Conservation.Unit, Tributary.Deme,Final.Spawner.Estimate, 
                            Hatchery.Returns.corrected = Hatchery.Returns...use.this.one...corrected.for.total.return, 
-                           Natural.Returns = Natural.Returns...use.this.one, Total.Return, Total.Pre.Fishery.Abundance, Estimate.Classification,
+                           Natural.Returns = Natural.Returns...use.this.one, Total.Return, Total.Pre.Fishery.Abundance, Final.Estimate.Type, Estimate.Classification,
                            Data.Quality.Class,WSP.2014.Data.Use.Categories, FN.Removals,Classroom.Removals,
                            SEP.Removals.BELOW = Brood.Removed.below.or.at.estimation.site..ie.fence.,
                            SEP.Removals.ABOVE = Brood.Removed.above.estimation.site..ie.fence.,
@@ -76,6 +76,7 @@ Coho.sub<- COHO %>% select(Brood.Year, Return.Year, Conservation.Unit, Tributary
 
 rem.perc <-  function(var,symbol){ as.numeric(gsub(symbol, '', var, fixed=TRUE))}
 rep.blanks <- function(var,notation){ replace(var, var == notation, NA) }
+rep.zero <- function(var,notation){ replace(var, var == notation, 0) }
 
 # run.variables <- function(data,var){
 #   print(var)
@@ -94,13 +95,18 @@ run.variables <- function(var){
    return(new)
 }
 
-
-
+# Dec 2021 added step tpo replace "-  " with "0" where Final Estimate Type = 'NO' since these are true 0's
+sub.zeros <- Coho.sub %>% filter(Final.Estimate.Type == "NO") %>%
+                          mutate(Final.Spawner.Estimate = as.numeric(rep.zero(Final.Spawner.Estimate," -   "))) %>%
+                          mutate(Total.Return = as.numeric(rep.zero(Total.Return," -   "))) %>%
+                          mutate(Total.Pre.Fishery.Abundance  = as.numeric(rep.zero(Total.Pre.Fishery.Abundance ," -   "))) 
 
 COHO.clean <- Coho.sub %>% 
+                         filter(Final.Estimate.Type != "NO") %>% 
                          mutate(Final.Spawner.Estimate = run.variables(Final.Spawner.Estimate)) %>%
                          mutate(Total.Return = run.variables(Total.Return)) %>%
                          mutate(Total.Pre.Fishery.Abundance = run.variables(Total.Pre.Fishery.Abundance)) %>%
+                         rbind(sub.zeros) %>%
                          mutate(Natural.Returns = as.numeric(Natural.Returns)) %>%
                          mutate(Hatchery.Returns.corrected = as.numeric(Hatchery.Returns.corrected)) %>%
                          mutate(ER.Unclipped= rem.perc(var=ER.Unclipped,'%')) %>%  mutate(ER.Clipped= rem.perc(var=ER.Clipped,'%')) %>%

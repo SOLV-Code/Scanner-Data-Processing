@@ -15252,10 +15252,10 @@
 "Co_Fraser",2019,"Nahatlatch R","Fraser Canyon",3259,NA,NA,3259,NA,NA,47159,"CO_02",NA
 "Co_Fraser",1998,"Bonaparte R","Lower Thompson",63,NA,NA,63,NA,NA,46200,"CO_03",NA
 "Co_Fraser",1998,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",1998,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",1998,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",1998,"Coldwater R","Lower Thompson",691,NA,NA,691,NA,NA,46190,"CO_03",NA
 "Co_Fraser",1998,"Deadman R","Lower Thompson",131,NA,NA,131,NA,NA,46210,"CO_03",NA
-"Co_Fraser",1998,"Guichon Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,128,"CO_03",NA
+"Co_Fraser",1998,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
 "Co_Fraser",1998,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",1998,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",1998,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15270,7 +15270,7 @@
 "Co_Fraser",1998,"Tranquille R","Lower Thompson",9,NA,NA,9,NA,NA,44975,"CO_03",NA
 "Co_Fraser",1999,"Bonaparte R","Lower Thompson",42,NA,NA,42,NA,NA,46200,"CO_03",NA
 "Co_Fraser",1999,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",1999,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",1999,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",1999,"Coldwater R","Lower Thompson",1812,NA,NA,1812,NA,NA,46190,"CO_03",NA
 "Co_Fraser",1999,"Deadman R","Lower Thompson",1089,NA,NA,1089,NA,NA,46210,"CO_03",NA
 "Co_Fraser",1999,"Guichon Cr","Lower Thompson",165,NA,NA,165,NA,NA,128,"CO_03",NA
@@ -15331,7 +15331,7 @@
 "Co_Fraser",2002,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2002,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2002,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2002,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2002,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
 "Co_Fraser",2002,"Nicola R (dot)","Lower Thompson",55,NA,NA,55,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2002,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2002,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15349,7 +15349,7 @@
 "Co_Fraser",2003,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2003,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2003,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2003,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2003,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
 "Co_Fraser",2003,"Nicola R (dot)","Lower Thompson",3,NA,NA,3,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2003,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2003,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15411,7 +15411,7 @@
 "Co_Fraser",2006,"Spahomin Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2006,"Spius Cr","Lower Thompson",316,NA,NA,316,NA,NA,46180,"CO_03",NA
 "Co_Fraser",2006,"Thompson R","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2006,"Tranquille R","Lower Thompson",NA,NA,NA,NA,NA,NA,44975,"CO_03",NA
+"Co_Fraser",2006,"Tranquille R","Lower Thompson",0,NA,NA,0,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2007,"Bonaparte R","Lower Thompson",1251,NA,NA,1251,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2007,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2007,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
@@ -15429,10 +15429,10 @@
 "Co_Fraser",2007,"Spahomin Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2007,"Spius Cr","Lower Thompson",2446,NA,NA,2446,NA,NA,46180,"CO_03",NA
 "Co_Fraser",2007,"Thompson R","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2007,"Tranquille R","Lower Thompson",NA,NA,NA,NA,NA,NA,44975,"CO_03",NA
+"Co_Fraser",2007,"Tranquille R","Lower Thompson",0,NA,NA,0,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2008,"Bonaparte R","Lower Thompson",337,NA,NA,337,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2008,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2008,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2008,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2008,"Coldwater R","Lower Thompson",1754,NA,NA,1754,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2008,"Deadman R","Lower Thompson",783,NA,NA,783,NA,NA,46210,"CO_03",NA
 "Co_Fraser",2008,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
@@ -15440,43 +15440,43 @@
 "Co_Fraser",2008,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2008,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2008,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2008,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2008,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2008,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2008,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2008,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2008,"Spahomin Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2008,"Spius Cr","Lower Thompson",926,NA,NA,926,NA,NA,46180,"CO_03",NA
 "Co_Fraser",2008,"Thompson R","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2008,"Tranquille R","Lower Thompson",NA,NA,NA,NA,NA,NA,44975,"CO_03",NA
+"Co_Fraser",2008,"Tranquille R","Lower Thompson",0,NA,NA,0,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2009,"Bonaparte R","Lower Thompson",385,NA,NA,385,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2009,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2009,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2009,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2009,"Coldwater R","Lower Thompson",2751,NA,NA,2751,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2009,"Deadman R","Lower Thompson",455,NA,NA,455,NA,NA,46210,"CO_03",NA
 "Co_Fraser",2009,"Guichon Cr","Lower Thompson",18,NA,NA,18,NA,NA,128,"CO_03",NA
 "Co_Fraser",2009,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2009,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2009,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2009,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2009,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2009,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2009,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2009,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2009,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2009,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2009,"Spahomin Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
+"Co_Fraser",2009,"Spahomin Cr","Lower Thompson",0,NA,NA,0,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2009,"Spius Cr","Lower Thompson",1152,NA,NA,1152,NA,NA,46180,"CO_03",NA
 "Co_Fraser",2009,"Thompson R","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2009,"Tranquille R","Lower Thompson",25,NA,NA,25,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2010,"Bonaparte R","Lower Thompson",1794,NA,NA,1794,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2010,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2010,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2010,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2010,"Coldwater R","Lower Thompson",4659,NA,NA,4659,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2010,"Deadman R","Lower Thompson",2819,NA,NA,2819,NA,NA,46210,"CO_03",NA
-"Co_Fraser",2010,"Guichon Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,128,"CO_03",NA
+"Co_Fraser",2010,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
 "Co_Fraser",2010,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2010,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2010,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2010,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2010,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2010,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2010,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2010,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2010,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2010,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15494,24 +15494,24 @@
 "Co_Fraser",2011,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2011,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2011,"Nicola R (dam)","Lower Thompson",2,NA,NA,2,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2011,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2011,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2011,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2011,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2011,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2011,"Spahomin Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
+"Co_Fraser",2011,"Spahomin Cr","Lower Thompson",0,NA,NA,0,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2011,"Spius Cr","Lower Thompson",1762,NA,NA,1762,NA,NA,46180,"CO_03",NA
 "Co_Fraser",2011,"Thompson R","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2011,"Tranquille R","Lower Thompson",13,NA,NA,13,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2012,"Bonaparte R","Lower Thompson",1534,NA,NA,1534,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2012,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2012,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2012,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2012,"Coldwater R","Lower Thompson",2320,NA,NA,2320,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2012,"Deadman R","Lower Thompson",4775,NA,NA,4775,NA,NA,46210,"CO_03",NA
-"Co_Fraser",2012,"Guichon Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,128,"CO_03",NA
+"Co_Fraser",2012,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
 "Co_Fraser",2012,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2012,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2012,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2012,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2012,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
 "Co_Fraser",2012,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2012,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2012,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15522,14 +15522,14 @@
 "Co_Fraser",2012,"Tranquille R","Lower Thompson",158,NA,NA,158,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2013,"Bonaparte R","Lower Thompson",2029,NA,NA,2029,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2013,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2013,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2013,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2013,"Coldwater R","Lower Thompson",5625,NA,NA,5625,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2013,"Deadman R","Lower Thompson",3064,NA,NA,3064,NA,NA,46210,"CO_03",NA
-"Co_Fraser",2013,"Guichon Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,128,"CO_03",NA
+"Co_Fraser",2013,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
 "Co_Fraser",2013,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2013,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2013,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2013,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2013,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
 "Co_Fraser",2013,"Nicola R (dot)","Lower Thompson",5,NA,NA,5,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2013,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2013,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15540,15 +15540,15 @@
 "Co_Fraser",2013,"Tranquille R","Lower Thompson",71,NA,NA,71,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2014,"Bonaparte R","Lower Thompson",1175,NA,NA,1175,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2014,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2014,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2014,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2014,"Coldwater R","Lower Thompson",3711,NA,NA,3711,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2014,"Deadman R","Lower Thompson",1355,NA,NA,1355,NA,NA,46210,"CO_03",NA
 "Co_Fraser",2014,"Guichon Cr","Lower Thompson",4,NA,NA,4,NA,NA,128,"CO_03",NA
 "Co_Fraser",2014,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2014,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2014,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2014,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2014,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2014,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2014,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2014,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2014,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2014,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15558,15 +15558,15 @@
 "Co_Fraser",2014,"Tranquille R","Lower Thompson",55,NA,NA,55,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2015,"Bonaparte R","Lower Thompson",699,NA,NA,699,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2015,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2015,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2015,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2015,"Coldwater R","Lower Thompson",2294,NA,NA,2294,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2015,"Deadman R","Lower Thompson",1259,NA,NA,1259,NA,NA,46210,"CO_03",NA
 "Co_Fraser",2015,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
 "Co_Fraser",2015,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2015,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2015,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2015,"Nicola R (dam)","Lower Thompson",NA,NA,NA,NA,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2015,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2015,"Nicola R (dam)","Lower Thompson",0,NA,NA,0,NA,NA,44736,"CO_03",NA
+"Co_Fraser",2015,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2015,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2015,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2015,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15576,15 +15576,15 @@
 "Co_Fraser",2015,"Tranquille R","Lower Thompson",7,NA,NA,7,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2016,"Bonaparte R","Lower Thompson",3247,NA,NA,3247,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2016,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2016,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2016,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2016,"Coldwater R","Lower Thompson",5707,NA,NA,5707,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2016,"Deadman R","Lower Thompson",2782,NA,NA,2782,NA,NA,46210,"CO_03",NA
-"Co_Fraser",2016,"Guichon Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,128,"CO_03",NA
+"Co_Fraser",2016,"Guichon Cr","Lower Thompson",0,NA,NA,0,NA,NA,128,"CO_03",NA
 "Co_Fraser",2016,"Juliet Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2016,"Kamloops Lake","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2016,"Maka Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2016,"Nicola R (dam)","Lower Thompson",17,NA,NA,17,NA,NA,44736,"CO_03",NA
-"Co_Fraser",2016,"Nicola R (dot)","Lower Thompson",NA,NA,NA,NA,NA,NA,46170,"CO_03",NA
+"Co_Fraser",2016,"Nicola R (dot)","Lower Thompson",0,NA,NA,0,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2016,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2016,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2016,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
@@ -15612,7 +15612,7 @@
 "Co_Fraser",2017,"Tranquille R","Lower Thompson",12,NA,NA,12,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2018,"Bonaparte R","Lower Thompson",NA,NA,NA,NA,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2018,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2018,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2018,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2018,"Coldwater R","Lower Thompson",4283,NA,NA,4283,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2018,"Deadman R","Lower Thompson",640,NA,NA,640,NA,NA,46210,"CO_03",NA
 "Co_Fraser",2018,"Guichon Cr","Lower Thompson",6,NA,NA,6,NA,NA,128,"CO_03",NA
@@ -15630,7 +15630,7 @@
 "Co_Fraser",2018,"Tranquille R","Lower Thompson",3,NA,NA,3,NA,NA,44975,"CO_03",NA
 "Co_Fraser",2019,"Bonaparte R","Lower Thompson",2918,NA,NA,2918,NA,NA,46200,"CO_03",NA
 "Co_Fraser",2019,"Brook Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2019,"Clapperton Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,44965,"CO_03",NA
+"Co_Fraser",2019,"Clapperton Cr","Lower Thompson",0,NA,NA,0,NA,NA,44965,"CO_03",NA
 "Co_Fraser",2019,"Coldwater R","Lower Thompson",7031,NA,NA,7031,NA,NA,46190,"CO_03",NA
 "Co_Fraser",2019,"Deadman R","Lower Thompson",1680,NA,NA,1680,NA,NA,46210,"CO_03",NA
 "Co_Fraser",2019,"Guichon Cr","Lower Thompson",19,NA,NA,19,NA,NA,128,"CO_03",NA
@@ -15640,9 +15640,9 @@
 "Co_Fraser",2019,"Nicola R (dam)","Lower Thompson",39,NA,NA,39,NA,NA,44736,"CO_03",NA
 "Co_Fraser",2019,"Nicola R (dot)","Lower Thompson",6,NA,NA,6,NA,NA,46170,"CO_03",NA
 "Co_Fraser",2019,"Nooaitch Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2019,"Quilchena Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
+"Co_Fraser",2019,"Quilchena Cr","Lower Thompson",0,NA,NA,0,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2019,"Skuhun Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
-"Co_Fraser",2019,"Spahomin Cr","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
+"Co_Fraser",2019,"Spahomin Cr","Lower Thompson",0,NA,NA,0,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2019,"Spius Cr","Lower Thompson",1648,NA,NA,1648,NA,NA,46180,"CO_03",NA
 "Co_Fraser",2019,"Thompson R","Lower Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_03",NA
 "Co_Fraser",2019,"Tranquille R","Lower Thompson",21,NA,NA,21,NA,NA,44975,"CO_03",NA
@@ -15747,7 +15747,7 @@
 "Co_Fraser",1999,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
 "Co_Fraser",1999,"Nechako R","Middle Fraser",NA,NA,NA,NA,NA,NA,1812,"CO_01",NA
 "Co_Fraser",1999,"Off-set Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",1999,"Penfold Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,7008,"CO_01",NA
+"Co_Fraser",1999,"Penfold Cr","Middle Fraser",0,NA,NA,0,NA,NA,7008,"CO_01",NA
 "Co_Fraser",1999,"Polly Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",1999,"Portage Cr","Middle Fraser",80,NA,NA,80,NA,NA,47183,"CO_01",NA
 "Co_Fraser",1999,"Quesnel R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -15773,10 +15773,10 @@
 "Co_Fraser",2000,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Beaver Cr","Middle Fraser",8,NA,NA,8,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2000,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2000,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Bridge R","Middle Fraser",276,NA,NA,276,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2000,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2000,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
+"Co_Fraser",2000,"Cayoosh Cr","Middle Fraser",0,NA,NA,0,NA,NA,47203,"CO_01",NA
 "Co_Fraser",2000,"Chilako R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Chilcotin R (upr)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Chilko R","Middle Fraser",152,NA,NA,152,NA,NA,46845,"CO_01",NA
@@ -15802,7 +15802,7 @@
 "Co_Fraser",2000,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2000,"Mitchell R","Middle Fraser",480,NA,NA,480,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2000,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2000,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -15819,7 +15819,7 @@
 "Co_Fraser",2000,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
 "Co_Fraser",2000,"Summit Cr","Middle Fraser",92,NA,NA,92,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2000,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
-"Co_Fraser",2000,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2000,"Tisdale Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -15827,19 +15827,19 @@
 "Co_Fraser",2000,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2000,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Williams Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2000,"Woodjam Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2000,"Woodjam Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2000,"Yalakom R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Ahbau Cr","Middle Fraser",6,NA,NA,6,NA,NA,287,"CO_01",NA
 "Co_Fraser",2001,"Baezaeko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2001,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2001,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Bridge R","Middle Fraser",634,NA,NA,634,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2001,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Cayoosh Cr","Middle Fraser",43,NA,NA,43,NA,NA,47203,"CO_01",NA
 "Co_Fraser",2001,"Chilako R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2001,"Chilcotin R (upr)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2001,"Chilcotin R (upr)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Chilko R","Middle Fraser",669,NA,NA,669,NA,NA,46845,"CO_01",NA
 "Co_Fraser",2001,"Clisbako R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2001,"Clusko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -15895,7 +15895,7 @@
 "Co_Fraser",2002,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2002,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2002,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Bridge R","Middle Fraser",321,NA,NA,321,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2002,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Cayoosh Cr","Middle Fraser",15,NA,NA,15,NA,NA,47203,"CO_01",NA
@@ -15930,7 +15930,7 @@
 "Co_Fraser",2002,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
 "Co_Fraser",2002,"Nechako R","Middle Fraser",NA,NA,NA,NA,NA,NA,1812,"CO_01",NA
 "Co_Fraser",2002,"Off-set Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2002,"Penfold Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,7008,"CO_01",NA
+"Co_Fraser",2002,"Penfold Cr","Middle Fraser",0,NA,NA,0,NA,NA,7008,"CO_01",NA
 "Co_Fraser",2002,"Polly Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Portage Cr","Middle Fraser",42,NA,NA,42,NA,NA,47183,"CO_01",NA
 "Co_Fraser",2002,"Quesnel R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -15939,7 +15939,7 @@
 "Co_Fraser",2002,"Sovereign Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Spider Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
-"Co_Fraser",2002,"Summit Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,45075,"CO_01",NA
+"Co_Fraser",2002,"Summit Cr","Middle Fraser",0,NA,NA,0,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2002,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
 "Co_Fraser",2002,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2002,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -15956,7 +15956,7 @@
 "Co_Fraser",2003,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2003,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2003,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Bridge R","Middle Fraser",1466,NA,NA,1466,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2003,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -15985,7 +15985,7 @@
 "Co_Fraser",2003,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2003,"Mitchell R","Middle Fraser",27,NA,NA,27,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2003,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2003,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16000,7 +16000,7 @@
 "Co_Fraser",2003,"Sovereign Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Spider Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
-"Co_Fraser",2003,"Summit Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,45075,"CO_01",NA
+"Co_Fraser",2003,"Summit Cr","Middle Fraser",0,NA,NA,0,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2003,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
 "Co_Fraser",2003,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16009,7 +16009,7 @@
 "Co_Fraser",2003,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2003,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2003,"Williams Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2003,"Williams Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Woodjam Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2003,"Yalakom R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Ahbau Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,287,"CO_01",NA
@@ -16017,7 +16017,7 @@
 "Co_Fraser",2004,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2004,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2004,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Bridge R","Middle Fraser",336,NA,NA,336,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2004,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16046,7 +16046,7 @@
 "Co_Fraser",2004,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2004,"Mitchell R","Middle Fraser",321,NA,NA,321,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2004,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2004,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16066,19 +16066,19 @@
 "Co_Fraser",2004,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2004,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2004,"Wasko Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2004,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Williams Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2004,"Woodjam Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2004,"Yalakom R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2004,"Yalakom R","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Ahbau Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,287,"CO_01",NA
 "Co_Fraser",2005,"Baezaeko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2005,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2005,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2005,"Bill Miner Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2005,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Bridge R","Middle Fraser",562,NA,NA,562,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2005,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16107,13 +16107,13 @@
 "Co_Fraser",2005,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2005,"Mitchell R","Middle Fraser",225,NA,NA,225,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2005,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2005,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
 "Co_Fraser",2005,"Nechako R","Middle Fraser",NA,NA,NA,NA,NA,NA,1812,"CO_01",NA
 "Co_Fraser",2005,"Off-set Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2005,"Penfold Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,7008,"CO_01",NA
+"Co_Fraser",2005,"Penfold Cr","Middle Fraser",0,NA,NA,0,NA,NA,7008,"CO_01",NA
 "Co_Fraser",2005,"Polly Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Portage Cr","Middle Fraser",6,NA,NA,6,NA,NA,47183,"CO_01",NA
 "Co_Fraser",2005,"Quesnel R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16133,13 +16133,13 @@
 "Co_Fraser",2005,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Williams Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2005,"Woodjam Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2005,"Yalakom R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2005,"Yalakom R","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Ahbau Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,287,"CO_01",NA
 "Co_Fraser",2006,"Baezaeko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2006,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2006,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Bridge R","Middle Fraser",492,NA,NA,492,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2006,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16183,12 +16183,12 @@
 "Co_Fraser",2006,"Sovereign Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Spider Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
-"Co_Fraser",2006,"Summit Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,45075,"CO_01",NA
+"Co_Fraser",2006,"Summit Cr","Middle Fraser",0,NA,NA,0,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2006,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
-"Co_Fraser",2006,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2006,"Tisdale Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2006,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2006,"Wasko Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2006,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2006,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16217,7 +16217,7 @@
 "Co_Fraser",2007,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2007,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2007,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2007,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2007,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2007,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2007,"Horsefly R","Middle Fraser",351,NA,NA,351,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2007,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16261,7 +16261,7 @@
 "Co_Fraser",2008,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2008,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2008,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Bridge R","Middle Fraser",69,NA,NA,69,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2008,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16278,11 +16278,11 @@
 "Co_Fraser",2008,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2008,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2008,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Horsefly R","Middle Fraser",27,NA,NA,27,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2008,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2008,"Little Horsefly R","Middle Fraser",NA,NA,NA,NA,NA,NA,1505,"CO_01",NA
+"Co_Fraser",2008,"Little Horsefly R","Middle Fraser",0,NA,NA,0,NA,NA,1505,"CO_01",NA
 "Co_Fraser",2008,"Little Swift R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Mackin Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Mckinley Cr","Middle Fraser",396,NA,NA,396,NA,NA,45045,"CO_01",NA
@@ -16290,7 +16290,7 @@
 "Co_Fraser",2008,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2008,"Mitchell R","Middle Fraser",66,NA,NA,66,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2008,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2008,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16307,10 +16307,10 @@
 "Co_Fraser",2008,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
 "Co_Fraser",2008,"Summit Cr","Middle Fraser",12,NA,NA,12,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2008,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
-"Co_Fraser",2008,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2008,"Tisdale Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2008,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2008,"Wasko Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2008,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2008,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16339,7 +16339,7 @@
 "Co_Fraser",2009,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2009,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2009,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Horsefly R","Middle Fraser",83,NA,NA,83,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2009,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16351,7 +16351,7 @@
 "Co_Fraser",2009,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2009,"Mitchell R","Middle Fraser",90,NA,NA,90,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2009,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2009,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16371,7 +16371,7 @@
 "Co_Fraser",2009,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2009,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2009,"Wasko Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2009,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2009,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16400,7 +16400,7 @@
 "Co_Fraser",2010,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2010,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2010,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Horsefly R","Middle Fraser",812,NA,NA,812,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2010,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16412,7 +16412,7 @@
 "Co_Fraser",2010,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2010,"Mitchell R","Middle Fraser",183,NA,NA,183,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2010,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2010,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16437,7 +16437,7 @@
 "Co_Fraser",2010,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2010,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Williams Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2010,"Woodjam Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2010,"Woodjam Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2010,"Yalakom R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2011,"Ahbau Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,287,"CO_01",NA
 "Co_Fraser",2011,"Baezaeko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16473,7 +16473,7 @@
 "Co_Fraser",2011,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2011,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2011,"Mitchell R","Middle Fraser",153,NA,NA,153,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2011,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2011,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2011,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2011,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2011,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16522,7 +16522,7 @@
 "Co_Fraser",2012,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2012,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2012,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Horsefly R","Middle Fraser",106,NA,NA,106,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2012,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16534,7 +16534,7 @@
 "Co_Fraser",2012,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2012,"Mitchell R","Middle Fraser",30,NA,NA,30,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2012,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2012,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16554,7 +16554,7 @@
 "Co_Fraser",2012,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2012,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2012,"Wasko Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2012,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2012,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16583,7 +16583,7 @@
 "Co_Fraser",2013,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2013,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2013,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Horsefly R","Middle Fraser",1596,NA,NA,1596,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2013,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16595,7 +16595,7 @@
 "Co_Fraser",2013,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2013,"Mitchell R","Middle Fraser",192,NA,NA,192,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2013,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2013,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16612,7 +16612,7 @@
 "Co_Fraser",2013,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
 "Co_Fraser",2013,"Summit Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2013,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
-"Co_Fraser",2013,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2013,"Tisdale Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2013,"Wasko Cr","Middle Fraser",15,NA,NA,15,NA,NA,NA,"CO_01",NA
@@ -16627,7 +16627,7 @@
 "Co_Fraser",2014,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2014,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2014,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Bridge R","Middle Fraser",1270,NA,NA,1270,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2014,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16656,7 +16656,7 @@
 "Co_Fraser",2014,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2014,"Mitchell R","Middle Fraser",9,NA,NA,9,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2014,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2014,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2014,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16688,7 +16688,7 @@
 "Co_Fraser",2015,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2015,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2015,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Bridge R","Middle Fraser",566,NA,NA,566,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2015,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16717,13 +16717,13 @@
 "Co_Fraser",2015,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2015,"Mitchell R","Middle Fraser",6,NA,NA,6,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2015,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2015,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
 "Co_Fraser",2015,"Nechako R","Middle Fraser",NA,NA,NA,NA,NA,NA,1812,"CO_01",NA
 "Co_Fraser",2015,"Off-set Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2015,"Penfold Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,7008,"CO_01",NA
+"Co_Fraser",2015,"Penfold Cr","Middle Fraser",0,NA,NA,0,NA,NA,7008,"CO_01",NA
 "Co_Fraser",2015,"Polly Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Portage Cr","Middle Fraser",8,NA,NA,8,NA,NA,47183,"CO_01",NA
 "Co_Fraser",2015,"Quesnel R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16734,10 +16734,10 @@
 "Co_Fraser",2015,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
 "Co_Fraser",2015,"Summit Cr","Middle Fraser",3,NA,NA,3,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2015,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
-"Co_Fraser",2015,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2015,"Tisdale Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Victoria Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2015,"Wasko Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2015,"Wasko Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"Watson Bar Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2015,"West Road R","Middle Fraser",NA,NA,NA,NA,NA,NA,45985,"CO_01",NA
 "Co_Fraser",2015,"Whitecap Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16766,7 +16766,7 @@
 "Co_Fraser",2016,"Government Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Hawks Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Haylemore Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2016,"Hazeltine Cr (edney)","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2016,"Hazeltine Cr (edney)","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Hixon Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Horsefly R","Middle Fraser",498,NA,NA,498,NA,NA,46895,"CO_01",NA
 "Co_Fraser",2016,"John-boyd Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -16778,7 +16778,7 @@
 "Co_Fraser",2016,"Meldrum Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Minton Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,44998,"CO_01",NA
 "Co_Fraser",2016,"Mitchell R","Middle Fraser",1215,NA,NA,1215,NA,NA,46915,"CO_01",NA
-"Co_Fraser",2016,"Moffat Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2016,"Moffat Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Narcosli Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Nataniko R","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2016,"Nazko R","Middle Fraser",NA,NA,NA,NA,NA,NA,44756,"CO_01",NA
@@ -16932,7 +16932,7 @@
 "Co_Fraser",2019,"Baker Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Beaver Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Bill Miner Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
-"Co_Fraser",2019,"Blue Lead Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
+"Co_Fraser",2019,"Blue Lead Cr","Middle Fraser",0,NA,NA,0,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Bridge R","Middle Fraser",1071,NA,NA,1071,NA,NA,47223,"CO_01",NA
 "Co_Fraser",2019,"Brittany Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Cayoosh Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,47203,"CO_01",NA
@@ -16976,7 +16976,7 @@
 "Co_Fraser",2019,"Sovereign Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Spider Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Stein R","Middle Fraser",NA,NA,NA,NA,NA,NA,47169,"CO_01",NA
-"Co_Fraser",2019,"Summit Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,45075,"CO_01",NA
+"Co_Fraser",2019,"Summit Cr","Middle Fraser",0,NA,NA,0,NA,NA,45075,"CO_01",NA
 "Co_Fraser",2019,"Taseko R","Middle Fraser",NA,NA,NA,NA,NA,NA,2511,"CO_01",NA
 "Co_Fraser",2019,"Tisdale Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
 "Co_Fraser",2019,"Twan Cr","Middle Fraser",NA,NA,NA,NA,NA,NA,NA,"CO_01",NA
@@ -17097,7 +17097,7 @@
 "Co_Fraser",1999,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",1999,"Paul Cr","North Thompson",10,NA,NA,10,NA,NA,53132,"CO_04",NA
 "Co_Fraser",1999,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",1999,"Peterson Cr","North Thompson",NA,NA,NA,NA,NA,NA,53133,"CO_04",NA
+"Co_Fraser",1999,"Peterson Cr","North Thompson",0,NA,NA,0,NA,NA,53133,"CO_04",NA
 "Co_Fraser",1999,"Pig Channel","North Thompson",537,NA,NA,537,NA,NA,46582,"CO_04",NA
 "Co_Fraser",1999,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",1999,"Raft R","North Thompson",324,NA,NA,324,NA,NA,46712,"CO_04",NA
@@ -17106,7 +17106,7 @@
 "Co_Fraser",1999,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",1999,"Shannon Cr","North Thompson",7,NA,NA,7,NA,NA,46753,"CO_04",NA
 "Co_Fraser",1999,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",1999,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
+"Co_Fraser",1999,"Thunder R","North Thompson",0,NA,NA,0,NA,NA,127,"CO_04",NA
 "Co_Fraser",1999,"Tumtum Cr","North Thompson",65,NA,NA,65,NA,NA,46764,"CO_04",NA
 "Co_Fraser",1999,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",1999,"Wire Cache Cr","North Thompson",77,NA,NA,77,NA,NA,46733,"CO_04",NA
@@ -17119,7 +17119,7 @@
 "Co_Fraser",2000,"Birch Island Channel","North Thompson",110,NA,NA,110,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2000,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2000,"Blue R","North Thompson",163,NA,NA,163,NA,NA,46795,"CO_04",NA
-"Co_Fraser",2000,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
+"Co_Fraser",2000,"Brookfield Cr","North Thompson",0,NA,NA,0,NA,NA,46692,"CO_04",NA
 "Co_Fraser",2000,"Canvas Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2000,"Cedar Cr","North Thompson",7,NA,NA,7,NA,NA,46805,"CO_04",NA
 "Co_Fraser",2000,"Chappell Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17137,7 +17137,7 @@
 "Co_Fraser",2000,"Finn Cr","North Thompson",5,NA,NA,5,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2000,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2000,"Goose Cr","North Thompson",4,NA,NA,4,NA,NA,46792,"CO_04",NA
-"Co_Fraser",2000,"Haggard Cr","North Thompson",NA,NA,NA,NA,NA,NA,46622,"CO_04",NA
+"Co_Fraser",2000,"Haggard Cr","North Thompson",0,NA,NA,0,NA,NA,46622,"CO_04",NA
 "Co_Fraser",2000,"Harper Cr","North Thompson",8,NA,NA,8,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2000,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2000,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17168,7 +17168,7 @@
 "Co_Fraser",2000,"Shannon Cr","North Thompson",13,NA,NA,13,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2000,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2000,"Thunder R","North Thompson",1,NA,NA,1,NA,NA,127,"CO_04",NA
-"Co_Fraser",2000,"Tumtum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46764,"CO_04",NA
+"Co_Fraser",2000,"Tumtum Cr","North Thompson",0,NA,NA,0,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2000,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2000,"Wire Cache Cr","North Thompson",2,NA,NA,2,NA,NA,46733,"CO_04",NA
 "Co_Fraser",2001,"Albreda R","North Thompson",1710,NA,NA,1710,NA,NA,46825,"CO_04",NA
@@ -17180,7 +17180,7 @@
 "Co_Fraser",2001,"Birch Island Channel","North Thompson",990,NA,NA,990,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2001,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2001,"Blue R","North Thompson",2469,NA,NA,2469,NA,NA,46795,"CO_04",NA
-"Co_Fraser",2001,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
+"Co_Fraser",2001,"Brookfield Cr","North Thompson",0,NA,NA,0,NA,NA,46692,"CO_04",NA
 "Co_Fraser",2001,"Canvas Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2001,"Cedar Cr","North Thompson",19,NA,NA,19,NA,NA,46805,"CO_04",NA
 "Co_Fraser",2001,"Chappell Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17197,9 +17197,9 @@
 "Co_Fraser",2001,"Fennell Cr","North Thompson",2707,NA,NA,2707,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2001,"Finn Cr","North Thompson",157,NA,NA,157,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2001,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2001,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
+"Co_Fraser",2001,"Goose Cr","North Thompson",0,NA,NA,0,NA,NA,46792,"CO_04",NA
 "Co_Fraser",2001,"Haggard Cr","North Thompson",25,NA,NA,25,NA,NA,46622,"CO_04",NA
-"Co_Fraser",2001,"Harper Cr","North Thompson",NA,NA,NA,NA,NA,NA,1170,"CO_04",NA
+"Co_Fraser",2001,"Harper Cr","North Thompson",0,NA,NA,0,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2001,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2001,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2001,"Lemieux Cr","North Thompson",2405,NA,NA,2405,NA,NA,46642,"CO_04",NA
@@ -17231,7 +17231,7 @@
 "Co_Fraser",2001,"Thunder R","North Thompson",2,NA,NA,2,NA,NA,127,"CO_04",NA
 "Co_Fraser",2001,"Tumtum Cr","North Thompson",39,NA,NA,39,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2001,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2001,"Wire Cache Cr","North Thompson",NA,NA,NA,NA,NA,NA,46733,"CO_04",NA
+"Co_Fraser",2001,"Wire Cache Cr","North Thompson",0,NA,NA,0,NA,NA,46733,"CO_04",NA
 "Co_Fraser",2002,"Albreda R","North Thompson",1058,NA,NA,1058,NA,NA,46825,"CO_04",NA
 "Co_Fraser",2002,"Allan Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2002,"Avola Cr","North Thompson",124,NA,NA,124,NA,NA,46743,"CO_04",NA
@@ -17249,7 +17249,7 @@
 "Co_Fraser",2002,"Clemina Cr","North Thompson",0,NA,NA,0,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2002,"Cook Cr","North Thompson",109,NA,NA,109,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2002,"Crossing Cr","North Thompson",32,NA,NA,32,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2002,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2002,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2002,"Dominion Cr","North Thompson",NA,NA,NA,NA,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2002,"Dora Cr","North Thompson",1,NA,NA,1,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2002,"Dunn Cr","North Thompson",4477,NA,NA,4477,NA,NA,46652,"CO_04",NA
@@ -17310,7 +17310,7 @@
 "Co_Fraser",2003,"Clemina Cr","North Thompson",1,NA,NA,1,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2003,"Cook Cr","North Thompson",77,NA,NA,77,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2003,"Crossing Cr","North Thompson",10,NA,NA,10,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2003,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2003,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2003,"Dominion Cr","North Thompson",NA,NA,NA,NA,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2003,"Dora Cr","North Thompson",4,NA,NA,4,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2003,"Dunn Cr","North Thompson",2286,NA,NA,2286,NA,NA,46652,"CO_04",NA
@@ -17326,7 +17326,7 @@
 "Co_Fraser",2003,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2003,"Lemieux Cr","North Thompson",129,NA,NA,129,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2003,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2003,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2003,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2003,"Louis Cr","North Thompson",1005,NA,NA,1005,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2003,"Lyon Cr","North Thompson",1595,NA,NA,1595,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2003,"Mahood R","North Thompson",3,NA,NA,3,NA,NA,46702,"CO_04",NA
@@ -17350,7 +17350,7 @@
 "Co_Fraser",2003,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2003,"Shannon Cr","North Thompson",7,NA,NA,7,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2003,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2003,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
+"Co_Fraser",2003,"Thunder R","North Thompson",0,NA,NA,0,NA,NA,127,"CO_04",NA
 "Co_Fraser",2003,"Tumtum Cr","North Thompson",39,NA,NA,39,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2003,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2003,"Wire Cache Cr","North Thompson",19,NA,NA,19,NA,NA,46733,"CO_04",NA
@@ -17363,11 +17363,11 @@
 "Co_Fraser",2004,"Birch Island Channel","North Thompson",89,NA,NA,89,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2004,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Blue R","North Thompson",1921,NA,NA,1921,NA,NA,46795,"CO_04",NA
-"Co_Fraser",2004,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
+"Co_Fraser",2004,"Brookfield Cr","North Thompson",0,NA,NA,0,NA,NA,46692,"CO_04",NA
 "Co_Fraser",2004,"Canvas Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Cedar Cr","North Thompson",10,NA,NA,10,NA,NA,46805,"CO_04",NA
 "Co_Fraser",2004,"Chappell Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2004,"Clearwater R","North Thompson",NA,NA,NA,NA,NA,NA,46682,"CO_04",NA
+"Co_Fraser",2004,"Clearwater R","North Thompson",0,NA,NA,0,NA,NA,46682,"CO_04",NA
 "Co_Fraser",2004,"Clemina Cr","North Thompson",2,NA,NA,2,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2004,"Cook Cr","North Thompson",288,NA,NA,288,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2004,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
@@ -17381,7 +17381,7 @@
 "Co_Fraser",2004,"Finn Cr","North Thompson",144,NA,NA,144,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2004,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
-"Co_Fraser",2004,"Haggard Cr","North Thompson",NA,NA,NA,NA,NA,NA,46622,"CO_04",NA
+"Co_Fraser",2004,"Haggard Cr","North Thompson",0,NA,NA,0,NA,NA,46622,"CO_04",NA
 "Co_Fraser",2004,"Harper Cr","North Thompson",2,NA,NA,2,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2004,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17390,7 +17390,7 @@
 "Co_Fraser",2004,"Lindquist Cr","North Thompson",7,NA,NA,7,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2004,"Louis Cr","North Thompson",1113,NA,NA,1113,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2004,"Lyon Cr","North Thompson",1606,NA,NA,1606,NA,NA,46774,"CO_04",NA
-"Co_Fraser",2004,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
+"Co_Fraser",2004,"Mahood R","North Thompson",0,NA,NA,0,NA,NA,46702,"CO_04",NA
 "Co_Fraser",2004,"Mann Cr","North Thompson",7,NA,NA,7,NA,NA,46672,"CO_04",NA
 "Co_Fraser",2004,"Manteau Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Mctaggart Cr","North Thompson",NA,NA,NA,NA,NA,NA,46662,"CO_04",NA
@@ -17402,12 +17402,12 @@
 "Co_Fraser",2004,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Paul Cr","North Thompson",10,NA,NA,10,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2004,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2004,"Peterson Cr","North Thompson",NA,NA,NA,NA,NA,NA,53133,"CO_04",NA
+"Co_Fraser",2004,"Peterson Cr","North Thompson",0,NA,NA,0,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2004,"Pig Channel","North Thompson",323,NA,NA,323,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2004,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Raft R","North Thompson",264,NA,NA,264,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2004,"Reg Christie Cr","North Thompson",92,NA,NA,92,NA,NA,46722,"CO_04",NA
-"Co_Fraser",2004,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
+"Co_Fraser",2004,"Saskum Cr","North Thompson",0,NA,NA,0,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2004,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2004,"Shannon Cr","North Thompson",31,NA,NA,31,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2004,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17421,14 +17421,14 @@
 "Co_Fraser",2005,"Barriere R","North Thompson",184,NA,NA,184,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2005,"Barriere R (lwr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2005,"Barriere R (upr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
-"Co_Fraser",2005,"Birch Island Channel","North Thompson",NA,NA,NA,NA,NA,NA,46582,"CO_04",NA
+"Co_Fraser",2005,"Birch Island Channel","North Thompson",0,NA,NA,0,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2005,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2005,"Blue R","North Thompson",311,NA,NA,311,NA,NA,46795,"CO_04",NA
 "Co_Fraser",2005,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
 "Co_Fraser",2005,"Canvas Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2005,"Cedar Cr","North Thompson",5,NA,NA,5,NA,NA,46805,"CO_04",NA
 "Co_Fraser",2005,"Chappell Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2005,"Clearwater R","North Thompson",NA,NA,NA,NA,NA,NA,46682,"CO_04",NA
+"Co_Fraser",2005,"Clearwater R","North Thompson",0,NA,NA,0,NA,NA,46682,"CO_04",NA
 "Co_Fraser",2005,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2005,"Cook Cr","North Thompson",206,NA,NA,206,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2005,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
@@ -17461,14 +17461,14 @@
 "Co_Fraser",2005,"N Thompson R (mid)","North Thompson",144,NA,NA,144,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2005,"N Thompson R (upr)","North Thompson",48,NA,NA,48,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2005,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2005,"Paul Cr","North Thompson",NA,NA,NA,NA,NA,NA,53132,"CO_04",NA
+"Co_Fraser",2005,"Paul Cr","North Thompson",0,NA,NA,0,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2005,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2005,"Peterson Cr","North Thompson",2,NA,NA,2,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2005,"Pig Channel","North Thompson",32,NA,NA,32,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2005,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2005,"Raft R","North Thompson",60,NA,NA,60,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2005,"Reg Christie Cr","North Thompson",16,NA,NA,16,NA,NA,46722,"CO_04",NA
-"Co_Fraser",2005,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
+"Co_Fraser",2005,"Saskum Cr","North Thompson",0,NA,NA,0,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2005,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2005,"Shannon Cr","North Thompson",23,NA,NA,23,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2005,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17482,7 +17482,7 @@
 "Co_Fraser",2006,"Barriere R","North Thompson",760,NA,NA,760,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2006,"Barriere R (lwr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2006,"Barriere R (upr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
-"Co_Fraser",2006,"Birch Island Channel","North Thompson",NA,NA,NA,NA,NA,NA,46582,"CO_04",NA
+"Co_Fraser",2006,"Birch Island Channel","North Thompson",0,NA,NA,0,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2006,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Blue R","North Thompson",948,NA,NA,948,NA,NA,46795,"CO_04",NA
 "Co_Fraser",2006,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
@@ -17491,25 +17491,25 @@
 "Co_Fraser",2006,"Chappell Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Clearwater R","North Thompson",NA,NA,NA,NA,NA,NA,46682,"CO_04",NA
 "Co_Fraser",2006,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
-"Co_Fraser",2006,"Cook Cr","North Thompson",NA,NA,NA,NA,NA,NA,46815,"CO_04",NA
+"Co_Fraser",2006,"Cook Cr","North Thompson",0,NA,NA,0,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2006,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2006,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2006,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2006,"Dominion Cr","North Thompson",NA,NA,NA,NA,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2006,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2006,"Dunn Cr","North Thompson",620,NA,NA,620,NA,NA,46652,"CO_04",NA
-"Co_Fraser",2006,"E Barriere R","North Thompson",NA,NA,NA,NA,NA,NA,46612,"CO_04",NA
+"Co_Fraser",2006,"E Barriere R","North Thompson",0,NA,NA,0,NA,NA,46612,"CO_04",NA
 "Co_Fraser",2006,"Engineered Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Fennell Cr","North Thompson",190,NA,NA,190,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2006,"Finn Cr","North Thompson",13,NA,NA,13,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2006,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
-"Co_Fraser",2006,"Haggard Cr","North Thompson",NA,NA,NA,NA,NA,NA,46622,"CO_04",NA
-"Co_Fraser",2006,"Harper Cr","North Thompson",NA,NA,NA,NA,NA,NA,1170,"CO_04",NA
+"Co_Fraser",2006,"Haggard Cr","North Thompson",0,NA,NA,0,NA,NA,46622,"CO_04",NA
+"Co_Fraser",2006,"Harper Cr","North Thompson",0,NA,NA,0,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2006,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Lemieux Cr","North Thompson",82,NA,NA,82,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2006,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2006,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2006,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2006,"Louis Cr","North Thompson",182,NA,NA,182,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2006,"Lyon Cr","North Thompson",160,NA,NA,160,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2006,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
@@ -17524,11 +17524,11 @@
 "Co_Fraser",2006,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Paul Cr","North Thompson",5,NA,NA,5,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2006,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2006,"Peterson Cr","North Thompson",NA,NA,NA,NA,NA,NA,53133,"CO_04",NA
+"Co_Fraser",2006,"Peterson Cr","North Thompson",0,NA,NA,0,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2006,"Pig Channel","North Thompson",72,NA,NA,72,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2006,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Raft R","North Thompson",167,NA,NA,167,NA,NA,46712,"CO_04",NA
-"Co_Fraser",2006,"Reg Christie Cr","North Thompson",NA,NA,NA,NA,NA,NA,46722,"CO_04",NA
+"Co_Fraser",2006,"Reg Christie Cr","North Thompson",0,NA,NA,0,NA,NA,46722,"CO_04",NA
 "Co_Fraser",2006,"Saskum Cr","North Thompson",3,NA,NA,3,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2006,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2006,"Shannon Cr","North Thompson",3,NA,NA,3,NA,NA,46753,"CO_04",NA
@@ -17604,7 +17604,7 @@
 "Co_Fraser",2008,"Barriere R","North Thompson",204,NA,NA,204,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2008,"Barriere R (lwr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2008,"Barriere R (upr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
-"Co_Fraser",2008,"Birch Island Channel","North Thompson",NA,NA,NA,NA,NA,NA,46582,"CO_04",NA
+"Co_Fraser",2008,"Birch Island Channel","North Thompson",0,NA,NA,0,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2008,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Blue R","North Thompson",368,NA,NA,368,NA,NA,46795,"CO_04",NA
 "Co_Fraser",2008,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
@@ -17615,8 +17615,8 @@
 "Co_Fraser",2008,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2008,"Cook Cr","North Thompson",406,NA,NA,406,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2008,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2008,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
-"Co_Fraser",2008,"Dominion Cr","North Thompson",NA,NA,NA,NA,NA,NA,3445,"CO_04",NA
+"Co_Fraser",2008,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2008,"Dominion Cr","North Thompson",0,NA,NA,0,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2008,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2008,"Dunn Cr","North Thompson",914,NA,NA,914,NA,NA,46652,"CO_04",NA
 "Co_Fraser",2008,"E Barriere R","North Thompson",8,NA,NA,8,NA,NA,46612,"CO_04",NA
@@ -17626,7 +17626,7 @@
 "Co_Fraser",2008,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
 "Co_Fraser",2008,"Haggard Cr","North Thompson",2,NA,NA,2,NA,NA,46622,"CO_04",NA
-"Co_Fraser",2008,"Harper Cr","North Thompson",NA,NA,NA,NA,NA,NA,1170,"CO_04",NA
+"Co_Fraser",2008,"Harper Cr","North Thompson",0,NA,NA,0,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2008,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Lemieux Cr","North Thompson",186,NA,NA,186,NA,NA,46642,"CO_04",NA
@@ -17635,7 +17635,7 @@
 "Co_Fraser",2008,"Louis Cr","North Thompson",649,NA,NA,649,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2008,"Lyon Cr","North Thompson",179,NA,NA,179,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2008,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
-"Co_Fraser",2008,"Mann Cr","North Thompson",NA,NA,NA,NA,NA,NA,46672,"CO_04",NA
+"Co_Fraser",2008,"Mann Cr","North Thompson",0,NA,NA,0,NA,NA,46672,"CO_04",NA
 "Co_Fraser",2008,"Manteau Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Mctaggart Cr","North Thompson",NA,NA,NA,NA,NA,NA,46662,"CO_04",NA
 "Co_Fraser",2008,"Miledge Cr","North Thompson",37,NA,NA,37,NA,NA,53134,"CO_04",NA
@@ -17644,14 +17644,14 @@
 "Co_Fraser",2008,"N Thompson R (mid)","North Thompson",3,NA,NA,3,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2008,"N Thompson R (upr)","North Thompson",204,NA,NA,204,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2008,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2008,"Paul Cr","North Thompson",NA,NA,NA,NA,NA,NA,53132,"CO_04",NA
+"Co_Fraser",2008,"Paul Cr","North Thompson",0,NA,NA,0,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2008,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Peterson Cr","North Thompson",2,NA,NA,2,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2008,"Pig Channel","North Thompson",7,NA,NA,7,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2008,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Raft R","North Thompson",59,NA,NA,59,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2008,"Reg Christie Cr","North Thompson",2,NA,NA,2,NA,NA,46722,"CO_04",NA
-"Co_Fraser",2008,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
+"Co_Fraser",2008,"Saskum Cr","North Thompson",0,NA,NA,0,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2008,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2008,"Shannon Cr","North Thompson",15,NA,NA,15,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2008,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17676,17 +17676,17 @@
 "Co_Fraser",2009,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2009,"Cook Cr","North Thompson",69,NA,NA,69,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2009,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2009,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2009,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2009,"Dominion Cr","North Thompson",NA,NA,NA,NA,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2009,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2009,"Dunn Cr","North Thompson",1105,NA,NA,1105,NA,NA,46652,"CO_04",NA
-"Co_Fraser",2009,"E Barriere R","North Thompson",NA,NA,NA,NA,NA,NA,46612,"CO_04",NA
+"Co_Fraser",2009,"E Barriere R","North Thompson",0,NA,NA,0,NA,NA,46612,"CO_04",NA
 "Co_Fraser",2009,"Engineered Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Fennell Cr","North Thompson",495,NA,NA,495,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2009,"Finn Cr","North Thompson",13,NA,NA,13,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2009,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
-"Co_Fraser",2009,"Haggard Cr","North Thompson",NA,NA,NA,NA,NA,NA,46622,"CO_04",NA
+"Co_Fraser",2009,"Haggard Cr","North Thompson",0,NA,NA,0,NA,NA,46622,"CO_04",NA
 "Co_Fraser",2009,"Harper Cr","North Thompson",26,NA,NA,26,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2009,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17705,21 +17705,21 @@
 "Co_Fraser",2009,"N Thompson R (mid)","North Thompson",144,NA,NA,144,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2009,"N Thompson R (upr)","North Thompson",741,NA,NA,741,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2009,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2009,"Paul Cr","North Thompson",NA,NA,NA,NA,NA,NA,53132,"CO_04",NA
+"Co_Fraser",2009,"Paul Cr","North Thompson",0,NA,NA,0,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2009,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Peterson Cr","North Thompson",5,NA,NA,5,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2009,"Pig Channel","North Thompson",625,NA,NA,625,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2009,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Raft R","North Thompson",725,NA,NA,725,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2009,"Reg Christie Cr","North Thompson",119,NA,NA,119,NA,NA,46722,"CO_04",NA
-"Co_Fraser",2009,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
+"Co_Fraser",2009,"Saskum Cr","North Thompson",0,NA,NA,0,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2009,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Shannon Cr","North Thompson",6,NA,NA,6,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2009,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2009,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
 "Co_Fraser",2009,"Tumtum Cr","North Thompson",3,NA,NA,3,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2009,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2009,"Wire Cache Cr","North Thompson",NA,NA,NA,NA,NA,NA,46733,"CO_04",NA
+"Co_Fraser",2009,"Wire Cache Cr","North Thompson",0,NA,NA,0,NA,NA,46733,"CO_04",NA
 "Co_Fraser",2010,"Albreda R","North Thompson",829,NA,NA,829,NA,NA,46825,"CO_04",NA
 "Co_Fraser",2010,"Allan Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2010,"Avola Cr","North Thompson",111,NA,NA,111,NA,NA,46743,"CO_04",NA
@@ -17737,7 +17737,7 @@
 "Co_Fraser",2010,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2010,"Cook Cr","North Thompson",73,NA,NA,73,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2010,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2010,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2010,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2010,"Dominion Cr","North Thompson",16,NA,NA,16,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2010,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2010,"Dunn Cr","North Thompson",1717,NA,NA,1717,NA,NA,46652,"CO_04",NA
@@ -17753,7 +17753,7 @@
 "Co_Fraser",2010,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2010,"Lemieux Cr","North Thompson",958,NA,NA,958,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2010,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2010,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2010,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2010,"Louis Cr","North Thompson",978,NA,NA,978,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2010,"Lyon Cr","North Thompson",647,NA,NA,647,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2010,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
@@ -17766,7 +17766,7 @@
 "Co_Fraser",2010,"N Thompson R (mid)","North Thompson",32,NA,NA,32,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2010,"N Thompson R (upr)","North Thompson",1043,NA,NA,1043,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2010,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2010,"Paul Cr","North Thompson",NA,NA,NA,NA,NA,NA,53132,"CO_04",NA
+"Co_Fraser",2010,"Paul Cr","North Thompson",0,NA,NA,0,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2010,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2010,"Peterson Cr","North Thompson",2,NA,NA,2,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2010,"Pig Channel","North Thompson",167,NA,NA,167,NA,NA,46582,"CO_04",NA
@@ -17780,7 +17780,7 @@
 "Co_Fraser",2010,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
 "Co_Fraser",2010,"Tumtum Cr","North Thompson",12,NA,NA,12,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2010,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2010,"Wire Cache Cr","North Thompson",NA,NA,NA,NA,NA,NA,46733,"CO_04",NA
+"Co_Fraser",2010,"Wire Cache Cr","North Thompson",0,NA,NA,0,NA,NA,46733,"CO_04",NA
 "Co_Fraser",2011,"Albreda R","North Thompson",336,NA,NA,336,NA,NA,46825,"CO_04",NA
 "Co_Fraser",2011,"Allan Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Avola Cr","North Thompson",87,NA,NA,87,NA,NA,46743,"CO_04",NA
@@ -17798,7 +17798,7 @@
 "Co_Fraser",2011,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2011,"Cook Cr","North Thompson",290,NA,NA,290,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2011,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2011,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2011,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2011,"Dominion Cr","North Thompson",12,NA,NA,12,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2011,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2011,"Dunn Cr","North Thompson",1753,NA,NA,1753,NA,NA,46652,"CO_04",NA
@@ -17809,19 +17809,19 @@
 "Co_Fraser",2011,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
 "Co_Fraser",2011,"Haggard Cr","North Thompson",2,NA,NA,2,NA,NA,46622,"CO_04",NA
-"Co_Fraser",2011,"Harper Cr","North Thompson",NA,NA,NA,NA,NA,NA,1170,"CO_04",NA
+"Co_Fraser",2011,"Harper Cr","North Thompson",0,NA,NA,0,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2011,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Lemieux Cr","North Thompson",702,NA,NA,702,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2011,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2011,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2011,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2011,"Louis Cr","North Thompson",1766,NA,NA,1766,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2011,"Lyon Cr","North Thompson",743,NA,NA,743,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2011,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
 "Co_Fraser",2011,"Mann Cr","North Thompson",108,NA,NA,108,NA,NA,46672,"CO_04",NA
 "Co_Fraser",2011,"Manteau Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Mctaggart Cr","North Thompson",NA,NA,NA,NA,NA,NA,46662,"CO_04",NA
-"Co_Fraser",2011,"Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,53134,"CO_04",NA
+"Co_Fraser",2011,"Miledge Cr","North Thompson",0,NA,NA,0,NA,NA,53134,"CO_04",NA
 "Co_Fraser",2011,"Mud R","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"N Thompson R (lwr)","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"N Thompson R (mid)","North Thompson",105,NA,NA,105,NA,NA,46582,"CO_04",NA
@@ -17829,19 +17829,19 @@
 "Co_Fraser",2011,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Paul Cr","North Thompson",10,NA,NA,10,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2011,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2011,"Peterson Cr","North Thompson",NA,NA,NA,NA,NA,NA,53133,"CO_04",NA
+"Co_Fraser",2011,"Peterson Cr","North Thompson",0,NA,NA,0,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2011,"Pig Channel","North Thompson",121,NA,NA,121,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2011,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Raft R","North Thompson",223,NA,NA,223,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2011,"Reg Christie Cr","North Thompson",4,NA,NA,4,NA,NA,46722,"CO_04",NA
-"Co_Fraser",2011,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
+"Co_Fraser",2011,"Saskum Cr","North Thompson",0,NA,NA,0,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2011,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Shannon Cr","North Thompson",15,NA,NA,15,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2011,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2011,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
 "Co_Fraser",2011,"Tumtum Cr","North Thompson",20,NA,NA,20,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2011,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2011,"Wire Cache Cr","North Thompson",NA,NA,NA,NA,NA,NA,46733,"CO_04",NA
+"Co_Fraser",2011,"Wire Cache Cr","North Thompson",0,NA,NA,0,NA,NA,46733,"CO_04",NA
 "Co_Fraser",2012,"Albreda R","North Thompson",1136,NA,NA,1136,NA,NA,46825,"CO_04",NA
 "Co_Fraser",2012,"Allan Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2012,"Avola Cr","North Thompson",351,NA,NA,351,NA,NA,46743,"CO_04",NA
@@ -17863,13 +17863,13 @@
 "Co_Fraser",2012,"Dominion Cr","North Thompson",28,NA,NA,28,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2012,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2012,"Dunn Cr","North Thompson",3795,NA,NA,3795,NA,NA,46652,"CO_04",NA
-"Co_Fraser",2012,"E Barriere R","North Thompson",NA,NA,NA,NA,NA,NA,46612,"CO_04",NA
+"Co_Fraser",2012,"E Barriere R","North Thompson",0,NA,NA,0,NA,NA,46612,"CO_04",NA
 "Co_Fraser",2012,"Engineered Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2012,"Fennell Cr","North Thompson",1245,NA,NA,1245,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2012,"Finn Cr","North Thompson",21,NA,NA,21,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2012,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2012,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
-"Co_Fraser",2012,"Haggard Cr","North Thompson",NA,NA,NA,NA,NA,NA,46622,"CO_04",NA
+"Co_Fraser",2012,"Haggard Cr","North Thompson",0,NA,NA,0,NA,NA,46622,"CO_04",NA
 "Co_Fraser",2012,"Harper Cr","North Thompson",33,NA,NA,33,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2012,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2012,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17895,7 +17895,7 @@
 "Co_Fraser",2012,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2012,"Raft R","North Thompson",1614,NA,NA,1614,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2012,"Reg Christie Cr","North Thompson",66,NA,NA,66,NA,NA,46722,"CO_04",NA
-"Co_Fraser",2012,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
+"Co_Fraser",2012,"Saskum Cr","North Thompson",0,NA,NA,0,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2012,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2012,"Shannon Cr","North Thompson",58,NA,NA,58,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2012,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -17920,7 +17920,7 @@
 "Co_Fraser",2013,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2013,"Cook Cr","North Thompson",194,NA,NA,194,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2013,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2013,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2013,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2013,"Dominion Cr","North Thompson",4,NA,NA,4,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2013,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2013,"Dunn Cr","North Thompson",2877,NA,NA,2877,NA,NA,46652,"CO_04",NA
@@ -17936,7 +17936,7 @@
 "Co_Fraser",2013,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2013,"Lemieux Cr","North Thompson",2043,NA,NA,2043,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2013,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2013,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2013,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2013,"Louis Cr","North Thompson",1361,NA,NA,1361,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2013,"Lyon Cr","North Thompson",993,NA,NA,993,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2013,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
@@ -17951,26 +17951,26 @@
 "Co_Fraser",2013,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2013,"Paul Cr","North Thompson",18,NA,NA,18,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2013,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2013,"Peterson Cr","North Thompson",NA,NA,NA,NA,NA,NA,53133,"CO_04",NA
+"Co_Fraser",2013,"Peterson Cr","North Thompson",0,NA,NA,0,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2013,"Pig Channel","North Thompson",377,NA,NA,377,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2013,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2013,"Raft R","North Thompson",1301,NA,NA,1301,NA,NA,46712,"CO_04",NA
 "Co_Fraser",2013,"Reg Christie Cr","North Thompson",37,NA,NA,37,NA,NA,46722,"CO_04",NA
 "Co_Fraser",2013,"Saskum Cr","North Thompson",23,NA,NA,23,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2013,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2013,"Shannon Cr","North Thompson",NA,NA,NA,NA,NA,NA,46753,"CO_04",NA
+"Co_Fraser",2013,"Shannon Cr","North Thompson",0,NA,NA,0,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2013,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2013,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
-"Co_Fraser",2013,"Tumtum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46764,"CO_04",NA
+"Co_Fraser",2013,"Tumtum Cr","North Thompson",0,NA,NA,0,NA,NA,46764,"CO_04",NA
 "Co_Fraser",2013,"Vermelin Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2013,"Wire Cache Cr","North Thompson",NA,NA,NA,NA,NA,NA,46733,"CO_04",NA
+"Co_Fraser",2013,"Wire Cache Cr","North Thompson",0,NA,NA,0,NA,NA,46733,"CO_04",NA
 "Co_Fraser",2014,"Albreda R","North Thompson",372,NA,NA,372,NA,NA,46825,"CO_04",NA
 "Co_Fraser",2014,"Allan Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2014,"Avola Cr","North Thompson",306,NA,NA,306,NA,NA,46743,"CO_04",NA
 "Co_Fraser",2014,"Barriere R","North Thompson",84,NA,NA,84,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2014,"Barriere R (lwr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
 "Co_Fraser",2014,"Barriere R (upr)","North Thompson",NA,NA,NA,NA,NA,NA,46602,"CO_04",NA
-"Co_Fraser",2014,"Birch Island Channel","North Thompson",NA,NA,NA,NA,NA,NA,46582,"CO_04",NA
+"Co_Fraser",2014,"Birch Island Channel","North Thompson",0,NA,NA,0,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2014,"Birk Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2014,"Blue R","North Thompson",25,NA,NA,25,NA,NA,46795,"CO_04",NA
 "Co_Fraser",2014,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
@@ -17981,7 +17981,7 @@
 "Co_Fraser",2014,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2014,"Cook Cr","North Thompson",178,NA,NA,178,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2014,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2014,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2014,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2014,"Dominion Cr","North Thompson",9,NA,NA,9,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2014,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2014,"Dunn Cr","North Thompson",962,NA,NA,962,NA,NA,46652,"CO_04",NA
@@ -17997,7 +17997,7 @@
 "Co_Fraser",2014,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2014,"Lemieux Cr","North Thompson",695,NA,NA,695,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2014,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2014,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2014,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2014,"Louis Cr","North Thompson",952,NA,NA,952,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2014,"Lyon Cr","North Thompson",993,NA,NA,993,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2014,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
@@ -18010,7 +18010,7 @@
 "Co_Fraser",2014,"N Thompson R (mid)","North Thompson",12,NA,NA,12,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2014,"N Thompson R (upr)","North Thompson",69,NA,NA,69,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2014,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2014,"Paul Cr","North Thompson",NA,NA,NA,NA,NA,NA,53132,"CO_04",NA
+"Co_Fraser",2014,"Paul Cr","North Thompson",0,NA,NA,0,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2014,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2014,"Peterson Cr","North Thompson",3,NA,NA,3,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2014,"Pig Channel","North Thompson",35,NA,NA,35,NA,NA,46582,"CO_04",NA
@@ -18036,13 +18036,13 @@
 "Co_Fraser",2015,"Blue R","North Thompson",128,NA,NA,128,NA,NA,46795,"CO_04",NA
 "Co_Fraser",2015,"Brookfield Cr","North Thompson",NA,NA,NA,NA,NA,NA,46692,"CO_04",NA
 "Co_Fraser",2015,"Canvas Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2015,"Cedar Cr","North Thompson",NA,NA,NA,NA,NA,NA,46805,"CO_04",NA
+"Co_Fraser",2015,"Cedar Cr","North Thompson",0,NA,NA,0,NA,NA,46805,"CO_04",NA
 "Co_Fraser",2015,"Chappell Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2015,"Clearwater R","North Thompson",NA,NA,NA,NA,NA,NA,46682,"CO_04",NA
 "Co_Fraser",2015,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2015,"Cook Cr","North Thompson",14,NA,NA,14,NA,NA,46815,"CO_04",NA
 "Co_Fraser",2015,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2015,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2015,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2015,"Dominion Cr","North Thompson",19,NA,NA,19,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2015,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2015,"Dunn Cr","North Thompson",597,NA,NA,597,NA,NA,46652,"CO_04",NA
@@ -18058,7 +18058,7 @@
 "Co_Fraser",2015,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2015,"Lemieux Cr","North Thompson",351,NA,NA,351,NA,NA,46642,"CO_04",NA
 "Co_Fraser",2015,"Lempriere Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2015,"Lindquist Cr","North Thompson",NA,NA,NA,NA,NA,NA,53131,"CO_04",NA
+"Co_Fraser",2015,"Lindquist Cr","North Thompson",0,NA,NA,0,NA,NA,53131,"CO_04",NA
 "Co_Fraser",2015,"Louis Cr","North Thompson",59,NA,NA,59,NA,NA,46592,"CO_04",NA
 "Co_Fraser",2015,"Lyon Cr","North Thompson",288,NA,NA,288,NA,NA,46774,"CO_04",NA
 "Co_Fraser",2015,"Mahood R","North Thompson",NA,NA,NA,NA,NA,NA,46702,"CO_04",NA
@@ -18080,7 +18080,7 @@
 "Co_Fraser",2015,"Reg Christie Cr","North Thompson",7,NA,NA,7,NA,NA,46722,"CO_04",NA
 "Co_Fraser",2015,"Saskum Cr","North Thompson",NA,NA,NA,NA,NA,NA,46632,"CO_04",NA
 "Co_Fraser",2015,"Serpentine Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2015,"Shannon Cr","North Thompson",NA,NA,NA,NA,NA,NA,46753,"CO_04",NA
+"Co_Fraser",2015,"Shannon Cr","North Thompson",0,NA,NA,0,NA,NA,46753,"CO_04",NA
 "Co_Fraser",2015,"Slate Channel","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2015,"Thunder R","North Thompson",NA,NA,NA,NA,NA,NA,127,"CO_04",NA
 "Co_Fraser",2015,"Tumtum Cr","North Thompson",10,NA,NA,10,NA,NA,46764,"CO_04",NA
@@ -18113,7 +18113,7 @@
 "Co_Fraser",2016,"Finn Cr","North Thompson",41,NA,NA,41,NA,NA,46784,"CO_04",NA
 "Co_Fraser",2016,"Fishtrap Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2016,"Goose Cr","North Thompson",NA,NA,NA,NA,NA,NA,46792,"CO_04",NA
-"Co_Fraser",2016,"Haggard Cr","North Thompson",NA,NA,NA,NA,NA,NA,46622,"CO_04",NA
+"Co_Fraser",2016,"Haggard Cr","North Thompson",0,NA,NA,0,NA,NA,46622,"CO_04",NA
 "Co_Fraser",2016,"Harper Cr","North Thompson",22,NA,NA,22,NA,NA,1170,"CO_04",NA
 "Co_Fraser",2016,"Heffley Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2016,"Jamieson Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
@@ -18163,8 +18163,8 @@
 "Co_Fraser",2017,"Clearwater R","North Thompson",NA,NA,NA,NA,NA,NA,46682,"CO_04",NA
 "Co_Fraser",2017,"Clemina Cr","North Thompson",NA,NA,NA,NA,NA,NA,3073,"CO_04",NA
 "Co_Fraser",2017,"Cook Cr","North Thompson",201,NA,NA,201,NA,NA,46815,"CO_04",NA
-"Co_Fraser",2017,"Crossing Cr","North Thompson",NA,NA,NA,NA,NA,NA,46761,"CO_04",NA
-"Co_Fraser",2017,"Darlington Cr","North Thompson",NA,NA,NA,NA,NA,NA,53130,"CO_04",NA
+"Co_Fraser",2017,"Crossing Cr","North Thompson",0,NA,NA,0,NA,NA,46761,"CO_04",NA
+"Co_Fraser",2017,"Darlington Cr","North Thompson",0,NA,NA,0,NA,NA,53130,"CO_04",NA
 "Co_Fraser",2017,"Dominion Cr","North Thompson",15,NA,NA,15,NA,NA,3445,"CO_04",NA
 "Co_Fraser",2017,"Dora Cr","North Thompson",NA,NA,NA,NA,NA,NA,3072,"CO_04",NA
 "Co_Fraser",2017,"Dunn Cr","North Thompson",1426,NA,NA,1426,NA,NA,46652,"CO_04",NA
@@ -18190,12 +18190,12 @@
 "Co_Fraser",2017,"Miledge Cr","North Thompson",65,NA,NA,65,NA,NA,53134,"CO_04",NA
 "Co_Fraser",2017,"Mud R","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2017,"N Thompson R (lwr)","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2017,"N Thompson R (mid)","North Thompson",NA,NA,NA,NA,NA,NA,46582,"CO_04",NA
+"Co_Fraser",2017,"N Thompson R (mid)","North Thompson",0,NA,NA,0,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2017,"N Thompson R (upr)","North Thompson",24,NA,NA,24,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2017,"N Thompson R (upr) At Outlet Of Miledge Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2017,"Paul Cr","North Thompson",NA,NA,NA,NA,NA,NA,53132,"CO_04",NA
+"Co_Fraser",2017,"Paul Cr","North Thompson",0,NA,NA,0,NA,NA,53132,"CO_04",NA
 "Co_Fraser",2017,"Peddie Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
-"Co_Fraser",2017,"Peterson Cr","North Thompson",NA,NA,NA,NA,NA,NA,53133,"CO_04",NA
+"Co_Fraser",2017,"Peterson Cr","North Thompson",0,NA,NA,0,NA,NA,53133,"CO_04",NA
 "Co_Fraser",2017,"Pig Channel","North Thompson",236,NA,NA,236,NA,NA,46582,"CO_04",NA
 "Co_Fraser",2017,"Pyramid Cr","North Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_04",NA
 "Co_Fraser",2017,"Raft R","North Thompson",815,NA,NA,815,NA,NA,46712,"CO_04",NA
@@ -18336,7 +18336,7 @@
 "Co_Fraser",1998,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Bessette Cr","South Thompson",167,NA,NA,167,NA,NA,46542,"CO_05",NA
 "Co_Fraser",1998,"Blurton Cr","South Thompson",2,NA,NA,2,NA,NA,46461,"CO_05",NA
-"Co_Fraser",1998,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
+"Co_Fraser",1998,"Bolean Cr","South Thompson",0,NA,NA,0,NA,NA,46411,"CO_05",NA
 "Co_Fraser",1998,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Canoe Cr","South Thompson",15,NA,NA,15,NA,NA,46421,"CO_05",NA
@@ -18349,7 +18349,7 @@
 "Co_Fraser",1998,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Duteau Cr","South Thompson",41,NA,NA,41,NA,NA,46562,"CO_05",NA
 "Co_Fraser",1998,"Eagle R","South Thompson",2692,NA,NA,2692,NA,NA,46360,"CO_05",NA
-"Co_Fraser",1998,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",1998,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",1998,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Harbour Cr","South Thompson",84,NA,NA,84,NA,NA,3069,"CO_05",NA
@@ -18371,7 +18371,7 @@
 "Co_Fraser",1998,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Onyx Cr","South Thompson",1,NA,NA,1,NA,NA,46300,"CO_05",NA
 "Co_Fraser",1998,"Owlhead Cr","South Thompson",24,NA,NA,24,NA,NA,46370,"CO_05",NA
-"Co_Fraser",1998,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",1998,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"Perry R","South Thompson",11,NA,NA,11,NA,NA,133,"CO_05",NA
 "Co_Fraser",1998,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1998,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18395,16 +18395,16 @@
 "Co_Fraser",1999,"Adams R (lwr)","South Thompson",96,NA,NA,96,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Adams R (upr)","South Thompson",100,NA,NA,100,NA,NA,46250,"CO_05",NA
 "Co_Fraser",1999,"Anstey R","South Thompson",2,NA,NA,2,NA,NA,46350,"CO_05",NA
-"Co_Fraser",1999,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",1999,"Ashton Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Bessette Cr","South Thompson",39,NA,NA,39,NA,NA,46542,"CO_05",NA
 "Co_Fraser",1999,"Blurton Cr","South Thompson",6,NA,NA,6,NA,NA,46461,"CO_05",NA
-"Co_Fraser",1999,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
-"Co_Fraser",1999,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",1999,"Bolean Cr","South Thompson",0,NA,NA,0,NA,NA,46411,"CO_05",NA
+"Co_Fraser",1999,"Brash Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Canoe Cr","South Thompson",12,NA,NA,12,NA,NA,46421,"CO_05",NA
 "Co_Fraser",1999,"Cayenne Cr","South Thompson",5,NA,NA,5,NA,NA,46280,"CO_05",NA
 "Co_Fraser",1999,"Celista Cr","South Thompson",4,NA,NA,4,NA,NA,46320,"CO_05",NA
-"Co_Fraser",1999,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",1999,"Cooke Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Crazy Cr","South Thompson",1,NA,NA,1,NA,NA,806,"CO_05",NA
 "Co_Fraser",1999,"Creighton Cr","South Thompson",22,NA,NA,22,NA,NA,46552,"CO_05",NA
 "Co_Fraser",1999,"Danforth Cr (kingfisher Cr)","South Thompson",6,NA,NA,6,NA,NA,46501,"CO_05",NA
@@ -18433,7 +18433,7 @@
 "Co_Fraser",1999,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Onyx Cr","South Thompson",1,NA,NA,1,NA,NA,46300,"CO_05",NA
 "Co_Fraser",1999,"Owlhead Cr","South Thompson",1,NA,NA,1,NA,NA,46370,"CO_05",NA
-"Co_Fraser",1999,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",1999,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"Perry R","South Thompson",9,NA,NA,9,NA,NA,133,"CO_05",NA
 "Co_Fraser",1999,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",1999,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18459,8 +18459,8 @@
 "Co_Fraser",2000,"Anstey R","South Thompson",22,NA,NA,22,NA,NA,46350,"CO_05",NA
 "Co_Fraser",2000,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Bessette Cr","South Thompson",21,NA,NA,21,NA,NA,46542,"CO_05",NA
-"Co_Fraser",2000,"Blurton Cr","South Thompson",NA,NA,NA,NA,NA,NA,46461,"CO_05",NA
-"Co_Fraser",2000,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
+"Co_Fraser",2000,"Blurton Cr","South Thompson",0,NA,NA,0,NA,NA,46461,"CO_05",NA
+"Co_Fraser",2000,"Bolean Cr","South Thompson",0,NA,NA,0,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2000,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Canoe Cr","South Thompson",7,NA,NA,7,NA,NA,46421,"CO_05",NA
@@ -18473,7 +18473,7 @@
 "Co_Fraser",2000,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Duteau Cr","South Thompson",14,NA,NA,14,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2000,"Eagle R","South Thompson",1739,NA,NA,1739,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2000,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2000,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2000,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Harbour Cr","South Thompson",42,NA,NA,42,NA,NA,3069,"CO_05",NA
@@ -18494,7 +18494,7 @@
 "Co_Fraser",2000,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2000,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Onyx Cr","South Thompson",1,NA,NA,1,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2000,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2000,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2000,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2000,"Perry R","South Thompson",6,NA,NA,6,NA,NA,133,"CO_05",NA
 "Co_Fraser",2000,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18519,23 +18519,23 @@
 "Co_Fraser",2001,"Adams R (lwr)","South Thompson",129,NA,NA,129,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Adams R (upr)","South Thompson",1612,NA,NA,1612,NA,NA,46250,"CO_05",NA
 "Co_Fraser",2001,"Anstey R","South Thompson",38,NA,NA,38,NA,NA,46350,"CO_05",NA
-"Co_Fraser",2001,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2001,"Ashton Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Bessette Cr","South Thompson",48,NA,NA,48,NA,NA,46542,"CO_05",NA
 "Co_Fraser",2001,"Blurton Cr","South Thompson",6,NA,NA,6,NA,NA,46461,"CO_05",NA
 "Co_Fraser",2001,"Bolean Cr","South Thompson",58,NA,NA,58,NA,NA,46411,"CO_05",NA
-"Co_Fraser",2001,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2001,"Brash Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2001,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2001,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2001,"Cayenne Cr","South Thompson",0,NA,NA,0,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2001,"Celista Cr","South Thompson",18,NA,NA,18,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2001,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2001,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2001,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2001,"Creighton Cr","South Thompson",85,NA,NA,85,NA,NA,46552,"CO_05",NA
 "Co_Fraser",2001,"Danforth Cr (kingfisher Cr)","South Thompson",177,NA,NA,177,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2001,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Duteau Cr","South Thompson",112,NA,NA,112,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2001,"Eagle R","South Thompson",6407,NA,NA,6407,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2001,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2001,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2001,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Harbour Cr","South Thompson",253,NA,NA,253,NA,NA,3069,"CO_05",NA
@@ -18545,7 +18545,7 @@
 "Co_Fraser",2001,"Hlina Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Hunakwa Cr","South Thompson",68,NA,NA,68,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2001,"Ireland Cr","South Thompson",94,NA,NA,94,NA,NA,46532,"CO_05",NA
-"Co_Fraser",2001,"Johnson Cr","South Thompson",NA,NA,NA,NA,NA,NA,46451,"CO_05",NA
+"Co_Fraser",2001,"Johnson Cr","South Thompson",0,NA,NA,0,NA,NA,46451,"CO_05",NA
 "Co_Fraser",2001,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2001,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18556,10 +18556,10 @@
 "Co_Fraser",2001,"Noisy Cr","South Thompson",5,NA,NA,5,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2001,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Onyx Cr","South Thompson",4,NA,NA,4,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2001,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
-"Co_Fraser",2001,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2001,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2001,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Perry R","South Thompson",80,NA,NA,80,NA,NA,133,"CO_05",NA
-"Co_Fraser",2001,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2001,"Ross Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Salmon R","South Thompson",158,NA,NA,158,NA,NA,46401,"CO_05",NA
 "Co_Fraser",2001,"Scotch Cr","South Thompson",34,NA,NA,34,NA,NA,46290,"CO_05",NA
@@ -18574,7 +18574,7 @@
 "Co_Fraser",2001,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2001,"Trinity Cr","South Thompson",17,NA,NA,17,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2001,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2001,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
+"Co_Fraser",2001,"Tsuius Cr","South Thompson",0,NA,NA,0,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2001,"Wap Cr","South Thompson",556,NA,NA,556,NA,NA,46521,"CO_05",NA
 "Co_Fraser",2001,"Wright Cr","South Thompson",25,NA,NA,25,NA,NA,3217,"CO_05",NA
 "Co_Fraser",2001,"Yard Cr","South Thompson",13,NA,NA,13,NA,NA,7476,"CO_05",NA
@@ -18591,13 +18591,13 @@
 "Co_Fraser",2002,"Cayenne Cr","South Thompson",16,NA,NA,16,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2002,"Celista Cr","South Thompson",17,NA,NA,17,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2002,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2002,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2002,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2002,"Creighton Cr","South Thompson",49,NA,NA,49,NA,NA,46552,"CO_05",NA
 "Co_Fraser",2002,"Danforth Cr (kingfisher Cr)","South Thompson",2,NA,NA,2,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2002,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Duteau Cr","South Thompson",175,NA,NA,175,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2002,"Eagle R","South Thompson",6129,NA,NA,6129,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2002,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2002,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2002,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Harbour Cr","South Thompson",203,NA,NA,203,NA,NA,3069,"CO_05",NA
@@ -18608,20 +18608,20 @@
 "Co_Fraser",2002,"Hunakwa Cr","South Thompson",21,NA,NA,21,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2002,"Ireland Cr","South Thompson",34,NA,NA,34,NA,NA,46532,"CO_05",NA
 "Co_Fraser",2002,"Johnson Cr","South Thompson",6,NA,NA,6,NA,NA,46451,"CO_05",NA
-"Co_Fraser",2002,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
+"Co_Fraser",2002,"Kingfisher Cr","South Thompson",0,NA,NA,0,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2002,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2002,"Mcnomee Cr","South Thompson",346,NA,NA,346,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2002,"Momich R","South Thompson",30,NA,NA,30,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2002,"Nikwikwaia Cr","South Thompson",1,NA,NA,1,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2002,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2002,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2002,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2002,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2002,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2002,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2002,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2002,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Perry R","South Thompson",40,NA,NA,40,NA,NA,133,"CO_05",NA
-"Co_Fraser",2002,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2002,"Ross Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2002,"Salmon R","South Thompson",123,NA,NA,123,NA,NA,46401,"CO_05",NA
 "Co_Fraser",2002,"Scotch Cr","South Thompson",33,NA,NA,33,NA,NA,46290,"CO_05",NA
@@ -18642,10 +18642,10 @@
 "Co_Fraser",2002,"Yard Cr","South Thompson",5,NA,NA,5,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2003,"Adams R (lwr)","South Thompson",83,NA,NA,83,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Adams R (upr)","South Thompson",357,NA,NA,357,NA,NA,46250,"CO_05",NA
-"Co_Fraser",2003,"Anstey R","South Thompson",NA,NA,NA,NA,NA,NA,46350,"CO_05",NA
+"Co_Fraser",2003,"Anstey R","South Thompson",0,NA,NA,0,NA,NA,46350,"CO_05",NA
 "Co_Fraser",2003,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Bessette Cr","South Thompson",78,NA,NA,78,NA,NA,46542,"CO_05",NA
-"Co_Fraser",2003,"Blurton Cr","South Thompson",NA,NA,NA,NA,NA,NA,46461,"CO_05",NA
+"Co_Fraser",2003,"Blurton Cr","South Thompson",0,NA,NA,0,NA,NA,46461,"CO_05",NA
 "Co_Fraser",2003,"Bolean Cr","South Thompson",15,NA,NA,15,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2003,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18653,37 +18653,37 @@
 "Co_Fraser",2003,"Cayenne Cr","South Thompson",5,NA,NA,5,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2003,"Celista Cr","South Thompson",6,NA,NA,6,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2003,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2003,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2003,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2003,"Creighton Cr","South Thompson",24,NA,NA,24,NA,NA,46552,"CO_05",NA
-"Co_Fraser",2003,"Danforth Cr (kingfisher Cr)","South Thompson",NA,NA,NA,NA,NA,NA,46501,"CO_05",NA
+"Co_Fraser",2003,"Danforth Cr (kingfisher Cr)","South Thompson",0,NA,NA,0,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2003,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Duteau Cr","South Thompson",19,NA,NA,19,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2003,"Eagle R","South Thompson",1255,NA,NA,1255,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2003,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2003,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2003,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Harbour Cr","South Thompson",544,NA,NA,544,NA,NA,3069,"CO_05",NA
-"Co_Fraser",2003,"Harris Cr","South Thompson",NA,NA,NA,NA,NA,NA,46572,"CO_05",NA
+"Co_Fraser",2003,"Harris Cr","South Thompson",0,NA,NA,0,NA,NA,46572,"CO_05",NA
 "Co_Fraser",2003,"Hemlock Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Hiuihill Cr","South Thompson",18,NA,NA,18,NA,NA,132,"CO_05",NA
 "Co_Fraser",2003,"Hlina Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Hunakwa Cr","South Thompson",9,NA,NA,9,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2003,"Ireland Cr","South Thompson",15,NA,NA,15,NA,NA,46532,"CO_05",NA
 "Co_Fraser",2003,"Johnson Cr","South Thompson",3,NA,NA,3,NA,NA,46451,"CO_05",NA
-"Co_Fraser",2003,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
+"Co_Fraser",2003,"Kingfisher Cr","South Thompson",0,NA,NA,0,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2003,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2003,"Mcnomee Cr","South Thompson",58,NA,NA,58,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2003,"Momich R","South Thompson",103,NA,NA,103,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2003,"Nikwikwaia Cr","South Thompson",3,NA,NA,3,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2003,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2003,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2003,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2003,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2003,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
 "Co_Fraser",2003,"Owlhead Cr","South Thompson",1,NA,NA,1,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2003,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Perry R","South Thompson",8,NA,NA,8,NA,NA,133,"CO_05",NA
-"Co_Fraser",2003,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2003,"Ross Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2003,"Salmon R","South Thompson",18,NA,NA,18,NA,NA,46401,"CO_05",NA
 "Co_Fraser",2003,"Scotch Cr","South Thompson",21,NA,NA,21,NA,NA,46290,"CO_05",NA
@@ -18721,7 +18721,7 @@
 "Co_Fraser",2004,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Duteau Cr","South Thompson",370,NA,NA,370,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2004,"Eagle R","South Thompson",5422,NA,NA,5422,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2004,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2004,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2004,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Harbour Cr","South Thompson",155,NA,NA,155,NA,NA,3069,"CO_05",NA
@@ -18732,17 +18732,17 @@
 "Co_Fraser",2004,"Hunakwa Cr","South Thompson",92,NA,NA,92,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2004,"Ireland Cr","South Thompson",92,NA,NA,92,NA,NA,46532,"CO_05",NA
 "Co_Fraser",2004,"Johnson Cr","South Thompson",17,NA,NA,17,NA,NA,46451,"CO_05",NA
-"Co_Fraser",2004,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
+"Co_Fraser",2004,"Kingfisher Cr","South Thompson",0,NA,NA,0,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2004,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2004,"Mcnomee Cr","South Thompson",173,NA,NA,173,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2004,"Momich R","South Thompson",128,NA,NA,128,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2004,"Nikwikwaia Cr","South Thompson",12,NA,NA,12,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2004,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2004,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2004,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2004,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2004,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2004,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2004,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2004,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Perry R","South Thompson",16,NA,NA,16,NA,NA,133,"CO_05",NA
 "Co_Fraser",2004,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18756,7 +18756,7 @@
 "Co_Fraser",2004,"Sinmax Cr","South Thompson",30,NA,NA,30,NA,NA,46260,"CO_05",NA
 "Co_Fraser",2004,"South Pass Cr","South Thompson",30,NA,NA,30,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2004,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2004,"Tappen Cr","South Thompson",NA,NA,NA,NA,NA,NA,46391,"CO_05",NA
+"Co_Fraser",2004,"Tappen Cr","South Thompson",0,NA,NA,0,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2004,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2004,"Trinity Cr","South Thompson",19,NA,NA,19,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2004,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18769,11 +18769,11 @@
 "Co_Fraser",2005,"Anstey R","South Thompson",6,NA,NA,6,NA,NA,46350,"CO_05",NA
 "Co_Fraser",2005,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2005,"Bessette Cr","South Thompson",15,NA,NA,15,NA,NA,46542,"CO_05",NA
-"Co_Fraser",2005,"Blurton Cr","South Thompson",NA,NA,NA,NA,NA,NA,46461,"CO_05",NA
+"Co_Fraser",2005,"Blurton Cr","South Thompson",0,NA,NA,0,NA,NA,46461,"CO_05",NA
 "Co_Fraser",2005,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2005,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2005,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2005,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2005,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2005,"Cayenne Cr","South Thompson",0,NA,NA,0,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2005,"Celista Cr","South Thompson",23,NA,NA,23,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2005,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18789,11 +18789,11 @@
 "Co_Fraser",2005,"Harbour Cr","South Thompson",13,NA,NA,13,NA,NA,3069,"CO_05",NA
 "Co_Fraser",2005,"Harris Cr","South Thompson",54,NA,NA,54,NA,NA,46572,"CO_05",NA
 "Co_Fraser",2005,"Hemlock Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2005,"Hiuihill Cr","South Thompson",NA,NA,NA,NA,NA,NA,132,"CO_05",NA
+"Co_Fraser",2005,"Hiuihill Cr","South Thompson",0,NA,NA,0,NA,NA,132,"CO_05",NA
 "Co_Fraser",2005,"Hlina Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2005,"Hunakwa Cr","South Thompson",26,NA,NA,26,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2005,"Ireland Cr","South Thompson",28,NA,NA,28,NA,NA,46532,"CO_05",NA
-"Co_Fraser",2005,"Johnson Cr","South Thompson",NA,NA,NA,NA,NA,NA,46451,"CO_05",NA
+"Co_Fraser",2005,"Johnson Cr","South Thompson",0,NA,NA,0,NA,NA,46451,"CO_05",NA
 "Co_Fraser",2005,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2005,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2005,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18818,7 +18818,7 @@
 "Co_Fraser",2005,"Sinmax Cr","South Thompson",23,NA,NA,23,NA,NA,46260,"CO_05",NA
 "Co_Fraser",2005,"South Pass Cr","South Thompson",5,NA,NA,5,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2005,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2005,"Tappen Cr","South Thompson",NA,NA,NA,NA,NA,NA,46391,"CO_05",NA
+"Co_Fraser",2005,"Tappen Cr","South Thompson",0,NA,NA,0,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2005,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2005,"Trinity Cr","South Thompson",5,NA,NA,5,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2005,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18831,21 +18831,21 @@
 "Co_Fraser",2006,"Anstey R","South Thompson",3,NA,NA,3,NA,NA,46350,"CO_05",NA
 "Co_Fraser",2006,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Bessette Cr","South Thompson",21,NA,NA,21,NA,NA,46542,"CO_05",NA
-"Co_Fraser",2006,"Blurton Cr","South Thompson",NA,NA,NA,NA,NA,NA,46461,"CO_05",NA
+"Co_Fraser",2006,"Blurton Cr","South Thompson",0,NA,NA,0,NA,NA,46461,"CO_05",NA
 "Co_Fraser",2006,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2006,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Canoe Cr","South Thompson",7,NA,NA,7,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2006,"Cayenne Cr","South Thompson",8,NA,NA,8,NA,NA,46280,"CO_05",NA
-"Co_Fraser",2006,"Celista Cr","South Thompson",NA,NA,NA,NA,NA,NA,46320,"CO_05",NA
+"Co_Fraser",2006,"Celista Cr","South Thompson",0,NA,NA,0,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2006,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Crazy Cr","South Thompson",1,NA,NA,1,NA,NA,806,"CO_05",NA
-"Co_Fraser",2006,"Creighton Cr","South Thompson",NA,NA,NA,NA,NA,NA,46552,"CO_05",NA
-"Co_Fraser",2006,"Danforth Cr (kingfisher Cr)","South Thompson",NA,NA,NA,NA,NA,NA,46501,"CO_05",NA
+"Co_Fraser",2006,"Creighton Cr","South Thompson",0,NA,NA,0,NA,NA,46552,"CO_05",NA
+"Co_Fraser",2006,"Danforth Cr (kingfisher Cr)","South Thompson",0,NA,NA,0,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2006,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Duteau Cr","South Thompson",26,NA,NA,26,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2006,"Eagle R","South Thompson",591,NA,NA,591,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2006,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2006,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2006,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Harbour Cr","South Thompson",20,NA,NA,20,NA,NA,3069,"CO_05",NA
@@ -18863,16 +18863,16 @@
 "Co_Fraser",2006,"Mcnomee Cr","South Thompson",5,NA,NA,5,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2006,"Momich R","South Thompson",55,NA,NA,55,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2006,"Nikwikwaia Cr","South Thompson",10,NA,NA,10,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2006,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2006,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2006,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Onyx Cr","South Thompson",1,NA,NA,1,NA,NA,46300,"CO_05",NA
 "Co_Fraser",2006,"Owlhead Cr","South Thompson",1,NA,NA,1,NA,NA,46370,"CO_05",NA
-"Co_Fraser",2006,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2006,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Perry R","South Thompson",5,NA,NA,5,NA,NA,133,"CO_05",NA
 "Co_Fraser",2006,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Salmon R","South Thompson",11,NA,NA,11,NA,NA,46401,"CO_05",NA
-"Co_Fraser",2006,"Scotch Cr","South Thompson",NA,NA,NA,NA,NA,NA,46290,"CO_05",NA
+"Co_Fraser",2006,"Scotch Cr","South Thompson",0,NA,NA,0,NA,NA,46290,"CO_05",NA
 "Co_Fraser",2006,"Senn Cr","South Thompson",59,NA,NA,59,NA,NA,3074,"CO_05",NA
 "Co_Fraser",2006,"Seymour R","South Thompson",45,NA,NA,45,NA,NA,46330,"CO_05",NA
 "Co_Fraser",2006,"Shuswap R (lwr)","South Thompson",429,NA,NA,429,NA,NA,46431,"CO_05",NA
@@ -18882,11 +18882,11 @@
 "Co_Fraser",2006,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Tappen Cr","South Thompson",3,NA,NA,3,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2006,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2006,"Trinity Cr","South Thompson",NA,NA,NA,NA,NA,NA,46481,"CO_05",NA
+"Co_Fraser",2006,"Trinity Cr","South Thompson",0,NA,NA,0,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2006,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2006,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2006,"Wap Cr","South Thompson",45,NA,NA,45,NA,NA,46521,"CO_05",NA
-"Co_Fraser",2006,"Wright Cr","South Thompson",NA,NA,NA,NA,NA,NA,3217,"CO_05",NA
+"Co_Fraser",2006,"Wright Cr","South Thompson",0,NA,NA,0,NA,NA,3217,"CO_05",NA
 "Co_Fraser",2006,"Yard Cr","South Thompson",2,NA,NA,2,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2007,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Adams R (upr)","South Thompson",2523,NA,NA,2523,NA,NA,46250,"CO_05",NA
@@ -18907,7 +18907,7 @@
 "Co_Fraser",2007,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Duteau Cr","South Thompson",363,NA,NA,363,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2007,"Eagle R","South Thompson",3310,NA,NA,3310,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2007,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2007,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2007,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Harbour Cr","South Thompson",589,NA,NA,589,NA,NA,3069,"CO_05",NA
@@ -18924,12 +18924,12 @@
 "Co_Fraser",2007,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2007,"Mcnomee Cr","South Thompson",46,NA,NA,46,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2007,"Momich R","South Thompson",43,NA,NA,43,NA,NA,46270,"CO_05",NA
-"Co_Fraser",2007,"Nikwikwaia Cr","South Thompson",NA,NA,NA,NA,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2007,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2007,"Nikwikwaia Cr","South Thompson",0,NA,NA,0,NA,NA,3071,"CO_05",NA
+"Co_Fraser",2007,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2007,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Onyx Cr","South Thompson",7,NA,NA,7,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2007,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
-"Co_Fraser",2007,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2007,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2007,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Perry R","South Thompson",30,NA,NA,30,NA,NA,133,"CO_05",NA
 "Co_Fraser",2007,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -18942,14 +18942,14 @@
 "Co_Fraser",2007,"Sinmax Cr","South Thompson",18,NA,NA,18,NA,NA,46260,"CO_05",NA
 "Co_Fraser",2007,"South Pass Cr","South Thompson",17,NA,NA,17,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2007,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2007,"Tappen Cr","South Thompson",NA,NA,NA,NA,NA,NA,46391,"CO_05",NA
+"Co_Fraser",2007,"Tappen Cr","South Thompson",0,NA,NA,0,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2007,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Trinity Cr","South Thompson",5,NA,NA,5,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2007,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2007,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2007,"Wap Cr","South Thompson",570,NA,NA,570,NA,NA,46521,"CO_05",NA
 "Co_Fraser",2007,"Wright Cr","South Thompson",6,NA,NA,6,NA,NA,3217,"CO_05",NA
-"Co_Fraser",2007,"Yard Cr","South Thompson",NA,NA,NA,NA,NA,NA,7476,"CO_05",NA
+"Co_Fraser",2007,"Yard Cr","South Thompson",0,NA,NA,0,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2008,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Adams R (upr)","South Thompson",132,NA,NA,132,NA,NA,46250,"CO_05",NA
 "Co_Fraser",2008,"Anstey R","South Thompson",10,NA,NA,10,NA,NA,46350,"CO_05",NA
@@ -18961,7 +18961,7 @@
 "Co_Fraser",2008,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Canoe Cr","South Thompson",146,NA,NA,146,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2008,"Cayenne Cr","South Thompson",19,NA,NA,19,NA,NA,46280,"CO_05",NA
-"Co_Fraser",2008,"Celista Cr","South Thompson",NA,NA,NA,NA,NA,NA,46320,"CO_05",NA
+"Co_Fraser",2008,"Celista Cr","South Thompson",0,NA,NA,0,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2008,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Crazy Cr","South Thompson",2,NA,NA,2,NA,NA,806,"CO_05",NA
 "Co_Fraser",2008,"Creighton Cr","South Thompson",12,NA,NA,12,NA,NA,46552,"CO_05",NA
@@ -18969,7 +18969,7 @@
 "Co_Fraser",2008,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Duteau Cr","South Thompson",73,NA,NA,73,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2008,"Eagle R","South Thompson",1025,NA,NA,1025,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2008,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2008,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2008,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Harbour Cr","South Thompson",10,NA,NA,10,NA,NA,3069,"CO_05",NA
@@ -18987,11 +18987,11 @@
 "Co_Fraser",2008,"Mcnomee Cr","South Thompson",33,NA,NA,33,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2008,"Momich R","South Thompson",10,NA,NA,10,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2008,"Nikwikwaia Cr","South Thompson",3,NA,NA,3,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2008,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2008,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2008,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2008,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2008,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
-"Co_Fraser",2008,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2008,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2008,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2008,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Perry R","South Thompson",13,NA,NA,13,NA,NA,133,"CO_05",NA
 "Co_Fraser",2008,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19002,11 +19002,11 @@
 "Co_Fraser",2008,"Shuswap R (lwr)","South Thompson",2238,NA,NA,2238,NA,NA,46431,"CO_05",NA
 "Co_Fraser",2008,"Shuswap R (mid)","South Thompson",988,NA,NA,988,NA,NA,46441,"CO_05",NA
 "Co_Fraser",2008,"Sinmax Cr","South Thompson",16,NA,NA,16,NA,NA,46260,"CO_05",NA
-"Co_Fraser",2008,"South Pass Cr","South Thompson",NA,NA,NA,NA,NA,NA,46380,"CO_05",NA
+"Co_Fraser",2008,"South Pass Cr","South Thompson",0,NA,NA,0,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2008,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Tappen Cr","South Thompson",8,NA,NA,8,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2008,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2008,"Trinity Cr","South Thompson",NA,NA,NA,NA,NA,NA,46481,"CO_05",NA
+"Co_Fraser",2008,"Trinity Cr","South Thompson",0,NA,NA,0,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2008,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2008,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2008,"Wap Cr","South Thompson",798,NA,NA,798,NA,NA,46521,"CO_05",NA
@@ -19023,9 +19023,9 @@
 "Co_Fraser",2009,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2009,"Canoe Cr","South Thompson",13,NA,NA,13,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2009,"Cayenne Cr","South Thompson",16,NA,NA,16,NA,NA,46280,"CO_05",NA
-"Co_Fraser",2009,"Celista Cr","South Thompson",NA,NA,NA,NA,NA,NA,46320,"CO_05",NA
+"Co_Fraser",2009,"Celista Cr","South Thompson",0,NA,NA,0,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2009,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2009,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2009,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2009,"Creighton Cr","South Thompson",33,NA,NA,33,NA,NA,46552,"CO_05",NA
 "Co_Fraser",2009,"Danforth Cr (kingfisher Cr)","South Thompson",26,NA,NA,26,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2009,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19052,28 +19052,28 @@
 "Co_Fraser",2009,"Noisy Cr","South Thompson",1,NA,NA,1,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2009,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2009,"Onyx Cr","South Thompson",1,NA,NA,1,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2009,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2009,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2009,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2009,"Perry R","South Thompson",NA,NA,NA,NA,NA,NA,133,"CO_05",NA
+"Co_Fraser",2009,"Perry R","South Thompson",0,NA,NA,0,NA,NA,133,"CO_05",NA
 "Co_Fraser",2009,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2009,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2009,"Salmon R","South Thompson",24,NA,NA,24,NA,NA,46401,"CO_05",NA
 "Co_Fraser",2009,"Scotch Cr","South Thompson",16,NA,NA,16,NA,NA,46290,"CO_05",NA
-"Co_Fraser",2009,"Senn Cr","South Thompson",NA,NA,NA,NA,NA,NA,3074,"CO_05",NA
+"Co_Fraser",2009,"Senn Cr","South Thompson",0,NA,NA,0,NA,NA,3074,"CO_05",NA
 "Co_Fraser",2009,"Seymour R","South Thompson",5,NA,NA,5,NA,NA,46330,"CO_05",NA
 "Co_Fraser",2009,"Shuswap R (lwr)","South Thompson",168,NA,NA,168,NA,NA,46431,"CO_05",NA
 "Co_Fraser",2009,"Shuswap R (mid)","South Thompson",462,NA,NA,462,NA,NA,46441,"CO_05",NA
 "Co_Fraser",2009,"Sinmax Cr","South Thompson",83,NA,NA,83,NA,NA,46260,"CO_05",NA
 "Co_Fraser",2009,"South Pass Cr","South Thompson",27,NA,NA,27,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2009,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2009,"Tappen Cr","South Thompson",NA,NA,NA,NA,NA,NA,46391,"CO_05",NA
+"Co_Fraser",2009,"Tappen Cr","South Thompson",0,NA,NA,0,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2009,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2009,"Trinity Cr","South Thompson",4,NA,NA,4,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2009,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2009,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2009,"Wap Cr","South Thompson",444,NA,NA,444,NA,NA,46521,"CO_05",NA
 "Co_Fraser",2009,"Wright Cr","South Thompson",2,NA,NA,2,NA,NA,3217,"CO_05",NA
-"Co_Fraser",2009,"Yard Cr","South Thompson",NA,NA,NA,NA,NA,NA,7476,"CO_05",NA
+"Co_Fraser",2009,"Yard Cr","South Thompson",0,NA,NA,0,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2010,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2010,"Adams R (upr)","South Thompson",1863,NA,NA,1863,NA,NA,46250,"CO_05",NA
 "Co_Fraser",2010,"Anstey R","South Thompson",6,NA,NA,6,NA,NA,46350,"CO_05",NA
@@ -19113,9 +19113,9 @@
 "Co_Fraser",2010,"Nikwikwaia Cr","South Thompson",8,NA,NA,8,NA,NA,3071,"CO_05",NA
 "Co_Fraser",2010,"Noisy Cr","South Thompson",1,NA,NA,1,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2010,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2010,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2010,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
-"Co_Fraser",2010,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2010,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2010,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2010,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2010,"Perry R","South Thompson",13,NA,NA,13,NA,NA,133,"CO_05",NA
 "Co_Fraser",2010,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2010,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19129,7 +19129,7 @@
 "Co_Fraser",2010,"South Pass Cr","South Thompson",26,NA,NA,26,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2010,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2010,"Tappen Cr","South Thompson",4,NA,NA,4,NA,NA,46391,"CO_05",NA
-"Co_Fraser",2010,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2010,"Teto Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2010,"Trinity Cr","South Thompson",9,NA,NA,9,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2010,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2010,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
@@ -19147,9 +19147,9 @@
 "Co_Fraser",2011,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2011,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2011,"Cayenne Cr","South Thompson",7,NA,NA,7,NA,NA,46280,"CO_05",NA
-"Co_Fraser",2011,"Celista Cr","South Thompson",NA,NA,NA,NA,NA,NA,46320,"CO_05",NA
+"Co_Fraser",2011,"Celista Cr","South Thompson",0,NA,NA,0,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2011,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2011,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2011,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2011,"Creighton Cr","South Thompson",48,NA,NA,48,NA,NA,46552,"CO_05",NA
 "Co_Fraser",2011,"Danforth Cr (kingfisher Cr)","South Thompson",109,NA,NA,109,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2011,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19169,16 +19169,16 @@
 "Co_Fraser",2011,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2011,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2011,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2011,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
-"Co_Fraser",2011,"Mcnomee Cr","South Thompson",NA,NA,NA,NA,NA,NA,45016,"CO_05",NA
+"Co_Fraser",2011,"Loftus Cr","South Thompson",0,NA,NA,0,NA,NA,7475,"CO_05",NA
+"Co_Fraser",2011,"Mcnomee Cr","South Thompson",0,NA,NA,0,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2011,"Momich R","South Thompson",23,NA,NA,23,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2011,"Nikwikwaia Cr","South Thompson",7,NA,NA,7,NA,NA,3071,"CO_05",NA
 "Co_Fraser",2011,"Noisy Cr","South Thompson",1,NA,NA,1,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2011,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2011,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2011,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
 "Co_Fraser",2011,"Owlhead Cr","South Thompson",2,NA,NA,2,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2011,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2011,"Perry R","South Thompson",NA,NA,NA,NA,NA,NA,133,"CO_05",NA
+"Co_Fraser",2011,"Perry R","South Thompson",0,NA,NA,0,NA,NA,133,"CO_05",NA
 "Co_Fraser",2011,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2011,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2011,"Salmon R","South Thompson",720,NA,NA,720,NA,NA,46401,"CO_05",NA
@@ -19196,7 +19196,7 @@
 "Co_Fraser",2011,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2011,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2011,"Wap Cr","South Thompson",138,NA,NA,138,NA,NA,46521,"CO_05",NA
-"Co_Fraser",2011,"Wright Cr","South Thompson",NA,NA,NA,NA,NA,NA,3217,"CO_05",NA
+"Co_Fraser",2011,"Wright Cr","South Thompson",0,NA,NA,0,NA,NA,3217,"CO_05",NA
 "Co_Fraser",2011,"Yard Cr","South Thompson",4,NA,NA,4,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2012,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"Adams R (upr)","South Thompson",1371,NA,NA,1371,NA,NA,46250,"CO_05",NA
@@ -19207,7 +19207,7 @@
 "Co_Fraser",2012,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2012,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2012,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2012,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2012,"Cayenne Cr","South Thompson",27,NA,NA,27,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2012,"Celista Cr","South Thompson",5,NA,NA,5,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2012,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19231,15 +19231,15 @@
 "Co_Fraser",2012,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2012,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2012,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
+"Co_Fraser",2012,"Loftus Cr","South Thompson",0,NA,NA,0,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2012,"Mcnomee Cr","South Thompson",72,NA,NA,72,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2012,"Momich R","South Thompson",52,NA,NA,52,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2012,"Nikwikwaia Cr","South Thompson",18,NA,NA,18,NA,NA,3071,"CO_05",NA
 "Co_Fraser",2012,"Noisy Cr","South Thompson",2,NA,NA,2,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2012,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2012,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2012,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
 "Co_Fraser",2012,"Owlhead Cr","South Thompson",7,NA,NA,7,NA,NA,46370,"CO_05",NA
-"Co_Fraser",2012,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2012,"Palmer Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"Perry R","South Thompson",8,NA,NA,8,NA,NA,133,"CO_05",NA
 "Co_Fraser",2012,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19252,13 +19252,13 @@
 "Co_Fraser",2012,"Sinmax Cr","South Thompson",138,NA,NA,138,NA,NA,46260,"CO_05",NA
 "Co_Fraser",2012,"South Pass Cr","South Thompson",18,NA,NA,18,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2012,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2012,"Tappen Cr","South Thompson",NA,NA,NA,NA,NA,NA,46391,"CO_05",NA
+"Co_Fraser",2012,"Tappen Cr","South Thompson",0,NA,NA,0,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2012,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"Trinity Cr","South Thompson",13,NA,NA,13,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2012,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2012,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2012,"Wap Cr","South Thompson",2898,NA,NA,2898,NA,NA,46521,"CO_05",NA
-"Co_Fraser",2012,"Wright Cr","South Thompson",NA,NA,NA,NA,NA,NA,3217,"CO_05",NA
+"Co_Fraser",2012,"Wright Cr","South Thompson",0,NA,NA,0,NA,NA,3217,"CO_05",NA
 "Co_Fraser",2012,"Yard Cr","South Thompson",27,NA,NA,27,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2013,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Adams R (upr)","South Thompson",2130,NA,NA,2130,NA,NA,46250,"CO_05",NA
@@ -19269,17 +19269,17 @@
 "Co_Fraser",2013,"Bolean Cr","South Thompson",0,NA,NA,0,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2013,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2013,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2013,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2013,"Cayenne Cr","South Thompson",9,NA,NA,9,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2013,"Celista Cr","South Thompson",32,NA,NA,32,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2013,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2013,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2013,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2013,"Creighton Cr","South Thompson",49,NA,NA,49,NA,NA,46552,"CO_05",NA
 "Co_Fraser",2013,"Danforth Cr (kingfisher Cr)","South Thompson",168,NA,NA,168,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2013,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Duteau Cr","South Thompson",362,NA,NA,362,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2013,"Eagle R","South Thompson",2374,NA,NA,2374,NA,NA,46360,"CO_05",NA
-"Co_Fraser",2013,"Fortune Cr","South Thompson",NA,NA,NA,NA,NA,NA,46471,"CO_05",NA
+"Co_Fraser",2013,"Fortune Cr","South Thompson",0,NA,NA,0,NA,NA,46471,"CO_05",NA
 "Co_Fraser",2013,"Gold Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Gollen Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Harbour Cr","South Thompson",96,NA,NA,96,NA,NA,3069,"CO_05",NA
@@ -19293,14 +19293,14 @@
 "Co_Fraser",2013,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2013,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2013,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
+"Co_Fraser",2013,"Loftus Cr","South Thompson",0,NA,NA,0,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2013,"Mcnomee Cr","South Thompson",56,NA,NA,56,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2013,"Momich R","South Thompson",35,NA,NA,35,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2013,"Nikwikwaia Cr","South Thompson",9,NA,NA,9,NA,NA,3071,"CO_05",NA
 "Co_Fraser",2013,"Noisy Cr","South Thompson",2,NA,NA,2,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2013,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Onyx Cr","South Thompson",8,NA,NA,8,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2013,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2013,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2013,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Perry R","South Thompson",8,NA,NA,8,NA,NA,133,"CO_05",NA
 "Co_Fraser",2013,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19315,27 +19315,27 @@
 "Co_Fraser",2013,"South Pass Cr","South Thompson",24,NA,NA,24,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2013,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Tappen Cr","South Thompson",17,NA,NA,17,NA,NA,46391,"CO_05",NA
-"Co_Fraser",2013,"Teto Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2013,"Teto Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Trinity Cr","South Thompson",13,NA,NA,13,NA,NA,46481,"CO_05",NA
 "Co_Fraser",2013,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2013,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2013,"Wap Cr","South Thompson",721,NA,NA,721,NA,NA,46521,"CO_05",NA
-"Co_Fraser",2013,"Wright Cr","South Thompson",NA,NA,NA,NA,NA,NA,3217,"CO_05",NA
+"Co_Fraser",2013,"Wright Cr","South Thompson",0,NA,NA,0,NA,NA,3217,"CO_05",NA
 "Co_Fraser",2013,"Yard Cr","South Thompson",5,NA,NA,5,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2014,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2014,"Adams R (upr)","South Thompson",252,NA,NA,252,NA,NA,46250,"CO_05",NA
-"Co_Fraser",2014,"Anstey R","South Thompson",NA,NA,NA,NA,NA,NA,46350,"CO_05",NA
+"Co_Fraser",2014,"Anstey R","South Thompson",0,NA,NA,0,NA,NA,46350,"CO_05",NA
 "Co_Fraser",2014,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2014,"Bessette Cr","South Thompson",17,NA,NA,17,NA,NA,46542,"CO_05",NA
 "Co_Fraser",2014,"Blurton Cr","South Thompson",1,NA,NA,1,NA,NA,46461,"CO_05",NA
 "Co_Fraser",2014,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2014,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2014,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2014,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2014,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2014,"Cayenne Cr","South Thompson",6,NA,NA,6,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2014,"Celista Cr","South Thompson",25,NA,NA,25,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2014,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2014,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2014,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2014,"Creighton Cr","South Thompson",35,NA,NA,35,NA,NA,46552,"CO_05",NA
 "Co_Fraser",2014,"Danforth Cr (kingfisher Cr)","South Thompson",14,NA,NA,14,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2014,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19355,11 +19355,11 @@
 "Co_Fraser",2014,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2014,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2014,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2014,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
+"Co_Fraser",2014,"Loftus Cr","South Thompson",0,NA,NA,0,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2014,"Mcnomee Cr","South Thompson",14,NA,NA,14,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2014,"Momich R","South Thompson",9,NA,NA,9,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2014,"Nikwikwaia Cr","South Thompson",3,NA,NA,3,NA,NA,3071,"CO_05",NA
-"Co_Fraser",2014,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
+"Co_Fraser",2014,"Noisy Cr","South Thompson",0,NA,NA,0,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2014,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2014,"Onyx Cr","South Thompson",3,NA,NA,3,NA,NA,46300,"CO_05",NA
 "Co_Fraser",2014,"Owlhead Cr","South Thompson",6,NA,NA,6,NA,NA,46370,"CO_05",NA
@@ -19374,7 +19374,7 @@
 "Co_Fraser",2014,"Shuswap R (lwr)","South Thompson",81,NA,NA,81,NA,NA,46431,"CO_05",NA
 "Co_Fraser",2014,"Shuswap R (mid)","South Thompson",111,NA,NA,111,NA,NA,46441,"CO_05",NA
 "Co_Fraser",2014,"Sinmax Cr","South Thompson",34,NA,NA,34,NA,NA,46260,"CO_05",NA
-"Co_Fraser",2014,"South Pass Cr","South Thompson",NA,NA,NA,NA,NA,NA,46380,"CO_05",NA
+"Co_Fraser",2014,"South Pass Cr","South Thompson",0,NA,NA,0,NA,NA,46380,"CO_05",NA
 "Co_Fraser",2014,"Sunset Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2014,"Tappen Cr","South Thompson",17,NA,NA,17,NA,NA,46391,"CO_05",NA
 "Co_Fraser",2014,"Teto Cr","South Thompson",3,NA,NA,3,NA,NA,NA,"CO_05",NA
@@ -19383,10 +19383,10 @@
 "Co_Fraser",2014,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2014,"Wap Cr","South Thompson",33,NA,NA,33,NA,NA,46521,"CO_05",NA
 "Co_Fraser",2014,"Wright Cr","South Thompson",6,NA,NA,6,NA,NA,3217,"CO_05",NA
-"Co_Fraser",2014,"Yard Cr","South Thompson",NA,NA,NA,NA,NA,NA,7476,"CO_05",NA
+"Co_Fraser",2014,"Yard Cr","South Thompson",0,NA,NA,0,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2015,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Adams R (upr)","South Thompson",96,NA,NA,96,NA,NA,46250,"CO_05",NA
-"Co_Fraser",2015,"Anstey R","South Thompson",NA,NA,NA,NA,NA,NA,46350,"CO_05",NA
+"Co_Fraser",2015,"Anstey R","South Thompson",0,NA,NA,0,NA,NA,46350,"CO_05",NA
 "Co_Fraser",2015,"Ashton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Bessette Cr","South Thompson",12,NA,NA,12,NA,NA,46542,"CO_05",NA
 "Co_Fraser",2015,"Blurton Cr","South Thompson",NA,NA,NA,NA,NA,NA,46461,"CO_05",NA
@@ -19397,9 +19397,9 @@
 "Co_Fraser",2015,"Cayenne Cr","South Thompson",8,NA,NA,8,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2015,"Celista Cr","South Thompson",2,NA,NA,2,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2015,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2015,"Crazy Cr","South Thompson",NA,NA,NA,NA,NA,NA,806,"CO_05",NA
+"Co_Fraser",2015,"Crazy Cr","South Thompson",0,NA,NA,0,NA,NA,806,"CO_05",NA
 "Co_Fraser",2015,"Creighton Cr","South Thompson",16,NA,NA,16,NA,NA,46552,"CO_05",NA
-"Co_Fraser",2015,"Danforth Cr (kingfisher Cr)","South Thompson",NA,NA,NA,NA,NA,NA,46501,"CO_05",NA
+"Co_Fraser",2015,"Danforth Cr (kingfisher Cr)","South Thompson",0,NA,NA,0,NA,NA,46501,"CO_05",NA
 "Co_Fraser",2015,"Dudgeon Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Duteau Cr","South Thompson",13,NA,NA,13,NA,NA,46562,"CO_05",NA
 "Co_Fraser",2015,"Eagle R","South Thompson",1643,NA,NA,1643,NA,NA,46360,"CO_05",NA
@@ -19411,20 +19411,20 @@
 "Co_Fraser",2015,"Hemlock Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Hiuihill Cr","South Thompson",4,NA,NA,4,NA,NA,132,"CO_05",NA
 "Co_Fraser",2015,"Hlina Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2015,"Hunakwa Cr","South Thompson",NA,NA,NA,NA,NA,NA,46340,"CO_05",NA
+"Co_Fraser",2015,"Hunakwa Cr","South Thompson",0,NA,NA,0,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2015,"Ireland Cr","South Thompson",NA,NA,NA,NA,NA,NA,46532,"CO_05",NA
 "Co_Fraser",2015,"Johnson Cr","South Thompson",NA,NA,NA,NA,NA,NA,46451,"CO_05",NA
 "Co_Fraser",2015,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2015,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2015,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
+"Co_Fraser",2015,"Loftus Cr","South Thompson",0,NA,NA,0,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2015,"Mcnomee Cr","South Thompson",4,NA,NA,4,NA,NA,45016,"CO_05",NA
-"Co_Fraser",2015,"Momich R","South Thompson",NA,NA,NA,NA,NA,NA,46270,"CO_05",NA
+"Co_Fraser",2015,"Momich R","South Thompson",0,NA,NA,0,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2015,"Nikwikwaia Cr","South Thompson",4,NA,NA,4,NA,NA,3071,"CO_05",NA
 "Co_Fraser",2015,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2015,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2015,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2015,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2015,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2015,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2015,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Perry R","South Thompson",0,NA,NA,0,NA,NA,133,"CO_05",NA
 "Co_Fraser",2015,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19444,8 +19444,8 @@
 "Co_Fraser",2015,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2015,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2015,"Wap Cr","South Thompson",8,NA,NA,8,NA,NA,46521,"CO_05",NA
-"Co_Fraser",2015,"Wright Cr","South Thompson",NA,NA,NA,NA,NA,NA,3217,"CO_05",NA
-"Co_Fraser",2015,"Yard Cr","South Thompson",NA,NA,NA,NA,NA,NA,7476,"CO_05",NA
+"Co_Fraser",2015,"Wright Cr","South Thompson",0,NA,NA,0,NA,NA,3217,"CO_05",NA
+"Co_Fraser",2015,"Yard Cr","South Thompson",0,NA,NA,0,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2016,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2016,"Adams R (upr)","South Thompson",2589,NA,NA,2589,NA,NA,46250,"CO_05",NA
 "Co_Fraser",2016,"Anstey R","South Thompson",NA,NA,NA,NA,NA,NA,46350,"CO_05",NA
@@ -19455,7 +19455,7 @@
 "Co_Fraser",2016,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2016,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2016,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2016,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2016,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2016,"Cayenne Cr","South Thompson",3,NA,NA,3,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2016,"Celista Cr","South Thompson",3,NA,NA,3,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2016,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19479,7 +19479,7 @@
 "Co_Fraser",2016,"Kingfisher Cr","South Thompson",NA,NA,NA,NA,NA,NA,46491,"CO_05",NA
 "Co_Fraser",2016,"Little R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2016,"Little Shuswap L","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2016,"Loftus Cr","South Thompson",NA,NA,NA,NA,NA,NA,7475,"CO_05",NA
+"Co_Fraser",2016,"Loftus Cr","South Thompson",0,NA,NA,0,NA,NA,7475,"CO_05",NA
 "Co_Fraser",2016,"Mcnomee Cr","South Thompson",83,NA,NA,83,NA,NA,45016,"CO_05",NA
 "Co_Fraser",2016,"Momich R","South Thompson",13,NA,NA,13,NA,NA,46270,"CO_05",NA
 "Co_Fraser",2016,"Nikwikwaia Cr","South Thompson",8,NA,NA,8,NA,NA,3071,"CO_05",NA
@@ -19488,7 +19488,7 @@
 "Co_Fraser",2016,"Onyx Cr","South Thompson",3,NA,NA,3,NA,NA,46300,"CO_05",NA
 "Co_Fraser",2016,"Owlhead Cr","South Thompson",6,NA,NA,6,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2016,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2016,"Perry R","South Thompson",NA,NA,NA,NA,NA,NA,133,"CO_05",NA
+"Co_Fraser",2016,"Perry R","South Thompson",0,NA,NA,0,NA,NA,133,"CO_05",NA
 "Co_Fraser",2016,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2016,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2016,"Salmon R","South Thompson",1363,NA,NA,1363,NA,NA,46401,"CO_05",NA
@@ -19517,7 +19517,7 @@
 "Co_Fraser",2017,"Bolean Cr","South Thompson",NA,NA,NA,NA,NA,NA,46411,"CO_05",NA
 "Co_Fraser",2017,"Brash Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2017,"Burton Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2017,"Canoe Cr","South Thompson",NA,NA,NA,NA,NA,NA,46421,"CO_05",NA
+"Co_Fraser",2017,"Canoe Cr","South Thompson",0,NA,NA,0,NA,NA,46421,"CO_05",NA
 "Co_Fraser",2017,"Cayenne Cr","South Thompson",28,NA,NA,28,NA,NA,46280,"CO_05",NA
 "Co_Fraser",2017,"Celista Cr","South Thompson",3,NA,NA,3,NA,NA,46320,"CO_05",NA
 "Co_Fraser",2017,"Cooke Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
@@ -19533,8 +19533,8 @@
 "Co_Fraser",2017,"Harbour Cr","South Thompson",73,NA,NA,73,NA,NA,3069,"CO_05",NA
 "Co_Fraser",2017,"Harris Cr","South Thompson",108,NA,NA,108,NA,NA,46572,"CO_05",NA
 "Co_Fraser",2017,"Hemlock Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2017,"Hiuihill Cr","South Thompson",NA,NA,NA,NA,NA,NA,132,"CO_05",NA
-"Co_Fraser",2017,"Hlina Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
+"Co_Fraser",2017,"Hiuihill Cr","South Thompson",0,NA,NA,0,NA,NA,132,"CO_05",NA
+"Co_Fraser",2017,"Hlina Cr","South Thompson",0,NA,NA,0,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2017,"Hunakwa Cr","South Thompson",9,NA,NA,9,NA,NA,46340,"CO_05",NA
 "Co_Fraser",2017,"Ireland Cr","South Thompson",11,NA,NA,11,NA,NA,46532,"CO_05",NA
 "Co_Fraser",2017,"Johnson Cr","South Thompson",NA,NA,NA,NA,NA,NA,46451,"CO_05",NA
@@ -19547,15 +19547,15 @@
 "Co_Fraser",2017,"Nikwikwaia Cr","South Thompson",20,NA,NA,20,NA,NA,3071,"CO_05",NA
 "Co_Fraser",2017,"Noisy Cr","South Thompson",NA,NA,NA,NA,NA,NA,46511,"CO_05",NA
 "Co_Fraser",2017,"Oliver Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
-"Co_Fraser",2017,"Onyx Cr","South Thompson",NA,NA,NA,NA,NA,NA,46300,"CO_05",NA
-"Co_Fraser",2017,"Owlhead Cr","South Thompson",NA,NA,NA,NA,NA,NA,46370,"CO_05",NA
+"Co_Fraser",2017,"Onyx Cr","South Thompson",0,NA,NA,0,NA,NA,46300,"CO_05",NA
+"Co_Fraser",2017,"Owlhead Cr","South Thompson",0,NA,NA,0,NA,NA,46370,"CO_05",NA
 "Co_Fraser",2017,"Palmer Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2017,"Perry R","South Thompson",2,NA,NA,2,NA,NA,133,"CO_05",NA
 "Co_Fraser",2017,"Ross Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2017,"S Thompson R","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2017,"Salmon R","South Thompson",596,NA,NA,596,NA,NA,46401,"CO_05",NA
 "Co_Fraser",2017,"Scotch Cr","South Thompson",54,NA,NA,54,NA,NA,46290,"CO_05",NA
-"Co_Fraser",2017,"Senn Cr","South Thompson",NA,NA,NA,NA,NA,NA,3074,"CO_05",NA
+"Co_Fraser",2017,"Senn Cr","South Thompson",0,NA,NA,0,NA,NA,3074,"CO_05",NA
 "Co_Fraser",2017,"Seymour R","South Thompson",NA,NA,NA,NA,NA,NA,46330,"CO_05",NA
 "Co_Fraser",2017,"Shuswap R (lwr)","South Thompson",24,NA,NA,24,NA,NA,46431,"CO_05",NA
 "Co_Fraser",2017,"Shuswap R (mid)","South Thompson",51,NA,NA,51,NA,NA,46441,"CO_05",NA
@@ -19568,8 +19568,8 @@
 "Co_Fraser",2017,"Tsikwustum Cr","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2017,"Tsuius Cr","South Thompson",NA,NA,NA,NA,NA,NA,2622,"CO_05",NA
 "Co_Fraser",2017,"Wap Cr","South Thompson",339,NA,NA,339,NA,NA,46521,"CO_05",NA
-"Co_Fraser",2017,"Wright Cr","South Thompson",NA,NA,NA,NA,NA,NA,3217,"CO_05",NA
-"Co_Fraser",2017,"Yard Cr","South Thompson",NA,NA,NA,NA,NA,NA,7476,"CO_05",NA
+"Co_Fraser",2017,"Wright Cr","South Thompson",0,NA,NA,0,NA,NA,3217,"CO_05",NA
+"Co_Fraser",2017,"Yard Cr","South Thompson",0,NA,NA,0,NA,NA,7476,"CO_05",NA
 "Co_Fraser",2018,"Adams R (lwr)","South Thompson",NA,NA,NA,NA,NA,NA,NA,"CO_05",NA
 "Co_Fraser",2018,"Adams R (upr)","South Thompson",966,NA,NA,966,NA,NA,46250,"CO_05",NA
 "Co_Fraser",2018,"Anstey R","South Thompson",3,NA,NA,3,NA,NA,46350,"CO_05",NA
