@@ -16,9 +16,6 @@ yrs.lim <- range(ck.df.old$Year,ck.df.new$Year)
 pdf(paste0("DATA_TRACKING/DataCheck_CK_Inputs.pdf"),onefile=TRUE,height=8.5, width=11)
 
 
-
-
-
 for(cu.plot in cu.list){
 print("-----------------")
 print(cu.plot)  
