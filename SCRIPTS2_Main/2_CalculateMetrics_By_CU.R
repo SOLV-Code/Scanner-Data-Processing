@@ -328,6 +328,16 @@ metrics.cu.out.cleaned  <-  rbind(
 rel.idx.fix <-  grepl("Abd", metrics.cu.out.cleaned$Label) & grepl("Rel_Idx", metrics.cu.out.cleaned$Data_Type)   
 metrics.cu.out.cleaned[ rel.idx.fix   ,c("Value","Status")] <- c(NA, NA)
 
+#####################################
+# MANUAL PATCH TO DEAL WITH METRIC USABILITY (THINK THIS WAS DONE MANUALLY BEFORE)
+# NEED to SET UP TO READ FROM A SPEC FILE (ALREADY HAPPENING SOMEWHERE BUT MISSING A FEW
+
+usability.fix.idx <- metrics.cu.out.cleaned$CU_ID %in% paste0("CK-", c("08","11","16","18","82"))
+metrics.cu.out.cleaned[ usability.fix.idx   ,c("Value","Status")] <- c(NA, NA)
+
+
+
+
 
 write.csv(metrics.cu.out.cleaned,"DATA_OUT/METRICS_FILE_BY_CU.csv",row.names=FALSE)
 #write.csv(metrics.percchange.comp,"DATA_OUT/PercChange_Comparison_BY_CU.csv",row.names=FALSE)
