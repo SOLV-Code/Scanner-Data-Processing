@@ -48,7 +48,7 @@ install_github("SOLV-Code/MetricsCOSEWIC", dependencies = TRUE, build_vignettes 
 #library(R2jags)
 
 cu.list <- unique(cu.file[,c("Species","CU_Name","CU_ID")])
-
+cu.list
 
 # WARNING: THIS MUST INCLUDE AT LEAST 4 YEARS (so that  all 4 cycle-specific BM calc get used to populate outputs below; crashes otherwise!)
 retro.start.use <- 1995
@@ -72,11 +72,15 @@ for(i in 1:dim(cu.list)[1]){
   cu.name <- cu.list[i,"CU_Name"]
   cu.species <- cu.list[i,"Species"]
 
+  
+  
   print(cu.name)
+  print(cu.id)
+  
   
   cu.lookup.sub<- dplyr::filter(cu.info.main,CU_ID == cu.id)
   
-  if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the lookup file
+if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the lookup file
   
   cu.avggen <- cu.lookup.sub$Avg_Gen
   
@@ -122,6 +126,10 @@ for(i in 1:dim(cu.list)[1]){
   
 
   data.sub <- cu.file %>% filter(CU_ID == cu.id) 
+  
+  data.sub
+  
+  
 
   if(cu.lookup.sub$Cyclic==TRUE) cyclic.bm.sub <- cyclic.cu.bm[cyclic.cu.bm$CU_ID==cu.id,] else(cyclic.bm.sub=NA)
   
