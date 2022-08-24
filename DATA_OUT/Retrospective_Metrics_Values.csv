@@ -645,10 +645,10 @@
 "CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2013,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2014,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2015,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
-"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2016,"Rel_Idx",NA,NA,62,NA,NA,NA,NA,NA,1
-"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2017,"Rel_Idx",NA,NA,43,NA,NA,NA,NA,NA,1
-"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2018,"Rel_Idx",NA,NA,36,NA,NA,NA,NA,NA,1
-"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2019,"Rel_Idx",NA,NA,70,NA,NA,NA,NA,NA,1
+"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2016,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2017,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2018,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-08","Chinook","Middle Fraser-Fraser Canyon_SP_1.3",2019,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-09","Chinook","Middle Fraser River-Portage_FA_1.3",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-09","Chinook","Middle Fraser River-Portage_FA_1.3",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-09","Chinook","Middle Fraser River-Portage_FA_1.3",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
@@ -699,31 +699,31 @@
 "CK-10","Chinook","Middle Fraser River_SP_1.3",2017,"Rel_Idx",NA,NA,92,-43.0995,69.7333,NA,NA,NA,2
 "CK-10","Chinook","Middle Fraser River_SP_1.3",2018,"Rel_Idx",NA,NA,83,-34.4109,61.0667,NA,NA,NA,2
 "CK-10","Chinook","Middle Fraser River_SP_1.3",2019,"Rel_Idx",NA,NA,51,-51.7633,77.7667,NA,NA,NA,2
-"CK-11","Chinook","Middle Fraser River_SU_1.3",1995,"Rel_Idx",NA,NA,152,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",1996,"Rel_Idx",NA,NA,158,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",1997,"Rel_Idx",NA,NA,159,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",1998,"Rel_Idx",NA,NA,173,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",1999,"Rel_Idx",NA,NA,186,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2000,"Rel_Idx",NA,NA,182,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2001,"Rel_Idx",NA,NA,174,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2002,"Rel_Idx",NA,NA,169,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2003,"Rel_Idx",NA,NA,178,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2004,"Rel_Idx",NA,NA,196,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2005,"Rel_Idx",NA,NA,195,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2006,"Rel_Idx",NA,NA,185,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2007,"Rel_Idx",NA,NA,155,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2008,"Rel_Idx",NA,NA,127,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2009,"Rel_Idx",NA,NA,113,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2010,"Rel_Idx",NA,NA,115,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2011,"Rel_Idx",NA,NA,111,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2012,"Rel_Idx",NA,NA,108,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2013,"Rel_Idx",NA,NA,100,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2014,"Rel_Idx",NA,NA,106,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2015,"Rel_Idx",NA,NA,110,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2016,"Rel_Idx",NA,NA,100,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2017,"Rel_Idx",NA,NA,95,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2018,"Rel_Idx",NA,NA,86,NA,NA,NA,NA,NA,1
-"CK-11","Chinook","Middle Fraser River_SU_1.3",2019,"Rel_Idx",NA,NA,64,NA,NA,NA,NA,NA,1
+"CK-11","Chinook","Middle Fraser River_SU_1.3",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",1998,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",1999,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2000,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2001,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2002,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2003,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2004,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2005,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2006,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2007,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2008,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2009,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2010,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2011,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2012,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2013,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2014,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2015,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2016,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2017,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2018,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-11","Chinook","Middle Fraser River_SU_1.3",2019,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-12","Chinook","Upper Fraser River_SP_1.3",1995,"Rel_Idx",NA,NA,843,25768.8333,0.1333,NA,NA,NA,2
 "CK-12","Chinook","Upper Fraser River_SP_1.3",1996,"Rel_Idx",NA,NA,1460,27371.5057,0.2,NA,NA,NA,2
 "CK-12","Chinook","Upper Fraser River_SP_1.3",1997,"Rel_Idx",NA,NA,2702,19341.9607,0.5,NA,NA,NA,2
@@ -838,17 +838,17 @@
 "CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2006,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2007,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2008,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2009,"Rel_Idx",NA,NA,0,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2010,"Rel_Idx",NA,NA,0,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2011,"Rel_Idx",NA,NA,66,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2012,"Rel_Idx",NA,NA,46,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2013,"Rel_Idx",NA,NA,69,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2014,"Rel_Idx",NA,NA,59,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2015,"Rel_Idx",NA,NA,113,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2016,"Rel_Idx",NA,NA,109,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2017,"Rel_Idx",NA,NA,60,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2018,"Rel_Idx",NA,NA,31,NA,NA,NA,NA,NA,1
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2019,"Rel_Idx",NA,NA,0,NA,NA,NA,NA,NA,1
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2009,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2010,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2011,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2012,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2013,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2014,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2015,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2016,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2017,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2018,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2019,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-17","Chinook","Lower Thompson_SP_1.2",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-17","Chinook","Lower Thompson_SP_1.2",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-17","Chinook","Lower Thompson_SP_1.2",1997,"Rel_Idx",NA,NA,NA,1117.5211,0,NA,NA,NA,1
@@ -887,18 +887,18 @@
 "CK-18","Chinook","North Thompson_SP_1.3",2005,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-18","Chinook","North Thompson_SP_1.3",2006,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-18","Chinook","North Thompson_SP_1.3",2007,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
-"CK-18","Chinook","North Thompson_SP_1.3",2008,"Rel_Idx",NA,NA,47,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2009,"Rel_Idx",NA,NA,38,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2010,"Rel_Idx",NA,NA,38,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2011,"Rel_Idx",NA,NA,37,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2012,"Rel_Idx",NA,NA,41,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2013,"Rel_Idx",NA,NA,40,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2014,"Rel_Idx",NA,NA,42,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2015,"Rel_Idx",NA,NA,38,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2016,"Rel_Idx",NA,NA,36,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2017,"Rel_Idx",NA,NA,33,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2018,"Rel_Idx",NA,NA,29,NA,NA,NA,NA,NA,1
-"CK-18","Chinook","North Thompson_SP_1.3",2019,"Rel_Idx",NA,NA,37,NA,NA,NA,NA,NA,1
+"CK-18","Chinook","North Thompson_SP_1.3",2008,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2009,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2010,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2011,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2012,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2013,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2014,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2015,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2016,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2017,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2018,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-18","Chinook","North Thompson_SP_1.3",2019,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-19","Chinook","North Thompson_SU_1.3",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-19","Chinook","North Thompson_SU_1.3",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-19","Chinook","North Thompson_SU_1.3",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,0
