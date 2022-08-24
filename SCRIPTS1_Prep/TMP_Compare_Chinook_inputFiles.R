@@ -1,8 +1,19 @@
 library(tidyverse)
 
 
-ck.df.old <- read_csv("DATA_IN/Old_Backup_Chinook_SBC_ByCU.csv") #%>% dplyr::filter(!is.na(AllSitesInfilledAdj))
-ck.df.new <- read_csv("DATA_IN/Chinook_SBC_ByCU.csv") #%>% dplyr::filter(!is.na(AllSitesInfilledAdj))
+
+ck.sites.info <- read_csv("DATA_LOOKUP_FILES/SBC_Chinook_VerifiedSiteLookup.csv") 
+
+
+site.count.df <- ck.sites.info %>% dplyr::filter(Pop_Category == "P") %>%
+  group_by(CU_findex) %>% 
+  summarize(TotalSites = n(), WildSites = sum(Enhancement_Rank %in% c("LOW","UNK")))
+
+write.csv(site.count.df,"DATA_TRACKING/Site_Count_by_EnhRank.csv")
+
+
+ck.df.old <- read_csv("DATA_IN/Old_Backup_Chinook_SBC_ByCU.csv") 
+ck.df.new <- read_csv("DATA_IN/Chinook_SBC_ByCU.csv") 
 ck.merged.output <-   read_csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv") %>%
                             dplyr::filter(Species == "Chinook")
 ck.retro.out <- read_csv("DATA_OUT/Retrospective_Metrics_Values.csv")%>%
@@ -42,7 +53,7 @@ metrics.out
 
 
 
-ylim.use <- c(0,max(data.old$AllSitesInfilledAdj,data.new$AllSitesInfilledAdj,na.rm=TRUE))
+ylim.use <- c(0,max(data.old$AllSitesInfilled,data.new$AllSitesInfilled,na.rm=TRUE))
 ylim.use
 
 if(!is.finite(ylim.use[2])){ ylim.use[2] <-5 }
@@ -53,16 +64,16 @@ title(main = paste(unique(data.old$CU_Name),"(",cu.plot,")"),cex.main=1.5, col.m
 
 
 
-if(sum(!is.na(data.old$AllSitesInfilledAdj))>0) {lines(data.old$Year, data.old$AllSitesInfilledAdj ,pch=21, 
+if(sum(!is.na(data.old$AllSitesInfilled))>0) {lines(data.old$Year, data.old$AllSitesInfilled ,pch=21, 
                                                    type="o",cex=1.8,bg="white",col="darkblue")   }
-if(sum(!is.na(data.old$AllSitesInfilledAdj))>0) {lines(data.new$Year, data.new$AllSitesInfilledAdj ,pch=19, 
+if(sum(!is.na(data.old$AllSitesInfilled))>0) {lines(data.new$Year, data.new$AllSitesInfilled ,pch=19, 
                                                     type="o",cex=1,col="darkblue") }
 
-title(main = "Inut File - All Sites")
+title(main = "Input File - All Sites")
 
 legend("topleft",legend=c("Old Data File","New Data File"),pch=c(21,19),col="darkblue",bg="White",bty="n")
 
-ylim.use <- c(0,max(data.old$LowUnkSitesInfilledAdj,data.new$LowUnkSitesInfilledAdj,na.rm=TRUE))
+ylim.use <- c(0,max(data.old$LowUnkSitesInfilled,data.new$LowUnkSitesInfilled,na.rm=TRUE))
 ylim.use
 
 
@@ -72,9 +83,9 @@ if(!is.finite(ylim.use[2])){ ylim.use[2] <-5 }
 plot(1:5,1:5, type="n",ylim=ylim.use, xlim = yrs.lim,bty="n",xlab = "Year",ylab = "Spn",las=1)  
 abline(v=1995,col="red",lty=2)
 
-if(sum(!is.na(data.old$LowUnkSitesInfilledAdj))>0) {lines(data.old$Year, data.old$LowUnkSitesInfilledAdj ,pch=21, 
+if(sum(!is.na(data.old$LowUnkSitesInfilled))>0) {lines(data.old$Year, data.old$LowUnkSitesInfilled ,pch=21, 
                                                     type="o",cex=1.8,bg="white",col="darkblue")   }
-if(sum(!is.na(data.old$LowUnkSitesInfilledAdj))>0) {lines(data.new$Year, data.new$LowUnkSitesInfilledAdj,pch=19, 
+if(sum(!is.na(data.old$LowUnkSitesInfilled))>0) {lines(data.new$Year, data.new$LowUnkSitesInfilled,pch=19, 
                                                     type="o",cex=1,col="darkblue") }
 
 title(main = "Input File - Wild Sites")
@@ -87,7 +98,7 @@ plot(1:5,1:5, type="n",ylim=ylim.use, xlim = yrs.lim,bty="n",xlab = "Year",ylab 
 abline(v=1995,col="red",lty=2)
 
 
-if(sum(!is.na(data.new$LowUnkSitesInfilledAdj))>0) {lines(data.new$Year, data.new$LowUnkSitesInfilledAdj ,pch=21, 
+if(sum(!is.na(data.new$LowUnkSitesInfilled))>0) {lines(data.new$Year, data.new$LowUnkSitesInfilled ,pch=21, 
                                                           type="o",cex=1.8,bg="white",col="darkblue")   }
 
 if(sum(!is.na(data.out$SpnForAbd_Wild))>0) {lines(data.out$Year, data.out$SpnForAbd_Wild ,pch=4, 

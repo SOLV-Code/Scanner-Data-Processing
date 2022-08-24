@@ -129,7 +129,7 @@ names(sbc.ck.bycu.raw )
 
 sbc.ck.bycu.cleaned <-  sbc.ck.bycu.raw  %>% 
   rename(SpnForTrend_Total = AllSitesInfilled,
-         SpnForTrend_Wild = AllSitesInfilledAdj) %>%
+         SpnForTrend_Wild = LowUnkSitesInfilled) %>%
   mutate(SpnForAbd_Total =  SpnForTrend_Total ,
          SpnForAbd_Wild =  SpnForTrend_Wild)  %>%
         select(-starts_with("ModHighSites")) %>%
