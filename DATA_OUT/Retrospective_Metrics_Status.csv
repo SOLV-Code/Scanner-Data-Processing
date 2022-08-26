@@ -345,7 +345,7 @@
 "CU-5","Sockeye","Pitt_ES",2013,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6
 "CU-5","Sockeye","Pitt_ES",2014,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6
 "CU-5","Sockeye","Pitt_ES",2015,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6
-"CU-5","Sockeye","Pitt_ES",2016,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6
+"CU-5","Sockeye","Pitt_ES",2016,"Abs_Abd","Green","Green","Green","Amber",NA,"Green","Green","Green","Green","Green",6
 "CU-5","Sockeye","Pitt_ES",2017,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6
 "CU-5","Sockeye","Pitt_ES",2018,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6
 "CU-5","Sockeye","Pitt_ES",2019,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6
@@ -498,7 +498,7 @@
 "CU-21","Sockeye","Takla_Trem_S_S",2016,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6
 "CU-21","Sockeye","Takla_Trem_S_S",2017,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6
 "CU-21","Sockeye","Takla_Trem_S_S",2018,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6
-"CU-21","Sockeye","Takla_Trem_S_S",2019,"Abs_Abd","Amber","Green","Green","Amber",NA,"Green","Amber","Green","Amber","Green",6
+"CU-21","Sockeye","Takla_Trem_S_S",2019,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6
 "CU-15","Sockeye","Taseko_ES",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CU-15","Sockeye","Taseko_ES",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CU-15","Sockeye","Taseko_ES",1997,"Rel_Idx",NA,NA,"Red",NA,NA,"Amber",NA,NA,NA,NA,1
@@ -565,7 +565,7 @@
 "CK-03","Chinook","Lower Fraser River_FA_0.3",2008,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6
 "CK-03","Chinook","Lower Fraser River_FA_0.3",2009,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6
 "CK-03","Chinook","Lower Fraser River_FA_0.3",2010,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6
-"CK-03","Chinook","Lower Fraser River_FA_0.3",2011,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6
+"CK-03","Chinook","Lower Fraser River_FA_0.3",2011,"Abs_Abd","Green","Green","Green","Red",NA,NA,"Green","Green","Green","Green",6
 "CK-03","Chinook","Lower Fraser River_FA_0.3",2012,"Abs_Abd","Green","Green","Green","Red",NA,NA,"Green","Green","Green","Green",6
 "CK-03","Chinook","Lower Fraser River_FA_0.3",2013,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6
 "CK-03","Chinook","Lower Fraser River_FA_0.3",2014,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6
@@ -698,7 +698,7 @@
 "CK-10","Chinook","Middle Fraser River_SP_1.3",2016,"Rel_Idx",NA,NA,"Green","Red",NA,NA,NA,NA,NA,NA,2
 "CK-10","Chinook","Middle Fraser River_SP_1.3",2017,"Rel_Idx",NA,NA,"Green","Red",NA,NA,NA,NA,NA,NA,2
 "CK-10","Chinook","Middle Fraser River_SP_1.3",2018,"Rel_Idx",NA,NA,"Green","Red",NA,NA,NA,NA,NA,NA,2
-"CK-10","Chinook","Middle Fraser River_SP_1.3",2019,"Rel_Idx",NA,NA,"Amber","Red",NA,NA,NA,NA,NA,NA,2
+"CK-10","Chinook","Middle Fraser River_SP_1.3",2019,"Rel_Idx",NA,NA,"Red","Red",NA,NA,NA,NA,NA,NA,2
 "CK-11","Chinook","Middle Fraser River_SU_1.3",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-11","Chinook","Middle Fraser River_SU_1.3",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-11","Chinook","Middle Fraser River_SU_1.3",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
@@ -772,7 +772,7 @@
 "CK-13","Chinook","South Thompson_SU_0.3",2015,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CK-13","Chinook","South Thompson_SU_0.3",2016,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CK-13","Chinook","South Thompson_SU_0.3",2017,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
-"CK-13","Chinook","South Thompson_SU_0.3",2018,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
+"CK-13","Chinook","South Thompson_SU_0.3",2018,"Rel_Idx",NA,NA,"Green","Amber",NA,NA,NA,NA,NA,NA,2
 "CK-13","Chinook","South Thompson_SU_0.3",2019,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CK-14","Chinook","South Thompson_SU_1.3",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-14","Chinook","South Thompson_SU_1.3",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
@@ -814,7 +814,7 @@
 "CK-15","Chinook","Shuswap River_SU_0.3",2007,"Abs_Abd",NA,"Green","Green","Red",NA,NA,NA,"Green",NA,"Green",4
 "CK-15","Chinook","Shuswap River_SU_0.3",2008,"Abs_Abd",NA,"Green","Green","Red",NA,NA,NA,"Green",NA,"Green",4
 "CK-15","Chinook","Shuswap River_SU_0.3",2009,"Abs_Abd",NA,"Green","Green","Red",NA,NA,NA,"Green",NA,"Green",4
-"CK-15","Chinook","Shuswap River_SU_0.3",2010,"Abs_Abd",NA,"Green","Green","Red",NA,NA,NA,"Green",NA,"Green",4
+"CK-15","Chinook","Shuswap River_SU_0.3",2010,"Abs_Abd",NA,"Green","Green","Amber",NA,NA,NA,"Green",NA,"Green",4
 "CK-15","Chinook","Shuswap River_SU_0.3",2011,"Abs_Abd",NA,"Green","Green","Amber",NA,NA,NA,"Green",NA,"Green",4
 "CK-15","Chinook","Shuswap River_SU_0.3",2012,"Abs_Abd",NA,"Green","Green","Red",NA,NA,NA,"Green",NA,"Green",4
 "CK-15","Chinook","Shuswap River_SU_0.3",2013,"Abs_Abd",NA,"Green","Green","Red",NA,NA,NA,"Green",NA,"Green",4
@@ -1035,7 +1035,7 @@
 "CO-01","Coho","Middle Fraser",2006,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",4
 "CO-01","Coho","Middle Fraser",2007,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",4
 "CO-01","Coho","Middle Fraser",2008,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",4
-"CO-01","Coho","Middle Fraser",2009,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",5
+"CO-01","Coho","Middle Fraser",2009,"Abs_Abd","Green","Amber",NA,"Amber",NA,NA,"Green","Amber","Green","Amber",5
 "CO-01","Coho","Middle Fraser",2010,"Abs_Abd","Amber","Amber",NA,"Red",NA,NA,"Amber","Amber","Amber","Amber",5
 "CO-01","Coho","Middle Fraser",2011,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",5
 "CO-01","Coho","Middle Fraser",2012,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",6
@@ -1254,7 +1254,7 @@
 "CM-06","Chum","Loughborough",2009,"Abs_Abd",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CM-06","Chum","Loughborough",2010,"Abs_Abd",NA,NA,"Amber","Green",NA,NA,NA,NA,NA,NA,2
 "CM-06","Chum","Loughborough",2011,"Abs_Abd",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
-"CM-06","Chum","Loughborough",2012,"Abs_Abd",NA,NA,"Green","Amber",NA,NA,NA,NA,NA,NA,2
+"CM-06","Chum","Loughborough",2012,"Abs_Abd",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CM-06","Chum","Loughborough",2013,"Abs_Abd",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CM-06","Chum","Loughborough",2014,"Abs_Abd",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CM-06","Chum","Loughborough",2015,"Abs_Abd",NA,NA,"Amber","Green",NA,NA,NA,NA,NA,NA,2
