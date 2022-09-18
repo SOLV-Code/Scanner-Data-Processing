@@ -33,6 +33,9 @@ flat.fr.co.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_FraserCoho.csv",string
 flat.fr.pk.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_FraserPink.csv",stringsAsFactors = FALSE)
 flat.fr.cm.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_FraserChum.csv",stringsAsFactors = FALSE)
 flat.isc.cm.cu<- read.csv("DATA_OUT/Cleaned_FlatFile_byCU_ISCChum.csv",stringsAsFactors = FALSE)
+flat.skeenanass.sk.cu<- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_SkeenaNassSockeye.csv",stringsAsFactors = FALSE)
+
+
 
 # find common variables
 vars.use <- intersect(intersect(intersect(intersect(intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
@@ -43,8 +46,9 @@ flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use
                               Co_Fraser= select(flat.fr.co.cu,all_of(vars.use)),
                               Pk_Fraser = select(flat.fr.pk.cu, all_of(vars.use)),
                               Cm_Fraser = select(flat.fr.cm.cu, all_of(vars.use)),
-                              Cm_ISC = select(flat.isc.cm.cu, all_of(vars.use))),
-                            .id = "DataSet")
+                              Cm_ISC = select(flat.isc.cm.cu, all_of(vars.use)), 
+                              Sk_SkeenaNass = select(flat.skeenanass.sk.cu, all_of(vars.use))) , 
+                              .id = "DataSet")
 head(flat.merged.cu)
 write.csv(flat.merged.cu,"DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",row.names = FALSE)
 
