@@ -1,0 +1,26 @@
+SOURCE_SkeenaNassSockeye_StockInfo.csv
+
+This file is a copy of "Generated_StockInfo.csv"
+from the Skeena and Nass Sockeye simulation model data folder.
+
+Include some details re: benchmarks etc here.
+
+The relevant variables have been copied into 
+MAIN_CU_LOOKUP_FOR_SOS.csv
+
+- Used SmsyBM80p for the RelAbd_UBM (This is the median posterior estimate
+without bias correction for the LTAvg estimate for the Basic Ricker fit -> CONFIRM)
+
+- Got the Sgen estimate from  6_BENCHMARKS/OUTPUT/ValueLookup_BiolBenchmarks.csv
+(Again without the bias correction)
+
+- EXCLUDED REL BM FOR PINKUT AND FULTON, GIVEN FITTING ISSUES
+
+
+Note: given several mismatches between stocks
+and the "old" CU delineations, this is using 
+a separate set of CU_IDs that match our Stk id
+(e.g., SkeenaNassSk_1)
+
+NOTE: The file "Generated_StockInfo_SimUsed.csv" anly has the subset
+of stocks that are used in the forward simulation
