@@ -30,8 +30,8 @@ names(sbc.ck.bypop.raw )
 # This includes the DD sires that have data that wasn't included
 # Also defined the yes/no colun in the PopLookup file to tell the tool which sites are included vs not
 
-stage_1_data <- read.csv("DATA_IN/SOURCES/SBC Chinook/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
-verified_sites <- read.csv("DATA_IN/SOURCES/SBC Chinook/SBC_Chinook_VerifiedSiteLookup.csv")
+stage_1_data <- read.csv("DATA_LOOKUP_FILES/SOURCES/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
+verified_sites <- read.csv("DATA_LOOKUP_FILES/SOURCES/SBC_Chinook_VerifiedSiteLookup.csv")
 
 # Find persistent sites (to ensure these can be identified in the PopLookup file)
 P_sites<- verified_sites %>% filter(Pop_Category == "P") %>%select(POP_ID)
