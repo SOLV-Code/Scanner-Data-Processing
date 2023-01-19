@@ -11,17 +11,21 @@
 library(dplyr)
 library(tidyr)
 
+
+if(FALSE){
 setwd("../")
 setwd("SOS-Synoptic-Status-Algorithm")
 
 # Run SotS Learning Tree 3
 source("CART/synopticFunction_Source.R")
 
-#retro.status.df.val <- metrics.reorg.values
-#retro.status.df.stat <- metrics.reorg.status
-publ.status <- read.csv("DATA/Publ_Status_Reorg_Status.csv")
+retro.status.df.val <- metrics.reorg.values   # not used anymore?
+retro.status.df.stat <- metrics.reorg.status  # not used anymore?
+publ.status <- read.csv("DATA/Publ_Status_Reorg_Status.csv") 
 
 setwd("../"); setwd("Scanner-Data-Processing")
+}
+
 
 # From GPs 3_Synoptic code
   cu.lookup <- read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
@@ -38,6 +42,8 @@ setwd("../"); setwd("Scanner-Data-Processing")
   metrics.raw[metrics.raw$Metric == "LongTrend","UBM"] <- metrics.raw[metrics.raw$Metric == "LongTrend","UBM"] * 100 
 
 
+  metrics.raw %>% dplyr::filter(CU_ID == "CK-02")
+  
 # Get the ratios
   metrics.tmp1 <- metrics.raw %>% rename(Compare=Value) %>%
                                   #relocate(Data_Type, .after=Label) %>%
@@ -83,6 +89,16 @@ setwd("../"); setwd("Scanner-Data-Processing")
   #                           (Metric != "RelAbd" & Metric != "AbsAbd") ~ (Compare)
   #                           
            
+  
+  
+  
+  
+  
+  
+  
+####################################################################################################################
+# REST NOT NEEDED FOR ALGO PAPER INPUTS
+# BUT NEED TO MAKE SURE THIS USES THE LATEST VERSION OF THE FUNCTION!!!!!!!!!!!!!!!!!!!
            
                     
 # Algorithm LT3 Run
@@ -157,13 +173,13 @@ metrics.out <- metrics.dummy %>% select(-X) %>%
                                  filter(!is.na(Stock))%>%
                                  filter(!Metric == "IntStatus") %>%
                                  rbind(metrics.scanner)
-setwd("../")
+#setwd("../")
 write.csv(metrics.out, "build_PStat_data/data/METRICS_FILE_BY_CU_forPSST.csv")
 
 # ========================= NOW fix the escapement/recruit datasets, since I had to sub values into the WILD columns for (Chum) to get the metrics to run!
 # ALSO remove the Trends data for Fraser SK
 
-cu.data <- read.csv("Scanner-Data-Processing/DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv")
+cu.data <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv")
 
 # Remove the Trends data for all CUs - no longer needed and was only different for FR SK
   # Addded Oct 25 2021 to add Rel Abd metric values to time series
@@ -187,7 +203,7 @@ write.csv(cu.clean, "build_PStat_data/data/MERGED_FLAT_FILE_BY_CU_CLEAN.csv")
 
 # Same for the POP file
 #pop.info <- read.csv("build_PStat_data/data/PopLookup.csv")
-pop.data <- read.csv("Scanner-Data-Processing/DATA_OUT/MERGED_FLAT_FILE_BY_POP.csv")
+pop.data <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_POP.csv")
 
 
 

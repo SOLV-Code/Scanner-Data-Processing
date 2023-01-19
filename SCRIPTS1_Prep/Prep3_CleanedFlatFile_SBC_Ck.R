@@ -30,17 +30,17 @@ names(sbc.ck.bypop.raw )
 # This includes the DD sires that have data that wasn't included
 # Also defined the yes/no colun in the PopLookup file to tell the tool which sites are included vs not
 
-stage_1_data <- read.csv("DATA_IN/SOURCES/SBC Chinook/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
-verified_sites <- read.csv("DATA_IN/SOURCES/SBC Chinook/SBC_Chinook_VerifiedSiteLookup.csv")
+stage_1_data <- read.csv("DATA_LOOKUP_FILES/SOURCES/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
+verified_sites <- read.csv("DATA_LOOKUP_FILES/SOURCES/SBC_Chinook_VerifiedSiteLookup.csv")
 
-# Find persistent sites (to ensure these can be indentified in the PopLookup file)
+# Find persistent sites (to ensure these can be identified in the PopLookup file)
 P_sites<- verified_sites %>% filter(Pop_Category == "P") %>%select(POP_ID)
 
 # Find Data deficient sites (to add into dataset)
 DD_sites<- verified_sites %>% filter(Pop_Category == "DD") %>%
                               select(POP_ID, SYS_NM, CU_findex,Enhancement_Rank, StartYear)
 
-# Pull the CU info out of hte sbc data from GP so can create dataframs to bind to the sbc data
+# Pull the CU info out of the sbc data from GP so can create dataframes to bind to the sbc data
 CU_info <- sbc.ck.bypop.raw %>% select(CU_Name, CU_acro, DU_ID,CU_ID) %>% unique()
 
 
@@ -129,7 +129,7 @@ names(sbc.ck.bycu.raw )
 
 sbc.ck.bycu.cleaned <-  sbc.ck.bycu.raw  %>% 
   rename(SpnForTrend_Total = AllSitesInfilled,
-         SpnForTrend_Wild = AllSitesInfilledAdj) %>%
+         SpnForTrend_Wild = LowUnkSitesInfilled) %>%
   mutate(SpnForAbd_Total =  SpnForTrend_Total ,
          SpnForAbd_Wild =  SpnForTrend_Wild)  %>%
         select(-starts_with("ModHighSites")) %>%
