@@ -109,18 +109,7 @@ setwd("../"); setwd("Scanner-Data-Processing")
   #                           
            
   
-#############################################################
-# GP Inserted this bit to calc statuses and generate summaries
-# (basically some key bits from the case study paper, so we can always have the
-#  the latest outputs  here, without changing anything in the tech report, and without
-# having to copy files back and forth)
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
