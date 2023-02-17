@@ -162,17 +162,17 @@ ok.ck.src
 
 
 
-ok.ck.df <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID == "CK-01") %>%
-              select(Species, DU_ID, CU_Name, CU_acro, CU_ID, Year,TotalER, MarineSurvival)
-ok.ck.df
+ok.ck.info <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID == "CK-01") %>%
+              select(Species, DU_ID, CU_Name, CU_acro, CU_ID) %>% unique
+ok.ck.info
 
 
-ok.ck.df <- ok.ck.df %>% left_join(ok.ck.src %>% select(Year, NatOrigSpn, TotalSpn) %>% 
+ok.ck.df <- left_join(ok.ck.src %>% select(CU_ID,Year, NatOrigSpn, TotalSpn) %>% 
                                      dplyr::rename(SpnForTrend_Wild = NatOrigSpn,
                                                    SpnForTrend_Total = TotalSpn) %>%
                                      mutate(SpnForAbd_Total =  SpnForTrend_Total ,
                                             SpnForAbd_Wild =  SpnForTrend_Wild) ,
-                                   by = "Year") 
+                      ok.ck.info, by = "CU_ID") 
 
 
 #view(ok.ck.df)
