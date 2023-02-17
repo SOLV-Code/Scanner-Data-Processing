@@ -12,19 +12,38 @@ library(dplyr)
 library(tidyr)
 
 
+
+
+
+#####################
+# THIS WAS FOR BMAC LOCAL USE - NEED TO MAKE SURE LATEST VERSION OF THE FUNCTION IS THERE
+
+# For now the latest version I use is always at 
+#     https://github.com/SOLV-Code/SOS-Synoptic-Status-Report/blob/main/code/synopticFunction_Source.R
+# But soon we will have the latest official version on a dedicated function repo
+# just need to figure out the details.
+# For now just included the latest version in this repo
+
+source("CODE/synopticFunction_Source.R")
+
+
+
 if(FALSE){
 setwd("../")
-setwd("SOS-Synoptic-Status-Algorithm")
+setwd("SOS-Synoptic-Status-Algorithm")  # The repo this is linked to is obsolete!
 
 # Run SotS Learning Tree 3
-source("CART/synopticFunction_Source.R")
-
+source("CART/synopticFunction_Source.R")  # put the latest version right here into this repo for now
+ 
 retro.status.df.val <- metrics.reorg.values   # not used anymore?
 retro.status.df.stat <- metrics.reorg.status  # not used anymore?
 publ.status <- read.csv("DATA/Publ_Status_Reorg_Status.csv") 
 
 setwd("../"); setwd("Scanner-Data-Processing")
 }
+
+#################################
+
 
 
 # From GPs 3_Synoptic code
@@ -89,6 +108,18 @@ setwd("../"); setwd("Scanner-Data-Processing")
   #                           (Metric != "RelAbd" & Metric != "AbsAbd") ~ (Compare)
   #                           
            
+  
+#############################################################
+# GP Inserted this bit to calc statuses and generate summaries
+# (basically some key bits from the case study paper, so we can always have the
+#  the latest outputs  here, without changing anything in the tech report, and without
+# having to copy files back and forth)
+  
+  
+  
+  
+  
+  
   
   
   
