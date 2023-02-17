@@ -2,6 +2,12 @@
 # CREATE FLAT FILE VERSIONS FOR SoS - SBC CK
 #############################################
 
+# IMPORTANT NOTE: REPLACING OKANAGAN CK DATA WITH INFO FROM SEPARATE INPUT FILE 
+# (FOR NOW, UNTIL THE NEW DATA FROM THE OK CK PROJECT IS PART OF THE FULL DATA FLOW)
+# ONLY DOING THIS AT THE CU LEVEL, NOT THE SITE LEVEL
+
+
+
 library(tidyverse)
 
 # BY POP ----------------------------------------------------------------------------
@@ -144,6 +150,40 @@ num.rec.cleaned <- dim(sbc.ck.bycu.cleaned)[1]
 num.rec.raw <- dim(sbc.ck.bycu.raw)[1] 
 
 print(paste0("SBC CK By CU: Retained Records= ",num.rec.cleaned,"/",num.rec.raw))
+
+
+#----------------------------------------------------------
+# TEMPORARY PATCH FOR OKANAGAN CHINOOK
+
+
+ok.ck.src <- read_csv("DATA_IN/Chinook_Okanagan_NEW.csv") %>%
+                mutate(TotalSpn = NatOrigSpn + HatchOrigSpn)
+ok.ck.src
+
+
+
+ok.ck.df <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID == "CK-01") %>%
+              select(Species, DU_ID, CU_Name, CU_acro, CU_ID, Year,TotalER, MarineSurvival)
+ok.ck.df
+
+
+ok.ck.df <- ok.ck.df %>% left_join(ok.ck.src %>% select(Year, NatOrigSpn, TotalSpn) %>% 
+                                     dplyr::rename(SpnForTrend_Wild = NatOrigSpn,
+                                                   SpnForTrend_Total = TotalSpn) %>%
+                                     mutate(SpnForAbd_Total =  SpnForTrend_Total ,
+                                            SpnForAbd_Wild =  SpnForTrend_Wild) ,
+                                   by = "Year") 
+
+
+#view(ok.ck.df)
+
+sbc.ck.bycu.cleaned <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID != "CK-01") %>%
+                        bind_rows(ok.ck.df)
+
+
+#----------------------------------------------------------
+
+
 
 write.csv(sbc.ck.bycu.cleaned, "DATA_OUT/Cleaned_FlatFile_ByCU_SBC_Ck.csv",row.names=FALSE)
 
