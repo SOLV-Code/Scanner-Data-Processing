@@ -63,7 +63,7 @@ start.time <- proc.time()
 
 #for(i in 55:dim(cu.list)[1]){ 
 for(i in 1:dim(cu.list)[1]){ 
-  #for(i in 4){ 
+  #for(i in 26){ 
   #for(i in 55:59){ 
   
   print("----------------------------")
@@ -79,11 +79,12 @@ for(i in 1:dim(cu.list)[1]){
   
   
   cu.lookup.sub<- dplyr::filter(cu.info.main,CU_ID == cu.id)
+  cu.lookup.sub
   
 if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the lookup file
   
   cu.avggen <- cu.lookup.sub$Avg_Gen
-  
+  cu.avggen
   
   # new fn version arguments
   #   slope.specs = list(num.gen = 3, extra.yrs = 0, filter.sides = 1, slope.smooth = TRUE,
@@ -96,7 +97,7 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
                          log.transform = cu.lookup.sub$TrendLog, 
                          out.exp = TRUE,  # exponentiate the log-smoothed series?
                          na.rm=FALSE)
-  
+  cu.slope.specs
   # new fn version arguments
   #   list(avg.type = "geomean", recent.excl = FALSE, lt.smooth = TRUE,
   #         rel.avg.type = "regular", min.lt.yrs = 20, min.perc.yrs = 20)
@@ -110,7 +111,7 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
                        # USE SAME SETTING AS LT TREND FOR NOW -> DISCUSS
                        # https://github.com/SOLV-Code/SOS-Data-Processing/issues/52
                        )
-  
+  cu.avg.specs
   # new fn version arguments
   #  metric.bm = list(RelAbd = c(NA, NA), AbsAbd = c(1000, 10000), LongTrend = c(0.5,
   #               0.75), PercChange = c(-25, -15), ProbDeclBelowLBM = c(NA, NA), Percentile = c(0.25,0.5)) 
@@ -123,14 +124,24 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
                 Percentile = c(0.25,0.5) #using hardwired for now-> DISCUSS
                 # https://github.com/SOLV-Code/SOS-Data-Processing/issues/52
                 )
-  
+  cu.bm
 
   data.sub <- cu.file %>% filter(CU_ID == cu.id) 
   
   data.sub
   
-  
+  # GP ADDED March 2023: Now that data series were trimmed, need to add a bunch of NA years before the retro start (else the MCMC slope calc crashes)
+  if(retro.start.use-10 < min(data.sub$Year)){
+    yrs.add <- data.frame(CU_ID = cu.id, Year = (retro.start.use-10):min(data.sub$Year)-1)
+    yrs.add
+    
+    data.sub <- bind_rows(data.sub, yrs.add) %>% arrange(Year)
+    data.sub
+      }
 
+  
+  
+  
   if(cu.lookup.sub$Cyclic==TRUE) cyclic.bm.sub <- cyclic.cu.bm[cyclic.cu.bm$CU_ID==cu.id,] else(cyclic.bm.sub=NA)
   
   for(series.do in c("SpnForAbd_Wild","SpnForTrend_Wild" )){  #"SpnForAbd_Total","SpnForTrend_Total",
@@ -142,6 +153,12 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
   cu.series <- data.sub[,series.do]
   cu.series[!is.finite(cu.series)] <- NA
   cu.yrs <- data.sub[,"Year"]
+  
+  cu.series
+  cu.yrs
+  
+
+  
   
   if(sum(!is.na(cu.series))>5 &  sum(cu.series>0,na.rm=TRUE)>5){  
 
@@ -162,8 +179,8 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
                               #cyclic.bm.sub= cyclic.bm.sub,
                               tracing = TRUE)
   
-  
-  
+  calcPercChangeMCMC(cu.series)
+  cu.series
   
   
 
