@@ -49,7 +49,24 @@ flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use
                               Cm_ISC = select(flat.isc.cm.cu, all_of(vars.use)), 
                               Sk_SkeenaNass = select(flat.skeenanass.sk.cu, all_of(vars.use))) , 
                               .id = "DataSet")
+
+
+
+# GP ADDED March 2023: Filter out any records before CU-specific start year
+start.yrs.df <-  read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%
+                    select(CU_ID_Report,Abd_StartYr)
+  
+start.yrs.df
+
+
+flat.merged.cu <- flat.merged.cu %>% 
+                      mutate(CU_ID_Report = gsub("_","-", CU_ID)) %>%
+                      left_join(start.yrs.df, by = "CU_ID_Report") %>%
+                      mutate(UseYear = Year >= Abd_StartYr) %>% dplyr::filter(UseYear)
 head(flat.merged.cu)
+
+
+
 write.csv(flat.merged.cu,"DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",row.names = FALSE)
 
 
