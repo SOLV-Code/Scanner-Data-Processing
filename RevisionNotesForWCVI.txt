@@ -1,0 +1,38 @@
+All 3 WCVI CK CUs ------------------------------------------------
+
+- Added habitat-based values for Rel Abd BM from Carrie's file
+- Changed classification of data type to "Abs_Abd" so that the Rel Abd BM are used
+
+
+CK-31 (WCVI Southwest Falls) ------------------------------------------------
+
+- Changed Bedwell enhancement category from MOD to LOW (based on LRP paper Fig 23)
+
+- Clemens categorized as low enh and persistent site in Brown et al. and included in their time series, but seems to be excluded from LRP paper. The current time series we've been using has quite  a bit of infilling. -> Changed the record classification from P (persistent) to DD (data deficient) so that it is excluded from the time series for status assessment.
+
+- Cypre River categorized as high enh and persistent site in Brown et al., but not in indicator systems identified in LRP paper. Discrepancy doesn't affect CU time series, because high enh sites are excluded anyway. -> No Change
+
+- Nahmint River categorized  as high enh and persistent site in Brown et al., but classified as low enhancement in LRP paper  -> Changed the record classification from HIGH to LOW so that it now included in the time series for status assessment.
+
+- Sooke River, Thornton Creek, and Toquart River categorized as high enh and persistent site in Brown et al., but not in indicator systems identified in LRP paper. Discrepancy doesn't affect CU time series, because high enh sites are excluded anyway. -> No Change
+
+End Result: time series uses 4 sites (Bedwell, Megin , Moyeha,Nahmint)
+
+
+
+CK-32 (WCVI - Nootka-Kyuquot) ------------------------------------------------
+
+- Tahsis River categorized  as high enh and persistent site in Brown et al., but classified as low enhancement in LRP paper  -> Changed the record classification from HIGH to LOW so that it now included in the time series for status assessment.
+
+End result: time series uses 4 sites Artlish, Kaouk, Tahsis, Tahsish
+
+CK-33 (WCVI North Fall) ------------------------------------------------
+
+- Cayeghle identified as data deficient site with high enhancement in Brown et al., but categorized as low enhancement site with long time series in LRP paper. Our current nuSEDS extract generates no data for Cayeghle after the standard Ck quality filtering and infilling. -> not included in time series for status assessment
+
+
+- Marble categorized as High enhancement and persistent indicator on Brown et al 2020, but identified as low enh in Fig 23 of LRP paper. WCVI staff said on call to exclude from CU time series (which is what was previously being done).  -> no change, but Marble is the only P sites in this CU, so the CU is data deficient for rapid status.
+
+End result: no time series for this CU
+
+
