@@ -53,7 +53,7 @@ flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use
 
 
 # GP ADDED March 2023: Filter out any records before CU-specific start year
-start.yrs.df <-  read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%
+start.yrs.df <-  read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%
                     select(CU_ID_Report,Abd_StartYr)
   
 start.yrs.df
