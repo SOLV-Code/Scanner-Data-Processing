@@ -33,8 +33,8 @@ names(sbc.ck.bypop.raw )
 
 
 # ************** BMac May 26 2021 adding in code to pull in the sites that are NOT used in the WSP data ***********
-# This includes the DD sires that have data that wasn't included
-# Also defined the yes/no colun in the PopLookup file to tell the tool which sites are included vs not
+# This includes the DD sites that have data that wasn't included
+# Also defined the yes/no column in the PopLookup file to tell the tool which sites are included vs not
 
 stage_1_data <- read.csv("DATA_LOOKUP_FILES/SOURCES/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
 verified_sites <- read.csv("DATA_LOOKUP_FILES/SOURCES/SBC_Chinook_VerifiedSiteLookup.csv")

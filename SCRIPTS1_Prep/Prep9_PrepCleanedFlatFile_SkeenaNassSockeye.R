@@ -10,7 +10,10 @@ skeenanass.sk.src <- read_csv("DATA_IN/SkeenaNassSockeye_Generated_SR_Data.csv")
                       dplyr::rename(STK_NAME = Stock)
 head(skeenanass.sk.src )
 
-cu.info.main <- read_csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv")
+
+skeenanass.sk.src$CU_Name <- gsub("Swan/Stephens", "Stephens",skeenanass.sk.src$CU_Name )
+
+cu.info.main <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv")
 names(cu.info.main)
 
 skeenanass.sk.src <- left_join(skeenanass.sk.src, cu.info.main %>% select(CU_Name,CU_ID,DU_ID) )
@@ -33,3 +36,8 @@ head(skeenanass.sk.clean)
 
 
 write.csv(skeenanass.sk.clean, "DATA_OUT/Cleaned_FlatFile_ByCU_SkeenaNassSockeye.csv",row.names=FALSE)
+
+
+
+
+
