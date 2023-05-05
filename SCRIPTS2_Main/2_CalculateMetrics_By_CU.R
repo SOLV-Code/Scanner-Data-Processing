@@ -5,7 +5,7 @@ library("tidyverse")
 # read in the merged flat file and lookup file
 #cu.file <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE)
 cu.file <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE)
-cu.info.main <- read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
+cu.info.main <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
 cyclic.cu.bm  <- read.csv("DATA_LOOKUP_FILES/FRSK_Cycle_Rel_BMs.csv", stringsAsFactors=FALSE)
 
 # Using Package install instead
