@@ -2,6 +2,8 @@ All 3 WCVI CK CUs ------------------------------------------------
 
 - Added habitat-based values for Rel Abd BM from Carrie's file
 - Changed classification of data type to "Abs_Abd" so that the Rel Abd BM are used
+- Checked that the revised time series got each CU matches the sum of quality-filtered and infilled site data from nuSEDS for the revised list of sites.
+- Attached xls has the resulting CU-level and site level data
 
 
 CK-31 (WCVI Southwest Falls) ------------------------------------------------
@@ -16,7 +18,9 @@ CK-31 (WCVI Southwest Falls) ------------------------------------------------
 
 - Sooke River, Thornton Creek, and Toquart River categorized as high enh and persistent site in Brown et al., but not in indicator systems identified in LRP paper. Discrepancy doesn't affect CU time series, because high enh sites are excluded anyway. -> No Change
 
-End Result: time series uses 4 sites (Bedwell, Megin , Moyeha,Nahmint)
+End Result: 
+- time series uses 4 sites (Bedwell, Megin , Moyeha,Nahmint)
+
 
 
 
@@ -31,7 +35,7 @@ CK-33 (WCVI North Fall) ------------------------------------------------
 - Cayeghle identified as data deficient site with high enhancement in Brown et al., but categorized as low enhancement site with long time series in LRP paper. Our current nuSEDS extract generates no data for Cayeghle after the standard Ck quality filtering and infilling. -> not included in time series for status assessment
 
 
-- Marble categorized as High enhancement and persistent indicator on Brown et al 2020, but identified as low enh in Fig 23 of LRP paper. WCVI staff said on call to exclude from CU time series (which is what was previously being done).  -> no change, but Marble is the only P sites in this CU, so the CU is data deficient for rapid status.
+- Marble categorized as High enhancement and persistent indicator in Brown et al 2020, but identified as low enh in Fig 23 of LRP paper. WCVI staff said on call to exclude from CU time series (which is what was previously being done).  -> no change, but Marble is the only "P" site in this CU, so the CU is data deficient for rapid status.
 
 End result: no time series for this CU
 
