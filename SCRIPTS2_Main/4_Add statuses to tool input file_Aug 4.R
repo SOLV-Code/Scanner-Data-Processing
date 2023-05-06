@@ -47,7 +47,7 @@ setwd("../"); setwd("Scanner-Data-Processing")
 
 
 # From GPs 3_Synoptic code
-  cu.lookup <- read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
+  cu.lookup <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
   # Fix the syntax issue with the CU_IDs in the CU lookup file
   cu.lookup$CU_ID <- gsub("_","-", cu.lookup$CU_ID)
 
