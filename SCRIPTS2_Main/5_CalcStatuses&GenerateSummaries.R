@@ -8,6 +8,7 @@
 # THE REQUIRED INPUT FILES ARE. JUST RUN THIS SCRIPT TO
 # GET THE PLOTS.
 
+library(tidyverse)
 
 # READ IN DATA
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
@@ -98,7 +99,7 @@ retro.summary.tbl$IntStatus5 <- retro.summary.tbl$IntStatusRaw
 retro.summary.tbl$IntStatus3 <- dplyr::recode(retro.summary.tbl$IntStatusRaw,"RedAmber" = "Red","AmberGreen" = "Amber")
 retro.summary.tbl$IntStatus2 <- dplyr::recode(retro.summary.tbl$IntStatus3, "Amber" = "NotRed","Green" = "NotRed")
 
-write.csv(retro.summary.tbl, "data/OUTPUT/Retro_Synoptic_Details.csv", row.names = FALSE)   
+write.csv(retro.summary.tbl, "DATA_OUT/Retro_Synoptic_Details.csv", row.names = FALSE)   
 
 
 
@@ -150,19 +151,16 @@ retro.yrs <- 1995:2021
 ###########################################################
 
 
-retro.summary.tbl <- read_csv("data/OUTPUT/Retro_Synoptic_Details.csv")
+retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
 
-status.notes.src <- read_csv("data/2_Other_Inputs/RapidStatus_Notes_2022.csv")%>%
-  dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
-
-metrics.details <- read_csv("data/1_Inputs_from_Processing_Repo/METRICS_FILE_BY_CU.csv") %>%
+metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
 
-cu.info <- read_csv("data/1_Inputs_from_Processing_Repo/MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
+cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-data.raw <- read.csv("data/1_Inputs_from_Processing_Repo/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE) %>%
+data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE) %>%
   mutate(CU_ID = gsub("_","-",CU_ID)) %>% dplyr::filter(!is.na(CU_Name)) %>%
   left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
 head(data.raw)
@@ -170,17 +168,13 @@ head(data.raw)
 sort(unique(data.raw$Group))
 
 
-retro.values <- read.csv("data/1_Inputs_from_Processing_Repo/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
+retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
   left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
 names(retro.values)
 sort(unique(retro.values$Group))
 
-retro.status <- read.csv("data/1_Inputs_from_Processing_Repo/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
+retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
   left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-
-
-
-
 
 
 
@@ -213,7 +207,7 @@ for(cu.plot in cu.list){
   
   cu.info.sub <- cu.info %>% dplyr::filter(CU_ID == cu.plot)
   
-  print(cu.info$CU_ID)
+  #print(cu.info$CU_ID)
   
   
   cyclic.check <- cu.info.sub$Cyclic
@@ -249,36 +243,15 @@ for(cu.plot in cu.list){
     data.type <- cu.info.sub$DataQualkIdx
     data.type  
     
-    
-    # for(plot.type in c("FullDashboard","MetricsOnly","MetricsAndStatus")){  
-    
-    for(plot.type in c("MetricsAndStatus")){  
-      
-      if(plot.type == "FullDashboard"){
-        png(filename = paste0("data/OUTPUT/FullDashboard/RapidStatusDashboard_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,".png"),
-            width = 480*4.5, height = 480*5.5, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
-        layout(mat=matrix(c(1,1,2,2,3,4,5,6),ncol=2,byrow=TRUE),heights = c(1.5,1,1,1))
-        #layout.show(6)
-      }
-      
-      if(plot.type == "MetricsOnly"){
-        png(filename = paste0("data/OUTPUT/MetricsOnly/MetricsPlot_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,".png"),
-            width = 480*4.5, height = 480*4.5, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
-        layout(mat=matrix(c(1,2,3,4),ncol=2,byrow=TRUE),heights = c(1,1,1,1))
-        #layout.show(6)
-      }
-      
-      
-      
-      if(plot.type == "MetricsAndStatus"){
-        png(filename = paste0("data/OUTPUT/MetricsAndStatus/MetricsAndStatusPlot_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,".png"),
+
+        png(filename = paste0("OUTPUT/MetricsAndStatus/MetricsAndStatusPlot_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,".png"),
             width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
         
         layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
         #layout.show(6)
         mai.vals <- c(1,2,2,2)
         
-      }
+
       
       
       
@@ -554,7 +527,6 @@ for(cu.plot in cu.list){
       #############################################################
       # PANEL 3: GRID OF METRICS AND STATUSES
       ###########################################################
-      if(plot.type %in% c("FullDashboard","MetricsAndStatus")){
         
         par(mai=c(1,3.5,1.5,2))
         
@@ -676,36 +648,10 @@ for(cu.plot in cu.list){
           } # end if confidence   
           
         } # end looping through var
-        
-        
-        
-        
-      }
-      
-      #############################################################
-      # PANEL 6: STATUS NOTES
-      ###########################################################
-      
-      if(plot.type == "FullDashboard"){
-        notes.in <- status.notes.src %>% dplyr::filter(CU_ID == cu.plot)
-        notes.in
-        
-        
-        plot(1:5,1:5,type="n",axes=FALSE,xlab="",ylab="",xlim=c(0,10),ylim=c(0,10))
-        box(which = "plot", lty = "solid", col="darkgrey")
-        textbox(c(0,10), 10,notes.in$Notes,border = "white",cex=1.5)
-        #mtext("Status Notes",side=3,line=1,col="darkblue",adj=0,font=2)
-        
-        title(main = "Status Notes", cex.main = 1.5,col.main="darkblue",line=1)
-        
-      }
-      
-      dev.off()
-      
-    } # end looping through plot types
-    
-  } # end if do plots
   
+
+      dev.off()
+  } # end if doing plot
 } #end looping through CUs
 
 
