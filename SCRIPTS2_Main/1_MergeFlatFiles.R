@@ -34,12 +34,17 @@ flat.fr.pk.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_FraserPink.csv",string
 flat.fr.cm.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_FraserChum.csv",stringsAsFactors = FALSE)
 flat.isc.cm.cu<- read.csv("DATA_OUT/Cleaned_FlatFile_byCU_ISCChum.csv",stringsAsFactors = FALSE)
 flat.skeenanass.sk.cu<- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_SkeenaNassSockeye.csv",stringsAsFactors = FALSE)
+flat.ok.sk.cu <- read.csv("DATA_OUT/Cleaned_FlatFile_ByCU_OkanagansSockeye.csv",stringsAsFactors = FALSE)
 
 
 
 # find common variables
-vars.use <- intersect(intersect(intersect(intersect(intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
-                                names(flat.fr.pk.cu)),names(flat.fr.cm.cu)), names(flat.isc.cm.cu))
+vars.use <-intersect(intersect(intersect(intersect( intersect(
+  intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
+                                names(flat.fr.pk.cu)),names(flat.fr.cm.cu)), 
+                               names(flat.isc.cm.cu)),names(flat.ok.sk.cu))
+
+vars.use
 
 flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use)),
                               Ck_SBC = select(flat.sbc.ck.cu,all_of(vars.use)),
@@ -47,7 +52,8 @@ flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use
                               Pk_Fraser = select(flat.fr.pk.cu, all_of(vars.use)),
                               Cm_Fraser = select(flat.fr.cm.cu, all_of(vars.use)),
                               Cm_ISC = select(flat.isc.cm.cu, all_of(vars.use)), 
-                              Sk_SkeenaNass = select(flat.skeenanass.sk.cu, all_of(vars.use))) , 
+                              Sk_SkeenaNass = select(flat.skeenanass.sk.cu, all_of(vars.use)) , 
+                              Sk_Okanagan = select(flat.ok.sk.cu, all_of(vars.use))),
                               .id = "DataSet")
 
 
@@ -64,6 +70,8 @@ flat.merged.cu <- flat.merged.cu %>%
                       left_join(start.yrs.df, by = "CU_ID_Report") %>%
                       mutate(UseYear = Year >= Abd_StartYr) %>% dplyr::filter(UseYear)
 head(flat.merged.cu)
+
+sum(flat.merged.cu$CU_Name=="Osoyoos",na.rm=TRUE)
 
 
 
