@@ -868,7 +868,7 @@
 "CK-17","Chinook","Lower Thompson_SP_1.2",2011,"Rel_Idx",NA,NA,"Amber","Red",NA,NA,NA,NA,NA,NA,2
 "CK-17","Chinook","Lower Thompson_SP_1.2",2012,"Rel_Idx",NA,NA,"Amber","Red",NA,NA,NA,NA,NA,NA,2
 "CK-17","Chinook","Lower Thompson_SP_1.2",2013,"Rel_Idx",NA,NA,"Amber","Red",NA,NA,NA,NA,NA,NA,2
-"CK-17","Chinook","Lower Thompson_SP_1.2",2014,"Rel_Idx",NA,NA,"Green","Amber",NA,NA,NA,NA,NA,NA,2
+"CK-17","Chinook","Lower Thompson_SP_1.2",2014,"Rel_Idx",NA,NA,"Green","Red",NA,NA,NA,NA,NA,NA,2
 "CK-17","Chinook","Lower Thompson_SP_1.2",2015,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CK-17","Chinook","Lower Thompson_SP_1.2",2016,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
 "CK-17","Chinook","Lower Thompson_SP_1.2",2017,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2
@@ -999,6 +999,31 @@
 "CK-32","Chinook","West Vancouver Island-Nootka & Kyuquot_FA_0.x",2017,"Abs_Abd","Amber","Amber","Green","Green",NA,NA,"Amber","Amber","Amber","Amber",4
 "CK-32","Chinook","West Vancouver Island-Nootka & Kyuquot_FA_0.x",2018,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
 "CK-32","Chinook","West Vancouver Island-Nootka & Kyuquot_FA_0.x",2019,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",1998,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",1999,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2000,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2001,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2002,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2003,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2004,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2005,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2006,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2007,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",3
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2008,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",3
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2009,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",3
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2010,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2011,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2012,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2013,"Abs_Abd","Green","Amber","Amber","Red",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2014,"Abs_Abd","Green","Amber","Amber","Red",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2015,"Abs_Abd","Green","Amber","Amber","Red",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2016,"Abs_Abd","Green","Amber","Amber","Amber",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2017,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2018,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2019,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
 "CK-82","Chinook","Upper Adams River_SU_x.x",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-82","Chinook","Upper Adams River_SU_x.x",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "CK-82","Chinook","Upper Adams River_SU_x.x",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
@@ -1065,7 +1090,7 @@
 "CO-01","Coho","Middle Fraser",2006,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",2
 "CO-01","Coho","Middle Fraser",2007,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
 "CO-01","Coho","Middle Fraser",2008,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",2
-"CO-01","Coho","Middle Fraser",2009,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",3
+"CO-01","Coho","Middle Fraser",2009,"Abs_Abd","Green","Amber",NA,"Amber",NA,NA,"Green","Amber","Green","Amber",3
 "CO-01","Coho","Middle Fraser",2010,"Abs_Abd","Amber","Amber",NA,"Red",NA,NA,"Amber","Amber","Amber","Amber",3
 "CO-01","Coho","Middle Fraser",2011,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",3
 "CO-01","Coho","Middle Fraser",2012,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
@@ -1166,8 +1191,8 @@
 "CO-05","Coho","South Thompson",2007,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",2
 "CO-05","Coho","South Thompson",2008,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",2
 "CO-05","Coho","South Thompson",2009,"Abs_Abd","Green","Amber",NA,"Green",NA,NA,"Green","Amber","Green","Amber",3
-"CO-05","Coho","South Thompson",2010,"Abs_Abd","Green","Amber",NA,"Green",NA,NA,"Green","Amber","Green","Amber",3
-"CO-05","Coho","South Thompson",2011,"Abs_Abd","Green","Amber",NA,"Amber",NA,NA,"Green","Amber","Green","Amber",3
+"CO-05","Coho","South Thompson",2010,"Abs_Abd","Green","Amber",NA,"Amber",NA,NA,"Green","Amber","Green","Amber",3
+"CO-05","Coho","South Thompson",2011,"Abs_Abd","Green","Amber",NA,"Red",NA,NA,"Green","Amber","Green","Amber",3
 "CO-05","Coho","South Thompson",2012,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
 "CO-05","Coho","South Thompson",2013,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",4
 "CO-05","Coho","South Thompson",2014,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",4
@@ -1549,7 +1574,7 @@
 "SkeenaNass-6","Sockeye","Damdochax",2009,"Abs_Abd","Amber","Amber","Red","Red",NA,"Red","Amber","Amber","Amber","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2010,"Abs_Abd","Amber","Amber","Amber","Red",NA,"Red","Amber","Amber","Amber","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2011,"Abs_Abd","Amber","Amber","Amber","Red",NA,"Amber","Amber","Amber","Amber","Amber",4
-"SkeenaNass-6","Sockeye","Damdochax",2012,"Abs_Abd","Amber","Amber","Green","Green",NA,"Amber","Amber","Amber","Amber","Amber",4
+"SkeenaNass-6","Sockeye","Damdochax",2012,"Abs_Abd","Amber","Amber","Green","Amber",NA,"Amber","Amber","Amber","Amber","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2013,"Abs_Abd","Amber","Amber","Green","Green",NA,"Amber","Amber","Amber","Amber","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2014,"Abs_Abd","Amber","Amber","Green","Green",NA,"Amber","Amber","Amber","Amber","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2015,"Abs_Abd","Amber","Amber","Green","Green",NA,"Amber","Amber","Amber","Amber","Amber",4
@@ -1557,31 +1582,6 @@
 "SkeenaNass-6","Sockeye","Damdochax",2017,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2018,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",4
 "SkeenaNass-6","Sockeye","Damdochax",2019,"Abs_Abd","Amber","Amber","Green","Green",NA,"Green","Amber","Amber","Amber","Amber",4
-"SkeenaNass-22","Sockeye","Fulton",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",1998,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",1999,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2000,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2001,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2002,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2003,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2004,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2005,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2006,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2007,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2008,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2009,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2010,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2011,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2012,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2013,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2014,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2015,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2016,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2017,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2018,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-22","Sockeye","Fulton",2019,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-8","Sockeye","Johnston",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-8","Sockeye","Johnston",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-8","Sockeye","Johnston",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
@@ -1831,31 +1831,6 @@
 "SkeenaNass-25","Sockeye","Motase",2017,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-25","Sockeye","Motase",2018,"Abs_Abd","Amber","Red",NA,NA,NA,NA,"Amber","Red","Amber","Red",2
 "SkeenaNass-25","Sockeye","Motase",2019,"Abs_Abd","Amber","Red",NA,NA,NA,NA,"Amber","Red","Amber","Red",2
-"SkeenaNass-21","Sockeye","Pinkut",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",1998,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",1999,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2000,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2001,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2002,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2003,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2004,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2005,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2006,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2007,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2008,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2009,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2010,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2011,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2012,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2013,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2014,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2015,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2016,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2017,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2018,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"SkeenaNass-21","Sockeye","Pinkut",2019,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-24","Sockeye","Slamgeesh",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-24","Sockeye","Slamgeesh",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SkeenaNass-24","Sockeye","Slamgeesh",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
