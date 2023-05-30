@@ -214,7 +214,7 @@ POP_ID,GFE_ID,SYS_NM,Alt_SYS_NM,Alt2_SYS_NM,popMAP,yLAT,xLONG,faz_acro,maz_acro,
 49969,715,MAMQUAM SPAWNING CHANNEL,,,49928,49.731799,-123.130074,SC,GStr,SC+GStr,CK-20,SC,TRUE,Based on enhancement rank,,UNK,No,AGG,N,,,,No,Aggregated with Squamish River,,,No,No
 46678,265,MANN CREEK,,,,51.566457,-120.136607,NTh,GStr,NTh+GStr,CK-19,FR,TRUE,Based on enhancement rank,,UNK,No,DD,N,,,,No,,,,No,No
 40808,1297,THORNTON CREEK,,,,48.967016,-125.56259,WVI,WVI,WVI+WVI,CK-31,VI,FALSE,Based on enhancement rank,,HIGH,No,P,N,,1995,,Yes,Use 1995-2007,,,No,Yes
-47096,104,MARIA SLOUGH,,,,49.227919,-121.733305,LFR,GStr,LFR+GStr,CK-07,FR,FALSE,Based on enhancement rank,,HIGH,No,P,Y,,1996,,Yes,2002-present CN/CO surveys and estimates.,,,Yes,Yes
+47096,104,MARIA SLOUGH,,,,49.227919,-121.733305,LFR,GStr,LFR+GStr,CK-07,FR,TRUE,Based on enhancement rank,,LOW,No,P,Y,,2011,,Yes,2002-present CN/CO surveys and estimates.,,,Yes,Yes
 41548,1380,MARVINAS BAY CREEK,,,,49.655921,-126.627559,WVI,WVI,WVI+WVI,CK-32,VI,TRUE,Based on enhancement rank,,UNK,No,DD,N,,,,No,,,,No,No
 49963,714,MASHITER CREEK,,,49928,49.733775,-123.114686,SC,GStr,SC+GStr,CK-20,SC,TRUE,Based on enhancement rank,,UNK,No,AGG,N,,,,No,Aggregated with Squamish River,,,No,No
 41383,1363,MCCURDY CREEK,,,,49.673202,-126.188237,WVI,WVI,WVI+WVI,CK-32,VI,TRUE,Based on enhancement rank,,UNK,No,DEL,N,,,,No,,,,No,No
@@ -367,11 +367,11 @@ POP_ID,GFE_ID,SYS_NM,Alt_SYS_NM,Alt2_SYS_NM,popMAP,yLAT,xLONG,faz_acro,maz_acro,
 46165,211,THOMPSON RIVER,,,,50.236956,-121.582161,LTh,GStr,LTh+GStr,CK-13,FR,TRUE,Based on enhancement rank,,UNK,No,P,Y,,1997,,Yes,Not reviewed,,,No,Yes
 41713,1397,ZEBALLOS RIVER,,,,49.985267,-126.851338,WVI,WVI,WVI+WVI,CK-32,VI,FALSE,Based on enhancement rank,,HIGH,No,P,Y,,1995,,Yes,,,,No,Yes
 46082,194,TIPELLA CREEK,,,,49.743156,-122.15088,LFR,GStr,LFR+GStr,CK-06,FR,TRUE,Based on enhancement rank,,UNK,No,DD,N,,,,No,Sparse data.,,,No,No
-44792,2302,CAYEGHLE SYSTEM,,,,50.332617,-127.43448,WVI,WQCI,WVI+WQCI,CK-33,VI,FALSE,Based on enhancement rank,,HIGH,No,DD,Y,,,,Yes,,,,Yes,No
+41883,1414,TAHSISH RIVER,,,,50.140046,-127.105292,WVI,WVI,WVI+WVI,CK-32,VI,TRUE,Based on enhancement rank,,UNK,No,P,Y,,1995,,Yes,,,,Yes,No
 49802,808,TOBA RIVER,,,,50.497677,-124.350541,SC,GStr,SC+GStr,CK-20,SC,TRUE,Based on enhancement rank,,UNK,No,DD,N,,,,No,,,,No,No
 40063,1212,TOD CREEK,,,,48.558978,-123.462832,EVI,GStr,EVI+GStr,CK-21,SC,TRUE,Based on enhancement rank,,UNK,No,DD,N,,,,No,,,,No,No
 52208,1316,TOFINO CREEK,,,,49.235173,-125.594806,WVI,WVI,WVI+WVI,CK-31,VI,TRUE,Based on enhancement rank,,UNK,No,DD,N,,,,No,,,,No,Yes
-41883,1414,TAHSISH RIVER,,,,50.140046,-127.105292,WVI,WVI,WVI+WVI,CK-32,VI,TRUE,Based on enhancement rank,,UNK,No,P,Y,,1995,,Yes,,,,Yes,No
+44792,2302,CAYEGHLE SYSTEM,,,,50.332617,-127.43448,WVI,WQCI,WVI+WQCI,CK-33,VI,TRUE,Based on enhancement rank,,LOW,No,P,Y,,1995,,Yes,,,,Yes,No
 47497,164,TORPY RIVER,,,,53.736156,-120.900138,UFR,GStr,UFR+GStr,CK-12,FR,TRUE,Based on enhancement rank,,UNK,No,P,Y,,1995,,Yes,,,,Yes,No
 42173,1466,GOODSPEED RIVER,,,,50.652897,-128.0156,WVI,WQCI,WVI+WQCI,CK-33,VI,FALSE,Based on enhancement rank,,MOD,No,DD,Y,,,,No,,,,No,Yes
 52038,1164,TRENT RIVER,,,,49.645068,-124.9286,EVI,GStr,EVI+GStr,CK-27,SC,TRUE,Based on enhancement rank,,UNK,No,DEL,N,,,,No,,,,No,No
@@ -406,4 +406,6 @@ POP_ID,GFE_ID,SYS_NM,Alt_SYS_NM,Alt2_SYS_NM,popMAP,yLAT,xLONG,faz_acro,maz_acro,
 48662,759,WILSON CREEK,,,,49.439095,-123.710022,SC,GStr,SC+GStr,CK-20,SC,TRUE,Based on enhancement rank,,UNK,No,DEL,N,,,,No,,,,No,No
 52978,1147,WOODS CREEK,,,,49.92739,-125.182026,EVI,GStr,EVI+GStr,CK-27,SC,TRUE,Based on enhancement rank,,UNK,No,DEL,N,,,,No,,,,No,No
 47234,134,YALAKOM RIVER,,,47229,50.863867,-122.171944,MFR,GStr,MFR+GStr,CK-10,FR,TRUE,Based on enhancement rank,,UNK,No,AGG,N,,,,No,Not reviewed,,,No,Yes
-39958,1455,MARBLE RIVER,,,,50.537763,-127.518781,WVI,WQCI,WVI+WQCI,CK-33,VI,FALSE,Based on enhancement rank,,HIGH,No,P,Y,,1996,,Yes,,,,Yes,Yes
+39958,1455,MARBLE RIVER,,,,50.537763,-127.518781,WVI,WQCI,WVI+WQCI,CK-33,VI,TRUE,Based on PNI review,,LOW,No,P,Y,,1995,,Yes,,,,Yes,Yes
+39908,,CAYEGHLE CREEK,,,,,,WVI,WQCI,WVI+WQCI,CK-33,VI,TRUE,Based on PNI review,,LOW,No,P,,,1995,,,,,,,
+39918,,COLONIAL CREEK,,,,,,WVI,WQCI,WVI+WQCI,CK-33,VI,TRUE,Based on PNI review,,LOW,No,P,,,1995,,,,,,,
