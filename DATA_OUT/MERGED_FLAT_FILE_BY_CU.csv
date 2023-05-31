@@ -1543,7 +1543,7 @@
 "Ck_SBC","Chinook",2015,1238,1238,1238,1238,"CK-07","Maria Slough_SU_0.3","DU6","CK-07",1996,TRUE
 "Ck_SBC","Chinook",2016,105,105,105,105,"CK-07","Maria Slough_SU_0.3","DU6","CK-07",1996,TRUE
 "Ck_SBC","Chinook",2017,71,71,71,71,"CK-07","Maria Slough_SU_0.3","DU6","CK-07",1996,TRUE
-"Ck_SBC","Chinook",2018,0,0,0,0,"CK-07","Maria Slough_SU_0.3","DU6","CK-07",1996,TRUE
+"Ck_SBC","Chinook",2018,0,0,1,1,"CK-07","Maria Slough_SU_0.3","DU6","CK-07",1996,TRUE
 "Ck_SBC","Chinook",2019,345,345,345,345,"CK-07","Maria Slough_SU_0.3","DU6","CK-07",1996,TRUE
 "Ck_SBC","Chinook",1997,31,31,31,31,"CK-08","Middle Fraser-Fraser Canyon_SP_1.3","DU7","CK-08",1997,TRUE
 "Ck_SBC","Chinook",1998,8,8,8,8,"CK-08","Middle Fraser-Fraser Canyon_SP_1.3","DU7","CK-08",1997,TRUE
@@ -1748,7 +1748,7 @@
 "Ck_SBC","Chinook",2004,112.274850823307,112.274850823307,112.274850823307,112.274850823307,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2005,166,166,166,166,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2006,254,254,254,254,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
-"Ck_SBC","Chinook",2007,0,0,0,0,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
+"Ck_SBC","Chinook",2007,0,0,1,1,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2008,77,77,77,77,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2009,28,28,28,28,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2010,184,184,184,184,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
@@ -1760,7 +1760,7 @@
 "Ck_SBC","Chinook",2016,8.28853080769557,8.28853080769557,8.28853080769557,8.28853080769557,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2017,14,14,14,14,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",2018,4.09339716423377,4.09339716423377,4.09339716423377,4.09339716423377,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
-"Ck_SBC","Chinook",2019,0,0,0,0,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
+"Ck_SBC","Chinook",2019,0,0,1,1,"CK-16","South Thompson-Bessette Creek_SU_1.2","DU14","CK-16",1999,TRUE
 "Ck_SBC","Chinook",1995,18063.8813119045,18063.8813119045,4620.88131190446,4620.88131190446,"CK-17","Lower Thompson_SP_1.2","DU15","CK-17",1995,TRUE
 "Ck_SBC","Chinook",1996,27269.0844596862,27269.0844596862,5029.08445968616,5029.08445968616,"CK-17","Lower Thompson_SP_1.2","DU15","CK-17",1995,TRUE
 "Ck_SBC","Chinook",1997,22396.4568385874,22396.4568385874,9853.4568385874,9853.4568385874,"CK-17","Lower Thompson_SP_1.2","DU15","CK-17",1995,TRUE

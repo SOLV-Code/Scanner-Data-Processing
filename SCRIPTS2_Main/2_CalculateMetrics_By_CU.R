@@ -63,7 +63,7 @@ start.time <- proc.time()
 
 #for(i in 55:dim(cu.list)[1]){ 
 for(i in 1:dim(cu.list)[1]){ 
-  #for(i in 26){ 
+  #for(i in 29){ 
   #for(i in 55:59){ 
   
   print("----------------------------")
@@ -77,6 +77,7 @@ for(i in 1:dim(cu.list)[1]){
   print(cu.name)
   print(cu.id)
   
+ 
   
   cu.lookup.sub<- dplyr::filter(cu.info.main,CU_ID == cu.id)
   cu.lookup.sub
@@ -349,7 +350,7 @@ metrics.cu.out.cleaned[ rel.idx.fix   ,c("Value","Status")] <- c(NA, NA)
 # MANUAL PATCH TO DEAL WITH METRIC USABILITY (THINK THIS WAS DONE MANUALLY BEFORE)
 # NEED to SET UP TO READ FROM A SPEC FILE (ALREADY HAPPENING SOMEWHERE BUT MISSING A FEW
 
-usability.fix.idx <- metrics.cu.out.cleaned$CU_ID %in% paste0("CK-", c("08","11","16","18","82"))
+usability.fix.idx <- metrics.cu.out.cleaned$CU_ID %in% paste0("CK-", c("11","16","18","82"))
 metrics.cu.out.cleaned[ usability.fix.idx   ,c("Value","Status")] <- c(NA, NA)
 
 
