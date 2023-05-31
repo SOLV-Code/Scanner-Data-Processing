@@ -530,7 +530,7 @@ for(cu.plot in cu.list){
         
         par(mai=c(1,3.5,1.5,2))
         
-        plot(1:5,1:5, type="n",xlim = range(retro.yrs), ylim= c(-7.3,0.5) ,xlab="",ylab="",
+        plot(1:5,1:5, type="n",xlim = range(retro.yrs.plot), ylim= c(-7.3,0.5) ,xlab="",ylab="",
              axes=FALSE)
         axis(3,at = pretty(retro.yrs),cex.axis=2)
         mtext("Metrics & Status",side=3,line=3,xpd=NA,font=2,col="darkblue",cex=1.3)
