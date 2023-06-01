@@ -183,7 +183,14 @@ sbc.ck.bycu.cleaned <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID != "CK-01") %
 
 #----------------------------------------------------------
 
+#ADDED because 0 values for Maria Slough  and Bessette were messing up the metric calcs (gen avg of log)
+# have been debating a rule for handling this in the COSEWIC Metric WG, but no resolution
 
+sbc.ck.bycu.cleaned$SpnForTrend_Wild[sbc.ck.bycu.cleaned$SpnForTrend_Wild==0] <- 1
+sbc.ck.bycu.cleaned$SpnForAbd_Wild[sbc.ck.bycu.cleaned$SpnForAbd_Wild==0] <- 1
+
+
+#----------------------------------------------------------
 
 write.csv(sbc.ck.bycu.cleaned, "DATA_OUT/Cleaned_FlatFile_ByCU_SBC_Ck.csv",row.names=FALSE)
 
