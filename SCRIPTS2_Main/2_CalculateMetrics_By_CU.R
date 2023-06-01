@@ -342,19 +342,42 @@ metrics.cu.out.cleaned  <-  rbind(
                                              ) %>%
         left_join(cu.info.main %>% select(CU_ID,DataQualkIdx) %>% rename(Data_Type = DataQualkIdx) , by ="CU_ID")
 
-# any where data type is rel idx: change absAbd and relAbd to NA
-rel.idx.fix <-  grepl("Abd", metrics.cu.out.cleaned$Label) & grepl("Rel_Idx", metrics.cu.out.cleaned$Data_Type)   
-metrics.cu.out.cleaned[ rel.idx.fix   ,c("Value","Status")] <- c(NA, NA)
+
+
 
 #####################################
+# METRIC USABILITY ADJUSTMENTS OLD
+
+# any where data type is rel idx: change absAbd and relAbd to NA  
+#rel.idx.fix <-  grepl("Abd", metrics.cu.out.cleaned$Label) & grepl("Rel_Idx", metrics.cu.out.cleaned$Data_Type)   
+#metrics.cu.out.cleaned[ rel.idx.fix   ,c("Value","Status")] <- c(NA, NA)
+
 # MANUAL PATCH TO DEAL WITH METRIC USABILITY (THINK THIS WAS DONE MANUALLY BEFORE)
 # NEED to SET UP TO READ FROM A SPEC FILE (ALREADY HAPPENING SOMEWHERE BUT MISSING A FEW
 
-usability.fix.idx <- metrics.cu.out.cleaned$CU_ID %in% paste0("CK-", c("11","16","18","82"))
-metrics.cu.out.cleaned[ usability.fix.idx   ,c("Value","Status")] <- c(NA, NA)
+#usability.fix.idx <- metrics.cu.out.cleaned$CU_ID %in% paste0("CK-", c("11","16","18","82"))
+#metrics.cu.out.cleaned[ usability.fix.idx   ,c("Value","Status")] <- c(NA, NA)
 
+#####################################
+# METRIC USABILITY ADJUSTMENTS NEW (GP Revised 2023-05-31)
+# linking it directly to cu info lookup file
+# added a new column there "AbsAbdMetric" for future cases where want AbdAbd but not RelAbd (as per BMac discussion)
+# for now settings in AbdMetric and AbsAbdMetric are the same
 
+not.abd.list <- cu.info.main$CU_ID[!cu.info.main$AbdMetric]
+not.absabd.list <- cu.info.main$CU_ID[!cu.info.main$AbsAbdMetric]
+not.shorttrend.list <- cu.info.main$CU_ID[!cu.info.main$ShortTrendMetric]
+not.longtrend.list <- cu.info.main$CU_ID[!cu.info.main$LongTrendMetric]
 
+abd.fix.idx <- grepl("RelAbd", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.abd.list
+absabd.fix.idx <- grepl("AbsAbd", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.absabd.list
+shorttrend.fix.idx <- grepl("ShortTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.shorttrend.list
+longtrend.fix.idx <- grepl("LongTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.longtrend.list
+  
+metrics.cu.out.cleaned[abd.fix.idx,c("Value","Status")] <- c(NA, NA)
+metrics.cu.out.cleaned[absabd.fix.idx,c("Value","Status")] <- c(NA, NA)
+metrics.cu.out.cleaned[shorttrend.fix.idx,c("Value","Status")] <- c(NA, NA)
+metrics.cu.out.cleaned[longtrend.fix.idx,c("Value","Status")] <- c(NA, NA)
 
 
 write.csv(metrics.cu.out.cleaned,"DATA_OUT/METRICS_FILE_BY_CU.csv",row.names=FALSE)

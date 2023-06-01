@@ -27,6 +27,9 @@ retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFa
 names(retro.values)
 sort(unique(retro.values$Group))
 
+retro.values %>% dplyr::filter(CU_ID == "CK-11")
+retro.values %>% dplyr::filter(CU_ID == "CK-16")
+
 retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
   left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
 
@@ -60,6 +63,9 @@ if(exists("retro.lt3")){rm(retro.lt3)}
 source("CODE/synopticFunction_Source.R")
 retro.lt3 <- rapid_status(data.df = retro.values, algorithm = "StateOfTheSalmon3" ,group.var = "Species") 
 names(retro.lt3)
+
+retro.lt3$data %>% dplyr::filter(CU_ID == "CK-11")
+
 
 #retro.values %>% dplyr::filter(CU_ID == "CK-10")
 #test <- retro.lt3$data %>% dplyr::filter(CU_ID == "CK-10")
@@ -244,7 +250,7 @@ for(cu.plot in cu.list){
     data.type  
     
 
-        png(filename = paste0("OUTPUT/MetricsAndStatus/MetricsAndStatusPlot_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,".png"),
+        png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,"_",cu.info.sub$CU_ID,".png"),
             width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
         
         layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
@@ -333,7 +339,7 @@ for(cu.plot in cu.list){
             cex=1.3, type="o")
       
       if(!cyclic.check){
-        lines(cu.abd$Year,gm.out/axis.scale,type="l",col="red",lwd=4)
+        lines(cu.abd$Year,gm.out/axis.scale,type="o",col="red",lwd=4,pch=15,cex=0.8)
       }
       
       
@@ -413,7 +419,7 @@ for(cu.plot in cu.list){
       
       lines(cu.abd$Year,log(cu.abd[,2]),col="darkblue",pch=19, lwd=3, cex=1.3,type="o")
       
-      if(!cyclic.check){lines(cu.abd$Year,log(gm.out),type="l",col="red",lwd=4)}
+      if(!cyclic.check){lines(cu.abd$Year,log(gm.out),type="o",col="red",lwd=4,pch=15,cex=0.8)}
       
       
       if(cyclic.check){
