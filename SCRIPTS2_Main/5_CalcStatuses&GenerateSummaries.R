@@ -396,14 +396,14 @@ for(cu.plot in cu.list){
       
       title(main = title.label, cex.main = 1.8,col.main="darkblue",line=1)
       
-      if(!bm.areas){
+      if(!bm.areas & cu.info.sub$AbsAbdMetric){
         abline(h=lbm.plot,col="firebrick1",lwd=3,lty=2)
         text(par("usr")[2],lbm.plot,"Lower", adj=c(1,0.5),col = "firebrick1",cex=1.2)
         abline(h=ubm.plot,col="green",lwd=3,lty=2)
         text(par("usr")[2],ubm.plot,"Upper", adj=c(1,0.5),col = "green",cex=1.2)
       }
       
-      if(bm.areas){
+      if(bm.areas & cu.info.sub$AbsAbdMetric){
         rect(par("usr")[1],lbm.plot, par("usr")[2],ubm.plot, col=amber.use,
              border = amber.use)  
         rect(par("usr")[1],ubm.plot, par("usr")[2],par("usr")[4], col=green.use,
