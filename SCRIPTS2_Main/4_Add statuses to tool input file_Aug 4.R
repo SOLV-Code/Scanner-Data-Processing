@@ -47,7 +47,7 @@ setwd("../"); setwd("Scanner-Data-Processing")
 
 
 # From GPs 3_Synoptic code
-  cu.lookup <- read.csv("DATA_LOOKUP_FILES/MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
+  cu.lookup <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
   # Fix the syntax issue with the CU_IDs in the CU lookup file
   cu.lookup$CU_ID <- gsub("_","-", cu.lookup$CU_ID)
 
@@ -85,7 +85,7 @@ setwd("../"); setwd("Scanner-Data-Processing")
                                         ) %>%
                                    mutate(Status = replace(Status, is.na(Value), NA))
   
-  std.metrics <- c("AbsLBM","AbsUBM","LongTrend","PercChange","RelLBM","RelUBM")
+  std.metrics <- c("AbsLBM","RelLBM","LongTrend","PercChange") # CHanged May 2023, was counting 6 metrics instead of 4,
   
   metrics.synoptic.values <- metrics.tmp2 %>% 
                                           select(-c(Label, Data_Type, Compare, LBM, UBM, Status,  AbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) %>%

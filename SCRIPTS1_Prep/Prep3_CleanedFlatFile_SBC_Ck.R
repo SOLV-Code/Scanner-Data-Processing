@@ -33,8 +33,8 @@ names(sbc.ck.bypop.raw )
 
 
 # ************** BMac May 26 2021 adding in code to pull in the sites that are NOT used in the WSP data ***********
-# This includes the DD sires that have data that wasn't included
-# Also defined the yes/no colun in the PopLookup file to tell the tool which sites are included vs not
+# This includes the DD sites that have data that wasn't included
+# Also defined the yes/no column in the PopLookup file to tell the tool which sites are included vs not
 
 stage_1_data <- read.csv("DATA_LOOKUP_FILES/SOURCES/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
 verified_sites <- read.csv("DATA_LOOKUP_FILES/SOURCES/SBC_Chinook_VerifiedSiteLookup.csv")
@@ -183,7 +183,14 @@ sbc.ck.bycu.cleaned <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID != "CK-01") %
 
 #----------------------------------------------------------
 
+#ADDED because 0 values for Maria Slough  and Bessette were messing up the metric calcs (gen avg of log)
+# have been debating a rule for handling this in the COSEWIC Metric WG, but no resolution
 
+sbc.ck.bycu.cleaned$SpnForTrend_Wild[sbc.ck.bycu.cleaned$SpnForTrend_Wild==0] <- 1
+sbc.ck.bycu.cleaned$SpnForAbd_Wild[sbc.ck.bycu.cleaned$SpnForAbd_Wild==0] <- 1
+
+
+#----------------------------------------------------------
 
 write.csv(sbc.ck.bycu.cleaned, "DATA_OUT/Cleaned_FlatFile_ByCU_SBC_Ck.csv",row.names=FALSE)
 

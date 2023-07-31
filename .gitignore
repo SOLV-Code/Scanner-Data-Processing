@@ -5,9 +5,12 @@ DATA_IN/SOURCES/
 *.xlsx
 *.pdf
 
-
+OUTPUT/
 
 WG/
+
+CU_Packages/
+
 
 
 ###
