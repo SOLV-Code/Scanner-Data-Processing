@@ -195,7 +195,7 @@ if(nrow(metrics.dummy %>%  filter_at(vars(Compare, LBM, UBM, Value, Status), any
 }
 
 
-metrics.out <- metrics.dummy %>% select(-X, -Label) %>%
+metrics.out <- metrics.dummy %>% select(-Label) %>%
                                  filter(!CU_ID %in% metrics.scanner$CU_ID) %>%
                                  filter(!is.na(CU_ID))%>%
                                  filter(!is.na(Stock))%>%

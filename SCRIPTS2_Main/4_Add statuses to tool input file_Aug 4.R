@@ -1,5 +1,7 @@
 
-# NOTE: THIS SCRIPT DOES NOT YET RUN ON THE GITHUB VERSION OF THE REPO!
+# NOTE: THIS SCRIPT DOES NOT YET RUN ON THE GITHUB VERSION OF THE REPO! It reads the output files! It also reads in the metrics
+# calculated in Script #2. These SHOULD BE THE SAME  as those output by the algorithm output file and can be read from this file
+# once we add in a script to run the algorithm in here!
 
 
 # Data prep for Scanner
@@ -7,245 +9,247 @@
 # BMac changed this to build the file GP needs to run synoptic and also the file that is read into the Scanner tool
 #  USE THE dataframes built in script 3 they have the filtering by expert assessment included now!
 
+# JULY 2023 UPDATE
+# Data set needed for algorithm input is now in script 3 (recreated this script). This now includes only steps needed
+# to make the Scanner input files
+
+
 #source('SCRIPTS2_Main/3_Generate_Synoptic_Input.R')
+source("CODE/synopticFunction_Source.R")   # Added July 2023
+
 library(dplyr)
 library(tidyr)
 
+# Longform metrics
+metrics.long <- read.csv("DATA_PROCESSING/Metrics_Longform_SUB.csv")
 
+# Full metrics dummy file with all CUS
+metrics.dummy <- read.csv("DATA_LOOKUP_FILES/METRICS_FILE_BY_CU_dummy.csv")
 
+# Lookup file
+cu.lookup <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%
+  dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
+# Published WSP statuses
+publ.status <- read.csv("DATA_LOOKUP_FILES/Publ_Status_Reorg_Status.csv") 
 
-#####################
-# THIS WAS FOR BMAC LOCAL USE - NEED TO MAKE SURE LATEST VERSION OF THE FUNCTION IS THERE
+# Algorithm outputs IF reading these in
+#algo.results <- read.csv("DATA_PROCESSING/Retro_Synoptic_Details.csv")
 
-# For now the latest version I use is always at 
-#     https://github.com/SOLV-Code/SOS-Synoptic-Status-Report/blob/main/code/synopticFunction_Source.R
-# But soon we will have the latest official version on a dedicated function repo
-# just need to figure out the details.
-# For now just included the latest version in this repo
+# OR
 
-source("CODE/synopticFunction_Source.R")
-
-
-
-if(FALSE){
-setwd("../")
-setwd("SOS-Synoptic-Status-Algorithm")  # The repo this is linked to is obsolete!
-
-# Run SotS Learning Tree 3
-source("CART/synopticFunction_Source.R")  # put the latest version right here into this repo for now
- 
-retro.status.df.val <- metrics.reorg.values   # not used anymore?
-retro.status.df.stat <- metrics.reorg.status  # not used anymore?
-publ.status <- read.csv("DATA/Publ_Status_Reorg_Status.csv") 
-
-setwd("../"); setwd("Scanner-Data-Processing")
-}
-
-#################################
-
-
-
-# From GPs 3_Synoptic code
-  cu.lookup <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
-  # Fix the syntax issue with the CU_IDs in the CU lookup file
-  cu.lookup$CU_ID <- gsub("_","-", cu.lookup$CU_ID)
-
-
-  # read in the merged flat file and lookup file
-  metrics.raw <- read.csv("DATA_OUT/METRICS_FILE_BY_CU.csv",stringsAsFactors = FALSE) 
-  metrics.raw[metrics.raw$Metric == "LongTrend","Value"] <- metrics.raw[metrics.raw$Metric == "LongTrend","Value"] * 100 # change to the units the the algorithms are using
-  
-  # BMac added Aug 4 2021 - change BMs as well so downloaded data is consistent
-  metrics.raw[metrics.raw$Metric == "LongTrend","LBM"] <- metrics.raw[metrics.raw$Metric == "LongTrend","LBM"] * 100 
-  metrics.raw[metrics.raw$Metric == "LongTrend","UBM"] <- metrics.raw[metrics.raw$Metric == "LongTrend","UBM"] * 100 
-
-
-  metrics.raw %>% dplyr::filter(CU_ID == "CK-02")
-  
-# Get the ratios
-  metrics.tmp1 <- metrics.raw %>% rename(Compare=Value) %>%
-                                  #relocate(Data_Type, .after=Label) %>%
-                                  left_join(cu.lookup %>% select(CU_ID, DataType=DataQualkIdx, AbdMetric,  ShortTrendMetric, LongTrendMetric, PercentileMetric), by="CU_ID" ) %>%
-                                  # Replace Value with NA when expert defined column says this metric is not appropriate for the data
-                                  mutate(Compare = replace(Compare, ((Metric == "RelAbd" | Metric == "AbsAbd") & AbdMetric==FALSE) , NA)) %>%
-                                  mutate(Compare = replace(Compare, ((Metric == "PercChange" | Metric == "ProbDeclBelowLBM") & ShortTrendMetric==FALSE) , NA)) %>%
-                                  mutate(Compare = replace(Compare, ((Metric == "LongTrend") & LongTrendMetric==FALSE) , NA)) %>%
-                                  mutate(Compare = replace(Compare, (( Metric == "Percentile" ) & PercentileMetric==FALSE) , NA)) %>%
-                                  mutate(Value= case_when( (Metric == "RelAbd" | Metric == "AbsAbd") ~ (Compare/LBM), 
-                                                           (Metric != "RelAbd" & Metric != "AbsAbd") ~ (Compare)
-                                  )
-                                  ) %>%
-                                  mutate(Metric = recode(Metric, RelAbd = "RelLBM", AbsAbd = "AbsLBM")) 
-    
-    
-  metrics.tmp2 <- metrics.tmp1 %>% rbind(metrics.tmp1 %>% filter(Metric == "RelLBM"| Metric =="AbsLBM") %>% 
-                                                          mutate(Value=Compare/UBM) %>%
-                                                          mutate(Metric=recode(Metric, RelLBM = "RelUBM", AbsLBM = "AbsUBM"))
-                                        ) %>%
-                                   mutate(Status = replace(Status, is.na(Value), NA))
-  
-  std.metrics <- c("AbsLBM","RelLBM","LongTrend","PercChange") # CHanged May 2023, was counting 6 metrics instead of 4,
-  
-  metrics.synoptic.values <- metrics.tmp2 %>% 
-                                          select(-c(Label, Data_Type, Compare, LBM, UBM, Status,  AbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) %>%
-                                          pivot_wider(names_from = Metric, values_from=Value)    
-  
-  metrics.synoptic.status <- metrics.tmp2 %>% 
-                                          select(-c(Label, Data_Type, Compare, LBM, UBM, Value,  AbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) %>%
-                                          pivot_wider(names_from = Metric, values_from=Status) %>%
-                                          mutate(RelAbd = RelUBM, AbsAbd = AbsLBM)
-  
-  metrics.synoptic.values[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.values[,std.metrics]))
-  metrics.synoptic.status[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.status[,std.metrics]))
-  
-  
-  # Write files for running the algorithms in retro
-  write.csv( metrics.synoptic.values,"DATA_OUT/Retrospective_Metrics_Values.csv", row.names = FALSE)
-  write.csv( metrics.synoptic.status,"DATA_OUT/Retrospective_Metrics_Status.csv", row.names = FALSE)                     
-            
-  # mutate(Value = case_when( ((Metric == "RelAbd" | Metric == "AbsAbd") & AbdMetric==FALSE) ~ NA_real_, 
-  #                           (Metric != "RelAbd" & Metric != "AbsAbd") ~ (Compare)
-  #                           
-           
-  
-
-  
-  
-  
-  
-  
-  
-####################################################################################################################
-# REST NOT NEEDED FOR ALGO PAPER INPUTS
-# BUT NEED TO MAKE SURE THIS USES THE LATEST VERSION OF THE FUNCTION!!!!!!!!!!!!!!!!!!!
-           
-                    
 # Algorithm LT3 Run
-sots3.trial <- synoptic(data.df = metrics.synoptic.values, algorithm = "StateOfTheSalmon3",
-                                                 group.var = "Species")
+retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
+                        left_join(cu.lookup %>% select("CU_ID",Group), by="CU_ID" )
 
-write.csv(sots3.trial$data,"Retro_Results_SotS3.csv",row.names = FALSE)
+
+retro.lt3 <- rapid_status(data.df = retro.values, algorithm = "StateOfTheSalmon3" ,group.var = "Species") 
+# sots3.trial <- synoptic(data.df = metrics.synoptic.values, algorithm = "StateOfTheSalmon3",
+#                                                  group.var = "Species")
+#
+write.csv(retro.lt3$data,"DATA_PROCESSING/Retro_Results_LT3.csv",row.names = FALSE)
 
 
 # ----- Get the ratios and build the dataframe for metrics
 # metrics.tmp <- metrics.raw %>% rename(Compare=Value) %>%
 #                                relocate(Data_Type, .after=Label)%>%
-#                               mutate(Value= case_when( (Metric == "RelAbd" | Metric == "AbsAbd") ~ (Compare/LBM), 
+#                               mutate(Value= case_when( (Metric == "RelAbd" | Metric == "AbsAbd") ~ (Compare/LBM),
 #                                                               (Metric != "RelAbd" & Metric != "AbsAbd") ~ (Compare)
 #                               )
 #                               ) %>%
 #                               mutate(Metric = recode(Metric, RelAbd = "RelLBM", AbsAbd = "AbsLBM")) %>%
-#                               rbind(metrics.raw %>% filter(Metric == "RelAbd"| Metric =="AbsAbd") %>% 
-#                                                     rename(Compare=Value) %>% 
+#                               rbind(metrics.raw %>% filter(Metric == "RelAbd"| Metric =="AbsAbd") %>%
+#                                                     rename(Compare=Value) %>%
 #                                                     mutate(Value=Compare/UBM) %>%
 #                                                     mutate(Metric=recode(Metric, RelAbd = "RelUBM", AbsAbd = "AbsUBM"))
 #                               ) %>%
 
+# Check that metrics in algo.results and metrics.long line up
+# compare.metrics <-  algo.results %>% select(CU_ID, Year, LongTrend) %>%
+#                                      right_join(metrics.long%>%select(CU_ID, Year, Metric, Value) %>%filter(Metric =="LongTrend"), by=c("CU_ID","Year"))
+# identical(compare.metrics$LongTrend, compare.metrics$Value)
+# CU_13 does not align on the trend metrics - these are unstable for this CU
+
 
 # Now create the dataframes for the Scanner from metrics.tmp2
-
-metrics.scanner <-  metrics.tmp2  %>%   filter(!Metric %in% c("ProbDeclBelowLBM", "Percentile")) %>%
-                                        select(-c(DataType, AbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) %>%
+metrics.scanner <-  metrics.long  %>%   select(-c(X, Label, DataType)) %>%
+                                        filter(!Metric %in% c("ProbDeclBelowLBM", "Percentile")) %>%
+                                        # mutate(Confidence =NA) %>%
                                         rbind(
-                                            publ.status %>% select(CU_ID,Year,IntStatus) %>%
-                                                            pivot_longer(cols=IntStatus, names_to = "Metric", values_to="Status") %>%
-                                                            inner_join( metrics.raw %>% select(CU_ID, Species, Stock, Data_Type) %>% unique() , by="CU_ID") %>%
-                                                            mutate(Label="SpnForAbd_Wild", Compare=NA, LBM=NA, UBM=NA, Value=NA)
+                                             publ.status %>% select(CU_ID,Year,IntStatus) %>%
+                                                             pivot_longer(cols=IntStatus, names_to = "Metric", values_to="Status") %>%
+                                                             inner_join( metrics.long %>% select(CU_ID, Species, Stock) %>% unique() , by="CU_ID") %>%
+                                                             mutate(Compare=NA, LBM=NA, UBM=NA, Value=NA)
                                         ) %>%
                                         rbind(
-                                            sots3.trial$data %>% select(CU_ID, Species, Stock, DataType, Year, SynStatus) %>% 
-                                                                 rename(Status=SynStatus, Data_Type=DataType) %>%
-                                                                 mutate(Status = na_if(Status, "None")) %>%
-                                                                 mutate(Label="SpnForAbd_Wild", Metric="SynStatus", Compare=NA, LBM=NA, UBM=NA, Value=NA)
+                                          retro.lt3$data %>% select(CU_ID, Species, Stock, Year, RapidStatus=SynStatus) %>%
+                                                             mutate(RapidStatus = na_if(RapidStatus, "None")) %>%
+                                                             pivot_longer(cols=c(RapidStatus), names_to = "Metric", values_to="Status") %>%
+                                                             mutate(Compare=NA, LBM=NA, UBM=NA, Value=NA) %>%
+                                                             relocate(Status, .before=Value)
                                         )%>%
                                         left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
-                                        select(-CU_ID, -Data_Type) %>% 
+                                        left_join((algo.results %>% select(c(CU_ID,Year,Confidence=ConfidenceRating3)) %>% mutate(Metric="RapidStatus")),
+                                                  by=c("CU_ID", "Year", "Metric")) %>%
+                                        select(-CU_ID) %>%
                                         rename(CU_ID=CU_ID_Alt2_CULookup)%>%
                                         relocate(CU_ID, .before=Species)%>%
-                                        relocate(Status, .after=last_col())
-  
+                                        relocate(c(Status,Confidence), .after=last_col())
+
+
+# metrics.scanner <-  metrics.tmp2  %>%   filter(!Metric %in% c("ProbDeclBelowLBM", "Percentile")) %>%
+#                                         select(-c(DataType, AbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) %>%
+#                                         rbind(
+#                                             publ.status %>% select(CU_ID,Year,IntStatus) %>%
+#                                                             pivot_longer(cols=IntStatus, names_to = "Metric", values_to="Status") %>%
+#                                                             inner_join( metrics.raw %>% select(CU_ID, Species, Stock, Data_Type) %>% unique() , by="CU_ID") %>%
+#                                                             mutate(Label="SpnForAbd_Wild", Compare=NA, LBM=NA, UBM=NA, Value=NA)
+#                                         ) %>%
+#                                         rbind(
+#                                             sots3.trial$data %>% select(CU_ID, Species, Stock, DataType, Year, SynStatus) %>%
+#                                                                  rename(Status=SynStatus, Data_Type=DataType) %>%
+#                                                                  mutate(Status = na_if(Status, "None")) %>%
+#                                                                  mutate(Label="SpnForAbd_Wild", Metric="SynStatus", Compare=NA, LBM=NA, UBM=NA, Value=NA)
+#                                         )%>%
+#                                         left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
+#                                         select(-CU_ID, -Data_Type) %>%
+#                                         rename(CU_ID=CU_ID_Alt2_CULookup)%>%
+#                                         relocate(CU_ID, .before=Species)%>%
+#                                         relocate(Status, .after=last_col())
+#
 
 
 
 # syn.statuses <-  pivot_longer(select(retro.status.df.stat, -c(ProbDeclBelowLBM, DataType, Percentile, NumStdMetrics)), cols= -c(CU_ID, Species, Stock, Year),
 #                           names_to="Metric", values_to="Status")
-# 
-# long.retro <- retro.status.df.val %>% 
+#
+# long.retro <- retro.status.df.val %>%
 #                                     select(-c(ProbDeclBelowLBM, Percentile, NumStdMetrics)) %>%
 #                                     pivot_longer(cols = -c(CU_ID, Species, Stock, DataType, Year),names_to="Metric", values_to="Value") %>%
 #                                     left_join(statuses, by = c("CU_ID","Species","Stock","Year","Metric"))
-  
+
 # Could pull in the Benchmarks and comparison values from metrics.raw also if wanted
 # but will require wrangling because the metrics names are different for the LBM and UBM ones
 #setwd("../")
-metrics.dummy <- read.csv("DATA_LOOKUP_FILES/METRICS_FILE_BY_CU_dummy.csv")
+#metrics.dummy <- read.csv("DATA_LOOKUP_FILES/METRICS_FILE_BY_CU_dummy.csv")
 
 
 # Metrics.dummy uses CU_IDs from NuSEDs for the tool NOT the ones used in the data prep code, so must match these
 # CU_ID_Alt2_CULookup in the MAIN_CU_LOOKUP_FOR_SOS.csv
 
-# Filter OUT the metrics data we have just calculated so this is just the EMPTY CU datasets 
+# Filter OUT the metrics data we have just calculated so this is just the EMPTY CU datasets
 
-metrics.out <- metrics.dummy %>% select(-X) %>%
+# Throw warning if there is data in the dummy file
+if(nrow(metrics.dummy %>%  filter_at(vars(Compare, LBM, UBM, Value, Status), any_vars(!is.na(.)))) > 0){
+  stop("Data present in the dummy file!! Clear this.")
+}
+
+
+metrics.out <- metrics.dummy %>% select(-X, -Label) %>%
                                  filter(!CU_ID %in% metrics.scanner$CU_ID) %>%
                                  filter(!is.na(CU_ID))%>%
                                  filter(!is.na(Stock))%>%
                                  filter(!Metric == "IntStatus") %>%
                                  rbind(metrics.scanner)
-#setwd("../")
-write.csv(metrics.out, "build_PStat_data/data/METRICS_FILE_BY_CU_forPSST.csv")
+# metrics.out <- metrics.dummy %>% select(-X) %>%
+#                                  filter(!CU_ID %in% metrics.scanner$CU_ID) %>%
+#                                  filter(!is.na(CU_ID))%>%
+#                                  filter(!is.na(Stock))%>%
+#                                  filter(!Metric == "IntStatus") %>%
+#                                  rbind(metrics.scanner)
+# #setwd("../")
+#write.csv(metrics.out, "build_PStat_data/data/METRICS_FILE_BY_CU_forPSST.csv")
+write.csv(metrics.out, "DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv")
+
 
 # ========================= NOW fix the escapement/recruit datasets, since I had to sub values into the WILD columns for (Chum) to get the metrics to run!
 # ALSO remove the Trends data for Fraser SK
 
-cu.data <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv")
+cu.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv")
 
 # Remove the Trends data for all CUs - no longer needed and was only different for FR SK
   # Addded Oct 25 2021 to add Rel Abd metric values to time series
   cu.lookup$CU_ID <- gsub("-","_", cu.lookup$CU_ID)
   relabd.metric <- metrics.scanner %>% filter(Metric=="RelLBM")
 
-cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
-                         mutate(SpnForAbd_Wild = case_when(CU_ID %in% c("CM-02", "CM-03", "CM-04", "CM-05", "CM-06", "CM-07", "CM-08", "CM-09") ~ NA_real_, 
+cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild, Abd_StartYr, UseYear)) %>%
+                         mutate(SpnForAbd_Wild = case_when(CU_ID %in% c("CM-02", "CM-03", "CM-04", "CM-05", "CM-06", "CM-07", "CM-08", "CM-09") ~ NA_real_,
                                                            TRUE ~ SpnForAbd_Wild)) %>%
-                        rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%   
-                        # Added Oct 25 2021 to have the timeseries used for assessing relative abunance metrics as an option for plotting in the Scanner 
+                        rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%
+                        # Added Oct 25 2021 to have the timeseries used for assessing relative abunance metrics as an option for plotting in the Scanner
                         left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
-                        rename(OLD_CU_ID=CU_ID, CU_ID=CU_ID_Alt2_CULookup) %>%
+                        left_join(cu.lookup %>% select(CU_ID=CU_ID_Report, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
+                        mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
                         left_join(select(relabd.metric, CU_ID, Year, Compare), by=c("CU_ID","Year")) %>%
-                        select(-CU_ID) %>%
-                        rename(CU_ID=OLD_CU_ID, RelAbd_metric_ts=Compare)
+                        rename(RelAbd_metric_ts=Compare)%>%
+                        relocate(c(CU_ID, DU_ID, CU_Name), .after=Species) %>%
+                        select(-c(CU_ID_Report, CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
+                        filter(!CU_ID=="")
 
-write.csv(cu.clean, "build_PStat_data/data/MERGED_FLAT_FILE_BY_CU_CLEAN.csv")
+
+write.csv(cu.clean, "DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv")
 # REmove the "wild" from FR CM
 
 
 # Same for the POP file
 #pop.info <- read.csv("build_PStat_data/data/PopLookup.csv")
-pop.data <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_POP.csv")
+pop.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_POP_SUB.csv")
 
 
 
 pop.clean <- pop.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
                           rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%
-                          # Fix the Coho - some CUs have no hatchery origin spawners so can be put into the wild column - other CUs had hatchery which cannot be 
-                          # separated at teh population level (or at least HAS not been but I need to look at this and my Lynda notes to be sure)                 
+                          # Fix the Coho - some CUs have no hatchery origin spawners so can be put into the wild column - other CUs had hatchery which cannot be
+                          # separated at teh population level (or at least HAS not been but I need to look at this and my Lynda notes to be sure)
                           # CUs with NO hatchery = Fraser Canyon (CO-05)
+                          left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
+                          left_join(cu.lookup %>% select(CU_ID=Pop_TimeSeriesData_CU_ID, CU_ID_Alt2_CULookup), by="CU_ID") %>%
+                          mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
+                          select(-c(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
                           mutate(Escapement_Wild = case_when(CU_ID == "CO_02" ~ Escapement_Total, TRUE ~  Escapement_Wild)) # Note this is the CU_ID from the WSP process not NuSEDs
 
 
 
 
 
-                          
-write.csv(pop.clean, "build_PStat_data/data/MERGED_FLAT_FILE_BY_POP_CLEAN.csv")
+
+write.csv(pop.clean, "DATA_OUT/MERGED_FLAT_FILE_BY_POP_SCANNER.csv")
 
 
 
-# 
-# pop.info.adj <- pop.info %>% mutate(Comment = case_when(WSP_ts == "yes"~ "treated data used to produce CU level timeseries", 
-#                                                         WSP_ts == "no" ~ "raw data - do not use for analysis"))  
-# write.csv(pop.info.adj,"build_PStat_data-main/data/PopLookup.csv")  
-  
+#
+# pop.info.adj <- pop.info %>% mutate(Comment = case_when(WSP_ts == "yes"~ "treated data used to produce CU level timeseries",
+#                                                         WSP_ts == "no" ~ "raw data - do not use for analysis"))
+# write.csv(pop.info.adj,"build_PStat_data-main/data/PopLookup.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
