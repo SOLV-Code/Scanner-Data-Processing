@@ -1,0 +1,71 @@
+CU_ID,Species,Stock,Label,Year,AbsLBM,AbsUBM,LongTrend,PercChange,RelLBM,RelUBM,DataTypeDetail,DataType,IntStatus
+CK-01,Chinook,Okanagan_1.x ,SpnForAbd_Wild,2014,NA,NA,Amber,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-03,Chinook,Lower Fraser River_FA_0.3,SpnForAbd_Wild,2014,Green,Green,Green,Red,Green,Green,Trends&Abs&Rel,Abs_Abd,Green
+CK-05,Chinook,Lower Fraser River-Upper Pitt_SU_1.3,SpnForAbd_Wild,2014,NA,NA,Green,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,DD
+CK-06,Chinook,Lower Fraser River_SU_1.3,SpnForAbd_Wild,2014,NA,NA,Amber,Red,NA,NA,TrendsOnly,Rel_Idx,DD
+CK-08,Chinook,Middle Fraser-Fraser Canyon_SP_1.3,SpnForAbd_Wild,2014,NA,NA,NA,NA,NA,NA,NA,Rel_Idx,DD
+CK-09,Chinook,Middle Fraser River-Portage_FA_1.3,SpnForAbd_Wild,2014,NA,NA,Green,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-10,Chinook,Middle Fraser River_SP_1.3,SpnForAbd_Wild,2014,NA,NA,Amber,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-11,Chinook,Middle Fraser River_SU_1.3,SpnForAbd_Wild,2014,NA,NA,Green,Red,Amber,Amber,Trends&Abs&Rel,Rel_Idx,Amber
+CK-12,Chinook,Upper Fraser River_SP_1.3,SpnForAbd_Wild,2014,NA,NA,Amber,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-13,Chinook,South Thompson_SU_0.3,SpnForAbd_Wild,2014,NA,NA,Green,Green,Amber,Amber,Trends&Abs&Rel,Rel_Idx,Green
+CK-14,Chinook,South Thompson_SU_1.3,SpnForAbd_Wild,2014,NA,NA,Green,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,RedAmber
+CK-16,Chinook,South Thompson-Bessette Creek_SU_1.2,SpnForAbd_Wild,2014,NA,NA,Red,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-17,Chinook,Lower Thompson_SP_1.2,SpnForAbd_Wild,2014,NA,NA,Amber,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-18,Chinook,North Thompson_SP_1.3,SpnForAbd_Wild,2014,NA,NA,Amber,Red,NA,NA,TrendsOnly,Rel_Idx,Red
+CK-19,Chinook,North Thompson_SU_1.3,SpnForAbd_Wild,2014,NA,NA,Amber,Red,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-29,Chinook,East Vancouver Island-North_FA_0.X ,SpnForAbd_Wild,2014,NA,NA,Green,Green,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-31,Chinook,West Vancouver Island-South_FA_0.X ,SpnForAbd_Wild,2014,NA,NA,Amber,Amber,Red,Red,Trends&Abs&Rel,Rel_Idx,Red
+CK-32,Chinook,West Vancouver Island-Nootka & Kyuquot_FA_0.X,SpnForAbd_Wild,2014,NA,NA,Amber,Red,Amber,Amber,Trends&Abs&Rel,Rel_Idx,Red
+CK-82,Chinook,Upper Adams River_SU_x.x,SpnForAbd_Wild,2014,NA,NA,Green,Green,NA,NA,TrendsOnly,Rel_Idx,DD
+CO-01,Coho,Middle Fraser,SpnForAbd_Wild,2015,Amber,Amber,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,Amber
+CO-02,Coho,Fraser Canyon,SpnForAbd_Wild,2015,Amber,Amber,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,Amber
+CO-03,Coho,Lower Thompson,SpnForAbd_Wild,2015,Amber,Amber,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CO-04,Coho,North Thompson,SpnForAbd_Wild,2015,Green,Green,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CO-05,Coho,South Thompson,SpnForAbd_Wild,2015,Amber,Amber,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,Amber
+CU-1,Sockeye,Bowron_ES,SpnForAbd_Wild,2012,Amber,Amber,Red,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-1,Sockeye,Bowron_ES,SpnForAbd_Wild,2017,Amber,Amber,Red,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-10,Sockeye,Seton_L,SpnForAbd_Wild,2012,Amber,Amber,Amber,Red,NA,NA,Trends&Abs,Abs_Abd,UD
+CU-10,Sockeye,Seton_L,SpnForAbd_Wild,2017,Red,Red,Red,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-11,Sockeye,Harrison_US_L,SpnForAbd_Wild,2012,Green,Green,Amber,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-11,Sockeye,Harrison_US_L,SpnForAbd_Wild,2017,Amber,Amber,Red,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-12,Sockeye,Lillooet_Harr_L,SpnForAbd_Wild,2012,Green,Green,Green,Green,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Green
+CU-12,Sockeye,Lillooet_Harr_L,SpnForAbd_Wild,2017,Green,Green,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-13,Sockeye,Harrison_DS_L,SpnForAbd_Wild,2012,Amber,Amber,Green,Green,NA,NA,Trends&Abs,Abs_Abd,Green
+CU-13,Sockeye,Harrison_DS_L,SpnForAbd_Wild,2017,Amber,Amber,Green,Red,NA,NA,Trends&Abs,Abs_Abd,AmberGreen
+CU-14,Sockeye,Nahatlatch_ES,SpnForAbd_Wild,2012,Amber,Amber,Amber,Red,NA,NA,Trends&Abs,Abs_Abd,Red
+CU-14,Sockeye,Nahatlatch_ES,SpnForAbd_Wild,2017,Amber,Amber,Green,Green,NA,NA,Trends&Abs,Abs_Abd,Amber
+CU-15,Sockeye,Taseko_ES,SpnForAbd_Wild,2012,NA,NA,Red,Red,NA,NA,Trends&Abs,Rel_Idx,Red
+CU-15,Sockeye,Taseko_ES,SpnForAbd_Wild,2017,NA,NA,Red,Red,NA,NA,Trends&Abs,Rel_Idx,Red
+CU-16,Sockeye,Widgeon_RT,SpnForAbd_Wild,2012,Red,Red,Red,Green,NA,NA,Trends&Abs,Abs_Abd,Red
+CU-16,Sockeye,Widgeon_RT,SpnForAbd_Wild,2017,Red,Red,Green,Green,NA,NA,Trends&Abs,Abs_Abd,Red
+CU-17,Sockeye,Chilliwack_ES,SpnForAbd_Wild,2012,Amber,Amber,NA,NA,Red,Red,NoTrends&Abs&Rel,Abs_Abd,RedAmber
+CU-17,Sockeye,Chilliwack_ES,SpnForAbd_Wild,2017,Green,Green,Green,Green,Amber,Amber,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CU-18,Sockeye,Takla_Trem_EStu,SpnForAbd_Wild,2012,Green,Green,Amber,Red,NA,NA,Trends&Abs,Abs_Abd,Red
+CU-18,Sockeye,Takla_Trem_EStu,SpnForAbd_Wild,2017,Green,Green,Red,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-19,Sockeye,Anderson_Seton_ES,SpnForAbd_Wild,2012,Amber,Amber,Green,Red,NA,NA,Trends&Abs,Abs_Abd,Amber
+CU-19,Sockeye,Anderson_Seton_ES,SpnForAbd_Wild,2017,Green,Green,Green,Green,Amber,Amber,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CU-2,Sockeye,Kamloops_ES,SpnForAbd_Wild,2012,Amber,Amber,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-2,Sockeye,Kamloops_ES,SpnForAbd_Wild,2017,Green,Green,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-20,Sockeye,Shuswap_ES,SpnForAbd_Wild,2012,Green,Green,Green,Red,NA,NA,Trends&Abs,Abs_Abd,AmberGreen
+CU-20,Sockeye,Shuswap_ES,SpnForAbd_Wild,2017,Amber,Amber,Green,Green,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-21,Sockeye,Takla_Trem_S_S,SpnForAbd_Wild,2012,Green,Green,Green,Red,NA,NA,Trends&Abs,Abs_Abd,RedAmber
+CU-21,Sockeye,Takla_Trem_S_S,SpnForAbd_Wild,2017,Green,Green,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,RedAmber
+CU-22,Sockeye,Quesnel_S,SpnForAbd_Wild,2012,Green,Green,Green,Red,NA,NA,Trends&Abs,Abs_Abd,RedAmber
+CU-22,Sockeye,Quesnel_S,SpnForAbd_Wild,2017,Green,Green,Green,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,RedAmber
+CU-23,Sockeye,Shuswap_L,SpnForAbd_Wild,2012,Green,Green,Green,Green,NA,NA,Trends&Abs,Abs_Abd,Green
+CU-23,Sockeye,Shuswap_L,SpnForAbd_Wild,2017,Green,Green,Red,Red,Green,Green,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CU-3,Sockeye,Nadina_Francois_ES,SpnForAbd_Wild,2012,Amber,Amber,Green,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-3,Sockeye,Nadina_Francois_ES,SpnForAbd_Wild,2017,Green,Green,Green,Green,Amber,Amber,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CU-4,Sockeye,North_Barriere_ES,SpnForAbd_Wild,2012,Amber,Amber,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-4,Sockeye,North_Barriere_ES,SpnForAbd_Wild,2017,Amber,Amber,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,Amber
+CU-5,Sockeye,Pitt_ES,SpnForAbd_Wild,2012,Green,Green,Green,Red,Green,Green,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CU-5,Sockeye,Pitt_ES,SpnForAbd_Wild,2017,Green,Green,Green,Red,Green,Green,Trends&Abs&Rel,Abs_Abd,Green
+CU-6,Sockeye,Chilko_S_ES,SpnForAbd_Wild,2012,Green,Green,Green,Red,Green,Green,Trends&Abs&Rel,Abs_Abd,Green
+CU-6,Sockeye,Chilko_S_ES,SpnForAbd_Wild,2017,Green,Green,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,Green
+CU-7,Sockeye,Fran_Fras_S,SpnForAbd_Wild,2012,Green,Green,Green,Red,Amber,Amber,Trends&Abs&Rel,Abs_Abd,RedAmber
+CU-7,Sockeye,Fran_Fras_S,SpnForAbd_Wild,2017,Green,Green,Green,Amber,Green,Green,Trends&Abs&Rel,Abs_Abd,AmberGreen
+CU-8,Sockeye,Cultus_L,SpnForAbd_Wild,2012,Red,Red,Red,Red,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-8,Sockeye,Cultus_L,SpnForAbd_Wild,2017,Red,Red,Red,Green,Red,Red,Trends&Abs&Rel,Abs_Abd,Red
+CU-9,Sockeye,Harrison_R,SpnForAbd_Wild,2012,Green,Green,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,Green
+CU-9,Sockeye,Harrison_R,SpnForAbd_Wild,2017,Green,Green,Green,Green,Green,Green,Trends&Abs&Rel,Abs_Abd,Green
