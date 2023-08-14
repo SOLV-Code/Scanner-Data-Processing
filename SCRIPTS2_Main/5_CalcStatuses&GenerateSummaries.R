@@ -1,5 +1,5 @@
 #############################################################
-# Calc statuses and generate summaries
+#  Generate summaries
 # (basically some key bits from the case study paper, so we can always have the
 #  the latest outputs  here, without changing anything in the tech report, and without
 # having to copy files back and forth)
@@ -8,111 +8,6 @@
 # THE REQUIRED INPUT FILES ARE. JUST RUN THIS SCRIPT TO
 # GET THE PLOTS.
 
-library(tidyverse)
-
-# READ IN DATA
-cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
-  dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
-
-data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE) %>%
-  mutate(CU_ID = gsub("_","-",CU_ID)) %>% dplyr::filter(!is.na(CU_Name)) %>%
-  left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
-head(data.raw)
-
-sort(unique(data.raw$Group))
-sort(unique(data.raw$CU_ID))
-
-retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
-  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-names(retro.values)
-sort(unique(retro.values$Group))
-
-retro.values %>% dplyr::filter(CU_ID == "CK-11")
-retro.values %>% dplyr::filter(CU_ID == "CK-16")
-
-retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
-  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-
-head(retro.status)
-head(retro.values)
-
-#names(retro.values)
-retro.values %>% dplyr::filter(CU_ID == "CK-10")
-sort(unique(retro.values$CU_ID))
-
-publ.status.raw <- read.csv("DATA_LOOKUP_FILES/Published_Integrated_Status_Summary.csv",stringsAsFactors = FALSE)
-
-publ.int.status <- publ.status.raw %>%  dplyr::filter(Metric == "IntStatus") %>%
-  select(CU_ID,Year, Status) %>% dplyr::rename(IntStatusRaw = Status) %>%
-  mutate(IntStatus = recode(IntStatusRaw, RedAmber = "Red", AmberGreen = "Amber")) %>%
-  mutate(IntStatusRaw_Short = recode(IntStatusRaw, Red = "R",RedAmber = "RA", Amber = "A",AmberGreen = "AG",Green = "G"),
-         IntStatus_Short = recode(IntStatus, Red = "R", Amber = "A",Green = "G"))
-publ.int.status 
-
-
-qual.score.tab <- read_csv("DATA_LOOKUP_FILES/Node_ConfidenceRating.csv")
-
-
-#-------------------------------------------------------------------------------------
-####################################################################################
-# RUN THE RETROSPECTIVE WITH THE RAPID STATUS FUNCTION
-
-
-
-if(exists("retro.lt3")){rm(retro.lt3)}
-source("CODE/synopticFunction_Source.R")
-retro.lt3 <- rapid_status(data.df = retro.values, algorithm = "StateOfTheSalmon3" ,group.var = "Species") 
-names(retro.lt3)
-
-retro.lt3$data %>% dplyr::filter(CU_ID == "CK-11")
-
-
-#retro.values %>% dplyr::filter(CU_ID == "CK-10")
-#test <- retro.lt3$data %>% dplyr::filter(CU_ID == "CK-10")
-#retro.lt3$summary
-
-
-retro.summary.tbl <- retro.lt3$data %>%
-  dplyr::rename(RapidStatus = SynStatus,RapidScore = SynScore) %>%
-  select(-IntStatus,-IntScore,-ErrorScore,-ErrorType) %>%
-  left_join(retro.status %>% select(-NumStdMetrics,-Group) %>% 
-              rename(RelAbdCat = RelAbd, AbsAbdCat = AbsAbd, LongTrendCat = LongTrend,              
-                     PercChangeCat = PercChange, ProbDeclBelowLBMCat = ProbDeclBelowLBM,
-                     PercentileCat = Percentile, RelLBMCat = RelLBM, RelUBMCat = RelUBM,
-                     AbsLBMCat = AbsLBM, AbsUBMCat = AbsUBM   )      , 
-            by = c("CU_ID","Species","Stock","DataType","Year")) %>%
-  left_join( as.data.frame(publ.int.status),by=c("CU_ID","Year")) %>%
-  arrange(Species,Stock,Year) %>%
-  left_join(data.raw  %>%   
-              select(CU_ID,Year,SpnForAbd_Wild, SpnForTrend_Wild),
-            by= c("CU_ID","Year")   ) %>%
-  select(CU_ID,Species,Stock,	DataType,Year,SpnForAbd_Wild, SpnForTrend_Wild, everything())
-
-
-head(retro.summary.tbl)
-sort(names(retro.summary.tbl))
-
-
-retro.summary.tbl <- retro.summary.tbl  %>%
-  left_join(qual.score.tab %>% 
-              dplyr::filter(Algorithm == "SotS3") %>% 
-              select(BinLabel, ConfidenceRating5, ConfidenceRating3, ConfidenceRating2),
-            by = "BinLabel")
-
-
-
-retro.summary.tbl$IntStatus5 <- retro.summary.tbl$IntStatusRaw
-retro.summary.tbl$IntStatus3 <- dplyr::recode(retro.summary.tbl$IntStatusRaw,"RedAmber" = "Red","AmberGreen" = "Amber")
-retro.summary.tbl$IntStatus2 <- dplyr::recode(retro.summary.tbl$IntStatus3, "Amber" = "NotRed","Green" = "NotRed")
-
-write.csv(retro.summary.tbl, "DATA_OUT/Retro_Synoptic_Details.csv", row.names = FALSE)   
-
-
-
-table(retro.summary.tbl$RapidStatus)
-
-
-sort(unique(retro.summary.tbl$CU_ID))
 
 ####################################################################################
 # GENERATE THE DASHBOARDS
@@ -159,21 +54,25 @@ retro.yrs <- 1995:2021
 
 retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
 
-metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU.csv") %>%
-  dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
+# CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
+metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
+  #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
+  #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-
+# CU_IDs in the lookup file do not match those in the metrics output or data anymore because those have been corrected. They match with
+# CU_ID_Alt2_CULookup in the lookup file
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE) %>%
-  mutate(CU_ID = gsub("_","-",CU_ID)) %>% dplyr::filter(!is.na(CU_Name)) %>%
+data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
+  #mutate(CU_ID = gsub("_","-",CU_ID)) %>% 
+  dplyr::filter(!is.na(CU_Name)) %>%
   left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
 head(data.raw)
 
 sort(unique(data.raw$Group))
 
-
+# CU_IDs in this file are still incorrect and match those in the lookup file
 retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
   left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
 names(retro.values)
@@ -197,7 +96,8 @@ head(retro.values)
 
 cu.list <-  cu.info %>% 
   # dplyr::filter(Area %in% c("Nass","Skeena"))   %>% 
-  select(CU_ID)
+  #select(CU_ID)
+  select(CU_ID_Alt2_CULookup) 
 cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
 cu.list
 
@@ -211,7 +111,8 @@ for(cu.plot in cu.list){
   print("_______________")
   print(cu.plot)  
   
-  cu.info.sub <- cu.info %>% dplyr::filter(CU_ID == cu.plot)
+  cu.info.sub <- cu.info %>% dplyr::filter(CU_ID_Alt2_CULookup == cu.plot)
+  cu.alt.id <- cu.info.sub$CU_ID
   
   #print(cu.info$CU_ID)
   
@@ -222,11 +123,11 @@ for(cu.plot in cu.list){
   data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.plot)
   head(data.sub )
   
-  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.plot)
+  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
   head(retro.values.sub )
   
   
-  retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.plot)
+  retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.alt.id)
   
   metrics.details.sub <- metrics.details %>% dplyr::filter(CU_ID == cu.plot)
   
@@ -242,7 +143,7 @@ for(cu.plot in cu.list){
   
   #START PLOT
   
-  if(sum(!is.na(data.sub$SpnForAbd_Wild))>0){
+  if(sum(!is.na(data.sub$Escapement_Wild))>0){
     
     
     
@@ -268,7 +169,7 @@ for(cu.plot in cu.list){
       #plot(1:5,1:5,main="Main retrospective time series plot")
       
       
-      cu.abd <- data.sub %>% select(Year,SpnForAbd_Wild) 
+      cu.abd <- data.sub %>% select(Year,Escapement_Wild) 
       
       yrs.idx <- cu.abd$Year >= main.yrs.plot[1] & cu.abd$Year <= main.yrs.plot[2]
       
@@ -367,9 +268,7 @@ for(cu.plot in cu.list){
       log.ticks  
       log.labels <- c(1,10,100,"1k","10k","100k","1M","10M","100M")
       
-      ticks.use <- log.ticks <= ylim.use[2]
-      
-      log.yrs.plot <- c(min(cu.abd$Year),main.yrs.plot[2])
+     log.yrs.plot <- c(min(cu.abd$Year),main.yrs.plot[2])
       
       zero.idx <- cu.abd[,2] == 0
       zero.idx[is.na(zero.idx)] <- FALSE
@@ -378,7 +277,7 @@ for(cu.plot in cu.list){
       ylim.use <- range(0.9, log(10^4),log(cu.abd[,2]),na.rm=TRUE)
       ylim.use
       
-      
+      ticks.use <- log.ticks <= ylim.use[2]
       
       if(data.type == "Abs_Abd"){lbm.plot <- log(10^3); ubm.plot <- log(10^4); title.label = "Absolute Abundance Metric (Log Scale)"}
       if(data.type == "Rel_Idx"){lbm.plot <- NA; ubm.plot <- NA; title.label = "Relative Index of Abundance (Log Scale)"}
