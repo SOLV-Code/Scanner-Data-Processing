@@ -137,7 +137,8 @@ for(cu.plot in cu.list){
   retro.yrs.plot
   
   
-  
+  # Add quick fix for Chum data which is total not wild
+  if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$Escapement_Total
   
   ###
   
