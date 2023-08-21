@@ -7,19 +7,20 @@
 "Chilko - Early Summer","CHILKO-EARLY SUMMER TIMING"
 "Chilko - Summer","CHILKO-SUMMER TIMING"
 "Chilliwack - Early Summer","CHILLIWACK-EARLY SUMMER TIMING"
+"Chilliwack - Early Summer",NA
 "CU not identified",NA
 "CU not identified","BOWRON-EARLY SUMMER TIMING"
-"CU not identified","TAKLA/TREMBLEUR/STUART-SUMMER TIMING"
 "CU not identified","PITT-EARLY SUMMER TIMING"
+"CU not identified","TAKLA/TREMBLEUR/STUART-SUMMER TIMING"
 "Cultus - Late","CULTUS-LATE TIMING"
-"Francois-Fraser - Summer","FRANCOIS/FRASER-SUMMER TIMING"
 "Francois-Fraser - Summer",NA
+"Francois-Fraser - Summer","FRANCOIS/FRASER-SUMMER TIMING"
 "Francois (First Run) - Early Summer (extirpated?)",NA
 "Fraser - Early Summer",NA
-"Harrison (D/S) - Late","HARRISON-DOWNSTREAM MIGRATING-LATE TIMING"
 "Harrison (D/S) - Late",NA
-"Harrison (U/S) - Late",NA
+"Harrison (D/S) - Late","HARRISON-DOWNSTREAM MIGRATING-LATE TIMING"
 "Harrison (U/S) - Late","HARRISON-UPSTREAM MIGRATING-LATE TIMING"
+"Harrison (U/S) - Late",NA
 "Harrison River - Summer","HARRISON RIVER"
 "Harrison River - Summer",NA
 "Indian/Kruger - Early Summer (extirpated?)",NA
@@ -36,8 +37,8 @@
 "Nadina-Francois - Early Summer","NADINA/FRANCOIS-EARLY SUMMER TIMING"
 "Nahatlatch - Early Summer","NAHATLATCH-EARLY SUMMER TIMING"
 "North Barriere - Early Summer","NORTH BARRIERE-EARLY SUMMER TIMING"
-"Pitt - Early Summer",NA
 "Pitt - Early Summer","PITT-EARLY SUMMER TIMING"
+"Pitt - Early Summer",NA
 "Quesnel - Summer","QUESNEL-SUMMER TIMING"
 "Quesnel - Summer",NA
 "Seton - Late","SETON-LATE TIMING"

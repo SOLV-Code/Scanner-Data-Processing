@@ -15368,69 +15368,69 @@ Year,CU_ID,Species,Stock,Label,Metric,Compare,LBM,UBM,Value,Status,Confidence
 2016,SEL-20-03,Sockeye,Dennis,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2017,SEL-20-03,Sockeye,Dennis,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2018,SEL-20-03,Sockeye,Dennis,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2010,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2011,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2012,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2013,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2014,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2015,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2016,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2017,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2018,SEL-20-04,Sockeye,Ecstall/Lower,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2010,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2011,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2012,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2013,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2014,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2015,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2016,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2017,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2018,SEL-20-04,Sockeye,Ecstall,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2010,SEL-20-05,Sockeye,Johnston,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
 2011,SEL-20-05,Sockeye,Johnston,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
 2012,SEL-20-05,Sockeye,Johnston,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
@@ -15809,132 +15809,132 @@ Year,CU_ID,Species,Stock,Label,Metric,Compare,LBM,UBM,Value,Status,Confidence
 2016,SEL-21-02,Sockeye,Babine,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2017,SEL-21-02,Sockeye,Babine,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2018,SEL-21-02,Sockeye,Babine,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2010,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2011,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2012,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2013,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2014,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2015,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2016,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2017,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2018,SEL-21-03,Sockeye,Bulkley,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2010,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2011,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2012,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2013,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2014,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2015,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2016,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2017,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2018,SEL-21-05,Sockeye,Kitwancool,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2010,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2011,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2012,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2013,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2014,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2015,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2016,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2017,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2018,SEL-21-03,Sockeye,Upper Bulkley Lakes,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2010,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2011,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2012,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2013,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2014,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2015,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2016,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2017,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2018,SEL-21-05,Sockeye,Kitwanga,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2010,SEL-21-06,Sockeye,Maxan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
 2011,SEL-21-06,Sockeye,Maxan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
 2012,SEL-21-06,Sockeye,Maxan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
@@ -16502,132 +16502,132 @@ Year,CU_ID,Species,Stock,Label,Metric,Compare,LBM,UBM,Value,Status,Confidence
 2016,SEL-22-04,Sockeye,Damshilgwit,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2017,SEL-22-04,Sockeye,Damshilgwit,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2018,SEL-22-04,Sockeye,Damshilgwit,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2010,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2011,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2012,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2013,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2014,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2015,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2016,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2017,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2018,SEL-22-05,Sockeye,Johanson,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
-2010,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2011,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2012,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2013,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2014,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2015,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2016,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2017,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
-2018,SEL-22-06,Sockeye,Kluatantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2010,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2011,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2012,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2013,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2014,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2015,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2016,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2017,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2018,SEL-22-05,Sockeye,Johansen,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsUBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,IntStatus,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,RelLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForAbd_Wild,AbsLBM,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,LongTrend,NA,NA,NA,NA,NA,NA
+2010,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2011,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2012,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2013,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2014,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2015,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2016,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2017,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+2018,SEL-22-06,Sockeye,Kluantantan,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2010,SEL-22-07,Sockeye,Kluayaz,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
 2011,SEL-22-07,Sockeye,Kluayaz,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
 2012,SEL-22-07,Sockeye,Kluayaz,SpnForAbd_Wild,RelUBM,NA,NA,NA,NA,NA,NA
@@ -23936,3 +23936,5 @@ Year,CU_ID,Species,Stock,Label,Metric,Compare,LBM,UBM,Value,Status,Confidence
 2016,PKO-19,Pink,Transboundary Fjords,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2017,PKO-19,Pink,Transboundary Fjords,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
 2018,PKO-19,Pink,Transboundary Fjords,SpnForTrend_Wild,PercChange,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,
+,,,,,,,,,,,
