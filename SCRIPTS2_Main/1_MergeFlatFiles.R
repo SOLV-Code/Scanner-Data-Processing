@@ -35,7 +35,7 @@ flat.fr.pk.cu <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_FraserPink.csv"
 flat.fr.cm.cu <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_FraserChum.csv",stringsAsFactors = FALSE)
 #flat.isc.cm.cu<- read.csv("DATA_PROCESSING/Cleaned_FlatFile_byCU_ISCChum.csv",stringsAsFactors = FALSE)
 flat.skeenanass.sk.cu<- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_SkeenaNassSockeye.csv",stringsAsFactors = FALSE)
-flat.ok.sk.cu <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_OkanagansSockeye.csv",stringsAsFactors = FALSE)
+#flat.ok.sk.cu <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_OkanagansSockeye.csv",stringsAsFactors = FALSE)
 
 
 
@@ -44,10 +44,14 @@ flat.ok.sk.cu <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_OkanagansSockey
 #                                 intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
 #                                 names(flat.fr.pk.cu)),names(flat.fr.cm.cu)),
 #                                 names(flat.isc.cm.cu)),names(flat.ok.sk.cu))
-vars.use <-intersect(intersect(intersect(intersect(
-                      intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
-                      names(flat.fr.pk.cu)),names(flat.fr.cm.cu)),names(flat.ok.sk.cu))
+# vars.use <-intersect(intersect(intersect(intersect(
+#                       intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
+#                       names(flat.fr.pk.cu)),names(flat.fr.cm.cu)),names(flat.ok.sk.cu))
 
+#                                 names(flat.isc.cm.cu)),names(flat.ok.sk.cu))
+vars.use <-intersect(intersect(intersect(
+                     intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
+                     names(flat.fr.pk.cu)),names(flat.fr.cm.cu))
 vars.use
 
 flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use)),
@@ -56,8 +60,8 @@ flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,all_of(vars.use
                               Pk_Fraser = select(flat.fr.pk.cu, all_of(vars.use)),
                               Cm_Fraser = select(flat.fr.cm.cu, all_of(vars.use)),
                              #Cm_ISC = select(flat.isc.cm.cu, all_of(vars.use)),
-                              Sk_SkeenaNass = select(flat.skeenanass.sk.cu, all_of(vars.use)) ,
-                              Sk_Okanagan = select(flat.ok.sk.cu, all_of(vars.use))),
+                              Sk_SkeenaNass = select(flat.skeenanass.sk.cu, all_of(vars.use))),
+                            #  Sk_Okanagan = select(flat.ok.sk.cu, all_of(vars.use)),
                               .id = "DataSet")
 
 
