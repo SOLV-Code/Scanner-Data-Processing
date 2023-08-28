@@ -26,7 +26,6 @@
 1938,"Early Stuart","Hudson Bay Creek","t1","Takla-Trembleur - Early Stuart",0,0,0,"",0,0,0,NA,NA,45592,45592,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
 1938,"Early Stuart","Kastberg Creek","t1","Takla-Trembleur - Early Stuart",0,0,0,"",0,0,0,NA,NA,45605,45605,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
 1938,"Early Stuart","Kazchek Creek","t1","Takla-Trembleur - Early Stuart",4,4,2,"RELATIVE ABUNDANCE (TYPE-3)",4,4,4,NA,NA,45559,45559,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
-1938,"Early Stuart","Kotsine River","t1","Takla-Trembleur - Early Stuart",0,0,0,"",0,0,0,NA,NA,45603,45603,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
 1938,"Early Stuart","Kotsine River","t1","Takla-Trembleur - Early Stuart",0,0,0,"RELATIVE ABUNDANCE (TYPE-4)",0,0,0,NA,NA,45603,45603,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
 1938,"Early Stuart","Leo Creek","t1","Takla-Trembleur - Early Stuart",0,0,0,"",0,0,0,NA,NA,45575,45575,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
 1938,"Early Stuart","Lion Creek","t1","Takla-Trembleur - Early Stuart",0,0,0,"RELATIVE ABUNDANCE (TYPE-4)",0,0,0,NA,NA,45601,45601,"L-06-14","TAKLA/TREMBLEUR-EARLY STUART TIMING",NA,"SEL-06-14"
@@ -1807,7 +1806,6 @@
 1955,"Seton-Anderson","Gates River","t2","Anderson-Seton - Early Summer",77,77,31,"RELATIVE ABUNDANCE (TYPE-4)",77,77,77,NA,NA,47211,47211,"L-06-01","ANDERSON/SETON-EARLY SUMMER TIMING",NA,"SEL-06-01"
 1955,"Seton-Anderson","Portage Creek","t4","Seton - Late",43,41,20,"RELATIVE ABUNDANCE (TYPE-4)",43,43,43,NA,NA,47181,47181,"L-06-11","SETON-LATE TIMING",NA,"SEL-06-11"
 1955,"Seton-Anderson","Seton Creek","t3","CU not identified",0,0,0,"",0,0,0,NA,NA,NA,NA,NA,NA,NA,NA
-1955,"Upper Fraser","Antler Creek","t2","CU not identified",0,0,0,"RELATIVE ABUNDANCE (TYPE-4)",0,0,0,NA,NA,47449,47449,"L-07-01","BOWRON-EARLY SUMMER TIMING",NA,"SEL-07-01"
 1955,"Upper Fraser","Antler Creek","t2","CU not identified",0,0,0,"RELATIVE ABUNDANCE (TYPE-4)",0,0,0,NA,NA,47449,47449,"L-07-01","BOWRON-EARLY SUMMER TIMING",NA,"SEL-07-01"
 1955,"Upper Fraser","Bowron River, upper","t2","Bowron - Early Summer",9355,9350,4472,"TRUE ABUNDANCE (TYPE-1)",9355,9355,9355,NA,NA,47419,47419,"L-07-01","BOWRON-EARLY SUMMER TIMING",NA,"SEL-07-01"
 1956,"Chilcotin","Chilko River","t3","Chilko - Summer",647768,646906,368607,"TRUE ABUNDANCE (TYPE-2)",647768,647768,647768,NA,NA,46843,46843,"L-06-03","CHILKO-SUMMER TIMING",NA,"SEL-06-03/SEL-06-02"
@@ -9717,7 +9715,6 @@
 2015,"Early South Thompson","Craigellachie Creek","t2","Shuswap - Early Summer",0,0,0,"RELATIVE ABUNDANCE (TYPE-4)",0,0,0,NA,NA,3437,3437,"L-09-02","SHUSWAP COMPLEX-EARLY SUMMER TIMING",NA,"SEL-09-02"
 2015,"Early South Thompson","Crazy Creek","t2","Shuswap - Early Summer",14,14,9,"RELATIVE ABUNDANCE (TYPE-3)",14,14,14,NA,NA,810,810,"L-09-02","SHUSWAP COMPLEX-EARLY SUMMER TIMING",NA,"SEL-09-02"
 2015,"Early South Thompson","Eagle River","t2","Shuswap - Early Summer",10165,10165,6244,"RELATIVE ABUNDANCE (TYPE-3)",10165,10165,10165,NA,NA,46358,46358,"L-09-02","SHUSWAP COMPLEX-EARLY SUMMER TIMING",NA,"SEL-09-02"
-2015,"Early South Thompson","Four Mile Creek","t2","Shuswap - Early Summer",0,0,0,"RELATIVE ABUNDANCE (TYPE-3)",0,0,0,NA,NA,7636,7636,"L-09-02","SHUSWAP COMPLEX-EARLY SUMMER TIMING",NA,"SEL-09-02"
 2015,"Early South Thompson","Four Mile Creek","t2","Shuswap - Early Summer",0,0,0,"RELATIVE ABUNDANCE (TYPE-3)",0,0,0,NA,NA,7636,7636,"L-09-02","SHUSWAP COMPLEX-EARLY SUMMER TIMING",NA,"SEL-09-02"
 2015,"Early South Thompson","Four Mile Creek - Shore","t2","Shuswap - Early Summer",0,0,0,"RELATIVE ABUNDANCE (TYPE-3)",0,0,0,NA,NA,NA,NA,NA,NA,NA,NA
 2015,"Early South Thompson","Hiuihill Creek","t2","Shuswap - Early Summer",31,31,17,"RELATIVE ABUNDANCE (TYPE-4)",31,31,31,NA,NA,44983,44983,"L-09-02","SHUSWAP COMPLEX-EARLY SUMMER TIMING",NA,"SEL-09-02"
