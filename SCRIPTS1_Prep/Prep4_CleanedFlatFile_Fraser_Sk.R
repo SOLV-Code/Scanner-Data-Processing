@@ -293,10 +293,10 @@ for(cu.do in cu.list.fr.sk[cu.list.fr.sk!="Cultus_L"]){
 
 
 # add rec data
-sr.df <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_SR_Data.csv", stringsAsFactors = FALSE) %>%
-            select(StkID,yr,rec,spn) %>%
-            rename(STK_ID = StkID, Year = yr, Recruits_Total = rec, sr_spn = spn) %>%
-            mutate(Recruits_Total = 10^6 * Recruits_Total, sr_spn = 10^6 * sr_spn) %>%
+sr.df <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Fraser Sockeye SR Data_2023.csv", stringsAsFactors = FALSE) %>%
+            select(StkID,yr,rec) %>% # ,spn) %>%
+            rename(STK_ID = StkID, Year = yr, Recruits_Total = rec) %>% #, sr_spn = spn) %>%
+            mutate(Recruits_Total = 10^6 * Recruits_Total) %>% #, sr_spn = 10^6 * sr_spn) %>%
             mutate(Recruits_Wild = Recruits_Total)
 
 cu.data.out <- left_join(cu.data.out , sr.df,by=c("STK_ID","Year"))
@@ -319,35 +319,35 @@ write.csv(as.matrix(cu.data.out), "DATA_PROCESSING/Cleaned_FlatFile_ByCU_FraserS
 # Spn diagnostic plot
 
 
-pdf("DATA_TRACKING/Sockeye_Fraser_Spn_DiagnosticPlot.pdf",onefile = TRUE, height = 8.5, width = 11)
-
-for(cu.plot in sort(unique(cu.data.out$CU_ID))){
-print(cu.plot)
-plot.sub <- dplyr::filter(cu.data.out,CU_ID == cu.plot)
-plot.sub[plot.sub == Inf] <- NA
-
-y.max <- max(select(plot.sub,SpnForAbd_Total,SpnForTrend_Total,SpnForAbd_Wild,
-                    SpnForTrend_Wild,sr_spn),na.rm=TRUE) / 1000
-
-
-plot(1:5,1:5, type="n",xlim=range(plot.sub$Year),ylim=c(0,y.max),bty="n",
-        xlab="Year", ylab = "Abundance (1000 Fish)")
-
-lines(plot.sub$Year,plot.sub$SpnForTrend_Total/1000,type="o",pch=21,col="darkblue",bg="white")
-lines(plot.sub$Year,plot.sub$SpnForAbd_Total/1000,type="o",pch=19,col="darkblue")
-lines(plot.sub$Year,plot.sub$sr_spn/1000,type="p",pch=4,col="red")
-
-legend("topleft",legend = c("SpnForTrend_Total","SpnForAbd_Total","Sockdat Spn"),
-        pch=c(21,19,4),col=c("darkblue","darkblue","red"),bty="n")
-
-
-title(main=paste0(cu.plot, " - ",unique(plot.sub$CU_Name)," (",unique(plot.sub$STK_NAME),")"))
-
-
-}
-
-
-dev.off()
+# pdf("DATA_TRACKING/Sockeye_Fraser_Spn_DiagnosticPlot.pdf",onefile = TRUE, height = 8.5, width = 11)
+#
+# for(cu.plot in sort(unique(cu.data.out$CU_ID))){
+# print(cu.plot)
+# plot.sub <- dplyr::filter(cu.data.out,CU_ID == cu.plot)
+# plot.sub[plot.sub == Inf] <- NA
+#
+# y.max <- max(select(plot.sub,SpnForAbd_Total,SpnForTrend_Total,SpnForAbd_Wild,
+#                     SpnForTrend_Wild,sr_spn),na.rm=TRUE) / 1000
+#
+#
+# plot(1:5,1:5, type="n",xlim=range(plot.sub$Year),ylim=c(0,y.max),bty="n",
+#         xlab="Year", ylab = "Abundance (1000 Fish)")
+#
+# lines(plot.sub$Year,plot.sub$SpnForTrend_Total/1000,type="o",pch=21,col="darkblue",bg="white")
+# lines(plot.sub$Year,plot.sub$SpnForAbd_Total/1000,type="o",pch=19,col="darkblue")
+# lines(plot.sub$Year,plot.sub$sr_spn/1000,type="p",pch=4,col="red")
+#
+# legend("topleft",legend = c("SpnForTrend_Total","SpnForAbd_Total","Sockdat Spn"),
+#         pch=c(21,19,4),col=c("darkblue","darkblue","red"),bty="n")
+#
+#
+# title(main=paste0(cu.plot, " - ",unique(plot.sub$CU_Name)," (",unique(plot.sub$STK_NAME),")"))
+#
+#
+# }
+#
+#
+# dev.off()
 
 
 
