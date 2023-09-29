@@ -14,7 +14,7 @@ ISCchum.sites.raw <- read.csv("DATA_IN/SOURCES/Inside SC Chum/wild_spawners_stre
 ISCchum.CU.raw <- read.csv("DATA_IN/SOURCES/Inside SC Chum/wild_spawners_CU_infilled_by_site_CU.csv")
 
 setwd("../")
-Pop_lookup <- read.csv("build_PStat_data/data/PopDecoder.csv") 
+Pop_lookup <- read.csv("build_PStat_data/data/PopDecoder.csv")
 CU_lookup.CM <- read.csv("build_PStat_data/data/CUAttributes.csv") %>% filter(Species =="Chum")
 
 setwd(homedir)
@@ -28,12 +28,12 @@ ISCchum.CU.out <- ISCchum.CU.raw %>%
                                 left_join(select(CU_lookup.CM, CU_Name, CU_ID), by="CU_Name") %>%
                                 select(-c(X, EscAvg, GroupSum, Props, Present, PresentProps, inverse_prop, GroupCount, GroupEsc, ContrEsc, SumRawEsc,  SiteEsc)) %>%
                                 rename(SpnForTrend_Total = Escape) %>%
-                                mutate(Dataset = "Cm_ISC", Species = "Chum", SpnForAbd_Total=SpnForTrend_Total, SpnForAbd_Wild=SpnForTrend_Total, 
+                                mutate(Dataset = "Cm_ISC", Species = "Chum", SpnForAbd_Total=SpnForTrend_Total, SpnForAbd_Wild=SpnForTrend_Total,
                                        SpnForTrend_Wild=SpnForTrend_Total,
                                 Recruits_Total = "NA", Recruits_Wild="NA", DU_ID="NA")
 
 
-write.csv(ISCchum.CU.out,"DATA_OUT/Cleaned_FlatFile_byCU_ISCChum.csv", row.names=FALSE)
+write.csv(ISCchum.CU.out,"DATA_PROCESSING/Cleaned_FlatFile_byCU_ISCChum.csv", row.names=FALSE)
 
 
 
@@ -41,7 +41,7 @@ write.csv(ISCchum.CU.out,"DATA_OUT/Cleaned_FlatFile_byCU_ISCChum.csv", row.names
 
 unique(ISCchum.sites.raw$NME)[!unique(ISCchum.sites.raw$NME) %in% Pop_lookup$Pop_Name]
 
-ISCchum.sites.sub <- ISCchum.sites.raw %>% 
+ISCchum.sites.sub <- ISCchum.sites.raw %>%
                                     mutate(CU_Name = gsub("^.{0,4}", "", CU_Name)) %>%
                                     mutate(CU_Name = recode(CU_Name, "North East Vancouver Island"= "Northeast Vancouver Island"))%>%
                                     left_join(select(CU_lookup.CM, CU_Name, CU_ID), by="CU_Name") %>%
@@ -88,10 +88,10 @@ ISCchum.sites.out<- nuseds.data %>% filter(SPECIES_QUALIFIED=="CM") %>%
                                          mutate(Dataset="Cm_ISC", SpnForAbd_Total=SpnForTrend_Total, SpnForAbd_Wild=NA, SpnForTrend_Wild=NA, Recruits_Total=NA, Recruits_Wild=NA, DU_ID=NA) %>%
                                          select(-GEOGRAPHICAL_EXTNT_OF_ESTIMATE) %>%
                                          rbind(ISCchum.sites.sub)
- 
-write.csv(ISCchum.sites.out,"DATA_OUT/Cleaned_FlatFile_byPop_ISCChum.csv", row.names=FALSE)
+
+write.csv(ISCchum.sites.out,"DATA_PROCESSING/Cleaned_FlatFile_byPop_ISCChum.csv", row.names=FALSE)
 
 # check
 #not.incl <- nuseds.ISC.cm.notincl %>% select(GEOGRAPHICAL_EXTNT_OF_ESTIMATE) %>% unique()
-#not.incl$GEOGRAPHICAL_EXTNT_OF_ESTIMATE %in% (ISCchum_WSP_pops %>% filter(WSP_ts=="no") %>% select(Pop_Name) %>% unique()) 
+#not.incl$GEOGRAPHICAL_EXTNT_OF_ESTIMATE %in% (ISCchum_WSP_pops %>% filter(WSP_ts=="no") %>% select(Pop_Name) %>% unique())
 #True cases are the sites in the Pop_Attributes.csv that have no dat ain the CU rollups (WSP_ts=no)

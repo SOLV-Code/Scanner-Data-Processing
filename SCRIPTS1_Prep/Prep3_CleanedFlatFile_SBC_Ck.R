@@ -2,7 +2,7 @@
 # CREATE FLAT FILE VERSIONS FOR SoS - SBC CK
 #############################################
 
-# IMPORTANT NOTE: REPLACING OKANAGAN CK DATA WITH INFO FROM SEPARATE INPUT FILE 
+# IMPORTANT NOTE: REPLACING OKANAGAN CK DATA WITH INFO FROM SEPARATE INPUT FILE
 # (FOR NOW, UNTIL THE NEW DATA FROM THE OK CK PROJECT IS PART OF THE FULL DATA FLOW)
 # ONLY DOING THIS AT THE CU LEVEL, NOT THE SITE LEVEL
 
@@ -36,8 +36,8 @@ names(sbc.ck.bypop.raw )
 # This includes the DD sites that have data that wasn't included
 # Also defined the yes/no column in the PopLookup file to tell the tool which sites are included vs not
 
-stage_1_data <- read.csv("DATA_LOOKUP_FILES/SOURCES/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
-verified_sites <- read.csv("DATA_LOOKUP_FILES/SOURCES/SBC_Chinook_VerifiedSiteLookup.csv")
+stage_1_data <- read.csv("DATA_IN/SOURCES/SBC Chinook/Esc_Enh-Data_Stage1_MergeSources_CleanedforDB.csv")
+verified_sites <- read.csv("DATA_IN/SOURCES/SBC Chinook/SBC_Chinook_VerifiedSiteLookup.csv")
 
 # Find persistent sites (to ensure these can be identified in the PopLookup file)
 P_sites<- verified_sites %>% filter(Pop_Category == "P") %>%select(POP_ID)
@@ -51,7 +51,7 @@ CU_info <- sbc.ck.bypop.raw %>% select(CU_Name, CU_acro, DU_ID,CU_ID) %>% unique
 
 
 # Identify the DD sites that are actually included in the CU data (North Thompson (CK-19) & Chilliwack (CK-06))
-DD_included_sites <- sbc.ck.bypop.raw %>%filter(UseYear) %>% filter(!Pop_ID %in% P_sites$POP_ID)  %>% filter(!is.na(TotalInfilled)) %>% 
+DD_included_sites <- sbc.ck.bypop.raw %>%filter(UseYear) %>% filter(!Pop_ID %in% P_sites$POP_ID)  %>% filter(!is.na(TotalInfilled)) %>%
                                          select(Pop_ID) %>% unique() %>% rename( POP_ID=Pop_ID)
 
 stage_1_DD_data <- stage_1_data %>% filter( popID %in% DD_sites$POP_ID) %>%
@@ -71,11 +71,11 @@ stage_1_DD_data <- stage_1_data %>% filter( popID %in% DD_sites$POP_ID) %>%
 # Now add these to the Persistent sites to get all sites used in CU data
 all_included <- rbind(P_sites, DD_included_sites)
 
-# ************ what about hatchery proportions here for these non-WSP sites! 
+# ************ what about hatchery proportions here for these non-WSP sites!
 
 
-sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%  
-                                              filter(UseYear) %>% 
+sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%
+                                              filter(UseYear) %>%
                                               filter(Pop_ID %in% all_included$POP_ID) %>%  # this now only includes 'P' sites included in CU data (& Chilliwack and NThompson)
                                               rbind(stage_1_DD_data) %>%                   # attach the 'DD' site data NOT included in the CU data
                                               rename(SpnForTrend_Total = TotalInfilled,
@@ -84,7 +84,7 @@ sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%
                                                      SpnForAbd_Wild =  SpnForTrend_Wild,
                                                      Recruits_Total =  NA, Recruits_Wild =   NA)
 
-# sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%  filter(UseYear) %>% 
+# sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%  filter(UseYear) %>%
 #   rename(SpnForTrend_Total = TotalInfilled,
 #          SpnForTrend_Wild = TotalInfilledAdj)  %>%
 #   mutate(SpnForAbd_Total =  SpnForTrend_Total,
@@ -98,12 +98,12 @@ sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%
 
 
 head(sbc.ck.bypop.cleaned )
-num.rec.cleaned <- dim(sbc.ck.bypop.cleaned)[1] 
-num.rec.raw <- dim(sbc.ck.bypop.raw)[1] 
+num.rec.cleaned <- dim(sbc.ck.bypop.cleaned)[1]
+num.rec.raw <- dim(sbc.ck.bypop.raw)[1]
 
 print(paste0("SBC CK By Pop: Retained Records= ",num.rec.cleaned,"/",num.rec.raw))
 
-write.csv(sbc.ck.bypop.cleaned, "DATA_OUT/Cleaned_FlatFile_ByPop_SBC_Ck.csv",row.names=FALSE)
+write.csv(sbc.ck.bypop.cleaned, "DATA_PROCESSING/Cleaned_FlatFile_ByPop_SBC_Ck.csv",row.names=FALSE)
 
 names(sbc.ck.bypop.cleaned)
 
@@ -127,13 +127,13 @@ names(sbc.ck.bycu.raw )
 
 # Filtering / Renaming / Modifying:
 # - No filtering
-# - rename a few as listed above, remove the one for LowUnkSites and ModHighSites 
+# - rename a few as listed above, remove the one for LowUnkSites and ModHighSites
 #                                 (old version of separating out wild)
 # using https://dplyr.tidyverse.org/reference/select.html#details
 # - no modifications to the values, adding NA columns for recruits
 
 
-sbc.ck.bycu.cleaned <-  sbc.ck.bycu.raw  %>% 
+sbc.ck.bycu.cleaned <-  sbc.ck.bycu.raw  %>%
   rename(SpnForTrend_Total = AllSitesInfilled,
          SpnForTrend_Wild = LowUnkSitesInfilled) %>%
   mutate(SpnForAbd_Total =  SpnForTrend_Total ,
@@ -146,8 +146,8 @@ sbc.ck.bycu.cleaned <-  sbc.ck.bycu.raw  %>%
 sbc.ck.bycu.cleaned <- cbind(Species="Chinook",sbc.ck.bycu.cleaned )
 
 head(sbc.ck.bycu.cleaned )
-num.rec.cleaned <- dim(sbc.ck.bycu.cleaned)[1] 
-num.rec.raw <- dim(sbc.ck.bycu.raw)[1] 
+num.rec.cleaned <- dim(sbc.ck.bycu.cleaned)[1]
+num.rec.raw <- dim(sbc.ck.bycu.raw)[1]
 
 print(paste0("SBC CK By CU: Retained Records= ",num.rec.cleaned,"/",num.rec.raw))
 
@@ -167,12 +167,12 @@ ok.ck.info <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID == "CK-01") %>%
 ok.ck.info
 
 
-ok.ck.df <- left_join(ok.ck.src %>% select(CU_ID,Year, NatOrigSpn, TotalSpn) %>% 
+ok.ck.df <- left_join(ok.ck.src %>% select(CU_ID,Year, NatOrigSpn, TotalSpn) %>%
                                      dplyr::rename(SpnForTrend_Wild = NatOrigSpn,
                                                    SpnForTrend_Total = TotalSpn) %>%
                                      mutate(SpnForAbd_Total =  SpnForTrend_Total ,
                                             SpnForAbd_Wild =  SpnForTrend_Wild) ,
-                      ok.ck.info, by = "CU_ID") 
+                      ok.ck.info, by = "CU_ID")
 
 
 #view(ok.ck.df)
@@ -192,7 +192,7 @@ sbc.ck.bycu.cleaned$SpnForAbd_Wild[sbc.ck.bycu.cleaned$SpnForAbd_Wild==0] <- 1
 
 #----------------------------------------------------------
 
-write.csv(sbc.ck.bycu.cleaned, "DATA_OUT/Cleaned_FlatFile_ByCU_SBC_Ck.csv",row.names=FALSE)
+write.csv(sbc.ck.bycu.cleaned, "DATA_PROCESSING/Cleaned_FlatFile_ByCU_SBC_Ck.csv",row.names=FALSE)
 
 
 
