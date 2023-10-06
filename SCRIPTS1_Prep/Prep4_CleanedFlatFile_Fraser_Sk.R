@@ -131,7 +131,7 @@ num.rec.raw <- dim(fr.sk.bypop.raw)[1]
 
 
 
-# BMac - find out which of the Stad streams aren't in the spatial data or CU definifion by NuSEDs so these aren't summed in the CU total
+# BMac - find out which of the Stad streams aren't in the spatial data or CU definition by NuSEDs so these aren't summed in the CU total
 not.in.cu <- fr.sk.bypop.cleaned  %>% filter(is.na(MapPOP_ID)) %>%
                                       group_by(CU_Name) %>%
                                       select(Pop_Name) %>%
@@ -170,7 +170,7 @@ source("SCRIPTS1_Prep/SUB_GenerateFraserSockeyeCUData.R")
 last.yr <- 2021 # last year for the merging and infilling
 
 CU_Streams <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_CU_Streams.csv", header = TRUE)               # Defines streams in each CU
-SR_Streams <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_SR_Streams.csv", header = TRUE)               # Defines stremas in the SR data ***************** BLM add APRIL 2021 ****
+SR_Streams <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_SR_Streams.csv", header = TRUE)               # Defines streams in the SR data ***************** BLM add APRIL 2021 ****
 
 Expansion_Years <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_Expansion_Years.csv", header = TRUE)     # Defines years being gap-filled in applicable CUs
 #SK_Data  <- read.csv("DATA_IN/Sockeye_Fraser_ByPop.csv",stringsAsFactors = TRUE)

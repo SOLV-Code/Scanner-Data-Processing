@@ -9,15 +9,17 @@
 
 library(dplyr)
 
-homedir <- getwd()
+#homedir <- getwd()
 ISCchum.sites.raw <- read.csv("DATA_IN/SOURCES/Inside SC Chum/wild_spawners_stream_infilled_by_site_CU.csv")
 ISCchum.CU.raw <- read.csv("DATA_IN/SOURCES/Inside SC Chum/wild_spawners_CU_infilled_by_site_CU.csv")
 
-setwd("../")
-Pop_lookup <- read.csv("build_PStat_data/data/PopDecoder.csv")
-CU_lookup.CM <- read.csv("build_PStat_data/data/CUAttributes.csv") %>% filter(Species =="Chum")
+#setwd("../")
+Pop_lookup <- read.csv("DATA_LOOKUP_FILES/PopDecoder.csv")
+#CU_lookup.CM <- read.csv("DATA_LOOKUP_FILES/CUAttributes.csv") %>% filter(Species =="Chum")
 
-setwd(homedir)
+CU_lookup.CM <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>% filter(Species =="Chum")
+
+#setwd(homedir)
 
 # ========================== BY CU =================================== #
 
@@ -57,9 +59,10 @@ ISCchum.sites.sub <- ISCchum.sites.raw %>%
 # -- Now indicate in the Poplookup file that these are the pops used for the CU data -- #
 
 
-setwd("../")
-Pop_attributes <- read.csv("build_PStat_data/data/PopAttributes.csv")
-setwd(homedir)
+#setwd("../")
+Pop_attributes <- read.csv("DATA_LOOKUP_FILES/PopAttributes.csv")
+
+#setwd(homedir)
 
 ISCchum_WSP_pops <- Pop_attributes %>%
                             filter(CU_ID %in% ISCchum.sites.sub$CU_ID) %>%
@@ -74,7 +77,7 @@ new_pop_attributes <- Pop_attributes %>%
 
 # Pull in the sites that are not in the CU roll-ups
 
-nuseds.data <- read.csv("DATA_IN/SOURCES/NUSEDs/Conservation_Unit_Data.csv")
+nuseds.data <- read.csv("DATA_IN/SOURCES/Inside SC Chum/ISC CM Nuseds 2019.csv")
 
 no.data <- ISCchum_WSP_pops %>% filter(WSP_ts=="no")
 
