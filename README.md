@@ -59,9 +59,23 @@ Other Notes:
 - Spawner estimates are generally based on index stream escapements that are scaled up.
 
 
+### Southern BC Chinook
+
+* [SBC CHinook Data processing repo](https://github.com/SOLV-Code/SBC-Ck-Dashboards-2.0)
+
+* Main source 1:  nuSEDS data dump - specific query   -> get from nuSEDS team   sample file where?
+* need to manually fix headers and some popID. Specifically:
+   * List
+
+*NEED TO RUN LINE BY LINE TO ENSURE ANY ERRORS ARE CAUGHT (e.g. X26 vs X29 in EPAD source)
 
 
+* Main source 2: EPAD data dump - specific query -> get from SEP team  (Sample file at WHERE?)
 
+
+* diagnostics to look at when running new extract:
+   * missing popID
+   * duplicate records (after popID fix)
 
 
 
