@@ -1,7 +1,7 @@
 library(tidyverse)
 
 
-skeenanass.sk.src <- read_csv("DATA_IN/SOURCES/Skeena_Nass Sockeye/SkeenaNassSockeye_Generated_SR_Data.csv") %>%
+skeenanass.sk.src <- read_csv("DATA_IN/SOURCES/Skeena_Nass Sockeye/Generated_SR_Data_ForRapidStatus.csv") %>%
                       mutate(CU_Name = Stock,
                              TotalER = 1- (Spn/Total.Run),
                              Recruits_Total = Rec,

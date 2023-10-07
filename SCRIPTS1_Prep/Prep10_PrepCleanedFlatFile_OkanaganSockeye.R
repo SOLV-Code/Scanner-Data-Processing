@@ -1,11 +1,9 @@
 library(tidyverse)
 
 
-ok.sk.src <- read_csv("DATA_IN/OkanaganSockeye_GENERATED_SR_Diagnostic_Total.csv") %>%
-                dplyr::filter(Variable=="Spawners") %>% select(-Variable,-Total,-PercSkaha) %>%
-                pivot_longer(cols=all_of(c("Osoyoos","Skaha")),names_to = "CU_Name",
-                             values_to = "Spn") %>%
-                arrange(CU_Name,Year) %>% mutate(STK_NAME = CU_Name)
+ok.sk.src <- read_csv("DATA_IN/SOURCES/Okanagan Sockeye/GENERATED_SR_Data_Osoyoos.csv") %>%
+                dplyr::rename(Spn = "Spawners") %>% 
+                mutate(CU_Name = "Osoyoos-L")
 head(ok.sk.src )
 
 
