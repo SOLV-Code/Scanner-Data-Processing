@@ -189,8 +189,6 @@ cu.info.sos  <- read.csv("DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",st
 CU.metrics.info <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv", stringsAsFactors = FALSE)
 # ********************************************************************************************************
 
-cu.list.fr.sk <- unlist(cu.info.sos %>% filter(Species == "Sockeye") %>% select(Conservation_Unit))
-
 
 # CUs with mean proportion method gap-filling
 GapCUs <- c("Nahatlatch_ES", "Quesnel_S", "Shuswap_L", "Takla_Trem_EStu", "Takla_Trem_S_S")

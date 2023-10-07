@@ -1,5 +1,5 @@
 #############################################
-# CREATE FLAT FILE VERSIONS FOR SoS - SBC CK
+# CREATE FLAT FILE VERSIONS FOR SoS - IF COHO
 #############################################
 
 library(tidyverse)

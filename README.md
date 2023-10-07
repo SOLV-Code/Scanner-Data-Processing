@@ -35,47 +35,30 @@ short overview with links
 
 ### Skeena and Nass Sockeye
 
-Two input files need to be updated when incorporating updates for Skeena and Nass sockeye.
+Source files  used here are the outputs from data processing in a separate github repository,
+as described in the [Skeena and Nass Data Source README](https://github.com/SOLV-Code/Scanner-Data-Processing/tree/main/DATA_IN/SOURCES/Skeena_Nass%20Sockeye).
 
-**DATA_IN/SkeenaNassSockeye_Generated_SR_Data.csv**
+The data needed to feed into that processing repo comes from 2 sources: 
 
-This file contains cleaned and processed SR data by stock. It is copied over here from the [Skeena and Nass spawner-recruit model fitting repository]( https://github.com/SOLV-Code/Skeena-Nass_Sk_SRFits). That repository requires several input files from different sources:
+* run reconstructions developed periodically for DFO by an external contractor. The two most recent updates were done up to 2019 and up to 2022, using funding from an escapememt goal review required under the PST. Follow-up with NC StAD is needed to determine how annual updates would be coordinated and funded.
+* stock-level age composition data collected and compiled by NC StAD.  Updating requires both a compilation of new records and a review of assumptions (i.e., which annual or average samples to use for which CU).
 
-* *Stock-level Run reconstructions*: These are currently developed by LGL for DFO. They are not done routinely every year. A stand-alone contract is issued periodically to add a few yers of data.
-* *Stock-level age composition estimates*: These are compiled from NC StAD, and rely on scale sampling programs with variable annual coverage. Assumptions regarding which sample sets to use for which stock need to be periodically reviewed.
-
-
-R scripts in the [SRFits repo](https://github.com/SOLV-Code/Skeena-Nass_Sk_SRFits) filter out brood years with unlikely numbers (RpS>45)and infill missing values where possible. This data processing step, which was adopted after extensive sensitivity testing, was peer-reviewed as part of the [escapement goal review process](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2023/2023_008-eng.html). The details are documented in a technical report (**In Prep**).
+Subsequent steps are fully automated (spawner-recruit model fits, benchmark calculations, output files), but should be reviewed periodically to ensure that assumptions and scoping decisions are still valid.
 
 
-**MOD_MAIN_CU_LOOKUP_FOR_SOS.csv**
-
-
-* stock to CU matching file reviewed by NC StAD
-
-Other Notes:
-
-- Most Skeena and Nass stocks line up with CUs
-- Spawner estimates are generally based on index stream escapements that are scaled up.
 
 
 ### Southern BC Chinook
 
-* [SBC CHinook Data processing repo](https://github.com/SOLV-Code/SBC-Ck-Dashboards-2.0)
+
 
 * Main source 1:  nuSEDS data dump - specific query   -> get from nuSEDS team   sample file where?
 * need to manually fix headers and some popID. Specifically:
    * List
 
-*NEED TO RUN LINE BY LINE TO ENSURE ANY ERRORS ARE CAUGHT (e.g. X26 vs X29 in EPAD source)
-
 
 * Main source 2: EPAD data dump - specific query -> get from SEP team  (Sample file at WHERE?)
 
-
-* diagnostics to look at when running new extract:
-   * missing popID
-   * duplicate records (after popID fix)
 
 
 
