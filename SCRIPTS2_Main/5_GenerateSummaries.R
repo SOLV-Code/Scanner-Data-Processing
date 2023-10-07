@@ -185,9 +185,11 @@ for(cu.plot in cu.list){
       gm.out <- exp(stats::filter(gm.in,rep(1/cu.avggen,times =cu.avggen),sides = 1))
       gm.out
 
-      lbm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelAbd") %>% select(LBM))
-      ubm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelAbd") %>% select(UBM))
-
+      lbm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelLBM") %>% select(LBM))
+      ubm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelUBM") %>% select(UBM))
+      lbm.plot
+      ubm.plot
+      
 
       ylim <- c(0, max(unlist(cu.abd[yrs.idx,2]),unlist(lbm.plot), unlist(ubm.plot),na.rm=TRUE))
       ylim
