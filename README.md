@@ -46,18 +46,24 @@ The data needed to feed into that processing repo comes from 2 sources:
 Subsequent steps are fully automated (spawner-recruit model fits, benchmark calculations, output files), but should be reviewed periodically to ensure that assumptions and scoping decisions are still valid.
 
 
-
-
 ### Southern BC Chinook
 
+Source files  used here are the outputs from data processing in a separate github repository,
+as described in the [SBC Ck Data Source README](https://github.com/SOLV-Code/Scanner-Data-Processing/blob/main/DATA_IN/SOURCES/SBC%20Chinook/README.md).
 
+The data needed to feed into that processing repo comes from 2 sources: 
 
-* Main source 1:  nuSEDS data dump - specific query   -> get from nuSEDS team   sample file where?
-* need to manually fix headers and some popID. Specifically:
-   * List
+* raw spawner records by site from the nuSEDS database. Current database holdings are available upon request from DFO's regional nuSEDS team on short notice any time of year. However, the data entry of new records by area staff typically occurs *WHEN?* once estimates have been finalized. Some manual changes to the nuSEDS query extract are currently required to prepare the input file, but could be automated.
+* records of spawner enumaration and broodstock collection by SEP hatchery staff from the EPAD database. Current database holdings are available upon request from DFO's regional nuSEDS team on short notice any time of year. However, the data entry of new records by hatchery staff typically occurs *WHEN?* once estimates have been finalized. Some manual changes to the nuSEDS query extract are currently required to prepare the input file, but could be automated.
 
+Subsequent steps are fully automated (record matching  between data bases, quality filtering, infilling), but generate a large amount of diagnostic information that needs to be reviewed for each major update, typically leading to several iterations of tweaking data and/or settings. 
 
-* Main source 2: EPAD data dump - specific query -> get from SEP team  (Sample file at WHERE?)
+Site-specific settings, such as sites to include in each CU time series, should be reviewed periodically to ensure that assumptions and scoping decisions are still valid.   
+
+Important notes:
+
+* there is no established process for re-estimating biological benchmarks for those CUs where they are currently available
+* For some CUs, the method for determining enhancement level was recently revised, but this approach has not been expanded to cover all SBC Ck CUs.
 
 
 
