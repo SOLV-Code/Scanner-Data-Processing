@@ -22,7 +22,7 @@ library(tidyverse)
 # Recruits_Wild =   NA
 
 
-sbc.ck.bypop.raw <- read.csv("DATA_IN/Chinook_SBC_ByPop.csv",stringsAsFactors = FALSE)
+sbc.ck.bypop.raw <- read.csv("DATA_IN/SOURCES/SBC Chinook/FlatFile_For_COSEWIC_BySite.csv",stringsAsFactors = FALSE)
 names(sbc.ck.bypop.raw )
 
 
@@ -121,7 +121,7 @@ names(sbc.ck.bypop.cleaned)
 # Recruits_Wild =   NA
 
 
-sbc.ck.bycu.raw <- read.csv("DATA_IN/Chinook_SBC_ByCU.csv",stringsAsFactors = FALSE)
+sbc.ck.bycu.raw <- read.csv("DATA_IN/SOURCES/SBC Chinook/FlatFile_For_COSEWIC_ByCU.csv",stringsAsFactors = FALSE)
 names(sbc.ck.bycu.raw )
 
 

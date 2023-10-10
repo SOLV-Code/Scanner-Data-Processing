@@ -1,0 +1,32 @@
+MU,StkSeq,Stock,StkNmS,LHAZ,StkID,Agg,Smsy,SgenBM,SmsyBM80p
+Nass,1,Lower Nass Sea & River Type,LNassSRT,Nass Sea/River Type,1,Nass,41507.22524127746,17680.326586867963,33205.78019302197
+Nass,2,Meziadin,Meziadin,Upper Nass Lake Type,2,Nass,153895.12908452487,36253.83336967473,123116.10326761991
+Nass,3,Bowser,Bowser,Upper Nass Lake Type,3,Nass,NA,NA,NA
+Nass,4,Oweegee,Oweege,Upper Nass Lake Type,4,Nass,NA,NA,NA
+Nass,5,Kwinageese,Kwinag,Upper Nass Lake Type,5,Nass,6826.137436406835,1524.92269944406,5460.909949125468
+Nass,6,Damdochax,Damdoch,Upper Nass Lake Type,6,Nass,4213.66709735931,852.3523490156161,3370.933677887448
+Nass,7,Upper Nass River Type,UNassRT,Nass River Type,7,Nass,NA,NA,NA
+Skeena,8,Johnston,Johnston,Lower Skeena Lake Type,8,Skeena,3006.336563915972,1000.403253385864,2405.0692511327775
+Skeena,9,Ecstall,Ecstall,Lower Skeena Lake Type,9,Skeena,NA,NA,NA
+Skeena,10,Alastair,Alastair,Lower Skeena Lake Type,10,Skeena,11782.463752383424,3808.633021758179,9425.97100190674
+Skeena,11,Lakelse,Lakelse,Lower Skeena Lake Type,11,Skeena,8555.547998695984,3736.6166843180663,6844.438398956787
+Skeena,12,Kitsumkalum,Kitsumk,Lower Skeena Lake Type,12,Skeena,14628.85997425126,3640.700806224675,11703.087979401009
+Skeena,13,Mcdonell,Mcdonell,Lower Skeena Lake Type,13,Skeena,2275.646102343968,548.3219485772694,1820.5168818751745
+Skeena,14,Kitwanga,Kitwanga,Middle Skeena Lake Type,14,Skeena,4183.392541415067,2729.2677742190735,3346.714033132054
+Skeena,15,Upper Bulkley Lakes,UBulkLk,Middle Skeena Lake Type,15,Skeena,NA,NA,NA
+Skeena,16,Morice,Morice,Middle Skeena Lake Type,16,Skeena,9834.214002720935,2030.427786092253,7867.371202176749
+Skeena,17,Swan/Stephens,SwanSteph,Middle Skeena Lake Type,17,Skeena,18823.552883320364,10990.24337308574,15058.842306656292
+Skeena,18,Babine Early Wild,Bab-EW,Middle Skeena Lake Type,18,Skeena,40960.50798945796,17909.123590989468,32768.40639156637
+Skeena,19,Babine Late Wild,Bab-LW,Middle Skeena Lake Type,19,Skeena,237537.29057503707,97712.88961496824,190029.83246002966
+Skeena,20,Babine Mid Wild,Bab-MW,Middle Skeena Lake Type,20,Skeena,17325.129140983157,4876.5488950168265,13860.103312786527
+Skeena,21,Pinkut,Pinkut,Middle Skeena Lake Type,21,Skeena,NA,NA,NA
+Skeena,22,Fulton,Fulton,Middle Skeena Lake Type,22,Skeena,NA,NA,NA
+Skeena,23,Sicintine,Sicintine,Upper Skeena Lake Type,23,Skeena,NA,NA,NA
+Skeena,24,Slamgeesh,Slamg,Upper Skeena Lake Type,24,Skeena,274.2052126844699,96.61767481886206,219.36417014757595
+Skeena,25,Motase,Motase,Upper Skeena Lake Type,25,Skeena,505.7906575144478,172.61743283458227,404.63252601155824
+Skeena,26,Bear,Bear,Upper Skeena Lake Type,26,Skeena,4416.064660372779,656.3968960753857,3532.8517282982234
+Skeena,27,Asitka,Asitka,Upper Skeena Lake Type,27,Skeena,754.0274392340795,324.3763117251016,603.2219513872636
+Skeena,28,Sustut,Sustut,Upper Skeena Lake Type,28,Skeena,772.6160498400535,88.13614405946124,618.0928398720429
+Skeena,29,Kluantantan,Kluant,Upper Skeena Lake Type,29,Skeena,NA,NA,NA
+Skeena,30,Kluayaz,Kluayaz,Upper Skeena Lake Type,30,Skeena,NA,NA,NA
+Skeena,31,Skeena River Type,Skeena RT,Skeena River Type,31,Skeena,NA,NA,NA

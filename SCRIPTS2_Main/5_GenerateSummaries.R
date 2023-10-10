@@ -17,6 +17,7 @@ library(tidyverse)
 library(plotrix)
 
 
+if(!dir.exists("OUTPUT/MetricsAndStatus")){dir.create("OUTPUT/MetricsAndStatus")}
 
 
 #############################################################
@@ -151,7 +152,7 @@ for(cu.plot in cu.list){
     data.type <- cu.info.sub$DataQualkIdx
     data.type
 
-        png(filename = paste0("OUTPUT/Dashboard_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,"_",cu.info.sub$CU_ID,".png"),
+        png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,"_",cu.info.sub$CU_ID,".png"),
             width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
 
         layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
@@ -184,9 +185,11 @@ for(cu.plot in cu.list){
       gm.out <- exp(stats::filter(gm.in,rep(1/cu.avggen,times =cu.avggen),sides = 1))
       gm.out
 
-      lbm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelAbd") %>% select(LBM))
-      ubm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelAbd") %>% select(UBM))
-
+      lbm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelLBM") %>% select(LBM))
+      ubm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelUBM") %>% select(UBM))
+      lbm.plot
+      ubm.plot
+      
 
       ylim <- c(0, max(unlist(cu.abd[yrs.idx,2]),unlist(lbm.plot), unlist(ubm.plot),na.rm=TRUE))
       ylim
