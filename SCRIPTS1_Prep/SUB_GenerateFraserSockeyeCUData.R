@@ -380,8 +380,8 @@
    # Additions Dec 2017 to manipulate into long form for SOS Data Tool
    # GP moved this up
    library(dplyr);library(tidyr)
-   ts.info <- read.csv(cu.info.file,stringsAsFactors = FALSE)
-   
+   #ts.info <- read.csv(cu.info.file,stringsAsFactors = FALSE)
+   ts.info <- cu.info.file
    #CU_ID <-   ts.info %>%
   #   filter(Conservation_Unit==CU_Name) %>%
   #   select(CU_ID)
@@ -406,19 +406,19 @@
                     if(sum(!is.na(CU)) == 0){
                       
                       # must first match up the CU name with the one used in the STAD file
-                      stad.cu.name <- ts.info$SK_Data_CU_Name[ts.info$Conservation_Unit == CU_Name]
+                      stad.cu.name <- ts.info$CU_Name_tsdata[ts.info$CU_Name == CU_Name]
                       CU <- data.frame(x=unique(SK_Data$Stock.Name.stream.[SK_Data$CU.Name== stad.cu.name]))  
                     }
    
    }  
-    Timing <- ts.info$RunTiming[ts.info$Conservation_Unit==CU_Name] 
+    Timing <- ts.info$RunTiming[ts.info$CU_Name==CU_Name] 
     T.group <- ifelse(Timing == "Early Stuart","T1", ifelse(Timing == "Early Summer", "T2", 
                                                             ifelse(Timing=="Summer", "T3", 
                                                                   ifelse(Timing == "Late", "T4", NA))))
     if(CU_Name == "Kamloops_ES") T.group <- "T3"
     
     CU <- (levels(as.factor(unlist(CU))))[(levels(as.factor(unlist(CU))))!=""]
-    
+   
     
     
     #print("Pop to group")
@@ -464,7 +464,7 @@
                   CU_Data[,'S. End Chilko Lake']<- as.numeric(st.data$Eff.Total[match(CU_Data$Year, st.data$Year)])   
                 }
       }
-      
+   
     # Calc the total for the CU
     if(Data == "ETS"){
       

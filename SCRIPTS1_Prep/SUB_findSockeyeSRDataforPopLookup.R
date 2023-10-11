@@ -14,7 +14,7 @@ fr.sk.bypop.clean <- read.csv( "DATA_PROCESSING/Cleaned_FlatFile_ByPop_FraserSoc
 Pop_Lookup.sk <- read.csv("DATA_LOOKUP_FILES/PopLookup.csv") %>% filter(TimeSeriesData_Species == "Sk_Fraser")
 
 # CU name crosswalk
-cu.info.sos  <- read.csv("DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",stringsAsFactors = FALSE)
+cu.info.sos  <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
 
 
 
@@ -39,7 +39,7 @@ for(cu in unique(Pop_Lookup.sk$MapData_CU_ID)){
             #  if(length(cu.name$CU_Name)>1) cu.name <- fr.sk.bypop.clean %>% filter(CU_ID==find.cu) %>% select(CU_Name) %>% # select the one with the most entries
              #                                          table() %>% which.max() %>% names()
 
-    sr.data.name <- cu.info.sos$Conservation_Unit[cu.info.sos$SK_Data_CU_Name==cu.name]
+    sr.data.name <- cu.info.sos$CU_Name[cu.info.sos$CU_Name_tsdata ==cu.name]
 
   # Get list of sites included if they are defined
   if(length(which(!is.na(SR_Streams[colnames(SR_Streams)==sr.data.name]))) > 0){

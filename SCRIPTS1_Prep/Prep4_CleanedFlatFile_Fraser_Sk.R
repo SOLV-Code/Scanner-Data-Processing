@@ -182,13 +182,18 @@ Expansion_Years <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_Expan
 SK_Data <- anti_join(fr.sk.bypop.raw,not.in.cu)    # anti_join removed all of the rows that align with the not.in.cu dataframe
 
 
-cu.info.sos  <- read.csv("DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",stringsAsFactors = FALSE)
+#cu.info.sos  <- read.csv("DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",stringsAsFactors = FALSE)
 
 
 # ********************************************************************************************* BMAC ADDED
-CU.metrics.info <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv", stringsAsFactors = FALSE)
+#CU.metrics.info <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv", stringsAsFactors = FALSE)
 # ********************************************************************************************************
 
+#cu.list.fr.sk <- unlist(cu.info.sos %>% filter(Species == "Sockeye") %>% select(Conservation_Unit))
+cu.list.fr.sk <- cu.lookup %>% filter(Group %in% c("SK-Fraser_Estu", "SK-Fraser_Esum", "SK-Fraser_Sum", "SK-Fraser_RT", "SK-Fraser_Lat")) %>%
+                    select(CU_Name) %>%
+                    filter(CU_Name !="Chilko_ES") %>%
+                    unlist()
 
 # CUs with mean proportion method gap-filling
 GapCUs <- c("Nahatlatch_ES", "Quesnel_S", "Shuswap_L", "Takla_Trem_EStu", "Takla_Trem_S_S")
@@ -200,7 +205,7 @@ if(!dir.exists("DATA_PROCESSING/FraserSockeyePrep")){dir.create("DATA_PROCESSING
 
 # test the function
 test.out <- GetCUData(CU_Name = "Shuswap_L", Update = 2012, Data = "EFS",
-                    cu.info.file = "DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",
+                    cu.info.file = cu.lookup,
                     out.folder = "DATA_PROCESSING/FraserSockeyePrep/")
                     # note the "/" at the end of the folder name
 test.out
@@ -227,24 +232,25 @@ for(cu.do in cu.list.fr.sk[cu.list.fr.sk!="Cultus_L"]){
     print("----------------------")
     print(cu.do)
 
-    info.sub <-   filter(cu.info.sos,Conservation_Unit == cu.do)
-
+    #info.sub <-   filter(cu.info.sos,Conservation_Unit == cu.do)
+    info.sub <-   filter(cu.lookup, CU_Name == cu.do)
+    
     cu.id <-  info.sub$CU_ID
-    stk.id <- info.sub$StkID
-    stk.name <- info.sub$StkNm
+    stk.id <- info.sub$STK_ID
+  #  stk.name <- info.sub$StkNm
 
     # ***************************************************************************** BMAC
-    trend.start.yr <- CU.metrics.info$Trends_StartYr[CU.metrics.info$CU_ID == cu.id]
-    abd.start.yr <- CU.metrics.info$Abd_StartYr[CU.metrics.info$CU_ID == cu.id]
+    trend.start.yr <- cu.lookup$Trends_StartYr[cu.lookup$CU_ID == cu.id]
+    abd.start.yr <- cu.lookup$Abd_StartYr[cu.lookup$CU_ID == cu.id]
     #**********************************************************************************
 
     # ***** CHANGES APRIL 2021 - PULLING THE SUM FROM WHAT IS NOW A LIST BEING CREATED HERE
     # note the "/" at the end of the folder name
     ets.out <- GetCUData(CU_Name = cu.do, Update = last.yr, Data = "ETS",
-              cu.info.file = "DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",
+              cu.info.file =  cu.lookup,
               out.folder = "DATA_PROCESSING/FraserSockeyePrep/")
     efs.out <- GetCUData(CU_Name = cu.do, Update = last.yr, Data = "EFS",
-                         cu.info.file = "DATA_LOOKUP_FILES/SoS_Data_CU_Info_ForDataPrep.csv",
+                         cu.info.file =  cu.lookup,
                          out.folder = "DATA_PROCESSING/FraserSockeyePrep/")
 
 
@@ -262,12 +268,12 @@ for(cu.do in cu.list.fr.sk[cu.list.fr.sk!="Cultus_L"]){
 
     cu.df$CU_ID <- c(cu.id)
     cu.df$CU_Name<- cu.do
-    cu.df$DU_ID <- "TBD"
+   # cu.df$DU_ID <- "TBD"
 
     cu.df$STK_ID <- stk.id
-    cu.df$STK_NAME <- stk.name
+    #cu.df$STK_NAME <- stk.name
 
-    cu.df$TotalER	 <- NA
+    #cu.df$TotalER	 <- NA
    # cu.df$Recruits_Wild <-  NA
 
     cu.data.out <- rbind(cu.data.out,cu.df)
