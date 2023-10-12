@@ -22,7 +22,9 @@
 
 3) calculate WSP metrics using [WSPMetrics package](https://github.com/Pacific-salmon-assess/WSP-Metrics-Pkg) and [MetricsCOSEWIC package](https://github.com/SOLV-Code/MetricsCOSEWIC)
 
+4) calculate WSP rapid statuses
 
+5) prep data for the Scanenr
 
 
 ### Repository Structure
@@ -65,9 +67,21 @@ Important notes:
 * there is no established process for re-estimating biological benchmarks for those CUs where they are currently available
 * For some CUs, the method for determining enhancement level was recently revised, but this approach has not been expanded to cover all SBC Ck CUs.
 
+### Fraser Sockeye
 
+Details provided in the [Fraser Sockeye Data Source README](https://github.com/BronwynMacDonald/Scanner-Data-Processing/tree/main/DATA_IN/SOURCES/Fraser%20Sockeye#readme)
 
+### Interior Fraser Coho
 
+Details provided in the [Interior Fraser Coho Data Source README](https://github.com/BronwynMacDonald/Scanner-Data-Processing/blob/main/DATA_IN/SOURCES/Fraser%20Coho/README.md)
+
+### Fraser Chum
+
+Details provided in the [Fraser Chum Data Source README](https://github.com/BronwynMacDonald/Scanner-Data-Processing/blob/main/DATA_IN/SOURCES/Fraser%20Chum/README.md)
+
+### Fraser Pink
+
+Details provided in the [Fraser Pink Data Source README](https://github.com/BronwynMacDonald/Scanner-Data-Processing/blob/main/DATA_IN/SOURCES/Fraser%20Pink/README.md)
 
 
 
