@@ -32,6 +32,50 @@
 short overview with links
 
 
+## Data Needs
+
+Three information streams are needed for the Scanner:
+
+* CU-level escapement time series (aggregated across consistently-assessed sites that can be used for analysis)
+* Population-level data (all available populations in each CU)
+* Attributes (CU and pop)
+
+### CU-level Data
+
+Steps that may be required:
+* Review CU site lists and revise as necessary with the Data Management Group
+* Select enumeration sites to include in the aggregated CU time series
+    * Review historical information (supplementation, transplants, etc) 
+    * Filter for high quality (classification level 4 or higher using NUSEDs system)
+    * Filter for consistently assessed sites (>50% of the time series [70% for Fraser sockeye])
+* Truncate start years if necessary
+* Validate zeros
+* Calculate hatchery components (PNI?)
+* Infill if needed and appropriate
+    * Mean proportion method OR (cycle-line) average if only one site or no data across sites or sites not correlated
+
+### Population-level Data
+
+Two types of data:
+* Treated data for sites that are included in the CU-level aggregated time series
+* Raw data for sites not included
+
+These can exist in the same population level csv output int he data prep steps but are differentiated in the PopAttributes file
+
+### Attributes
+* CU
+    * attributes from NUSEDs
+    * additional CU information: generation length, SMU, life history type, run timing
+    * metric calculation details 
+* Pop 
+    * attributes from NUSEDs
+    * expert validated CU associations
+    * POP_IDs
+ 
+* additional information for Scanner-specific attribute files (scannerdata repo)
+    * CU: contact, data messages, etc.
+    * Pop: inclusion in aggregated CU timeseries, data messages 
+
 
 ## Data Sources
 
