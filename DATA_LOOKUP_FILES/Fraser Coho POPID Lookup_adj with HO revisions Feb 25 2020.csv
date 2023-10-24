@@ -198,8 +198,8 @@ NORTH THOMPSON,46582,256,NORTH THOMPSON RIVER,,,,,
 NORTH THOMPSON,46582,,,N Thompson R (mid),North thompson River (mid),,,
 NORTH THOMPSON,46582,,,N Thompson R (upr),North thompson River (upper),,,
 NORTH THOMPSON,,,,,North thompson River (lower),,,
-NORTH THOMPSON,46582,,NORTH THOMPSON RIVER,Birch Island Channel,,Birch Island,,is in NuSEDS but listed as NORTH THOMPSON RIVER but under the Geographical Extent of BIRCH ISLAND CHANNEL
-NORTH THOMPSON,46582,,NORTH THOMPSON RIVER,Pig Channel,,Pig Channel,,as per the NORTH THOMPSON RIVER under the Geographical Extent of PIG CHANNEL COMBINED
+NORTH THOMPSON,69032,,BIRCH ISLAND CHANNEL,Birch Island Channel,,Birch Island,,is in NuSEDS but listed as NORTH THOMPSON RIVER but under the Geographical Extent of BIRCH ISLAND CHANNEL - UPDATE 2023 appears to actually be in nuseds as its own site now
+NORTH THOMPSON,69033,,NORTH THOMPSON RIVER-PIG CHANNEL,Pig Channel,,Pig Channel,,as per the NORTH THOMPSON RIVER under the Geographical Extent of PIG CHANNEL COMBINED - Update 2023 appears to be in Nuseds now 
 NORTH THOMPSON,53132,2376,PAUL CREEK,Paul Cr,Paul Cr,,,
 NORTH THOMPSON,,,,,Peddie Cr,,,
 NORTH THOMPSON,53133,2379,PETERSON CREEK,Peterson Cr,Peterson Cr,,,

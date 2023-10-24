@@ -268,7 +268,7 @@ for(cu.do in cu.list.fr.sk[cu.list.fr.sk!="Cultus_L"]){
 
     cu.df$CU_ID <- c(cu.id)
     cu.df$CU_Name<- cu.do
-   # cu.df$DU_ID <- "TBD"
+    cu.df$DU_ID <- "TBD"
 
     cu.df$STK_ID <- stk.id
     #cu.df$STK_NAME <- stk.name
