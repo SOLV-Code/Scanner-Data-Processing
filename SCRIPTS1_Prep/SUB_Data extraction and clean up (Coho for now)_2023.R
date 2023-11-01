@@ -39,7 +39,7 @@
 #    Run:
 #    BY.Table(data=COHO.clean, CU="Middle Fraser", EC.max="NA", start.yr=1998, wsp.infill=TRUE, run.infill=TRUE, infill.start.yr=FALSE)
 
-# Start at 1998 for Coho
+# Start at 1998 for Coho ?? - should we be truncating metric calcs to only include data starting in 1998 for all CUs?
 
 
 
@@ -115,7 +115,7 @@ run.variables <- function(var){
    return(new)
 }
 
-# Dec 2021 added step tpo replace "-  " with "0" where Final Estimate Type = 'NO' since these are true 0's
+# Dec 2021 added step to replace "-  " with "0" where Final Estimate Type = 'NO' since these are true 0's
 sub.zeros <- Coho.sub %>% filter(Final.Estimate.Type == "NO") %>%
                           mutate(Final.Spawner.Estimate = as.numeric(rep.zero(Final.Spawner.Estimate," -   "))) %>%
                           mutate(Total.Return = as.numeric(rep.zero(Total.Return," -   "))) %>%
