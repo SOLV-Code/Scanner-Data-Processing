@@ -2,7 +2,7 @@
 # Written by Bronwyn MacDonald
 # October 21 2019
 # Revised April 2023 due to changes in input data file from StAD
-## Changes input columns, now use the prefishery hatchery vs natural returns provided to calcualte recruits instead of calculating breakdown
+## Changes input columns, now use the prefishery hatchery vs natural returns provided to calculate recruits instead of calculating breakdown
 
 # Info:
 #   MUST HAVE dplyr version >= 0.7
@@ -15,15 +15,15 @@
 
 # Produces 3 things all using COHO.clean dataframe, which is filtered version of the data provided by Lynda
 
-# 1) CUsums: Sum of chosen variable across the Tribs in a CU (Final.Spawner.Estimate, Total.Returns, Pre.Fishery.Abundance, Htatchery.Returns.corrected, Natural.Returns)
+# 1) CUsums: Sum of chosen variable across the Tribs in a CU (Final.Spawner.Estimate, Total.Returns, Pre.Fishery.Abundance, Hatchery.Returns.corrected, Natural.Returns)
 #            EC.max: Filters based on data quality of Spawner estimates. Must enter a selection from "Type-1" (best) to "Type-7", "UNK", or "NA" (worst). 
 #                    It will filter out all levels above that chosen, i.e. lower quality.  
 #            start.yr: first year in the data to use 
-#            wsp.infill: choose whether or not to include the infilled data from the WSP process
+#            wsp.infill: choose whether or not to include the infilled data from the WSP process (this refers to data infilled by StaAD)
 #            run.infill: infill data using English method. Can run this on data post-WSP (set infill.start.yr = 2014) or the entire dataframe (infill.start.yr = FALE - sets it to start.yr)
-#            WSP_only: only use the WSP approved systems (WSP.2014= green) - exclude all else (if FALSE then should not be infilling) 
+#            WSP_only: only use the WSP approved systems (WSP.2014= green OR amber) - exclude 'not used' (if FALSE then should not be infilling) 
 #   RUN:
-#    CUsums(COHO.clean, "Fraser Canyon", "Final.Spawner.Estimate",EC.max="NA", start.yr=1998, wsp.infill=TRUE, run.infill=TRUE, infill.start.yr=FALSE)
+#    CUsums(COHO.clean, "Fraser Canyon", "Final.Spawner.Estimate",EC.max="NA", start.yr=1998, wsp.infill=TRUE, run.infill=FALSE, infill.start.yr=FALSE, WSP_only=TRUE)
 
 
 # 2)  Cal.Nat: Calculates the Natural component of the Pre-fishery Return using the ratio of the Hatchery Returns to the Total Returns as a multiplier.
@@ -39,7 +39,7 @@
 #    Run:
 #    BY.Table(data=COHO.clean, CU="Middle Fraser", EC.max="NA", start.yr=1998, wsp.infill=TRUE, run.infill=TRUE, infill.start.yr=FALSE)
 
-# Start at 1998 for Coho ?? - should we be truncating metric calcs to only include data starting in 1998 for all CUs?
+# Start at 1998 for Coho 
 
 
 
@@ -61,6 +61,9 @@ exceptions <- as.vector(read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Infill excepti
 CU.file <- read.csv("DATA_IN/SOURCES/Fraser Coho/FRSK_CU_Info_masterUpdate.csv")
 
 #setwd(homedir)
+
+
+## ========================================= DATA CLEANING AND CONFIGURATION ================================================================ ##
 
 CUs <- CU.file %>% filter(Base.Unit.Species == "CO")
 
@@ -174,8 +177,9 @@ print("Data filtered out of the WSP assessment")
 print(table(was.not.used$Estimate.Classification))
 print(table(was.not.used$Data.Quality.Class))
 
+## ============================================================================================================================================================ ##
 
-
+## ============================================================= FUNCTIONS ==================================================================================== ##
 
 # By CU
 # Pulls the Tributary Demes for a CU, filters out data NOT used in the WSP 2014 analysis (i.e. data that is categorized as "not used" in this column is given value of 0, 
@@ -224,9 +228,9 @@ Run_Infill <- function(df, exceptions,infill.start.yr,start.yr){
 
                   
 # Enter in max data categories for the Estimate Classification and Data Quality categories to filter data based on Quality
-# Also must now select whether or not to filter out infilled estimates
-# AND whether or not to infill missing values and what year to start this at. Default to FALSE since onle Spawners should be infilled. 
-# Also for CO will start at 2014 since prior to this has been filled already
+# Also must now select whether or not to filter out infilled estimates (infilled by StAD - Classification Type-7)
+# AND whether or not to infill missing values and what year to start this at. Default to FALSE since only Spawners should be infilled. 
+# Also for CO will start at 2014 since prior to this has been filled already (old notes from early versions whe we still used the infilling here)
 CUsums <- function(data,CU,variable, EC.max, start.yr=1998, wsp.infill=TRUE, run.infill=FALSE, infill.start.yr=start.yr, WSP_only=TRUE){
                     if(wsp.infill == FALSE) data <- filter(data, Estimate.Classification != "Type-7")
                     if(run.infill == TRUE & variable != "Final.Spawner.Estimate"){
@@ -365,7 +369,7 @@ BY.Table <- function(data, CU, EC.max="NA", start.yr, wsp.infill=TRUE, run.infil
 #BY.Table(data=COHO.clean, CU="Middle Fraser", EC.max="NA", start.yr=1998, wsp.infill=TRUE, run.infill=FALSE, infill.start.yr=FALSE)
 
 
-### ======== Run the data prep ===============#
+## ======================================================= RUN FOR IFC CUs ========================================================== ##
 
 CU.list <- c("Fraser Canyon", "Lower Thompson", "Middle Fraser", "North Thompson", "South Thompson")
 #CU.list <- c("Fraser Canyon", "Lower Thompson", "Middle Fraser", "South Thompson")
@@ -382,8 +386,8 @@ Run_write <- function(EC.max="NA", st.yr=1998,wsp.infill=TRUE,run.infill=FALSE, 
                     if(CU == "Fraser Canyon"){  
                                               colnames(all.cus) <-colnames(by.tbl)
                     }
-                             # write.csv(by.tbl, c(paste(CU, "EC.max=",EC.max, "infill=", run.infill,".csv")))
-                              all.cus <- rbind(all.cus, by.tbl)
+                    # write.csv(by.tbl, c(paste(CU, "EC.max=",EC.max, "infill=", run.infill,".csv")))
+                    all.cus <- rbind(all.cus, by.tbl)
                              
                   }
                   return( all.cus)

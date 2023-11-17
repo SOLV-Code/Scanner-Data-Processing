@@ -6,7 +6,7 @@ library(tidyverse)
 
 # *****************************************************************************BMAC ADDED
 source("SCRIPTS1_Prep/SUB_Data extraction and clean up (Coho for now)_2023.R")
-pop.info <- read.csv("DATA_IN/SOURCES/Fraser Coho POPID Lookup_adj with HO revisions Feb 25 2020.csv",stringsAsFactors = FALSE)
+pop.info <- read.csv("DATA_IN/SOURCES/Fraser Coho/Fraser Coho POPID Lookup_adj with HO revisions Feb 25 2020.csv",stringsAsFactors = FALSE)
 #****************************************************************************************
 
 
