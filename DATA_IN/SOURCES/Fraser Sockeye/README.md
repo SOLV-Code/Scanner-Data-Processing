@@ -7,7 +7,7 @@
 Updates require 2 files:
 
 * *Fraser Sockeye SR Data_2023.csv*: This file contains spawner and recruit data used for forecasting though the code only pulls recruits from this due to the stock groupings
-* *SKAll (November 2022).csv*: This file contains all spwaner estimates and is used for the CU and pop-level spawner timeseries
+* *SKAll (November 2022).csv*: This file contains all spawner estimates and is used for the CU and pop-level spawner timeseries
 
 #### Occasional Update
 
@@ -31,7 +31,8 @@ Additional files needed (mostly static though should be looked over annually in 
 ### What are the required steps for updating?
 
 Files can be read directly into the code once converted into csv format.
-Update file names and *last.yr* on line 170
+Check the CU files written into the DATA_PROCESSING folder for errors, required infilling etc.
+Identify CUs that need infilling and add to Sockeye_Fraser_Expansion_Years.csv and re-run
 
 
 ### Important Notes

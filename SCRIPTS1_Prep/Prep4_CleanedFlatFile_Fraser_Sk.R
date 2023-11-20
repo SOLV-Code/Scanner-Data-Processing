@@ -19,7 +19,7 @@ library(tidyverse)
 
 
 # ************** Bmac changed read in file ******************************************
-fr.sk.bypop.raw <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/SKAll (November 2022).csv",fileEncoding="UTF-8-BOM",stringsAsFactors = FALSE)
+fr.sk.bypop.raw <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/SKAll (Nov 2023).csv",fileEncoding="UTF-8-BOM",stringsAsFactors = FALSE)
 # *********************************************************************************
 cu.lookup <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) # ADDED jULY 2023
 
@@ -167,7 +167,7 @@ source("SCRIPTS1_Prep/SUB_GenerateFraserSockeyeCUData.R")
 # Data refers to whether to pull out EFS or ETS data
 # (however, ETS will not be the same as the ETS used for stock status as this file does not pull in ALL streams.)
 
-last.yr <- 2021 # last year for the merging and infilling
+last.yr <- range(fr.sk.bypop.raw$Year)[2] # last year for the merging and infilling
 
 CU_Streams <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_CU_Streams.csv", header = TRUE)               # Defines streams in each CU
 SR_Streams <- read.csv("DATA_IN/SOURCES/Fraser Sockeye/Sockeye_Fraser_SR_Streams.csv", header = TRUE)               # Defines streams in the SR data ***************** BLM add APRIL 2021 ****

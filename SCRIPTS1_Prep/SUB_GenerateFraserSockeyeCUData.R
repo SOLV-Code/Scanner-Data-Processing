@@ -31,7 +31,7 @@
 #   For some CU's that require gap filling using the mean proportion method (Takla_Trembleur_EStu, Quesnel_S, Shuswap_L), 
 #   CUs are divided into sub-groups, and the CU name header contains a list of the subgroups.
 
-# Escapement Data:
+# Escapement Data (OLD NOTES NO LONGER VALID NOW THAT CU NAMES ARE INCLUDED IN THE STAD FILES):
 #   When new data becomes available, data must be input into the file b Final Stock Status Files > d 2012 escapement updates > Data > 
 #   Excel versions > 'All SK Data.xls', making sure that the stream names align with those that are currently in the file. Pay particular 
 #   attention to the early summer shuswap streams, many of which also have escapements  during the late run, therefore the early component 
@@ -101,7 +101,7 @@
       }  
 
       if(CU_Name == "Nahatlatch_ES") New_Sum$EFS[New_Sum$Year == 1979] <- Orig_StreamSum[which(New_Sum$Year == 1979)]
-  write.csv(New_Streams, c(paste("DATA_TRACKING/Infilled_Streams_",CU_Name,".csv")))
+  write.csv(New_Streams, c(paste0("DATA_PROCESSING/FraserSockeyePrep/", CU_Name, "_Infilled_Streams.csv")))
       return(New_Sum)
   } # End regular GapFill Function
 
@@ -115,6 +115,12 @@
     CU_Q <- CU_Streams[colnames(CU_Streams) == CU_Name]
     CU_Q <- CU_Streams[,!is.na(match(colnames(CU_Streams), levels(as.factor(CU_Q[,1]))))]
     
+    All_Q_Data <- as.data.frame(cbind(Year = CU_Data[,1],  # Added 2023 so experts can review the systems that feed into the Quesnel sum for potential infilling
+                                      CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))], 
+                                      CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_McKin))))],
+                                      CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Mitchell))))],
+                                      CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Little))))], 
+                                      CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Lake))))])) 
     CU_DataQ <- as.data.frame(cbind(Year = CU_Data[,1],
                                       cyc= rep(seq(1,4,1), length = length(CU_Data[,1])),
                                       Horse = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))], na.rm=TRUE ), 
@@ -186,7 +192,8 @@
         if((j==56) & (Expansion[j,(i-2)] ==0)){  New_Streams[j,i] <- (Expand_MM*CU_DataQ[CU_DataQ$Year==2005,4]) }
       }
     }  
-    write.csv(New_Streams, "DATA_TRACKING/Infilled_Streams_Quesnel.csv")
+    write.csv(All_Q_Data, "DATA_PROCESSING/FraserSockeyePrep/Quesnel_All_Streams.csv")
+    write.csv(New_Streams, "DATA_PROCESSING/FraserSockeyePrep/Quesnel_Infilled_Streams.csv")
       return(New_Data)
 
   }# End GapFill Quesnel
@@ -241,7 +248,8 @@
     
     # Expand Rivers and Add Lakes
     New_Sum <- cbind(Year = CU_Data_SL[,1], EFS = ((Orig_Sum*Expand_Frac) + Lake) )
-      
+    
+    write.csv(CU_Data_SL, "DATA_PROCESSING/FraserSockeyePrep/Shuswap_L_All_streams.csv")  
     return(New_Sum)        
   } # End GapFill_LShu
 
@@ -252,6 +260,9 @@
       CU_TT <- CU_Streams[colnames(CU_Streams) == CU_Name]
       #CU_TT <- CU_Streams[,!is.na(match(colnames(CU_Streams), levels(CU_TT[,1])))]
       CU_TT <- CU_Streams[,!is.na(match(colnames(CU_Streams), (CU_TT[,1])))]
+      
+      TT_allstreams <- unique(unlist(CU_TT))[! unique(unlist(CU_TT)) %in% c("")] 
+      TT_Alldata <- as.data.frame(cbind(Year = CU_Data[,1], CU_Data[ ,!is.na(match(colnames(CU_Data),  TT_allstreams))]))
       
       Driftwood <-   as.data.frame(cbind(Year = CU_Data[,1],cyc= rep(seq(1,4,1), length = length(CU_Data[,1])),
                                      Drift = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), CU_TT$Takla_Trem_EStu_Drift))], na.rm=TRUE ),
@@ -344,6 +355,7 @@
           
       } # End for loop calculating system proportions and Expansion Lines
      
+      write.csv(TT_Alldata, "DATA_PROCESSING/FraserSockeyePrep/Takla_Trem_EStu_AllData.csv")
       New_EFS <- cbind(Year = CU_Data[,1], EFS = rowSums(New_Sums[,-1]))
       return(New_EFS)
       
@@ -492,7 +504,7 @@
     
     #GPEdit: for some reason, this causes all kinds of problems, do outside of this fn
     #CU_Data <- cbind(CU_Data,CU_ID = CU_ID, row.names = NULL)) #as.character(CU_ID) 
-    write.csv(CU_Data, file= (paste0(out.folder,CU_Name,"_",Data,"_BMac.csv")), row.names=FALSE)
+    write.csv(CU_Data, file= (paste0(out.folder,CU_Name,"_",Data,".csv")), row.names=FALSE)
     
     
 
