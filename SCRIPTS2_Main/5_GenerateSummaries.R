@@ -45,7 +45,7 @@ amber.use.timeline <- rgb(255/255,255/255,191/255,alpha=alpha.use.timeline)
 
 
 
-retro.yrs <- 1995:2021
+retro.yrs <- 1995:2022
 
 
 #############################################################
@@ -56,7 +56,7 @@ retro.yrs <- 1995:2021
 retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
+metrics.details <- read.csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
   #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
   #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 

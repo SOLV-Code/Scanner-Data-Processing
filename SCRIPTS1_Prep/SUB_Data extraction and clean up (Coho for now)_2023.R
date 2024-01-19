@@ -52,7 +52,7 @@ library(forcats)
 
 #setwd("Coho/Lynda Ritchie Sept 19 2019")
 
-COHO <- read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Data 1975-2021 - created 2023-04-03 for Salmon Scanner.csv")
+COHO <- read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Data 1975-2022 - created 2023-10-31 for Salmon Scanner.csv")
 exceptions <- as.vector(read.csv("DATA_IN/SOURCES/Fraser Coho/IFC Infill exceptions.csv",header=FALSE))
 
 #setwd(homedir)
@@ -241,7 +241,7 @@ CUsums <- function(data,CU,variable, EC.max, start.yr=1998, wsp.infill=TRUE, run
                                    filter(Conservation.Unit==CU) %>%
                                    filter(Return.Year >= start.yr)%>%
                                    filter(Estimate.Classification <= EC.max | Estimate.Classification == "Type-7" ) 
-                    
+                  
                     if(WSP_only == TRUE){
                       df2 <- df %>% mutate(Estimate = case_when(WSP.2014.Data.Use.Categories==0 ~ NA_real_, WSP.2014.Data.Use.Categories==1~!!sym(variable)) ) %>%
                                     filter(WSP.2014.Data.Use.Categories == 1) %>%
@@ -390,6 +390,9 @@ Run_write <- function(EC.max="NA", st.yr=1998,wsp.infill=TRUE,run.infill=FALSE, 
                     all.cus <- rbind(all.cus, by.tbl)
                              
                   }
+  
+                  # Added Nov 2023 - write csv of TribDemes used for the CU timeseries data
+                 # if(WSP_only=TRUE) write.csv(COHO.clean %>% filter(WSP.2014.Data.Use.Categories==1) %>% select(Conservation.Unit, Tributary.Deme) %>%unique() %>% arrange(Conservation.Unit),"DATA_TRACKING/IFC.CU.Tribs.csv")
                   return( all.cus)
 }
 
