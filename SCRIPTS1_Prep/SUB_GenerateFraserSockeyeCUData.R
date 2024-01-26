@@ -484,7 +484,8 @@
       
       if(length(CU) > 1) CU_Data$ETS <- rowSums(select(CU_Data,-Year), na.rm=T)
       if(length(CU)==1)   CU_Data$ETS <- CU_Data[,CU]
-      
+      if(CU_Name == "Taseko_ES"){ CU_Data[,"ETS"][CU_Data[,"Year"]%in%c(1965,1968:1992)]<- NA  # added Jan 2024 - these years were previously removed manually for calculating WSP metrics
+      } # end if Taseko
     }
     if(Data == "EFS"){      
           if(!is.na(match(CU_Name, "Quesnel_S")))    CU_Data <- GapFill_Quesnel(CU_Data=CU_Data, CU_Name=CU_Name, Exceptions = Exceptions)
@@ -499,6 +500,8 @@
               if(is.na(match(CU_Name, "Lillooet_Harr_L")) & is.na(match(CU_Name, "Widgeon_RT")) & is.na(match(CU_Name, "Taseko_ES")) )
                 CU_Data$EFS <- CU_Data[,CU]
            }# end else
+           if(CU_Name == "Taseko_ES"){ CU_Data[,"EFS"][CU_Data[,"Year"]%in%1969:1992]<- NA  # added Jan 2024 - these years were previously removed manually for calculating WSP metrics
+           } # end if Taseko
         } # End if loop         
     } # End if Data == "EFS"
     
