@@ -113,6 +113,7 @@ for(cu.plot in cu.list){
   print(cu.plot)
 
   cu.info.sub <- cu.info %>% dplyr::filter(CU_ID_Alt2_CULookup == cu.plot)
+  if(cu.plot =="SEL-06-03/SEL-06-02") cu.info.sub <- cu.info.sub %>% filter(CU_ID=="CU-6")
   cu.alt.id <- cu.info.sub$CU_ID
 
   #print(cu.info$CU_ID)
