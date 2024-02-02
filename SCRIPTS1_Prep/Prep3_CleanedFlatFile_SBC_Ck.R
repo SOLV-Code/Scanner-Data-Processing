@@ -103,7 +103,8 @@ num.rec.raw <- dim(sbc.ck.bypop.raw)[1]
 
 print(paste0("SBC CK By Pop: Retained Records= ",num.rec.cleaned,"/",num.rec.raw))
 
-write.csv(sbc.ck.bypop.cleaned, "DATA_PROCESSING/Cleaned_FlatFile_ByPop_SBC_Ck.csv",row.names=FALSE)
+#write.csv(sbc.ck.bypop.cleaned, "DATA_PROCESSING/Cleaned_FlatFile_ByPop_SBC_Ck.csv",row.names=FALSE) 
+# Feb 1 2024 BMac moving this to the end so the Okanagan CU data can be assigned to the Okanagan River Pop using GPs TEMP PATCH @ Line 157
 
 names(sbc.ck.bypop.cleaned)
 
@@ -180,6 +181,16 @@ ok.ck.df <- left_join(ok.ck.src %>% select(CU_ID,Year, NatOrigSpn, TotalSpn) %>%
 sbc.ck.bycu.cleaned <- sbc.ck.bycu.cleaned %>% dplyr::filter(CU_ID != "CK-01") %>%
                         bind_rows(ok.ck.df)
 
+# ---------------------------------------------------------
+# Added by Bmac Feb 1 2024 to add OK CK population 
+
+ok.ck.site.df <- ok.ck.df %>% select(-Species) %>%
+                              mutate(Pop_Name = "OKANAGAN RIVER" , Pop_ID = 48442)
+
+
+sbc.ck.bypop.cleaned <- sbc.ck.bypop.cleaned %>% bind_rows(ok.ck.site.df)
+
+write.csv(sbc.ck.bypop.cleaned, "DATA_PROCESSING/Cleaned_FlatFile_ByPop_SBC_Ck.csv",row.names=FALSE) 
 
 #----------------------------------------------------------
 
@@ -193,6 +204,8 @@ sbc.ck.bycu.cleaned$SpnForAbd_Wild[sbc.ck.bycu.cleaned$SpnForAbd_Wild==0] <- 1
 #----------------------------------------------------------
 
 write.csv(sbc.ck.bycu.cleaned, "DATA_PROCESSING/Cleaned_FlatFile_ByCU_SBC_Ck.csv",row.names=FALSE)
+
+
 
 
 
