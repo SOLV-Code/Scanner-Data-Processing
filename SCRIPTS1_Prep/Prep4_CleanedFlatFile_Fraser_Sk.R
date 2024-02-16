@@ -75,12 +75,13 @@ vars.drop <- c("spnpeak","arrival","jacks","males","remarks","Estimate.Method","
 
   # March 24 2021 - ALSO need to account for the Early Nadina Population as part of the Nadina river - conjoin the two sites - sum them in years they overlap and put
   # in the Late Nadina cells
-  nadina <- fr.sk.bypop.raw %>% filter(Stock.Name.stream. %in% c("Early Nadina River","Late Nadina River","Late Nadina Channel" )) %>%
+  # Feb 2024 - we now have a POP ID for Nadina Channel so will keep this seperate
+  nadina <- fr.sk.bypop.raw %>% filter(Stock.Name.stream. %in% c("Early Nadina River","Late Nadina River")) %>%
                                 select(Year, Stock.Name.stream., eff_fem, Total) %>%
                                 pivot_wider(names_from = Stock.Name.stream., values_from=c(Total, eff_fem)) %>%
-                                mutate(Total=rowSums(select(., c(`Total_Late Nadina River`, `Total_Late Nadina Channel`, `Total_Early Nadina River`) ), na.rm=T)) %>%
-                                mutate(eff_fem = rowSums(select(., c(`eff_fem_Late Nadina River`,`eff_fem_Late Nadina Channel`, `eff_fem_Early Nadina River`) ), na.rm=T)) %>%
-                                select(-c(`Total_Late Nadina River`, `Total_Early Nadina River`,`Total_Late Nadina Channel`, `eff_fem_Late Nadina River`, `eff_fem_Early Nadina River`,`eff_fem_Late Nadina Channel`))%>%
+                                mutate(Total=rowSums(select(., c(`Total_Late Nadina River`, `Total_Early Nadina River`) ), na.rm=T)) %>%
+                                mutate(eff_fem = rowSums(select(., c(`eff_fem_Late Nadina River`, `eff_fem_Early Nadina River`) ), na.rm=T)) %>%
+                                select(-c(`Total_Late Nadina River`, `Total_Early Nadina River`, `eff_fem_Late Nadina River`, `eff_fem_Early Nadina River`))%>%
                                 mutate(Stock.Name.stream.= "Late Nadina River")
 
   add.nadina <-  fr.sk.bypop.raw  %>% filter(Stock.Name.stream. == "Late Nadina River") %>%
@@ -91,7 +92,7 @@ vars.drop <- c("spnpeak","arrival","jacks","males","remarks","Estimate.Method","
 
 
 fr.sk.bypop.cleaned <-  fr.sk.bypop.raw  %>%
-                         filter(!Stock.Name.stream. %in% c("Early Nadina River","Late Nadina River","Late Nadina Channel" )) %>%
+                         filter(!Stock.Name.stream. %in% c("Early Nadina River","Late Nadina River" )) %>% # Feb 2024 - keep Nadina Channel in dataset
                          rbind(add.nadina) %>%
                           mutate(SpnForTrend_Wild = Total,
                                  SpnForAbd_Wild = Total,

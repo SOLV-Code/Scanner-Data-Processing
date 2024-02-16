@@ -49,9 +49,10 @@ library(tidyr)
 # Get the ratios
 metrics.tmp1 <- metrics.raw %>% rename(Compare=Value) %>%
                                                           #relocate(Data_Type, .after=Label) %>%
-                                                          left_join(cu.lookup %>% select(CU_ID, DataType=DataQualkIdx, AbdMetric,  ShortTrendMetric, LongTrendMetric, PercentileMetric), by="CU_ID" ) %>%
+                                                          left_join(cu.lookup %>% select(CU_ID, DataType=DataQualkIdx, AbdMetric, AbsAbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric), by="CU_ID" ) %>%
                                                           # Replace Value with NA when expert defined column says this metric is not appropriate for the data
-                                                          mutate(Compare = replace(Compare, ((Metric == "RelAbd" | Metric == "AbsAbd") & AbdMetric==FALSE) , NA)) %>%
+                                                          mutate(Compare = replace(Compare, (Metric == "RelAbd" & AbdMetric==FALSE) , NA)) %>%
+                                                          mutate(Compare = replace(Compare, (Metric == "AbsAbd" & AbsAbdMetric==FALSE) , NA)) %>%
                                                           mutate(Compare = replace(Compare, ((Metric == "PercChange" | Metric == "ProbDeclBelowLBM") & ShortTrendMetric==FALSE) , NA)) %>%
                                                           mutate(Compare = replace(Compare, ((Metric == "LongTrend") & LongTrendMetric==FALSE) , NA)) %>%
                                                           mutate(Compare = replace(Compare, (( Metric == "Percentile" ) & PercentileMetric==FALSE) , NA)) %>%
@@ -67,7 +68,7 @@ metrics.tmp2 <- metrics.tmp1 %>% rbind(metrics.tmp1 %>% filter(Metric == "RelLBM
                                                         mutate(Metric=recode(Metric, RelLBM = "RelUBM", AbsLBM = "AbsUBM"))
                                                         ) %>%
                                                         mutate(Status = replace(Status, is.na(Value), NA)) %>%
-                                                        select(-c(Data_Type, AbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) 
+                                                        select(-c(Data_Type, AbdMetric, AbsAbdMetric, ShortTrendMetric, LongTrendMetric, PercentileMetric)) 
 
 
 # Write long format metrics to sub file
