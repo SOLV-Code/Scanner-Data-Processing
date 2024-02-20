@@ -363,7 +363,7 @@ metrics.cu.out.cleaned  <-  rbind(
 # linking it directly to cu info lookup file
 # added a new column there "AbsAbdMetric" for future cases where want AbdAbd but not RelAbd (as per BMac discussion)
 # for now settings in AbdMetric and AbsAbdMetric are the same
-browser()
+
 not.abd.list <- cu.info.main$CU_ID[!cu.info.main$AbdMetric]
 not.absabd.list <- cu.info.main$CU_ID[!cu.info.main$AbsAbdMetric]
 not.shorttrend.list <- cu.info.main$CU_ID[!cu.info.main$ShortTrendMetric]
