@@ -4,7 +4,7 @@ SotS3,Node17,Red,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is RelIdx
 SotS3,Node19,Red,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is RelIdx OR AbsUBM >= 1, then Have RelLBM, then RelLBM < 1",High,High,High
 SotS3,Node20,Amber,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is AbsAbd AND AbsUBM < 1,then Don't have RelLBM, then LongTrend >= 79",Moderate,Moderate,Moderate
 SotS3,Node21,Red,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is AbsAbd AND AbsUBM < 1,then Don't have RelLBM, then LongTrend < 79",Moderate,Moderate,High
-SotS3,Node22,Amber,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is AbsAbd AND AbsUBM < 1,then Have RelLBM, then RelLBM >= 1",Moderate,Moderate,Moderate
+SotS3,Node22,Amber,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is AbsAbd AND AbsUBM < 1,then Have RelLBM, then RelLBM >= 1",High,High,High
 SotS3,Node23,Red,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is AbsAbd AND AbsUBM < 1,then Have RelLBM, then RelLBM < 1",High,High,High
 SotS3,Node33,Red,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is RelIdx OR AbsUBM >= 1, then Don't have RelLBM, then LongTrend >= 79, then PercChange < -70",Moderate,Moderate,High
 SotS3,Node36,Green,"Data Type is RelIdx OR AbsLBM >= 1.5, then Data Type is RelIdx OR AbsUBM >= 1, then Have RelLBM, then RelLBM >= 1, then RelUBM >= 1.1",High,High,High
