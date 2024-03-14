@@ -89,7 +89,7 @@
 "88","Sk_Fraser",1938,"Lovell Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45594,"SEL-06-14",NA
 "89","Sk_Fraser",1938,"French Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45595,"SEL-06-14",NA
 "90","Sk_Fraser",1938,"Frypan Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45593,"SEL-06-14",NA
-"91","Sk_Fraser",1938,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"91","Sk_Fraser",1938,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "92","Sk_Fraser",1938,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "93","Sk_Fraser",1938,"South Thompson River","Shuswap Complex - Late",0,0,NA,NA,46218,"SEL-09-03",NA
 "94","Sk_Fraser",1938,"Anstey River","Shuswap Complex - Late",0,0,NA,NA,46349,"SEL-09-03",NA
@@ -167,7 +167,7 @@
 "166","Sk_Fraser",1939,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "167","Sk_Fraser",1939,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "168","Sk_Fraser",1939,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"169","Sk_Fraser",1939,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"169","Sk_Fraser",1939,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "170","Sk_Fraser",1939,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "171","Sk_Fraser",1939,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "172","Sk_Fraser",1939,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
@@ -320,7 +320,7 @@
 "319","Sk_Fraser",1940,"Chilliwack Lake","Chilliwack - Early Summer",0,0,NA,NA,45092,"SEL-03-01",NA
 "320","Sk_Fraser",1940,"Bridge River","Middle Fraser - Summer",0,0,NA,NA,47221,NA,NA
 "321","Sk_Fraser",1940,"Bridge River","Middle Fraser - Summer",0,0,NA,NA,47221,NA,NA
-"322","Sk_Fraser",1940,"S. End Chilko Lake","Chilko - Early Summer",15000,15000,NA,NA,45081,NA,NA
+"322","Sk_Fraser",1940,"S. End Chilko Lake","Chilko - Early Summer",15000,15000,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "323","Sk_Fraser",1940,"Fleming Creek","Takla-Trembleur - Early Stuart",4,4,NA,NA,45556,"SEL-06-14",NA
 "324","Sk_Fraser",1940,"Forfar Creek","Takla-Trembleur - Early Stuart",112,112,NA,NA,45571,"SEL-06-14",NA
 "325","Sk_Fraser",1940,"O'Ne-ell Creek","Takla-Trembleur - Early Stuart",219,219,NA,NA,45570,"SEL-06-14",NA
@@ -408,7 +408,7 @@
 "407","Sk_Fraser",1941,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "408","Sk_Fraser",1941,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "409","Sk_Fraser",1941,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"410","Sk_Fraser",1941,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"410","Sk_Fraser",1941,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "411","Sk_Fraser",1941,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "412","Sk_Fraser",1941,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "413","Sk_Fraser",1941,"Bivouac Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45574,"SEL-06-14",NA
@@ -522,7 +522,7 @@
 "521","Sk_Fraser",1942,"Middle Shuswap River","Shuswap Complex - Late",0,0,NA,NA,46440,"SEL-09-03",NA
 "522","Sk_Fraser",1942,"Hunakwa Creek","Shuswap Complex - Late",0,0,NA,NA,46339,"SEL-09-03",NA
 "523","Sk_Fraser",1942,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
-"524","Sk_Fraser",1942,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"524","Sk_Fraser",1942,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "525","Sk_Fraser",1942,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "526","Sk_Fraser",1942,"Horsefly River","Quesnel - Summer",0,0,NA,NA,46893,"SEL-06-10",NA
 "527","Sk_Fraser",1942,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
@@ -679,7 +679,7 @@
 "678","Sk_Fraser",1943,"Barriere River","Kamloops - Summer",0,0,NA,NA,46600,"SEL-10-01",NA
 "679","Sk_Fraser",1943,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "680","Sk_Fraser",1943,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"681","Sk_Fraser",1943,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"681","Sk_Fraser",1943,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "682","Sk_Fraser",1943,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "683","Sk_Fraser",1943,"Horsefly River","Quesnel - Summer",0,0,NA,NA,46893,"SEL-06-10",NA
 "684","Sk_Fraser",1943,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
@@ -795,7 +795,7 @@
 "794","Sk_Fraser",1944,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "795","Sk_Fraser",1944,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "796","Sk_Fraser",1944,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"797","Sk_Fraser",1944,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"797","Sk_Fraser",1944,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "798","Sk_Fraser",1944,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "799","Sk_Fraser",1944,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "800","Sk_Fraser",1944,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
@@ -1084,7 +1084,7 @@
 "1083","Sk_Fraser",1947,"Barriere River","Kamloops - Summer",0,0,NA,NA,46600,"SEL-10-01",NA
 "1084","Sk_Fraser",1947,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1085","Sk_Fraser",1947,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
-"1086","Sk_Fraser",1947,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1086","Sk_Fraser",1947,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1087","Sk_Fraser",1947,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "1088","Sk_Fraser",1947,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "1089","Sk_Fraser",1947,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
@@ -1194,7 +1194,7 @@
 "1193","Sk_Fraser",1948,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1194","Sk_Fraser",1948,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1195","Sk_Fraser",1948,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1196","Sk_Fraser",1948,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1196","Sk_Fraser",1948,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1197","Sk_Fraser",1948,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "1198","Sk_Fraser",1948,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "1199","Sk_Fraser",1948,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
@@ -1327,7 +1327,7 @@
 "1326","Sk_Fraser",1949,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1327","Sk_Fraser",1949,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1328","Sk_Fraser",1949,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1329","Sk_Fraser",1949,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1329","Sk_Fraser",1949,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1330","Sk_Fraser",1949,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "1331","Sk_Fraser",1949,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "1332","Sk_Fraser",1949,"Uncha Creek","Francois-Fraser - Summer",0,0,NA,NA,45523,"SEL-06-07",NA
@@ -1437,7 +1437,7 @@
 "1436","Sk_Fraser",1950,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1437","Sk_Fraser",1950,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1438","Sk_Fraser",1950,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1439","Sk_Fraser",1950,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1439","Sk_Fraser",1950,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1440","Sk_Fraser",1950,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "1441","Sk_Fraser",1950,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
 "1442","Sk_Fraser",1950,"Uncha Creek","Francois-Fraser - Summer",0,0,NA,NA,45523,"SEL-06-07",NA
@@ -1551,7 +1551,7 @@
 "1550","Sk_Fraser",1951,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1551","Sk_Fraser",1951,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1552","Sk_Fraser",1951,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1553","Sk_Fraser",1951,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1553","Sk_Fraser",1951,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1554","Sk_Fraser",1951,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "1555","Sk_Fraser",1951,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "1556","Sk_Fraser",1951,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
@@ -1659,7 +1659,7 @@
 "1658","Sk_Fraser",1952,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1659","Sk_Fraser",1952,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1660","Sk_Fraser",1952,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1661","Sk_Fraser",1952,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1661","Sk_Fraser",1952,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1662","Sk_Fraser",1952,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "1663","Sk_Fraser",1952,"Uncha Creek","Francois-Fraser - Summer",0,0,NA,NA,45523,"SEL-06-07",NA
 "1664","Sk_Fraser",1952,"Blanchet Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45589,"SEL-06-14",NA
@@ -1777,7 +1777,7 @@
 "1776","Sk_Fraser",1953,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1777","Sk_Fraser",1953,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1778","Sk_Fraser",1953,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1779","Sk_Fraser",1953,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1779","Sk_Fraser",1953,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1780","Sk_Fraser",1953,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "1781","Sk_Fraser",1953,"French Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45595,"SEL-06-14",NA
 "1782","Sk_Fraser",1953,"Lower Shuswap River","Shuswap Complex - Late",140,140,NA,NA,46429,"SEL-09-03",NA
@@ -1865,7 +1865,7 @@
 "1864","Sk_Fraser",1954,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1865","Sk_Fraser",1954,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1866","Sk_Fraser",1954,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1867","Sk_Fraser",1954,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1867","Sk_Fraser",1954,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1868","Sk_Fraser",1954,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "1869","Sk_Fraser",1954,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "1870","Sk_Fraser",1954,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
@@ -1957,7 +1957,7 @@
 "1956","Sk_Fraser",1955,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "1957","Sk_Fraser",1955,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "1958","Sk_Fraser",1955,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"1959","Sk_Fraser",1955,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"1959","Sk_Fraser",1955,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "1960","Sk_Fraser",1955,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "1961","Sk_Fraser",1955,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "1962","Sk_Fraser",1955,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
@@ -2006,7 +2006,7 @@
 "2005","Sk_Fraser",1956,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "2006","Sk_Fraser",1956,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "2007","Sk_Fraser",1956,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2008","Sk_Fraser",1956,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2008","Sk_Fraser",1956,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2009","Sk_Fraser",1956,"Bivouac Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45574,"SEL-06-14",NA
 "2010","Sk_Fraser",1956,"Blanchet Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45589,"SEL-06-14",NA
 "2011","Sk_Fraser",1956,"Crow Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45583,"SEL-06-14",NA
@@ -2120,7 +2120,7 @@
 "2119","Sk_Fraser",1957,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "2120","Sk_Fraser",1957,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "2121","Sk_Fraser",1957,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2122","Sk_Fraser",1957,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2122","Sk_Fraser",1957,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2123","Sk_Fraser",1957,"Blanchet Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45589,"SEL-06-14",NA
 "2124","Sk_Fraser",1957,"Fleming Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45556,"SEL-06-14",NA
 "2125","Sk_Fraser",1957,"French Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45595,"SEL-06-14",NA
@@ -2218,7 +2218,7 @@
 "2217","Sk_Fraser",1958,"Barriere River","Kamloops - Summer",0,0,NA,NA,46600,"SEL-10-01",NA
 "2218","Sk_Fraser",1958,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "2219","Sk_Fraser",1958,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2220","Sk_Fraser",1958,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2220","Sk_Fraser",1958,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2221","Sk_Fraser",1958,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "2222","Sk_Fraser",1958,"Crow Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45583,"SEL-06-14",NA
 "2223","Sk_Fraser",1958,"Fleming Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45556,"SEL-06-14",NA
@@ -2339,7 +2339,7 @@
 "2338","Sk_Fraser",1959,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "2339","Sk_Fraser",1959,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "2340","Sk_Fraser",1959,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2341","Sk_Fraser",1959,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2341","Sk_Fraser",1959,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2342","Sk_Fraser",1959,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "2343","Sk_Fraser",1959,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
 "2344","Sk_Fraser",1959,"Ankwill Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45596,"SEL-06-14",NA
@@ -2444,7 +2444,7 @@
 "2443","Sk_Fraser",1960,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "2444","Sk_Fraser",1960,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "2445","Sk_Fraser",1960,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2446","Sk_Fraser",1960,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2446","Sk_Fraser",1960,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2447","Sk_Fraser",1960,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "2448","Sk_Fraser",1960,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "2449","Sk_Fraser",1960,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
@@ -2546,7 +2546,7 @@
 "2545","Sk_Fraser",1961,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "2546","Sk_Fraser",1961,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "2547","Sk_Fraser",1961,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2548","Sk_Fraser",1961,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2548","Sk_Fraser",1961,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2549","Sk_Fraser",1961,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "2550","Sk_Fraser",1961,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "2551","Sk_Fraser",1961,"Ormond Creek","Francois-Fraser - Summer",0,0,NA,NA,46023,NA,NA
@@ -2667,7 +2667,7 @@
 "2666","Sk_Fraser",1962,"Hunakwa Creek","Shuswap Complex - Late",0,0,NA,NA,46339,"SEL-09-03",NA
 "2667","Sk_Fraser",1962,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "2668","Sk_Fraser",1962,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2669","Sk_Fraser",1962,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2669","Sk_Fraser",1962,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2670","Sk_Fraser",1962,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "2671","Sk_Fraser",1962,"Blanchet Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45589,"SEL-06-14",NA
 "2672","Sk_Fraser",1962,"Fleming Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45556,"SEL-06-14",NA
@@ -2808,7 +2808,7 @@
 "2807","Sk_Fraser",1963,"Hunakwa Creek","Shuswap Complex - Late",0,0,NA,NA,46339,"SEL-09-03",NA
 "2808","Sk_Fraser",1963,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "2809","Sk_Fraser",1963,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2810","Sk_Fraser",1963,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2810","Sk_Fraser",1963,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2811","Sk_Fraser",1963,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "2812","Sk_Fraser",1963,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "2813","Sk_Fraser",1963,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
@@ -2907,7 +2907,7 @@
 "2906","Sk_Fraser",1964,"Hunakwa Creek","Shuswap Complex - Late",0,0,NA,NA,46339,"SEL-09-03",NA
 "2907","Sk_Fraser",1964,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "2908","Sk_Fraser",1964,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"2909","Sk_Fraser",1964,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"2909","Sk_Fraser",1964,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "2910","Sk_Fraser",1964,"Bivouac Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45574,"SEL-06-14",NA
 "2911","Sk_Fraser",1964,"Blanchet Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45589,"SEL-06-14",NA
 "2912","Sk_Fraser",1964,"Dust Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45581,"SEL-06-14",NA
@@ -3018,7 +3018,7 @@
 "3017","Sk_Fraser",1965,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "3018","Sk_Fraser",1965,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "3019","Sk_Fraser",1965,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3020","Sk_Fraser",1965,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3020","Sk_Fraser",1965,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3021","Sk_Fraser",1965,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "3022","Sk_Fraser",1965,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "3023","Sk_Fraser",1965,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
@@ -3111,7 +3111,7 @@
 "3110","Sk_Fraser",1966,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "3111","Sk_Fraser",1966,"Barriere River, upper","North Barriere - Early Summer",0,0,NA,NA,3416,"SEL-10-03",NA
 "3112","Sk_Fraser",1966,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3113","Sk_Fraser",1966,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3113","Sk_Fraser",1966,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3114","Sk_Fraser",1966,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "3115","Sk_Fraser",1966,"Nithi River","Francois-Fraser - Summer",0,0,NA,NA,45522,"SEL-06-07",NA
 "3116","Sk_Fraser",1966,"Bivouac Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45574,"SEL-06-14",NA
@@ -3202,7 +3202,7 @@
 "3201","Sk_Fraser",1967,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "3202","Sk_Fraser",1967,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "3203","Sk_Fraser",1967,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3204","Sk_Fraser",1967,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3204","Sk_Fraser",1967,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3205","Sk_Fraser",1967,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "3206","Sk_Fraser",1967,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
 "3207","Sk_Fraser",1967,"Mitchell River","Quesnel - Summer",0,0,NA,NA,46913,"SEL-06-10",NA
@@ -3308,7 +3308,7 @@
 "3307","Sk_Fraser",1968,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "3308","Sk_Fraser",1968,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "3309","Sk_Fraser",1968,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3310","Sk_Fraser",1968,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3310","Sk_Fraser",1968,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3311","Sk_Fraser",1968,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "3312","Sk_Fraser",1968,"Ankwill Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45596,"SEL-06-14",NA
 "3313","Sk_Fraser",1968,"Bivouac Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45574,"SEL-06-14",NA
@@ -3362,7 +3362,7 @@
 "3361","Sk_Fraser",1969,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "3362","Sk_Fraser",1969,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "3363","Sk_Fraser",1969,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3364","Sk_Fraser",1969,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3364","Sk_Fraser",1969,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3365","Sk_Fraser",1969,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "3366","Sk_Fraser",1969,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "3367","Sk_Fraser",1969,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
@@ -3454,7 +3454,7 @@
 "3453","Sk_Fraser",1970,"Momich River, lower","Shuswap - Early Summer",0,0,NA,NA,46268,NA,NA
 "3454","Sk_Fraser",1970,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "3455","Sk_Fraser",1970,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3456","Sk_Fraser",1970,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3456","Sk_Fraser",1970,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3457","Sk_Fraser",1970,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "3458","Sk_Fraser",1970,"Little Horsefly River","Quesnel - Summer",0,0,NA,NA,46903,"SEL-06-10",NA
 "3459","Sk_Fraser",1970,"McKinley Creek","Quesnel - Summer",0,0,NA,NA,45043,"SEL-06-10",NA
@@ -3576,7 +3576,7 @@
 "3575","Sk_Fraser",1971,"Maclaing Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45591,"SEL-06-14",NA
 "3576","Sk_Fraser",1971,"Sakeniche River","Takla-Trembleur-Stuart - Summer",0,0,NA,NA,45578,"SEL-06-13",NA
 "3577","Sk_Fraser",1971,"Chilko River","Chilko - Summer",174266,174266,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"3578","Sk_Fraser",1971,"S. End Chilko Lake","Chilko - Early Summer",12323,12323,NA,NA,45081,NA,NA
+"3578","Sk_Fraser",1971,"S. End Chilko Lake","Chilko - Early Summer",12323,12323,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3579","Sk_Fraser",1971,"Taseko Lake","Taseko - Early Summer",10500,10500,NA,NA,46853,"SEL-06-16",NA
 "3580","Sk_Fraser",1971,"Anstey River","Shuswap - Early Summer",23,23,NA,NA,46348,"SEL-09-02",NA
 "3581","Sk_Fraser",1971,"Eagle River","Shuswap - Early Summer",9,9,NA,NA,46358,"SEL-09-02",NA
@@ -3680,7 +3680,7 @@
 "3679","Sk_Fraser",1972,"Pinchi Creek","Takla-Trembleur-Stuart - Summer",0,0,NA,NA,45539,"SEL-06-13",NA
 "3680","Sk_Fraser",1972,"Sakeniche River","Takla-Trembleur-Stuart - Summer",0,0,NA,NA,45578,"SEL-06-13",NA
 "3681","Sk_Fraser",1972,"Chilko River","Chilko - Summer",562333,562333,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"3682","Sk_Fraser",1972,"S. End Chilko Lake","Chilko - Early Summer",2132,2132,NA,NA,45081,NA,NA
+"3682","Sk_Fraser",1972,"S. End Chilko Lake","Chilko - Early Summer",2132,2132,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3683","Sk_Fraser",1972,"Taseko Lake","Taseko - Early Summer",2287,2287,NA,NA,46853,"SEL-06-16",NA
 "3684","Sk_Fraser",1972,"Eagle River","Shuswap - Early Summer",4,4,NA,NA,46358,"SEL-09-02",NA
 "3685","Sk_Fraser",1972,"Momich River, lower","Shuswap - Early Summer",1003,1003,NA,NA,46268,NA,NA
@@ -3768,7 +3768,7 @@
 "3767","Sk_Fraser",1973,"Salmon River","Shuswap Complex - Late",0,0,NA,NA,46400,"SEL-09-03",NA
 "3768","Sk_Fraser",1973,"North Thompson River","Kamloops - Summer",0,0,NA,NA,46580,"SEL-10-01",NA
 "3769","Sk_Fraser",1973,"Clearwater River","Kamloops - Summer",0,0,NA,NA,46680,"SEL-10-01",NA
-"3770","Sk_Fraser",1973,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,NA,NA
+"3770","Sk_Fraser",1973,"S. End Chilko Lake","Chilko - Early Summer",0,0,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3771","Sk_Fraser",1973,"Taseko Lake","Taseko - Early Summer",0,0,NA,NA,46853,"SEL-06-16",NA
 "3772","Sk_Fraser",1973,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "3773","Sk_Fraser",1973,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
@@ -3869,7 +3869,7 @@
 "3868","Sk_Fraser",1974,"Pinchi Creek","Takla-Trembleur-Stuart - Summer",0,0,NA,NA,45539,"SEL-06-13",NA
 "3869","Sk_Fraser",1974,"Sakeniche River","Takla-Trembleur-Stuart - Summer",0,0,NA,NA,45578,"SEL-06-13",NA
 "3870","Sk_Fraser",1974,"Chilko River","Chilko - Summer",128131,128131,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"3871","Sk_Fraser",1974,"S. End Chilko Lake","Chilko - Early Summer",14464,14464,NA,NA,45081,NA,NA
+"3871","Sk_Fraser",1974,"S. End Chilko Lake","Chilko - Early Summer",14464,14464,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3872","Sk_Fraser",1974,"Anstey River","Shuswap - Early Summer",666,666,NA,NA,46348,"SEL-09-02",NA
 "3873","Sk_Fraser",1974,"Eagle River","Shuswap - Early Summer",263,263,NA,NA,46358,"SEL-09-02",NA
 "3874","Sk_Fraser",1974,"Hunakwa Creek","Shuswap - Early Summer",67,67,NA,NA,46338,"SEL-09-02",NA
@@ -3959,7 +3959,7 @@
 "3958","Sk_Fraser",1975,"McKinley Creek","Quesnel - Summer",100,100,NA,NA,45043,"SEL-06-10",NA
 "3959","Sk_Fraser",1975,"Scotch Creek","Shuswap - Early Summer",0,0,NA,NA,46288,"SEL-09-02",NA
 "3960","Sk_Fraser",1975,"Chilko River","Chilko - Summer",220554,220554,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"3961","Sk_Fraser",1975,"S. End Chilko Lake","Chilko - Early Summer",55144,55144,NA,NA,45081,NA,NA
+"3961","Sk_Fraser",1975,"S. End Chilko Lake","Chilko - Early Summer",55144,55144,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "3962","Sk_Fraser",1975,"Taseko Lake","Taseko - Early Summer",4394,4394,NA,NA,46853,"SEL-06-16",NA
 "3963","Sk_Fraser",1975,"Anstey River","Shuswap - Early Summer",14,14,NA,NA,46348,"SEL-09-02",NA
 "3964","Sk_Fraser",1975,"Eagle River","Shuswap - Early Summer",9,9,NA,NA,46358,"SEL-09-02",NA
@@ -4058,7 +4058,7 @@
 "4057","Sk_Fraser",1976,"McKinley Creek, lower","Quesnel - Summer",783,783,NA,NA,45043,"SEL-06-10",NA
 "4058","Sk_Fraser",1976,"McKinley Creek, upper","Quesnel - Summer",2,2,NA,NA,45098,"SEL-06-10",NA
 "4059","Sk_Fraser",1976,"Chilko River","Chilko - Summer",364311,364311,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4060","Sk_Fraser",1976,"S. End Chilko Lake","Chilko - Early Summer",23156,23156,NA,NA,45081,NA,NA
+"4060","Sk_Fraser",1976,"S. End Chilko Lake","Chilko - Early Summer",23156,23156,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4061","Sk_Fraser",1976,"Taseko Lake","Taseko - Early Summer",634,634,NA,NA,46853,"SEL-06-16",NA
 "4062","Sk_Fraser",1976,"Momich River, lower","Shuswap - Early Summer",1998,1998,NA,NA,46268,NA,NA
 "4063","Sk_Fraser",1976,"Momich River, lower","Shuswap - Early Summer",1998,1998,NA,NA,46268,NA,NA
@@ -4145,7 +4145,7 @@
 "4144","Sk_Fraser",1977,"McKinley Creek, lower","Quesnel - Summer",33064,33064,NA,NA,45043,"SEL-06-10",NA
 "4145","Sk_Fraser",1977,"McKinley Creek, upper","Quesnel - Summer",8024,8024,NA,NA,45098,"SEL-06-10",NA
 "4146","Sk_Fraser",1977,"Chilko River","Chilko - Summer",54322,54322,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4147","Sk_Fraser",1977,"S. End Chilko Lake","Chilko - Early Summer",2460,2460,NA,NA,45081,NA,NA
+"4147","Sk_Fraser",1977,"S. End Chilko Lake","Chilko - Early Summer",2460,2460,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4148","Sk_Fraser",1977,"Eagle River","Shuswap - Early Summer",65,65,NA,NA,46358,"SEL-09-02",NA
 "4149","Sk_Fraser",1977,"Cayenne Creek","Shuswap - Early Summer",40,40,NA,NA,46278,NA,NA
 "4150","Sk_Fraser",1977,"Cayenne Creek","Shuswap - Early Summer",40,40,NA,NA,46278,NA,NA
@@ -4250,7 +4250,7 @@
 "4249","Sk_Fraser",1978,"Ormond Creek","Francois-Fraser - Summer",0,0,NA,NA,46023,NA,NA
 "4250","Sk_Fraser",1978,"Ormond Creek","Francois-Fraser - Summer",0,0,NA,NA,46023,NA,NA
 "4251","Sk_Fraser",1978,"Chilko River","Chilko - Summer",151835,151835,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4252","Sk_Fraser",1978,"S. End Chilko Lake","Chilko - Early Summer",7339,7339,NA,NA,45081,NA,NA
+"4252","Sk_Fraser",1978,"S. End Chilko Lake","Chilko - Early Summer",7339,7339,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4253","Sk_Fraser",1978,"Anstey River","Shuswap - Early Summer",886,886,NA,NA,46348,"SEL-09-02",NA
 "4254","Sk_Fraser",1978,"Eagle River","Shuswap - Early Summer",189,189,NA,NA,46358,"SEL-09-02",NA
 "4255","Sk_Fraser",1978,"Hunakwa Creek","Shuswap - Early Summer",355,355,NA,NA,46338,"SEL-09-02",NA
@@ -4374,7 +4374,7 @@
 "4373","Sk_Fraser",1979,"15 Mile Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45590,"SEL-06-14",NA
 "4374","Sk_Fraser",1979,"25 Mile Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45587,"SEL-06-14",NA
 "4375","Sk_Fraser",1979,"Chilko River","Chilko - Summer",240294,240294,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4376","Sk_Fraser",1979,"S. End Chilko Lake","Chilko - Early Summer",32400,32400,NA,NA,45081,NA,NA
+"4376","Sk_Fraser",1979,"S. End Chilko Lake","Chilko - Early Summer",32400,32400,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4377","Sk_Fraser",1979,"Anstey River","Shuswap - Early Summer",41,41,NA,NA,46348,"SEL-09-02",NA
 "4378","Sk_Fraser",1979,"Eagle River","Shuswap - Early Summer",2,2,NA,NA,46358,"SEL-09-02",NA
 "4379","Sk_Fraser",1979,"Hunakwa Creek","Shuswap - Early Summer",369,369,NA,NA,46338,"SEL-09-02",NA
@@ -4476,7 +4476,7 @@
 "4475","Sk_Fraser",1980,"Kazchek Creek","Takla-Trembleur-Stuart - Summer",0,0,NA,NA,45560,"SEL-06-13",NA
 "4476","Sk_Fraser",1980,"McDougall Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45579,"SEL-06-14",NA
 "4477","Sk_Fraser",1980,"Chilko River","Chilko - Summer",468658,468658,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4478","Sk_Fraser",1980,"S. End Chilko Lake","Chilko - Early Summer",30168,30168,NA,NA,45081,NA,NA
+"4478","Sk_Fraser",1980,"S. End Chilko Lake","Chilko - Early Summer",30168,30168,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4479","Sk_Fraser",1980,"Taseko Lake","Taseko - Early Summer",679,679,NA,NA,46853,"SEL-06-16",NA
 "4480","Sk_Fraser",1980,"Momich River, lower","Shuswap - Early Summer",3345,3345,NA,NA,46268,NA,NA
 "4481","Sk_Fraser",1980,"Momich River, lower","Shuswap - Early Summer",3345,3345,NA,NA,46268,NA,NA
@@ -4555,7 +4555,7 @@
 "4554","Sk_Fraser",1981,"Ormond Creek","Francois-Fraser - Summer",0,0,NA,NA,46023,NA,NA
 "4555","Sk_Fraser",1981,"Sinta Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45580,"SEL-06-14",NA
 "4556","Sk_Fraser",1981,"Chilko River","Chilko - Summer",35909,35909,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4557","Sk_Fraser",1981,"S. End Chilko Lake","Chilko - Early Summer",240,240,NA,NA,45081,NA,NA
+"4557","Sk_Fraser",1981,"S. End Chilko Lake","Chilko - Early Summer",240,240,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4558","Sk_Fraser",1981,"Momich River, lower","Shuswap - Early Summer",63,63,NA,NA,46268,NA,NA
 "4559","Sk_Fraser",1981,"Momich River, lower","Shuswap - Early Summer",63,63,NA,NA,46268,NA,NA
 "4560","Sk_Fraser",1981,"Scotch Creek","Shuswap - Early Summer",18952,18952,NA,NA,46288,"SEL-09-02",NA
@@ -4674,7 +4674,7 @@
 "4673","Sk_Fraser",1982,"25 Mile Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45587,"SEL-06-14",NA
 "4674","Sk_Fraser",1982,"Middle Shuswap River","Shuswap - Early Summer",0,0,NA,NA,46439,"SEL-09-02",NA
 "4675","Sk_Fraser",1982,"Chilko River","Chilko - Summer",242263,242263,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4676","Sk_Fraser",1982,"S. End Chilko Lake","Chilko - Early Summer",11288,11288,NA,NA,45081,NA,NA
+"4676","Sk_Fraser",1982,"S. End Chilko Lake","Chilko - Early Summer",11288,11288,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4677","Sk_Fraser",1982,"Anstey River","Shuswap - Early Summer",776,776,NA,NA,46348,"SEL-09-02",NA
 "4678","Sk_Fraser",1982,"Eagle River","Shuswap - Early Summer",1642,1642,NA,NA,46358,"SEL-09-02",NA
 "4679","Sk_Fraser",1982,"Hunakwa Creek","Shuswap - Early Summer",4951,4951,NA,NA,46338,"SEL-09-02",NA
@@ -4787,7 +4787,7 @@
 "4786","Sk_Fraser",1983,"Sinta Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45580,"SEL-06-14",NA
 "4787","Sk_Fraser",1983,"25 Mile Creek","Takla-Trembleur - Early Stuart",0,0,NA,NA,45587,"SEL-06-14",NA
 "4788","Sk_Fraser",1983,"Chilko River","Chilko - Summer",331510,331510,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4789","Sk_Fraser",1983,"S. End Chilko Lake","Chilko - Early Summer",55061,55061,NA,NA,45081,NA,NA
+"4789","Sk_Fraser",1983,"S. End Chilko Lake","Chilko - Early Summer",55061,55061,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4790","Sk_Fraser",1983,"Taseko Lake","Taseko - Early Summer",1630,1630,NA,NA,46853,"SEL-06-16",NA
 "4791","Sk_Fraser",1983,"Anstey River","Shuswap - Early Summer",382,382,NA,NA,46348,"SEL-09-02",NA
 "4792","Sk_Fraser",1983,"Eagle River","Shuswap - Early Summer",72,72,NA,NA,46358,"SEL-09-02",NA
@@ -4873,7 +4873,7 @@
 "4872","Sk_Fraser",1984,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "4873","Sk_Fraser",1984,"Endako River","Fraser - Early Summer",0,0,NA,NA,45502,NA,NA
 "4874","Sk_Fraser",1984,"Chilko River","Chilko - Summer",452968,452968,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4875","Sk_Fraser",1984,"S. End Chilko Lake","Chilko - Early Summer",127696,127696,NA,NA,45081,NA,NA
+"4875","Sk_Fraser",1984,"S. End Chilko Lake","Chilko - Early Summer",127696,127696,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4876","Sk_Fraser",1984,"Taseko Lake","Taseko - Early Summer",2771,2771,NA,NA,46853,"SEL-06-16",NA
 "4877","Sk_Fraser",1984,"Momich River, lower","Shuswap - Early Summer",5854,5854,NA,NA,46268,NA,NA
 "4878","Sk_Fraser",1984,"Momich River, lower","Shuswap - Early Summer",5854,5854,NA,NA,46268,NA,NA
@@ -4952,7 +4952,7 @@
 "4951","Sk_Fraser",1985,"McKinley Creek, upper","Quesnel - Summer",14999,14999,NA,NA,45098,"SEL-06-10",NA
 "4952","Sk_Fraser",1985,"Sakeniche River","Takla-Trembleur - Early Stuart",2839,2839,NA,NA,45577,"SEL-06-14",NA
 "4953","Sk_Fraser",1985,"Chilko River","Chilko - Summer",86120,86120,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"4954","Sk_Fraser",1985,"S. End Chilko Lake","Chilko - Early Summer",2000,2000,NA,NA,45081,NA,NA
+"4954","Sk_Fraser",1985,"S. End Chilko Lake","Chilko - Early Summer",2000,2000,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "4955","Sk_Fraser",1985,"Momich River, lower","Shuswap - Early Summer",56,56,NA,NA,46268,NA,NA
 "4956","Sk_Fraser",1985,"Momich River, lower","Shuswap - Early Summer",56,56,NA,NA,46268,NA,NA
 "4957","Sk_Fraser",1985,"Scotch Creek","Shuswap - Early Summer",3442,3442,NA,NA,46288,"SEL-09-02",NA
@@ -5068,7 +5068,7 @@
 "5067","Sk_Fraser",1986,"McKinley Creek, lower","Quesnel - Summer",4973,4973,NA,NA,45043,"SEL-06-10",NA
 "5068","Sk_Fraser",1986,"McKinley Creek, upper","Quesnel - Summer",662,662,NA,NA,45098,"SEL-06-10",NA
 "5069","Sk_Fraser",1986,"Chilko River","Chilko - Summer",310397,310397,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"5070","Sk_Fraser",1986,"S. End Chilko Lake","Chilko - Early Summer",13574,13574,NA,NA,45081,NA,NA
+"5070","Sk_Fraser",1986,"S. End Chilko Lake","Chilko - Early Summer",13574,13574,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "5071","Sk_Fraser",1986,"Anstey River","Shuswap - Early Summer",7103,7103,NA,NA,46348,"SEL-09-02",NA
 "5072","Sk_Fraser",1986,"Eagle River","Shuswap - Early Summer",7152,7152,NA,NA,46358,"SEL-09-02",NA
 "5073","Sk_Fraser",1986,"Momich River, lower","Shuswap - Early Summer",56,56,NA,NA,46268,NA,NA
@@ -5189,7 +5189,7 @@
 "5188","Sk_Fraser",1987,"Nithi River","Francois-Fraser - Summer",0,0,NA,NA,45522,"SEL-06-07",NA
 "5189","Sk_Fraser",1987,"Nahatlatch Lake","Nahatlatch - Early Summer",4877,4877,NA,NA,45094,"SEL-05-02",NA
 "5190","Sk_Fraser",1987,"Chilko River","Chilko - Summer",241703,241703,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"5191","Sk_Fraser",1987,"S. End Chilko Lake","Chilko - Early Summer",188789,188789,NA,NA,45081,NA,NA
+"5191","Sk_Fraser",1987,"S. End Chilko Lake","Chilko - Early Summer",188789,188789,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "5192","Sk_Fraser",1987,"Taseko Lake","Taseko - Early Summer",3592,3592,NA,NA,46853,"SEL-06-16",NA
 "5193","Sk_Fraser",1987,"Anstey River","Shuswap - Early Summer",2257,2257,NA,NA,46348,"SEL-09-02",NA
 "5194","Sk_Fraser",1987,"Eagle River","Shuswap - Early Summer",879,879,NA,NA,46358,"SEL-09-02",NA
@@ -5293,7 +5293,7 @@
 "5292","Sk_Fraser",1988,"McKinley Creek, upper","Quesnel - Summer",36,36,NA,NA,45098,"SEL-06-10",NA
 "5293","Sk_Fraser",1988,"Nahatlatch Lake","Nahatlatch - Early Summer",5373,5373,NA,NA,45094,"SEL-05-02",NA
 "5294","Sk_Fraser",1988,"Chilko River","Chilko - Summer",250495,250495,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"5295","Sk_Fraser",1988,"S. End Chilko Lake","Chilko - Early Summer",110608,110608,NA,NA,45081,NA,NA
+"5295","Sk_Fraser",1988,"S. End Chilko Lake","Chilko - Early Summer",110608,110608,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "5296","Sk_Fraser",1988,"Taseko Lake","Taseko - Early Summer",11138,11138,NA,NA,46853,"SEL-06-16",NA
 "5297","Sk_Fraser",1988,"Anstey River","Shuswap - Early Summer",45,45,NA,NA,46348,"SEL-09-02",NA
 "5298","Sk_Fraser",1988,"Eagle River","Shuswap - Early Summer",31,31,NA,NA,46358,"SEL-09-02",NA
@@ -5389,7 +5389,7 @@
 "5388","Sk_Fraser",1989,"Raft Creek","Quesnel - Summer",0,0,NA,NA,45038,NA,NA
 "5389","Sk_Fraser",1989,"Raft Creek","Quesnel - Summer",0,0,NA,NA,45038,NA,NA
 "5390","Sk_Fraser",1989,"Chilko River","Chilko - Summer",56994,56994,NA,NA,46843,"SEL-06-03/SEL-06-02",NA
-"5391","Sk_Fraser",1989,"S. End Chilko Lake","Chilko - Early Summer",20128,20128,NA,NA,45081,NA,NA
+"5391","Sk_Fraser",1989,"S. End Chilko Lake","Chilko - Early Summer",20128,20128,NA,NA,45081,"SEL-06-03/SEL-06-02",NA
 "5392","Sk_Fraser",1989,"Taseko Lake","Taseko - Early Summer",65,65,NA,NA,46853,"SEL-06-16",NA
 "5393","Sk_Fraser",1989,"Eagle River","Shuswap - Early Summer",175,175,NA,NA,46358,"SEL-09-02",NA
 "5394","Sk_Fraser",1989,"Momich River, lower","Shuswap - Early Summer",99,99,NA,NA,46268,NA,NA
