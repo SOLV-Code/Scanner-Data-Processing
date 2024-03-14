@@ -39,9 +39,9 @@ nuseds.pink <- read.csv("DATA_IN/SOURCES/Fraser Pink/FR_Pink_Conservation_Unit_D
 
 Pink_CU <- rec_esc %>%
                       mutate(CU_ID="PKO-01", CU_Name = "Fraser Pink", DU_ID=NA, Recruits_Wild=NA) %>%
-                      mutate(Net.Escapement=replace(Net.Escapement, Brood.Year<1993, NA)) %>%
+                    #  mutate(Net.Escapement=replace(Net.Escapement, Brood.Year<1993, NA)) %>% # March 2024 decided to use full timeseries based on work by Brendan and Dylan
                       rename(Year=Brood.Year, SpnForAbd_Total=Net.Escapement, Recruits_Total=Recruits) %>%
-                      mutate(Recruits_Total=replace(Recruits_Total, Year<1993, NA)) %>%
+                    #  mutate(Recruits_Total=replace(Recruits_Total, Year<1993, NA)) %>%
                       mutate(SpnForTrend_Total=SpnForAbd_Total, SpnForAbd_Wild=SpnForAbd_Total, SpnForTrend_Wild=SpnForAbd_Total, Species="Pink")
 
 
