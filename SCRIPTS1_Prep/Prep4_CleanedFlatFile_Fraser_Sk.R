@@ -102,7 +102,7 @@ fr.sk.bypop.cleaned <-  fr.sk.bypop.raw  %>%
                                  Pop_Name = Stock.Name.stream.,
                                  EstClass = est_type)  %>%
                           mutate(Timing.Group = tolower(Timing.Group)) %>%
-                          select(-(vars.drop)) %>%
+                          select(-any_of(vars.drop)) %>%
                           mutate(EstClass=replace(EstClass,
                           EstClass== "Type-1: True Abundance, high resolution" , "TRUE ABUNDANCE (TYPE-1)")) %>%
                           mutate(EstClass=replace(EstClass,
@@ -211,6 +211,8 @@ test.out <- GetCUData(CU_Name = "Shuswap_L", Update = 2012, Data = "EFS",
 test.out
 
 cu.data.out <- data.frame()
+
+
 
 # loop through all the CUs
 
