@@ -73,16 +73,32 @@ all_included <- rbind(P_sites, DD_included_sites)
 
 # ************ what about hatchery proportions here for these non-WSP sites!
 
+# GP Revisions 2024-05-27 (Why is this suddenly necessary? --------------------)
+sbc.ck.bypop.raw$TotalInfilledAdj <- sbc.ck.bypop.raw$TotalInfilled 
+
+col.list1 <- names(sbc.ck.bypop.raw  %>%
+        filter(UseYear) %>%
+        filter(Pop_ID %in% all_included$POP_ID))
+col.list1
+
+col.list2 <- names(stage_1_DD_data)
+col.list2
+
+common.cols <- intersect(col.list1,col.list2)
+common.cols
 
 sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%
                                               filter(UseYear) %>%
                                               filter(Pop_ID %in% all_included$POP_ID) %>%  # this now only includes 'P' sites included in CU data (& Chilliwack and NThompson)
-                                              rbind(stage_1_DD_data) %>%                   # attach the 'DD' site data NOT included in the CU data
+                                              select(all_of(common.cols)) %>%
+                                              rbind(stage_1_DD_data %>% select(all_of(common.cols))) %>%                   # attach the 'DD' site data NOT included in the CU data
                                               rename(SpnForTrend_Total = TotalInfilled,
                                                      SpnForTrend_Wild = TotalInfilledAdj)  %>%
                                               mutate(SpnForAbd_Total =  SpnForTrend_Total,
                                                      SpnForAbd_Wild =  SpnForTrend_Wild,
                                                      Recruits_Total =  NA, Recruits_Wild =   NA)
+#-----------------------------------------------------------------------------------
+
 
 # sbc.ck.bypop.cleaned <-  sbc.ck.bypop.raw  %>%  filter(UseYear) %>%
 #   rename(SpnForTrend_Total = TotalInfilled,
