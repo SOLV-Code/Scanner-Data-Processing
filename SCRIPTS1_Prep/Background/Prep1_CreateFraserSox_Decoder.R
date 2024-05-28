@@ -1,3 +1,13 @@
+######################
+# IMPORTANT:
+# this script originally used to create lookup files. 
+# Script has not been updated since, and currently doesn't run "as-is" 
+
+
+
+
+
+
 # SCRIPT TO MATCH UP VARIOUS POPULATION IDENTIFIERS AND GENERATE A 
 # CONSOLIDATED DECODER FILE FOR THE FRASER SOCKEYE DATA
 
