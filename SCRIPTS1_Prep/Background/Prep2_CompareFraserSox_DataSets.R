@@ -1,3 +1,8 @@
+######################
+# IMPORTANT:
+# this sceript originally used to create lookup files. 
+# Script has not been updated since, and currently doesn't run "as-is" 
+
 
 # THIS SCRIPT CREATES COMPARISON TABLES AND PLOTS FOR THE 
 # FRASER SOCKEYE DATA FROM ANNACIS AND nuSEDS
