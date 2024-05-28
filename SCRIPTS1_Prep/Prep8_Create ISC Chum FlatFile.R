@@ -1,3 +1,11 @@
+
+######################
+# IMPORTANT:
+# this script was exploratory and is currently not active.
+# currently doesn't run "as-is" 
+
+if(FALSE){
+
 # Sept 2021
 
 # Inside South Coast Chum Prep Code
@@ -98,3 +106,7 @@ write.csv(ISCchum.sites.out,"DATA_PROCESSING/Cleaned_FlatFile_byPop_ISCChum.csv"
 #not.incl <- nuseds.ISC.cm.notincl %>% select(GEOGRAPHICAL_EXTNT_OF_ESTIMATE) %>% unique()
 #not.incl$GEOGRAPHICAL_EXTNT_OF_ESTIMATE %in% (ISCchum_WSP_pops %>% filter(WSP_ts=="no") %>% select(Pop_Name) %>% unique())
 #True cases are the sites in the Pop_Attributes.csv that have no dat ain the CU rollups (WSP_ts=no)
+
+
+
+}
