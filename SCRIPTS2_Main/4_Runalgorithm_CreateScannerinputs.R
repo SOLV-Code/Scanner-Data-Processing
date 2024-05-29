@@ -427,9 +427,9 @@ write.csv(cu.clean, "DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv")
 # ------------  Same for the POP file ------------ #
 
 
-
 pop.clean <- pop.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
                           rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%
+                          dplyr::filter(!is.na(CU_ID)) %>%
                           # Fix the Coho - some CUs have no hatchery origin spawners so can be put into the wild column - other CUs had hatchery which cannot be
                           # separated at teh population level (or at least HAS not been but I need to look at this and my Lynda notes to be sure)
                           # CUs with NO hatchery = Fraser Canyon (CO-05)
