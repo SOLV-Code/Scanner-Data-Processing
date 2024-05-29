@@ -74,6 +74,7 @@ head(data.raw)
 
 sort(unique(data.raw$Group))
 
+
 # CU_IDs in this file are still incorrect and match those in the lookup file
 retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
   left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
@@ -100,6 +101,7 @@ cu.list <-  cu.info %>%
   # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
   #select(CU_ID)
   select(CU_ID_Alt2_CULookup)
+
 cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
 cu.list
 
