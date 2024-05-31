@@ -41,20 +41,19 @@ write.csv(ok.sk.clean, "DATA_PROCESSING/Cleaned_FlatFile_ByCU_OkanaganSockeye.cs
 if(TRUE){ # START Alternative SCENARIOS VERSION
   
   
-  ok.sk.src <- read_csv("DATA_IN/SOURCES/Okanagan Sockeye/OkanaganSk_AltScenarios.csv") %>% 
-    pivot_longer(-Year,names_to = "CU_ID",values_to = "Spn") %>%
-    select(CU_ID,everything()) %>% arrange(CU_ID, Year)
+  ok.sk.src <- read_csv("DATA_IN/SOURCES/Okanagan Sockeye/OkanaganSk_AltSeries.csv") %>% 
+    pivot_longer(-Year,names_to = "CU_Acro",values_to = "Spn") %>%
+    select(CU_Acro,everything()) %>% arrange(CU_Acro, Year)
   
   
-  
-  
+
   head(ok.sk.src )
   
   
   cu.info.main <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv")
   names(cu.info.main)
   
-  ok.sk.src <- left_join(ok.sk.src, cu.info.main %>% select(CU_Name,CU_ID,DU_ID),by="CU_ID" )
+  ok.sk.src <- left_join(ok.sk.src, cu.info.main %>% select(CU_Name,CU_Acro,CU_ID,DU_ID),by="CU_Acro" )
   ok.sk.src
   
   

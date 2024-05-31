@@ -429,12 +429,12 @@ write.csv(cu.clean, "DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv")
 
 pop.clean <- pop.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
                           rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%
-                          dplyr::filter(!is.na(CU_ID)) %>%
+                          #dplyr::filter(!is.na(CU_ID)) %>% # doing na_matches = "never" instead
                           # Fix the Coho - some CUs have no hatchery origin spawners so can be put into the wild column - other CUs had hatchery which cannot be
                           # separated at teh population level (or at least HAS not been but I need to look at this and my Lynda notes to be sure)
                           # CUs with NO hatchery = Fraser Canyon (CO-05)
                           #left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
-                          left_join(cu.lookup %>% select(CU_ID=Pop_TimeSeriesData_CU_ID, CU_ID_Alt2_CULookup), by="CU_ID") %>% # Pop_TimeSeriesData column is the CU_ID used in the pop data file
+                          left_join(cu.lookup %>% select(CU_ID=Pop_TimeSeriesData_CU_ID, CU_ID_Alt2_CULookup), by="CU_ID", na_matches = "never") %>% # Pop_TimeSeriesData column is the CU_ID used in the pop data file
                           #mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
                           mutate(CU_ID=CU_ID_Alt2_CULookup) %>%
                           #select(-c(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
