@@ -88,7 +88,17 @@ metrics.synoptic.status <- metrics.tmp2 %>%
 metrics.synoptic.values[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.values[,std.metrics]))
 metrics.synoptic.status[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.status[,std.metrics]))
 
+# add in GenAvg
+gen.avg.used.df <- read_csv("DATA_OUT/GenerationalAvg_Values.csv") %>% dplyr::rename(GenAvgUsed = Value)
 
+metrics.synoptic.values <- metrics.synoptic.values %>% left_join(gen.avg.used.df, by=c("CU_ID", "Year"))
+metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.used.df, by=c("CU_ID", "Year"))
+
+
+
+#metrics.synoptic.values$GenAvgUsed <- metrics.synoptic.values$AbsLBM *1000 # back calculate from the Ratio relative to 1,000 BM
+
+																														   
 # Write files for running the algorithms in retro
 write.csv( metrics.synoptic.values,"DATA_OUT/Retrospective_Metrics_Values.csv", row.names = FALSE)
 write.csv( metrics.synoptic.status,"DATA_OUT/Retrospective_Metrics_Status.csv", row.names = FALSE)                     

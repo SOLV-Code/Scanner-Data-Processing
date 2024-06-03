@@ -48,10 +48,10 @@ flat.ok.sk.cu <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByCU_OkanaganSockeye
                        intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
                        names(flat.fr.pk.cu)),names(flat.fr.cm.cu)),names(flat.ok.sk.cu))
 
-#                                 names(flat.isc.cm.cu)),names(flat.ok.sk.cu))
-vars.use <-intersect(intersect(intersect(
-                     intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
-                     names(flat.fr.pk.cu)),names(flat.fr.cm.cu))
+# names(flat.isc.cm.cu)),names(flat.ok.sk.cu))
+#vars.use <-intersect(intersect(intersect(
+#                     intersect(names(flat.fr.sk.cu),names(flat.sbc.ck.cu)),names(flat.fr.co.cu)),
+#                     names(flat.fr.pk.cu)),names(flat.fr.cm.cu))
 vars.use
 
 flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,any_of(vars.use)),
@@ -65,7 +65,7 @@ flat.merged.cu <- bind_rows(list(Sk_Fraser= select(flat.fr.sk.cu,any_of(vars.use
                               .id = "DataSet")
 
 sort(unique(flat.merged.cu$CU_Name))
-sum(flat.merged.cu$CU_Name=="Osoyoos-L",na.rm=TRUE)
+
 
 # GP ADDED March 2023: Filter out any records before CU-specific start year
 start.yrs.df <-  read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%

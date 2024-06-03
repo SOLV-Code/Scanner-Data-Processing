@@ -1,61 +1,41 @@
 "Species","Year","SpnForAbd_Total","SpnForTrend_Total","SpnForAbd_Wild","SpnForTrend_Wild","CU_ID","CU_Name","DU_ID","STK_ID","STK_NAME"
-"Sockeye",2004,41791,41791,41791,41791,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2005,31260,31260,31260,31260,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2006,20819,20819,20819,20819,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2007,13490,13490,13490,13490,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2008,126972,126972,126972,126972,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2009,64024,64024,64024,64024,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2010,182122,182122,182122,182122,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2011,45326,45326,45326,45326,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2012,103098,103098,103098,103098,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2013,42930,42930,42930,42930,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2014,194937,194937,194937,194937,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2015,20415,20415,20415,20415,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2016,87371,87371,87371,87371,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2017,35257,35257,35257,35257,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2018,56175,56175,56175,56175,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2019,29251,29251,29251,29251,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2020,79399,79399,79399,79399,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2021,19231,19231,19231,19231,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2022,104958,104958,104958,104958,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2023,32130,32130,32130,32130,"OsoSkaInd",NA,NA,"OsoSkaInd",NA
-"Sockeye",2004,41791,41791,41791,41791,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2005,31260,31260,31260,31260,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2006,20819,20819,20819,20819,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2007,13490,13490,13490,13490,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2008,126972,126972,126972,126972,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2009,64024,64024,64024,64024,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2010,182122,182122,182122,182122,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2011,45326,45326,45326,45326,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2012,103098,103098,103098,103098,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2013,42930,42930,42930,42930,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2014,194937,194937,194937,194937,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2015,20415,20415,20415,20415,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2016,87371,87371,87371,87371,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2017,35257,35257,35257,35257,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2018,56175,56175,56175,56175,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2019,29251,29251,29251,29251,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2020,79399,79399,79399,79399,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2021,19231,19231,19231,19231,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2022,109644,109644,109644,109644,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2023,32144,32144,32144,32144,"OsoSkaOkaCU",NA,NA,"OsoSkaOkaCU",NA
-"Sockeye",2004,41791,41791,41791,41791,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2005,31260,31260,31260,31260,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2006,20819,20819,20819,20819,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2007,13490,13490,13490,13490,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2008,126972,126972,126972,126972,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2009,64024,64024,64024,64024,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2010,182122,182122,182122,182122,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2011,35900,35900,35900,35900,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2012,90862,90862,90862,90862,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2013,33820,33820,33820,33820,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2014,145206,145206,145206,145206,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2015,10255,10255,10255,10255,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2016,54281,54281,54281,54281,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2017,9893,9893,9893,9893,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2018,30755,30755,30755,30755,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2019,12913,12913,12913,12913,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2020,46510,46510,46510,46510,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2021,10457,10457,10457,10457,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2022,75437,75437,75437,75437,"Osoyoos",NA,NA,"Osoyoos",NA
-"Sockeye",2023,17238,17238,17238,17238,"Osoyoos",NA,NA,"Osoyoos",NA
+"Sockeye",2004,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2005,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2006,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2007,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2008,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2009,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2010,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2011,NA,NA,NA,NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2012,103098,103098,103098,103098,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2013,42930,42930,42930,42930,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2014,194937,194937,194937,194937,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2015,20415,20415,20415,20415,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2016,87371,87371,87371,87371,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2017,35257,35257,35257,35257,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2018,56175,56175,56175,56175,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2019,29251,29251,29251,29251,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2020,79399,79399,79399,79399,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2021,19231,19231,19231,19231,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2022,104958,104958,104958,104958,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2023,32130,32130,32130,32130,"SEL-01-01","Osoyoos-Skaha-Okanagan CU",NA,"SEL-01-01","Osoyoos-Skaha-Okanagan CU"
+"Sockeye",2004,41791,41791,41791,41791,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2005,31260,31260,31260,31260,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2006,20819,20819,20819,20819,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2007,13490,13490,13490,13490,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2008,126972,126972,126972,126972,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2009,64024,64024,64024,64024,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2010,182122,182122,182122,182122,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2011,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2012,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2013,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2014,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2015,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2016,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2017,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2018,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2019,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2020,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2021,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2022,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"
+"Sockeye",2023,NA,NA,NA,NA,"SEL-01-01-old","Osoyoos (Old CU)",NA,"SEL-01-01-old","Osoyoos (Old CU)"

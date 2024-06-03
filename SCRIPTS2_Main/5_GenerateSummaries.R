@@ -16,6 +16,7 @@
 library(tidyverse)
 library(plotrix)
 
+if(!dir.exists("OUTPUT")){dir.create("OUTPUT")}
 
 if(!dir.exists("OUTPUT/MetricsAndStatus")){dir.create("OUTPUT/MetricsAndStatus")}
 
@@ -56,7 +57,7 @@ retro.yrs <- 1995:2022
 retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-metrics.details <- read.csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
+metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
   #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
   #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
@@ -72,6 +73,7 @@ data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFact
 head(data.raw)
 
 sort(unique(data.raw$Group))
+
 
 # CU_IDs in this file are still incorrect and match those in the lookup file
 retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
@@ -99,6 +101,7 @@ cu.list <-  cu.info %>%
   # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
   #select(CU_ID)
   select(CU_ID_Alt2_CULookup)
+
 cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
 cu.list
 
@@ -216,15 +219,25 @@ for(cu.plot in cu.list){
       axis(1,at = seq(main.yrs.plot[1],main.yrs.plot[2],by=5),  cex.axis=1.5)
       axis(2,las=1,  cex.axis=1.5)
 
+
       # Plot BM lines
-      if(!bm.areas){
+      # TWEAKED 2024-03-16: Plot lines if main plot setting bm.areas is FALSE
+      # OR if have BM but area experts want to show them only for context, different from a metric
+      # For some Fraser cases where AbdMetric = FALSE but values are provided for
+      # variables RelAbd_LBM	and RelAbd_UBM
+      if(!bm.areas |  !cu.info.sub$AbdMetric ){  
         abline(h=lbm.plot/axis.scale,col="firebrick1",lwd=3,lty=2)
-        text(par("usr")[2],lbm.plot/axis.scale,"Lower", adj=c(1,0.5),col = "firebrick1",cex=1.2)
+        text(par("usr")[2],lbm.plot/axis.scale,"Lower\n(Ref Only)", 
+             adj=c(0.5,0.5),col = "firebrick1",cex=1.2,xpd=NA)
         abline(h=ubm.plot/axis.scale,col="green",lwd=3,lty=2)
-        text(par("usr")[2],ubm.plot/axis.scale,"Upper", adj=c(1,0.5),col = "green",cex=1.2)
+        text(par("usr")[2],ubm.plot/axis.scale,"Upper\n(Ref Only)", 
+        adj=c(0.5,0.5),col = "green",cex=1.2,xpd=NA)
       }
 
-      if(bm.areas){
+      
+      # TWEAKED 2024-03-16: as per above, only show areas if plot setting b,.areas = TRUE
+      # and AbdMetric = TRUE tp indicating to use Rel Abd metric for rapid status
+      if(bm.areas & cu.info.sub$AbdMetric){
         rect(par("usr")[1],lbm.plot/axis.scale, par("usr")[2],ubm.plot/axis.scale, col=amber.use,
              border = amber.use)
         rect(par("usr")[1],ubm.plot/axis.scale, par("usr")[2],par("usr")[4], col=green.use,
@@ -432,7 +445,7 @@ for(cu.plot in cu.list){
 
 
       #############################################################
-      # PANEL 3: GRID OF METRICS AND STATUSES
+      # PANEL 5: GRID OF METRICS AND STATUSES
       ###########################################################
 
         par(mai=c(1,3.5,1.5,2))

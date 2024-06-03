@@ -180,8 +180,8 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
                               #cyclic.bm.sub= cyclic.bm.sub,
                               tracing = TRUE)
 
-  calcPercChangeMCMC(cu.series)
-  cu.series
+  #calcPercChangeMCMC(cu.series)
+  #cu.series
 
 
 
@@ -264,7 +264,10 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
     if(!cu.slope.specs$slope.smooth){trend.series <- cu.series}
 
     if(FALSE){ # for debug only
-    test.out  <- WSPMetrics::calcPercChangeMCMC(vec.in = log(tail(trend.series,12)),
+      num.yrs.use <- (cu.avggen *cu.slope.specs$num.gen) + cu.slope.specs$extra.yrs
+      num.yrs.use  
+      
+    test.out  <- WSPMetrics::calcPercChangeMCMC(vec.in = log(tail(trend.series,num.yrs.use)),
                                    method = "jags",
                                    model.in = NULL, # this defaults to the BUGS code in the built in function trend.bugs.1()
                                    perc.change.bm = -25,
@@ -373,6 +376,17 @@ abd.fix.idx <- grepl("RelAbd", metrics.cu.out.cleaned$Metric) & unlist(metrics.c
 absabd.fix.idx <- grepl("AbsAbd", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.absabd.list
 shorttrend.fix.idx <- grepl("ShortTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.shorttrend.list
 longtrend.fix.idx <- grepl("LongTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.longtrend.list
+
+
+write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/METRICS_FILE_BY_CU_PRE_CLEAN.csv",row.names=FALSE)
+
+
+# GP New 2024-05-28: Extract Gen Avg  so can merge back in later (get deleted below of AbsAbd/RelAbd metrics are turned off)
+gen.avg.used.df <- metrics.cu.out.cleaned %>% dplyr::filter(Metric == "RelAbd") %>% select(CU_ID, Year,Value)
+write.csv(gen.avg.used.df,"DATA_OUT/GenerationalAvg_Values.csv",row.names=FALSE)
+
+
+
 
 metrics.cu.out.cleaned[abd.fix.idx,c("Value","Status")] <- c(NA, NA)
 metrics.cu.out.cleaned[absabd.fix.idx,c("Value","Status")] <- c(NA, NA)
