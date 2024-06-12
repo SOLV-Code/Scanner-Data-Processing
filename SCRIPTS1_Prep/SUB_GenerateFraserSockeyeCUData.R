@@ -115,6 +115,7 @@
     CU_Q <- CU_Streams[colnames(CU_Streams) == CU_Name]
     CU_Q <- CU_Streams[,!is.na(match(colnames(CU_Streams), levels(as.factor(CU_Q[,1]))))]
     
+
     All_Q_Data <- as.data.frame(cbind(Year = CU_Data[,1],  # Added 2023 so experts can review the systems that feed into the Quesnel sum for potential infilling
                                       CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))], 
                                       CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_McKin))))],
@@ -123,12 +124,22 @@
                                       CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Lake))))])) 
     CU_DataQ <- as.data.frame(cbind(Year = CU_Data[,1],
                                       cyc= rep(seq(1,4,1), length = length(CU_Data[,1])),
-                                      Horse = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))], na.rm=TRUE ), 
-                                      McKin = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_McKin))))], na.rm=TRUE ),
-                                      Mitchell = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Mitchell))))], na.rm=TRUE ),
+                                      Horse = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))], na.rm=TRUE )* 
+                                                       ifelse(rowSums(is.na(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))])) == 
+                                                                ncol(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Horse))))]), NA, 1), 
+                                      McKin = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_McKin))))], na.rm=TRUE )* 
+                                                       ifelse(rowSums(is.na(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_McKin))))])) == 
+                                                       ncol(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_McKin))))]), NA, 1), 
+                                      Mitchell = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Mitchell))))], na.rm=TRUE )* 
+                                                          ifelse(rowSums(is.na(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Mitchell))))])) == 
+                                                          ncol(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Mitchell))))]), NA, 1),
                                       Little = CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Little))))], 
-                                      Lake  = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Lake))))], na.rm=TRUE ) ))
-      
+                                    
+                                      Lake  = rowSums( CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Lake))))], na.rm=TRUE )*
+                                                       ifelse(rowSums(is.na(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Lake))))])) == 
+                                                       ncol(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_Q$Quesnel_S_Lake))))]), NA, 1)
+                                      ))
+                                                      
       
       # Pre and post 1980 averages on the cycle line
       # Note: In the Averages and Props dataframes cyc 3 represents the pre-1980 off-cycle 
@@ -173,8 +184,9 @@
       Expand_MM <- 1/(Props_MM[1]) 
       
       # Expand
-      Orig_Sum <- rowSums(CU_DataQ[,-c(1,2,7)], na.rm=T)
-      New_Sum <- (Orig_Sum*Expand_Frac) + CU_DataQ$Lake     # add the Lake sums
+      Orig_Sum <- rowSums(CU_DataQ[,-c(1,2,7)], na.rm=T) *  ifelse(rowSums(is.na(CU_DataQ[,-c(1,2,7)])) == ncol(CU_DataQ[,-c(1,2,7)]), NA, 1)
+      New_Sum <- rowSums(cbind(Orig_Sum*Expand_Frac, CU_DataQ$Lake), na.rm=T) * 
+                 ifelse(rowSums(is.na(cbind(Orig_Sum*Expand_Frac, CU_DataQ$Lake))) == ncol(cbind(Orig_Sum*Expand_Frac, CU_DataQ$Lake)), NA, 1)    # add the Lake sums
       # Over-write 2005 with the Expanded Mitchell value
       New_Sum[!is.na(match(CU_DataQ$Year,2005))] <- Orig_Sum[!is.na(match(CU_DataQ$Year,2005))] + (Expand_MM*CU_DataQ[CU_DataQ$Year==2005,4]) +
                                                     CU_DataQ[CU_DataQ$Year == 2005,7]
@@ -213,9 +225,9 @@
     Non_Except <- CU_Data_SL[is.na(match(CU_Data_SL$Year, Exceptions)),]
     
     # Calc averages and proportions
-    Dom_Average <- colMeans(Non_Except[Non_Except$cyc==1,])
+    Dom_Average <- colMeans(Non_Except[Non_Except$cyc==1,], na.rm=TRUE)
     Dom_Props <- Dom_Average[3:12]/sum(Dom_Average[3:12])
-    SubDom_Average <- colMeans(Non_Except[Non_Except$cyc==2,])
+    SubDom_Average <- colMeans(Non_Except[Non_Except$cyc==2,], na.rm=TRUE)
     SubDom_Props <- SubDom_Average[3:12]/sum(SubDom_Average[3:12])
     
     Expansion <- matrix(0, nrow=nrow(CU_Data_SL), ncol = ncol(CU_Data_SL))
@@ -228,7 +240,7 @@
     for (i in Exceptions){
       Col_Index <- which(CU_Data_SL[CU_Data_SL$Year==i,] != 0 )
       # For some stocks the 0's aren't gap filled in some years
-      if( is.na(sum(match(Col_Index,8))) == TRUE) Col_Index = c(Col_Index,8)  # Momich is always included
+      if( sum(match(Col_Index,8),na.rm=T) == 0) Col_Index = c(Col_Index,8)  # Momich is always included  # fixed June 2024
       if( i == 1975 ) Col_Index <- c(Col_Index, 4)
       if( i == 1983 ) Col_Index <- c(Col_Index, 6, 12)
       Col_Index <- Col_Index[order(Col_Index)]
@@ -241,13 +253,15 @@
     Expand_Frac[Expand_Frac == Inf] <- 1
       
     # Find Original River Sum
-    Orig_Sum <- rowSums(CU_Data_SL[,-c(1,2)], na.rm=T)
+    Orig_Sum <- rowSums(CU_Data_SL[,-c(1,2)], na.rm=T)*ifelse(rowSums(is.na(CU_Data_SL[,-c(1,2)])) == ncol(CU_Data_SL[,-c(1,2)]), NA, 1)
     
     # Find Lake sum
-    Lake  <- rowSums(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(CU_SL$Shuswap_L_Lake)))], na.rm=TRUE )
-    
+    Lake  <- rowSums(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_SL$Shuswap_L_Lakes))))], na.rm=TRUE )*
+                    ifelse(rowSums(is.na(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_SL$Shuswap_L_Lakes))))])) == 
+                                    ncol(CU_Data[ ,!is.na(match(colnames(CU_Data), levels(as.factor(CU_SL$Shuswap_L_Lakes))))]), NA, 1)
     # Expand Rivers and Add Lakes
-    New_Sum <- cbind(Year = CU_Data_SL[,1], EFS = ((Orig_Sum*Expand_Frac) + Lake) )
+    New_Sum <- cbind(Year = CU_Data_SL[,1], EFS = rowSums(cbind((Orig_Sum*Expand_Frac), Lake), na.rm=T)*
+                                                  ifelse(rowSums(is.na(cbind((Orig_Sum*Expand_Frac), Lake))) == ncol(cbind((Orig_Sum*Expand_Frac), Lake)), NA, 1)      )
     
     write.csv(CU_Data_SL, "DATA_PROCESSING/FraserSockeyePrep/Shuswap_L_All_streams.csv")  
     return(New_Sum)        
@@ -482,7 +496,7 @@
       
       if(CU_Name == "Lillooet_Harr_L") CU_Data[CU_Data$Year==2002, 2] <- mean( c(CU_Data[CU_Data$Year==1998, 2], CU_Data[CU_Data$Year==2006, 2]) )
       
-      if(length(CU) > 1) CU_Data$ETS <- rowSums(select(CU_Data,-Year), na.rm=T)
+      if(length(CU) > 1) CU_Data$ETS <- rowSums(CU_Data[,CU], na.rm=T) * ifelse(rowSums(is.na(CU_Data[,CU])) == ncol(CU_Data[,CU]), NA, 1)
       if(length(CU)==1)   CU_Data$ETS <- CU_Data[,CU]
       if(CU_Name == "Taseko_ES"){ CU_Data[,"ETS"][CU_Data[,"Year"]%in%c(1965,1968:1992)]<- NA  # added Jan 2024 - these years were previously removed manually for calculating WSP metrics
       } # end if Taseko
@@ -495,7 +509,7 @@
           if(!is.na(match(CU_Name, "Lillooet_Harr_L")) | !is.na(match(CU_Name, "Widgeon_RT")) | !is.na(match(CU_Name, "Taseko_ES")) ) CU_Data <- GapFill_Ave(CU=CU, CU_Data=CU_Data)       
         # Nahatlatch_ES amd Takla_Trem_S_S don't need special functions - use the regular Gap Fill Function
         if( sum(match(GapCUs,CU_Name), na.rm=T) == 0 ){
-           if(ncol(CU_Data) > 2)  CU_Data$EFS <- rowSums(CU_Data[,CU], na.rm=T)
+           if(ncol(CU_Data) > 2)  CU_Data$EFS <- rowSums(CU_Data[,CU], na.rm=T) * ifelse(rowSums(is.na(CU_Data[,CU])) == ncol(CU_Data[,CU]), NA, 1)
            else{
               if(is.na(match(CU_Name, "Lillooet_Harr_L")) & is.na(match(CU_Name, "Widgeon_RT")) & is.na(match(CU_Name, "Taseko_ES")) )
                 CU_Data$EFS <- CU_Data[,CU]

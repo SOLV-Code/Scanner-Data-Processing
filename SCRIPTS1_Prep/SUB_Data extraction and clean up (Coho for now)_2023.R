@@ -237,7 +237,7 @@ CUsums <- function(data,CU,variable, EC.max, start.yr=1998, wsp.infill=TRUE, run
                                                                                 print("Infilling non-spawner data!")
                                                                                 stop()
                     }
-                    df <- data %>% select(Conservation.Unit, Return.Year, Tributary.Deme,WSP.2014.Data.Use.Categories, Estimate.Classification, variable) %>%
+                    df <- data %>% select(Conservation.Unit, Return.Year, Tributary.Deme,WSP.2014.Data.Use.Categories, Estimate.Classification, all_of(variable)) %>%
                                    filter(Conservation.Unit==CU) %>%
                                    filter(Return.Year >= start.yr)%>%
                                    filter(Estimate.Classification <= EC.max | Estimate.Classification == "Type-7" ) 
@@ -245,7 +245,7 @@ CUsums <- function(data,CU,variable, EC.max, start.yr=1998, wsp.infill=TRUE, run
                     if(WSP_only == TRUE){
                       df2 <- df %>% mutate(Estimate = case_when(WSP.2014.Data.Use.Categories==0 ~ NA_real_, WSP.2014.Data.Use.Categories==1~!!sym(variable)) ) %>%
                                     filter(WSP.2014.Data.Use.Categories == 1) %>%
-                                    select(-Conservation.Unit, -Estimate.Classification, -WSP.2014.Data.Use.Categories, -variable) %>%
+                                    select(-Conservation.Unit, -Estimate.Classification, -WSP.2014.Data.Use.Categories, -all_of(variable)) %>%
                                     spread(Tributary.Deme, Estimate) %>%
                                     mutate(total = rowSums(select(.,-Return.Year), na.rm=TRUE))
                     }
