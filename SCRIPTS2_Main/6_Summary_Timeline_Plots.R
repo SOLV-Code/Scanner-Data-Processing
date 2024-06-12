@@ -3,19 +3,26 @@ library(plotrix)
 
 
 
-
-if(!dir.exists("OUTPUT/TimelinePlots")){dir.create("OUTPUT/TimelinePlots")}
-
-
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
 retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details_SkeenaMODS.csv")  
 
+
+
+# Lis of plots with specs
 plot.specs <- read_csv("DATA_LOOKUP_FILES/TimelinePlot_Specs.csv") 
 plot.specs
 #view(plot.specs)
 
+# Create required target folders
+target.folders <- unique(plot.specs$TargetFolder)
+target.folders
+for(folder.do in target.folders) { if(!dir.exists(folder.do)){dir.create(folder.do) }  }
+
+
+
+# Color settings
 alpha.use <- 1
 green.use <- rgb(184/255,225/255,134/255,alpha=alpha.use)
 red.use <- rgb(241/255,182/255,218/255,alpha=alpha.use)
@@ -36,12 +43,32 @@ specs.do
 specs.do$CU_ID
 
 
-grp.labels <- specs.do %>% select(GroupIndex,Group) %>% unique()
-grp.labels
+# do groups if there are no NA in GroupIndex column
 
-retro.yrs <- 1995:2025
+groups.do <- sum(is.na(specs.do$GroupIndex)) ==0 
+groups.do
 
-unk.end <- 2022
+if(groups.do){
+  grp.labels <- specs.do %>% select(GroupIndex,Group) %>% unique()
+  grp.labels }
+if(!groups.do){
+  grp.labels <- NULL # just in case it lingers from previous plot
+  }
+
+
+
+# MAKE DYNAMIC
+retro.yrs <- seq(min(specs.do$PlotYrsStart),max(specs.do$PlotYrsEnd))
+retro.yrs
+
+unk.end <- max(specs.do$PlotYrsUnkEnd)
+unk.end
+
+
+
+############# NEED TO FIX REST
+
+
 
 #########################################
 
