@@ -1,119 +1,325 @@
-Plot,PlotTitle,GroupIndex,CUIndex,Species,CU_ID,CU_Name,Group,CU_Acro
-Chinook_SBC,Chinook - Southern BC,1,2,Chinook,CK_03,Lower Fraser River_FA_0.3,CK-Fraser_Lower,LFR-fall
-Chinook_SBC,Chinook - Southern BC,1,3,Chinook,CK_04,Lower Fraser River_SP_1.3,CK-Fraser_Lower,LFR-spring
-Chinook_SBC,Chinook - Southern BC,1,4,Chinook,CK_05,Lower Fraser River-Upper Pitt_SU_1.3,CK-Fraser_Lower,LFR-UPITT
-Chinook_SBC,Chinook - Southern BC,1,5,Chinook,CK_06,Lower Fraser River_SU_1.3,CK-Fraser_Lower,LFR-summer
-Chinook_SBC,Chinook - Southern BC,1,6,Chinook,CK_07,Maria Slough_SU_0.3,CK-Fraser_Lower,Maria
-Chinook_SBC,Chinook - Southern BC,8,9,Chinook,CK_08,Middle Fraser-Fraser Canyon_SP_1.3,CK_Fraser_Mid_Upper,FRCanyon
-Chinook_SBC,Chinook - Southern BC,8,10,Chinook,CK_09,Middle Fraser River-Portage_FA_1.3,CK_Fraser_Mid_Upper,Portage
-Chinook_SBC,Chinook - Southern BC,8,11,Chinook,CK_10,Middle Fraser River_SP_1.3,CK_Fraser_Mid_Upper,MFR-spring
-Chinook_SBC,Chinook - Southern BC,8,12,Chinook,CK_11,Middle Fraser River_SU_1.3,CK_Fraser_Mid_Upper,MFR-summer
-Chinook_SBC,Chinook - Southern BC,8,13,Chinook,CK_12,Upper Fraser River_SP_1.3,CK_Fraser_Mid_Upper,UFR-spring
-Chinook_SBC,Chinook - Southern BC,15,16,Chinook,CK_13,South Thompson_SU_0.3,CK-Fraser_Thompson,STh-0.3
-Chinook_SBC,Chinook - Southern BC,15,17,Chinook,CK_14,South Thompson_SU_1.3,CK-Fraser_Thompson,STh-1.3
-Chinook_SBC,Chinook - Southern BC,15,18,Chinook,CK_15,Shuswap River_SU_0.3,CK-Fraser_Thompson,STh-SHUR
-Chinook_SBC,Chinook - Southern BC,15,19,Chinook,CK_16,South Thompson-Bessette Creek_SU_1.2,CK-Fraser_Thompson,STh-BESS
-Chinook_SBC,Chinook - Southern BC,15,20,Chinook,CK_17,Lower Thompson_SP_1.2,CK-Fraser_Thompson,LTh
-Chinook_SBC,Chinook - Southern BC,15,21,Chinook,CK_18,North Thompson_SP_1.3,CK-Fraser_Thompson,NTh-spr
-Chinook_SBC,Chinook - Southern BC,15,22,Chinook,CK_19,North Thompson_SU_1.3,CK-Fraser_Thompson,NTh-sum
-Chinook_SBC,Chinook - Southern BC,15,23,Chinook,CK_82,Upper Adams River_SU_x.x,CK-Fraser_Thompson,UADAMS
-Chinook_SBC,Chinook - Southern BC,25,26,Chinook,CK-01,Okanagan_1.x,CK-Columbia,OK
-Chinook_SBC,Chinook - Southern BC,28,29,Chinook,CK-02,Boundary Bay_FA_0.3,CK-Inner_South_Coast,BB
-Chinook_SBC,Chinook - Southern BC,28,30,Chinook,CK-20,Southern Mainland-Georgia Strait_FA_0.x,CK-Inner_South_Coast,SMn-GStr
-Chinook_SBC,Chinook - Southern BC,28,31,Chinook,CK-28,Southern Mainland-Southern Fjords_FA_0.x,CK-Inner_South_Coast,SMn-SFj
-Chinook_SBC,Chinook - Southern BC,28,32,Chinook,CK-21,East Vancouver Island-Goldstream_FA_0.x,CK-Inner_South_Coast,Goldstr
-Chinook_SBC,Chinook - Southern BC,28,33,Chinook,CK-22,East Vancouver Island-Cowichan & Koksilah_FA_0.x,CK-Inner_South_Coast,CWCH-KOK
-Chinook_SBC,Chinook - Southern BC,28,34,Chinook,CK-23,East Vancouver Island-Nanaimo_SP_1.x,CK-Inner_South_Coast,NanR-spr
-Chinook_SBC,Chinook - Southern BC,28,35,Chinook,CK-25,East Vancouver Island-Nanaimo & Chemainus_FA_0.x,CK-Inner_South_Coast,EVI-fall
-Chinook_SBC,Chinook - Southern BC,28,36,Chinook,CK-27,East Vancouver Island-Qualicum & Puntledge_FA_0.x,CK-Inner_South_Coast,QP-fall
-Chinook_SBC,Chinook - Southern BC,28,37,Chinook,CK-29,East Vancouver Island-North_FA_0.x,CK-Inner_South_Coast,NEVI
-Chinook_SBC,Chinook - Southern BC,28,38,Chinook,CK-83,East Vancouver Island - Georgia Strait Summer 0.3,CK-Inner_South_Coast,GS-Sum
-Chinook_SBC,Chinook - Southern BC,28,39,Chinook,CK-34,Homathko_SU_x.x,CK-Inner_South_Coast,Homa
-Chinook_SBC,Chinook - Southern BC,28,40,Chinook,CK-35,Klinaklini_SU_1.3,CK-Inner_South_Coast,Klina
-Chinook_SBC,Chinook - Southern BC,42,43,Chinook,CK-31,West Vancouver Island-South_FA_0.x,CK_WCVI,SWVI
-Chinook_SBC,Chinook - Southern BC,42,44,Chinook,CK-32,West Vancouver Island-Nootka & Kyuquot_FA_0.x,CK_WCVI,NoKy
-Chinook_SBC,Chinook - Southern BC,42,45,Chinook,CK-33,West Vancouver Island-North_FA_0.x,CK_WCVI,NWVI
-CohoPinkChum,"Fraser Coho, Pink, and Chum",1,2,Coho,CO_01,Middle Fraser,CO - Interior Fraser Coho,MFr
-CohoPinkChum,"Fraser Coho, Pink, and Chum",1,3,Coho,CO_02,Fraser Canyon,CO - Interior Fraser Coho,FrCny
-CohoPinkChum,"Fraser Coho, Pink, and Chum",1,4,Coho,CO_03,Lower Thompson,CO - Interior Fraser Coho,Lthom
-CohoPinkChum,"Fraser Coho, Pink, and Chum",1,5,Coho,CO_04,North Thompson,CO - Interior Fraser Coho,NTh
-CohoPinkChum,"Fraser Coho, Pink, and Chum",1,6,Coho,CO_05,South Thompson,CO - Interior Fraser Coho,STh
-CohoPinkChum,"Fraser Coho, Pink, and Chum",8,9,Pink,PKO_01,Fraser Pink,PK - Fraser,Fraser
-CohoPinkChum,"Fraser Coho, Pink, and Chum",11,12,Chum,CM_02,Lower Fraser Chum,CM - Fraser,LowerFraser
-Sockeye_Fraser,Sockeye - Fraser,1,2,Sockeye,CU_18,Takla_Trem_EStu,SK - Fraser River Early Stuart,Estu
-Sockeye_Fraser,Sockeye - Fraser,4,5,Sockeye,CU_1,Bowron_ES,SK - Fraser River Early Summer,ES_Bowr
-Sockeye_Fraser,Sockeye - Fraser,4,6,Sockeye,CU_14,Nahatlatch_ES,SK - Fraser River Early Summer,ES_Naha
-Sockeye_Fraser,Sockeye - Fraser,4,7,Sockeye,CU_15,Taseko_ES,SK - Fraser River Early Summer,ES_Tas
-Sockeye_Fraser,Sockeye - Fraser,4,8,Sockeye,CU_17,Chilliwack_ES,SK - Fraser River Early Summer,ES_Chill
-Sockeye_Fraser,Sockeye - Fraser,4,9,Sockeye,CU_19,Anderson_Seton_ES,SK - Fraser River Early Summer,ES_AndSet
-Sockeye_Fraser,Sockeye - Fraser,4,10,Sockeye,CU_2,Kamloops_ES,SK - Fraser River Early Summer,ES_Kaml
-Sockeye_Fraser,Sockeye - Fraser,4,11,Sockeye,CU_20,Shuswap_ES,SK - Fraser River Early Summer,ES_Shu
-Sockeye_Fraser,Sockeye - Fraser,4,12,Sockeye,CU_3,Nadina_Francois_ES,SK - Fraser River Early Summer,ES_NadFran
-Sockeye_Fraser,Sockeye - Fraser,4,13,Sockeye,CU_4,North_Barriere_ES,SK - Fraser River Early Summer,ES_Nbarr
-Sockeye_Fraser,Sockeye - Fraser,4,14,Sockeye,CU_5,Pitt_ES,SK - Fraser River Early Summer,ES_Pitt
-Sockeye_Fraser,Sockeye - Fraser,4,15,Sockeye,CU_6b,Chilko_ES,SK - Fraser River Early Summer,ES_Chilko
-Sockeye_Fraser,Sockeye - Fraser,17,18,Sockeye,CU_21,Takla_Trem_S_S,SK - Fraser River Summer,S_TakTremStu
-Sockeye_Fraser,Sockeye - Fraser,17,19,Sockeye,CU_22,Quesnel_S,SK - Fraser River Summer,S_Ques
-Sockeye_Fraser,Sockeye - Fraser,17,20,Sockeye,CU_6,Chilko_S_ES,SK - Fraser River Summer,S_Chilko
-Sockeye_Fraser,Sockeye - Fraser,17,21,Sockeye,CU_7,Fran_Fras_S,SK - Fraser River Summer,S_FranFras
-Sockeye_Fraser,Sockeye - Fraser,23,24,Sockeye,CU_10,Seton_L,SK - Fraser River Late,L_Set
-Sockeye_Fraser,Sockeye - Fraser,23,25,Sockeye,CU_11,Harrison_US_L,SK - Fraser River Late,L_HarrUS
-Sockeye_Fraser,Sockeye - Fraser,23,26,Sockeye,CU_12,Lillooet_Harr_L,SK - Fraser River Late,L_LilHarr
-Sockeye_Fraser,Sockeye - Fraser,23,27,Sockeye,CU_13,Harrison_DS_L,SK - Fraser River Late,L_HarrDS
-Sockeye_Fraser,Sockeye - Fraser,23,28,Sockeye,CU_23,Shuswap_L,SK - Fraser River Late,L_Shu
-Sockeye_Fraser,Sockeye - Fraser,23,29,Sockeye,CU_8,Cultus_L,SK - Fraser River Late,L_Cult
-Sockeye_Fraser,Sockeye - Fraser,31,32,Sockeye,CU_16,Widgeon_RT,SK - Fraser River Type,RT_Wid
-Sockeye_Fraser,Sockeye - Fraser,31,33,Sockeye,CU_9,Harrison_R,SK - Fraser River Type,RT_HarrR
-Sockeye_Nass,Sockeye - Nass,1,2,Sockeye,SkeenaNass_1,Lower Nass Sea & River Type,SK - Nass Sea and River Type,LNassSRT
-Sockeye_Nass,Sockeye - Nass,4,5,Sockeye,SkeenaNass_2,Meziadin,SK-Upper Nass Lake Type,Meziadin
-Sockeye_Nass,Sockeye - Nass,4,6,Sockeye,SkeenaNass_3,Bowser,SK-Upper Nass Lake Type,Bowser
-Sockeye_Nass,Sockeye - Nass,4,7,Sockeye,SkeenaNass_4,Oweegee,SK-Upper Nass Lake Type,Oweege
-Sockeye_Nass,Sockeye - Nass,4,8,Sockeye,SkeenaNass_5,Kwinageese,SK-Upper Nass Lake Type,Kwinag
-Sockeye_Nass,Sockeye - Nass,4,9,Sockeye,SkeenaNass_5b,Fred Wright,SK-Upper Nass Lake Type,FredWr
-Sockeye_Nass,Sockeye - Nass,4,10,Sockeye,SkeenaNass_6,Damdochax,SK-Upper Nass Lake Type,Damdoch
-Sockeye_Nass,Sockeye - Nass,12,13,Sockeye,SkeenaNass_7,Upper Nass River Type,SK- Nass River Type,UNassRT
-Sockeye_Skeena,Sockeye - Skeena,1,2,Sockeye,SkeenaNass_8,Johnston,SK - Lower Skeena Lake Type,Johnston
-Sockeye_Skeena,Sockeye - Skeena,1,3,Sockeye,SkeenaNass_9,Ecstall,SK - Lower Skeena Lake Type,Ecstall
-Sockeye_Skeena,Sockeye - Skeena,1,4,Sockeye,SkeenaNass_10,Alastair,SK - Lower Skeena Lake Type,Alastair
-Sockeye_Skeena,Sockeye - Skeena,1,5,Sockeye,SkeenaNass_11,Lakelse,SK - Lower Skeena Lake Type,Lakelse
-Sockeye_Skeena,Sockeye - Skeena,1,6,Sockeye,SkeenaNass_12,Kitsumkalum,SK - Lower Skeena Lake Type,Kitsumk
-Sockeye_Skeena,Sockeye - Skeena,1,7,Sockeye,SkeenaNass_13,Mcdonell,SK - Lower Skeena Lake Type,Mcdonell
-Sockeye_Skeena,Sockeye - Skeena,1,8,Sockeye,SkeenaNass_13b,Aldrich,SK - Lower Skeena Lake Type,Aldrich
-Sockeye_Skeena,Sockeye - Skeena,1,9,Sockeye,SkeenaNass_13c,Dennis,SK - Lower Skeena Lake Type,Dennis
-Sockeye_Skeena,Sockeye - Skeena,11,12,Sockeye,SkeenaNass_14,Kitwanga,SK - Middle Skeena Lake Type,Kitwanga
-Sockeye_Skeena,Sockeye - Skeena,11,13,Sockeye,SkeenaNass_15,Bulkley,SK - Middle Skeena Lake Type,Bulkley
-Sockeye_Skeena,Sockeye - Skeena,11,14,Sockeye,SkeenaNass_15b,Maxan,SK - Middle Skeena Lake Type,Maxan
-Sockeye_Skeena,Sockeye - Skeena,11,15,Sockeye,SkeenaNass_16,Morice,SK - Middle Skeena Lake Type,Morice
-Sockeye_Skeena,Sockeye - Skeena,11,16,Sockeye,SkeenaNass_16b,Atna,SK - Middle Skeena Lake Type,Atna
-Sockeye_Skeena,Sockeye - Skeena,11,17,Sockeye,SkeenaNass-17,Stephens,SK - Middle Skeena Lake Type,Steph
-Sockeye_Skeena,Sockeye - Skeena,11,18,Sockeye,SkeenaNass_17b,Swan,SK - Middle Skeena Lake Type,Swan
-Sockeye_Skeena,Sockeye - Skeena,11,19,Sockeye,SkeenaNass_17c,Club,SK - Middle Skeena Lake Type,Club
-Sockeye_Skeena,Sockeye - Skeena,11,20,Sockeye,SkeenaNass_18,Babine Early Wild,SK - Middle Skeena Lake Type,Bab-EW
-Sockeye_Skeena,Sockeye - Skeena,11,21,Sockeye,SkeenaNass_20,Babine Mid Wild,SK - Middle Skeena Lake Type,Bab-MW
-Sockeye_Skeena,Sockeye - Skeena,11,22,Sockeye,SkeenaNass_19,Babine Late Wild,SK - Middle Skeena Lake Type,Bab-LW
-Sockeye_Skeena,Sockeye - Skeena,24,25,Sockeye,SkeenaNass_23,Sicintine,SK - Upper Skeena Lake Type,Sicintine
-Sockeye_Skeena,Sockeye - Skeena,24,26,Sockeye,SkeenaNass_24,Slamgeesh,SK - Upper Skeena Lake Type,Slamg
-Sockeye_Skeena,Sockeye - Skeena,24,27,Sockeye,SkeenaNass_24b,Damshilgwit,SK - Upper Skeena Lake Type,Damshil
-Sockeye_Skeena,Sockeye - Skeena,24,28,Sockeye,SkeenaNass_25,Motase,SK - Upper Skeena Lake Type,Motase
-Sockeye_Skeena,Sockeye - Skeena,24,29,Sockeye,SkeenaNass_26,Bear,SK - Upper Skeena Lake Type,Bear
-Sockeye_Skeena,Sockeye - Skeena,24,30,Sockeye,SkeenaNass-26b,Azuklotz,SK - Upper Skeena Lake Type,Azukl
-Sockeye_Skeena,Sockeye - Skeena,24,31,Sockeye,SkeenaNass_27,Asitka,SK - Upper Skeena Lake Type,Asitka
-Sockeye_Skeena,Sockeye - Skeena,24,32,Sockeye,SkeenaNass_28,Sustut,SK - Upper Skeena Lake Type,Sustut
-Sockeye_Skeena,Sockeye - Skeena,24,33,Sockeye,SkeenaNass-28b,Johansen,SK - Upper Skeena Lake Type,Johan
-Sockeye_Skeena,Sockeye - Skeena,24,34,Sockeye,SkeenaNass-28c,Spawning Lake,SK - Upper Skeena Lake Type,Spawning
-Sockeye_Skeena,Sockeye - Skeena,24,35,Sockeye,SkeenaNass_29,Kluantantan,SK - Upper Skeena Lake Type,Kluant
-Sockeye_Skeena,Sockeye - Skeena,24,36,Sockeye,SkeenaNass_30,Kluayaz,SK - Upper Skeena Lake Type,Kluayaz
-Sockeye_Skeena,Sockeye - Skeena,38,39,Sockeye,SkeenaNass_31,Skeena River Type,SK - Skeena River Type,Skeena RT
-CK_SMU_FraserSpring_4_2,Chinook - Fraser Spring 1.2 (4_2),1,2,Chinook,CK_16,South Thompson-Bessette Creek_SU_1.2,Fraser Spring 1.2 (4sub2) Chinook SMU,STh-BESS
-CK_SMU_FraserSpring_4_2,Chinook - Fraser Spring 1.2 (4_2),1,3,Chinook,CK_17,Lower Thompson_SP_1.2,Fraser Spring 1.2 (4sub2) Chinook SMU,LTh
-CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,2,Chinook,CK_04,Lower Fraser River_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,LFR-spring
-CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,3,Chinook,CK_08,Middle Fraser-Fraser Canyon_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,FRCanyon
-CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,4,Chinook,CK_10,Middle Fraser River_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,MFR-spring
-CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,5,Chinook,CK_12,Upper Fraser River_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,UFR-spring
-CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,6,Chinook,CK_18,North Thompson_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,NTh-spr
-CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,2,Chinook,CK_05,Lower Fraser River-Upper Pitt_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,LFR-UPITT
-CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,3,Chinook,CK_06,Lower Fraser River_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,LFR-summer
-CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,4,Chinook,CK_09,Middle Fraser River-Portage_FA_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,Portage
-CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,5,Chinook,CK_11,Middle Fraser River_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,MFR-summer
-CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,6,Chinook,CK_14,South Thompson_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,STh-1.3
-CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,7,Chinook,CK_19,North Thompson_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,NTh-sum
+TargetFolder,PlotYrsStart,PlotYrsEnd,PlotYrsUnkEnd,Plot,PlotTitle,GroupIndex,CUIndex,Species,CU_ID,CU_Name,Group,CU_Acro
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,1,2,Chinook,CK_03,Lower Fraser River_FA_0.3,CK-Fraser_Lower,LFR-fall
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,1,3,Chinook,CK_04,Lower Fraser River_SP_1.3,CK-Fraser_Lower,LFR-spring
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,1,4,Chinook,CK_05,Lower Fraser River-Upper Pitt_SU_1.3,CK-Fraser_Lower,LFR-UPITT
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,1,5,Chinook,CK_06,Lower Fraser River_SU_1.3,CK-Fraser_Lower,LFR-summer
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,1,6,Chinook,CK_07,Maria Slough_SU_0.3,CK-Fraser_Lower,Maria
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,8,9,Chinook,CK_08,Middle Fraser-Fraser Canyon_SP_1.3,CK_Fraser_Mid_Upper,FRCanyon
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,8,10,Chinook,CK_09,Middle Fraser River-Portage_FA_1.3,CK_Fraser_Mid_Upper,Portage
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,8,11,Chinook,CK_10,Middle Fraser River_SP_1.3,CK_Fraser_Mid_Upper,MFR-spring
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,8,12,Chinook,CK_11,Middle Fraser River_SU_1.3,CK_Fraser_Mid_Upper,MFR-summer
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,8,13,Chinook,CK_12,Upper Fraser River_SP_1.3,CK_Fraser_Mid_Upper,UFR-spring
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,16,Chinook,CK_13,South Thompson_SU_0.3,CK-Fraser_Thompson,STh-0.3
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,17,Chinook,CK_14,South Thompson_SU_1.3,CK-Fraser_Thompson,STh-1.3
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,18,Chinook,CK_15,Shuswap River_SU_0.3,CK-Fraser_Thompson,STh-SHUR
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,19,Chinook,CK_16,South Thompson-Bessette Creek_SU_1.2,CK-Fraser_Thompson,STh-BESS
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,20,Chinook,CK_17,Lower Thompson_SP_1.2,CK-Fraser_Thompson,LTh
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,21,Chinook,CK_18,North Thompson_SP_1.3,CK-Fraser_Thompson,NTh-spr
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,22,Chinook,CK_19,North Thompson_SU_1.3,CK-Fraser_Thompson,NTh-sum
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,15,23,Chinook,CK_82,Upper Adams River_SU_x.x,CK-Fraser_Thompson,UADAMS
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,25,26,Chinook,CK-01,Okanagan_1.x,CK-Columbia,OK
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,29,Chinook,CK-02,Boundary Bay_FA_0.3,CK-Inner_South_Coast,BB
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,30,Chinook,CK-20,Southern Mainland-Georgia Strait_FA_0.x,CK-Inner_South_Coast,SMn-GStr
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,31,Chinook,CK-28,Southern Mainland-Southern Fjords_FA_0.x,CK-Inner_South_Coast,SMn-SFj
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,32,Chinook,CK-21,East Vancouver Island-Goldstream_FA_0.x,CK-Inner_South_Coast,Goldstr
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,33,Chinook,CK-22,East Vancouver Island-Cowichan & Koksilah_FA_0.x,CK-Inner_South_Coast,CWCH-KOK
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,34,Chinook,CK-23,East Vancouver Island-Nanaimo_SP_1.x,CK-Inner_South_Coast,NanR-spr
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,35,Chinook,CK-25,East Vancouver Island-Nanaimo & Chemainus_FA_0.x,CK-Inner_South_Coast,EVI-fall
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,36,Chinook,CK-27,East Vancouver Island-Qualicum & Puntledge_FA_0.x,CK-Inner_South_Coast,QP-fall
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,37,Chinook,CK-29,East Vancouver Island-North_FA_0.x,CK-Inner_South_Coast,NEVI
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,38,Chinook,CK-83,East Vancouver Island - Georgia Strait Summer 0.3,CK-Inner_South_Coast,GS-Sum
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,39,Chinook,CK-34,Homathko_SU_x.x,CK-Inner_South_Coast,Homa
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,28,40,Chinook,CK-35,Klinaklini_SU_1.3,CK-Inner_South_Coast,Klina
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,42,43,Chinook,CK-31,West Vancouver Island-South_FA_0.x,CK_WCVI,SWVI
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,42,44,Chinook,CK-32,West Vancouver Island-Nootka & Kyuquot_FA_0.x,CK_WCVI,NoKy
+OUTPUT/TimelinePlots,1995,2025,2022,Chinook_SBC,Chinook - Southern BC,42,45,Chinook,CK-33,West Vancouver Island-North_FA_0.x,CK_WCVI,NWVI
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",1,2,Coho,CO_01,Middle Fraser,CO - Interior Fraser Coho,MFr
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",1,3,Coho,CO_02,Fraser Canyon,CO - Interior Fraser Coho,FrCny
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",1,4,Coho,CO_03,Lower Thompson,CO - Interior Fraser Coho,Lthom
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",1,5,Coho,CO_04,North Thompson,CO - Interior Fraser Coho,NTh
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",1,6,Coho,CO_05,South Thompson,CO - Interior Fraser Coho,STh
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",8,9,Pink,PKO_01,Fraser Pink,PK - Fraser,Fraser
+OUTPUT/TimelinePlots,1995,2025,2022,CohoPinkChum,"Fraser Coho, Pink, and Chum",11,12,Chum,CM_02,Lower Fraser Chum,CM - Fraser,LowerFraser
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,1,2,Sockeye,CU_18,Takla_Trem_EStu,SK - Fraser River Early Stuart,Estu
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,5,Sockeye,CU_1,Bowron_ES,SK - Fraser River Early Summer,ES_Bowr
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,6,Sockeye,CU_14,Nahatlatch_ES,SK - Fraser River Early Summer,ES_Naha
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,7,Sockeye,CU_15,Taseko_ES,SK - Fraser River Early Summer,ES_Tas
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,8,Sockeye,CU_17,Chilliwack_ES,SK - Fraser River Early Summer,ES_Chill
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,9,Sockeye,CU_19,Anderson_Seton_ES,SK - Fraser River Early Summer,ES_AndSet
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,10,Sockeye,CU_2,Kamloops_ES,SK - Fraser River Early Summer,ES_Kaml
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,11,Sockeye,CU_20,Shuswap_ES,SK - Fraser River Early Summer,ES_Shu
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,12,Sockeye,CU_3,Nadina_Francois_ES,SK - Fraser River Early Summer,ES_NadFran
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,13,Sockeye,CU_4,North_Barriere_ES,SK - Fraser River Early Summer,ES_Nbarr
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,14,Sockeye,CU_5,Pitt_ES,SK - Fraser River Early Summer,ES_Pitt
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,4,15,Sockeye,CU_6b,Chilko_ES,SK - Fraser River Early Summer,ES_Chilko
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,17,18,Sockeye,CU_21,Takla_Trem_S_S,SK - Fraser River Summer,S_TakTremStu
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,17,19,Sockeye,CU_22,Quesnel_S,SK - Fraser River Summer,S_Ques
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,17,20,Sockeye,CU_6,Chilko_S_ES,SK - Fraser River Summer,S_Chilko
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,17,21,Sockeye,CU_7,Fran_Fras_S,SK - Fraser River Summer,S_FranFras
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,23,24,Sockeye,CU_10,Seton_L,SK - Fraser River Late,L_Set
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,23,25,Sockeye,CU_11,Harrison_US_L,SK - Fraser River Late,L_HarrUS
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,23,26,Sockeye,CU_12,Lillooet_Harr_L,SK - Fraser River Late,L_LilHarr
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,23,27,Sockeye,CU_13,Harrison_DS_L,SK - Fraser River Late,L_HarrDS
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,23,28,Sockeye,CU_23,Shuswap_L,SK - Fraser River Late,L_Shu
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,23,29,Sockeye,CU_8,Cultus_L,SK - Fraser River Late,L_Cult
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,31,32,Sockeye,CU_16,Widgeon_RT,SK - Fraser River Type,RT_Wid
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Fraser,Sockeye - Fraser,31,33,Sockeye,CU_9,Harrison_R,SK - Fraser River Type,RT_HarrR
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,1,2,Sockeye,SkeenaNass_1,Lower Nass Sea & River Type,SK - Nass Sea and River Type,LNassSRT
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,4,5,Sockeye,SkeenaNass_2,Meziadin,SK-Upper Nass Lake Type,Meziadin
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,4,6,Sockeye,SkeenaNass_3,Bowser,SK-Upper Nass Lake Type,Bowser
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,4,7,Sockeye,SkeenaNass_4,Oweegee,SK-Upper Nass Lake Type,Oweege
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,4,8,Sockeye,SkeenaNass_5,Kwinageese,SK-Upper Nass Lake Type,Kwinag
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,4,9,Sockeye,SkeenaNass_5b,Fred Wright,SK-Upper Nass Lake Type,FredWr
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,4,10,Sockeye,SkeenaNass_6,Damdochax,SK-Upper Nass Lake Type,Damdoch
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Nass,Sockeye - Nass,12,13,Sockeye,SkeenaNass_7,Upper Nass River Type,SK- Nass River Type,UNassRT
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,2,Sockeye,SkeenaNass_8,Johnston,SK - Lower Skeena Lake Type,Johnston
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,3,Sockeye,SkeenaNass_9,Ecstall,SK - Lower Skeena Lake Type,Ecstall
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,4,Sockeye,SkeenaNass_10,Alastair,SK - Lower Skeena Lake Type,Alastair
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,5,Sockeye,SkeenaNass_11,Lakelse,SK - Lower Skeena Lake Type,Lakelse
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,6,Sockeye,SkeenaNass_12,Kitsumkalum,SK - Lower Skeena Lake Type,Kitsumk
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,7,Sockeye,SkeenaNass_13,Mcdonell,SK - Lower Skeena Lake Type,Mcdonell
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,8,Sockeye,SkeenaNass_13b,Aldrich,SK - Lower Skeena Lake Type,Aldrich
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,1,9,Sockeye,SkeenaNass_13c,Dennis,SK - Lower Skeena Lake Type,Dennis
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,12,Sockeye,SkeenaNass_14,Kitwanga,SK - Middle Skeena Lake Type,Kitwanga
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,13,Sockeye,SkeenaNass_15,Bulkley,SK - Middle Skeena Lake Type,Bulkley
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,14,Sockeye,SkeenaNass_15b,Maxan,SK - Middle Skeena Lake Type,Maxan
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,15,Sockeye,SkeenaNass_16,Morice,SK - Middle Skeena Lake Type,Morice
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,16,Sockeye,SkeenaNass_16b,Atna,SK - Middle Skeena Lake Type,Atna
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,17,Sockeye,SkeenaNass-17,Stephens,SK - Middle Skeena Lake Type,Steph
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,18,Sockeye,SkeenaNass_17b,Swan,SK - Middle Skeena Lake Type,Swan
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,19,Sockeye,SkeenaNass_17c,Club,SK - Middle Skeena Lake Type,Club
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,20,Sockeye,SkeenaNass_18,Babine Early Wild,SK - Middle Skeena Lake Type,Bab-EW
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,21,Sockeye,SkeenaNass_20,Babine Mid Wild,SK - Middle Skeena Lake Type,Bab-MW
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,11,22,Sockeye,SkeenaNass_19,Babine Late Wild,SK - Middle Skeena Lake Type,Bab-LW
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,25,Sockeye,SkeenaNass_23,Sicintine,SK - Upper Skeena Lake Type,Sicintine
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,26,Sockeye,SkeenaNass_24,Slamgeesh,SK - Upper Skeena Lake Type,Slamg
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,27,Sockeye,SkeenaNass_24b,Damshilgwit,SK - Upper Skeena Lake Type,Damshil
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,28,Sockeye,SkeenaNass_25,Motase,SK - Upper Skeena Lake Type,Motase
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,29,Sockeye,SkeenaNass_26,Bear,SK - Upper Skeena Lake Type,Bear
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,30,Sockeye,SkeenaNass-26b,Azuklotz,SK - Upper Skeena Lake Type,Azukl
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,31,Sockeye,SkeenaNass_27,Asitka,SK - Upper Skeena Lake Type,Asitka
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,32,Sockeye,SkeenaNass_28,Sustut,SK - Upper Skeena Lake Type,Sustut
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,33,Sockeye,SkeenaNass-28b,Johansen,SK - Upper Skeena Lake Type,Johan
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,34,Sockeye,SkeenaNass-28c,Spawning Lake,SK - Upper Skeena Lake Type,Spawning
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,35,Sockeye,SkeenaNass_29,Kluantantan,SK - Upper Skeena Lake Type,Kluant
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,24,36,Sockeye,SkeenaNass_30,Kluayaz,SK - Upper Skeena Lake Type,Kluayaz
+OUTPUT/TimelinePlots,1995,2025,2022,Sockeye_Skeena,Sockeye - Skeena,38,39,Sockeye,SkeenaNass_31,Skeena River Type,SK - Skeena River Type,Skeena RT
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_4_2,Chinook - Fraser Spring 1.2 (4_2),1,2,Chinook,CK_16,South Thompson-Bessette Creek_SU_1.2,Fraser Spring 1.2 (4sub2) Chinook SMU,STh-BESS
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_4_2,Chinook - Fraser Spring 1.2 (4_2),1,3,Chinook,CK_17,Lower Thompson_SP_1.2,Fraser Spring 1.2 (4sub2) Chinook SMU,LTh
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,2,Chinook,CK_04,Lower Fraser River_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,LFR-spring
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,3,Chinook,CK_08,Middle Fraser-Fraser Canyon_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,FRCanyon
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,4,Chinook,CK_10,Middle Fraser River_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,MFR-spring
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,5,Chinook,CK_12,Upper Fraser River_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,UFR-spring
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSpring_5_2,Chinook - Fraser Spring 1.3 (5_2),1,6,Chinook,CK_18,North Thompson_SP_1.3,Fraser Spring 1.3 (5sub2) Chinook SMU,NTh-spr
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,2,Chinook,CK_05,Lower Fraser River-Upper Pitt_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,LFR-UPITT
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,3,Chinook,CK_06,Lower Fraser River_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,LFR-summer
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,4,Chinook,CK_09,Middle Fraser River-Portage_FA_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,Portage
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,5,Chinook,CK_11,Middle Fraser River_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,MFR-summer
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,6,Chinook,CK_14,South Thompson_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,STh-1.3
+OUTPUT/TimelinePlots,1995,2025,2022,CK_SMU_FraserSummer_5_2,Chinook - Fraser Summer 1.3 (5_2),1,7,Chinook,CK_19,North Thompson_SU_1.3,Fraser Summer 1.3 (5sub2) Chinook SMU,NTh-sum
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Boundary Bay Chinook,Boundary Bay Chinook,NA,-1,Chinook,CK-02,Boundary Bay_FA_0.3,NA,BB
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Lower Georgia Strait Chinook,Lower Georgia Strait Chinook,NA,-1,Chinook,CK-21,East Vancouver Island-Goldstream_FA_0.x,NA,Goldstr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Lower Georgia Strait Chinook,Lower Georgia Strait Chinook,NA,0,Chinook,CK-22,East Vancouver Island-Cowichan & Koksilah_FA_0.x,NA,CWCH-KOK
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Middle Georgia Strait Chinook,Middle Georgia Strait Chinook,NA,-1,Chinook,CK-23,East Vancouver Island-Nanaimo_SP_1.x,NA,NanR-spr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Middle Georgia Strait Chinook,Middle Georgia Strait Chinook,NA,0,Chinook,CK-25,East Vancouver Island-Nanaimo & Chemainus_FA_0.x,NA,EVI-fall
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Middle Georgia Strait Chinook,Middle Georgia Strait Chinook,NA,1,Chinook,CK-27,East Vancouver Island-Qualicum & Puntledge_FA_0.x,NA,QP-fall
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Middle Georgia Strait Chinook,Middle Georgia Strait Chinook,NA,2,Chinook,CK-83,East Vancouver Island - Georgia Strait Summer 0.3,NA,GS-Sum
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Upper Georgia Strait Chinook,Upper Georgia Strait Chinook,NA,-1,Chinook,CK-29,East Vancouver Island-North_FA_0.x,NA,NEVI
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Mainland Inlet Chinook,Mainland Inlet Chinook,NA,-1,Chinook,CK-20,Southern Mainland-Georgia Strait_FA_0.x,NA,SMn-GStr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Mainland Inlet Chinook,Mainland Inlet Chinook,NA,0,Chinook,CK-28,Southern Mainland-Southern Fjords_FA_0.x,NA,SMn-SFj
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Mainland Inlet Chinook,Mainland Inlet Chinook,NA,1,Chinook,CK-34,Homathko_SU_x.x,NA,Homa
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Mainland Inlet Chinook,Mainland Inlet Chinook,NA,2,Chinook,CK-35,Klinaklini_SU_1.3,NA,Klina
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,WCVI Chinook,WCVI Chinook,NA,-1,Chinook,CK-31,West Vancouver Island-South_FA_0.x,NA,SWVI
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,WCVI Chinook,WCVI Chinook,NA,0,Chinook,CK-32,West Vancouver Island-Nootka & Kyuquot_FA_0.x,NA,NoKy
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,WCVI Chinook,WCVI Chinook,NA,1,Chinook,CK-33,West Vancouver Island-North_FA_0.x,NA,NWVI
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Fall 4sub1 Chinook,Fraser Fall 4sub1 Chinook,NA,-1,Chinook,CK_03,Lower Fraser River_FA_0.3,NA,LFR-fall
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 4sub2 Chinook,Fraser Spring 4sub2 Chinook,NA,-1,Chinook,CK_16,South Thompson-Bessette Creek_SU_1.2,NA,STh-BESS
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 4sub2 Chinook,Fraser Spring 4sub2 Chinook,NA,0,Chinook,CK_17,Lower Thompson_SP_1.2,NA,LTh
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 5sub2 Chinook,Fraser Spring 5sub2 Chinook,NA,-1,Chinook,CK_04,Lower Fraser River_SP_1.3,NA,LFR-spring
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 5sub2 Chinook,Fraser Spring 5sub2 Chinook,NA,0,Chinook,CK_08,Middle Fraser-Fraser Canyon_SP_1.3,NA,FRCanyon
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 5sub2 Chinook,Fraser Spring 5sub2 Chinook,NA,1,Chinook,CK_10,Middle Fraser River_SP_1.3,NA,MFR-spring
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 5sub2 Chinook,Fraser Spring 5sub2 Chinook,NA,2,Chinook,CK_12,Upper Fraser River_SP_1.3,NA,UFR-spring
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Spring 5sub2 Chinook,Fraser Spring 5sub2 Chinook,NA,3,Chinook,CK_18,North Thompson_SP_1.3,NA,NTh-spr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 4sub1 Chinook,Fraser Summer 4sub1 Chinook,NA,-1,Chinook,CK_07,Maria Slough_SU_0.3,NA,Maria
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 4sub1 Chinook,Fraser Summer 4sub1 Chinook,NA,0,Chinook,CK_13,South Thompson_SU_0.3,NA,STh-0.3
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 4sub1 Chinook,Fraser Summer 4sub1 Chinook,NA,1,Chinook,CK_15,Shuswap River_SU_0.3,NA,STh-SHUR
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 5sub2 Chinook,Fraser Summer 5sub2 Chinook,NA,-1,Chinook,CK_05,Lower Fraser River-Upper Pitt_SU_1.3,NA,LFR-UPITT
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 5sub2 Chinook,Fraser Summer 5sub2 Chinook,NA,0,Chinook,CK_06,Lower Fraser River_SU_1.3,NA,LFR-summer
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 5sub2 Chinook,Fraser Summer 5sub2 Chinook,NA,1,Chinook,CK_09,Middle Fraser River-Portage_FA_1.3,NA,Portage
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 5sub2 Chinook,Fraser Summer 5sub2 Chinook,NA,2,Chinook,CK_11,Middle Fraser River_SU_1.3,NA,MFR-summer
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 5sub2 Chinook,Fraser Summer 5sub2 Chinook,NA,3,Chinook,CK_14,South Thompson_SU_1.3,NA,STh-1.3
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Summer 5sub2 Chinook,Fraser Summer 5sub2 Chinook,NA,4,Chinook,CK_19,North Thompson_SU_1.3,NA,NTh-sum
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Okanagan Chinook,Okanagan Chinook,NA,-1,Chinook,CK-01,Okanagan_1.x,NA,OK
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Chum,Fraser Chum,NA,-1,Chum,CM_02,Lower Fraser Chum,NA,LowerFraser
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Interior Fraser Coho,Interior Fraser Coho,NA,-1,Coho,CO_01,Middle Fraser,NA,MFr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Interior Fraser Coho,Interior Fraser Coho,NA,0,Coho,CO_02,Fraser Canyon,NA,FrCny
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Interior Fraser Coho,Interior Fraser Coho,NA,1,Coho,CO_03,Lower Thompson,NA,Lthom
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Interior Fraser Coho,Interior Fraser Coho,NA,2,Coho,CO_04,North Thompson,NA,NTh
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Interior Fraser Coho,Interior Fraser Coho,NA,3,Coho,CO_05,South Thompson,NA,STh
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Pink,Fraser Pink,NA,-1,Pink,PKO_01,Fraser Pink,NA,Fraser
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,-1,Sockeye,SkeenaNass_1,Lower Nass Sea & River Type,NA,LNassSRT
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,0,Sockeye,SkeenaNass_2,Meziadin,NA,Meziadin
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,1,Sockeye,SkeenaNass_3,Bowser,NA,Bowser
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,2,Sockeye,SkeenaNass_4,Oweegee,NA,Oweege
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,3,Sockeye,SkeenaNass_5,Kwinageese,NA,Kwinag
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,4,Sockeye,SkeenaNass_5b,Fred Wright,NA,FredWr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,5,Sockeye,SkeenaNass_6,Damdochax,NA,Damdoch
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Nass Sockeye,Nass Sockeye,NA,6,Sockeye,SkeenaNass_7,Upper Nass River Type,NA,UNassRT
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,-1,Sockeye,SkeenaNass_8,Johnston,NA,Johnston
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,0,Sockeye,SkeenaNass_9,Ecstall,NA,Ecstall
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,1,Sockeye,SkeenaNass_10,Alastair,NA,Alastair
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,2,Sockeye,SkeenaNass_11,Lakelse,NA,Lakelse
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,3,Sockeye,SkeenaNass_12,Kitsumkalum,NA,Kitsumk
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,4,Sockeye,SkeenaNass_13,Mcdonell,NA,Mcdonell
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,5,Sockeye,SkeenaNass_13b,Aldrich,NA,Aldrich
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,6,Sockeye,SkeenaNass_13c,Dennis,NA,Dennis
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,7,Sockeye,SkeenaNass_14,Kitwanga,NA,Kitwanga
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,8,Sockeye,SkeenaNass_15,Bulkley,NA,Bulkley
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,9,Sockeye,SkeenaNass_15b,Maxan,NA,Maxan
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,10,Sockeye,SkeenaNass_16,Morice,NA,Morice
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,11,Sockeye,SkeenaNass_16b,Atna,NA,Atna
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,12,Sockeye,SkeenaNass-17,Stephens,NA,Steph
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,13,Sockeye,SkeenaNass_17b,Swan,NA,Swan
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,14,Sockeye,SkeenaNass_17c,Club,NA,Club
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,15,Sockeye,SkeenaNass_18,Babine Early Wild,NA,Bab-EW
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,16,Sockeye,SkeenaNass_20,Babine Mid Wild,NA,Bab-MW
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,17,Sockeye,SkeenaNass_19,Babine Late Wild,NA,Bab-LW
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,18,Sockeye,SkeenaNass_23,Sicintine,NA,Sicintine
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,19,Sockeye,SkeenaNass_24,Slamgeesh,NA,Slamg
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,20,Sockeye,SkeenaNass_24b,Damshilgwit,NA,Damshil
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,21,Sockeye,SkeenaNass_25,Motase,NA,Motase
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,22,Sockeye,SkeenaNass_26,Bear,NA,Bear
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,23,Sockeye,SkeenaNass-26b,Azuklotz,NA,Azukl
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,24,Sockeye,SkeenaNass_27,Asitka,NA,Asitka
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,25,Sockeye,SkeenaNass_28,Sustut,NA,Sustut
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,26,Sockeye,SkeenaNass-28b,Johansen,NA,Johan
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,27,Sockeye,SkeenaNass-28c,Spawning Lake,NA,Spawning
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,28,Sockeye,SkeenaNass_29,Kluantantan,NA,Kluant
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,29,Sockeye,SkeenaNass_30,Kluayaz,NA,Kluayaz
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Skeena Sockeye,Skeena Sockeye,NA,30,Sockeye,SkeenaNass_31,Skeena River Type,NA,Skeena RT
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Stuart,Fraser Sockeye - Early Stuart,NA,-1,Sockeye,CU_18,Takla Trembleur-Early Stuart,NA,Estu
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,-1,Sockeye,CU_1,Bowron-ES,NA,ES_Bowr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,0,Sockeye,CU_14,Nahatlatch-ES,NA,ES_Naha
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,1,Sockeye,CU_15,Taseko-ES,NA,ES_Tas
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,2,Sockeye,CU_17,Chilliwack-ES,NA,ES_Chill
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,3,Sockeye,CU_19,Anderson-Seton-ES,NA,ES_AndSet
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,4,Sockeye,CU_2,Kamloops-ES,NA,ES_Kaml
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,5,Sockeye,CU_20,Shuswap-ES,NA,ES_Shu
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,6,Sockeye,CU_3,Nadina-Francois-ES,NA,ES_NadFran
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,7,Sockeye,CU_4,North Barriere-ES,NA,ES_Nbarr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Early Summer,Fraser Sockeye - Early Summer,NA,8,Sockeye,CU_5,Pitt-ES,NA,ES_Pitt
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,-1,Sockeye,CU_10,Seton-L,NA,L_Set
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,0,Sockeye,CU_11,Harrison-U/S-L,NA,L_HarrUS
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,1,Sockeye,CU_12,Lillooet-Harrison-L,NA,L_LilHarr
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,2,Sockeye,CU_13,Harrison-D/S-L,NA,L_HarrDS
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,3,Sockeye,CU_23,Shuswap-L,NA,L_Shu
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,4,Sockeye,CU_8,Cultus-L,NA,L_Cult
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Late,Fraser Sockeye - Late,NA,5,Sockeye,CU_16,Widgeon-RiverType,NA,RT_Wid
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,-1,Sockeye,CU_21,Takla-Trembleur-Stuart-S,NA,S_TakTremStu
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,0,Sockeye,CU_22,Quesnel-S,NA,S_Ques
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,1,Sockeye,CU_6,Chilko-S-ES,NA,S_Chilko
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,2,Sockeye,CU_7,Francois-Fraser-S,NA,S_FranFras
+OUTPUT/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,3,Sockeye,CU_9,Harrison-RiverType,NA,RT_HarrR
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Boundary Bay Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-02,Boundary Bay_FA_0.3,NA,BB
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Lower Georgia Strait Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-21,East Vancouver Island-Goldstream_FA_0.x,NA,Goldstr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Lower Georgia Strait Chinook,Nass Sockeye,NA,1,Chinook,CK-22,East Vancouver Island-Cowichan & Koksilah_FA_0.x,NA,CWCH-KOK
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Middle Georgia Strait Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-23,East Vancouver Island-Nanaimo_SP_1.x,NA,NanR-spr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Middle Georgia Strait Chinook,Nass Sockeye,NA,1,Chinook,CK-25,East Vancouver Island-Nanaimo & Chemainus_FA_0.x,NA,EVI-fall
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Middle Georgia Strait Chinook,Nass Sockeye,NA,2.5,Chinook,CK-27,East Vancouver Island-Qualicum & Puntledge_FA_0.x,NA,QP-fall
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Middle Georgia Strait Chinook,Nass Sockeye,NA,4,Chinook,CK-83,East Vancouver Island - Georgia Strait Summer 0.3,NA,GS-Sum
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Upper Georgia Strait Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-29,East Vancouver Island-North_FA_0.x,NA,NEVI
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Mainland Inlet Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-20,Southern Mainland-Georgia Strait_FA_0.x,NA,SMn-GStr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Mainland Inlet Chinook,Nass Sockeye,NA,1,Chinook,CK-28,Southern Mainland-Southern Fjords_FA_0.x,NA,SMn-SFj
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Mainland Inlet Chinook,Nass Sockeye,NA,2.5,Chinook,CK-34,Homathko_SU_x.x,NA,Homa
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Mainland Inlet Chinook,Nass Sockeye,NA,4,Chinook,CK-35,Klinaklini_SU_1.3,NA,Klina
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,WCVI Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-31,West Vancouver Island-South_FA_0.x,NA,SWVI
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,WCVI Chinook,Nass Sockeye,NA,1,Chinook,CK-32,West Vancouver Island-Nootka & Kyuquot_FA_0.x,NA,NoKy
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,WCVI Chinook,Nass Sockeye,NA,2.5,Chinook,CK-33,West Vancouver Island-North_FA_0.x,NA,NWVI
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Fall 4sub1 Chinook,Nass Sockeye,NA,-0.5,Chinook,CK_03,Lower Fraser River_FA_0.3,NA,LFR-fall
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 4sub2 Chinook,Nass Sockeye,NA,-0.5,Chinook,CK_16,South Thompson-Bessette Creek_SU_1.2,NA,STh-BESS
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 4sub2 Chinook,Nass Sockeye,NA,1,Chinook,CK_17,Lower Thompson_SP_1.2,NA,LTh
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 5sub2 Chinook,Nass Sockeye,NA,-0.5,Chinook,CK_04,Lower Fraser River_SP_1.3,NA,LFR-spring
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 5sub2 Chinook,Nass Sockeye,NA,1,Chinook,CK_08,Middle Fraser-Fraser Canyon_SP_1.3,NA,FRCanyon
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 5sub2 Chinook,Nass Sockeye,NA,2.5,Chinook,CK_10,Middle Fraser River_SP_1.3,NA,MFR-spring
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 5sub2 Chinook,Nass Sockeye,NA,4,Chinook,CK_12,Upper Fraser River_SP_1.3,NA,UFR-spring
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Spring 5sub2 Chinook,Nass Sockeye,NA,5.5,Chinook,CK_18,North Thompson_SP_1.3,NA,NTh-spr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 4sub1 Chinook,Nass Sockeye,NA,-0.5,Chinook,CK_07,Maria Slough_SU_0.3,NA,Maria
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 4sub1 Chinook,Nass Sockeye,NA,1,Chinook,CK_13,South Thompson_SU_0.3,NA,STh-0.3
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 4sub1 Chinook,Nass Sockeye,NA,2.5,Chinook,CK_15,Shuswap River_SU_0.3,NA,STh-SHUR
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 5sub2 Chinook,Nass Sockeye,NA,-0.5,Chinook,CK_05,Lower Fraser River-Upper Pitt_SU_1.3,NA,LFR-UPITT
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 5sub2 Chinook,Nass Sockeye,NA,1,Chinook,CK_06,Lower Fraser River_SU_1.3,NA,LFR-summer
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 5sub2 Chinook,Nass Sockeye,NA,2.5,Chinook,CK_09,Middle Fraser River-Portage_FA_1.3,NA,Portage
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 5sub2 Chinook,Nass Sockeye,NA,4,Chinook,CK_11,Middle Fraser River_SU_1.3,NA,MFR-summer
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 5sub2 Chinook,Nass Sockeye,NA,5.5,Chinook,CK_14,South Thompson_SU_1.3,NA,STh-1.3
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Summer 5sub2 Chinook,Nass Sockeye,NA,7,Chinook,CK_19,North Thompson_SU_1.3,NA,NTh-sum
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Okanagan Chinook,Nass Sockeye,NA,-0.5,Chinook,CK-01,Okanagan_1.x,NA,OK
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Chum,Nass Sockeye,NA,-0.5,Chum,CM_02,Lower Fraser Chum,NA,LowerFraser
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Interior Fraser Coho,Nass Sockeye,NA,-0.5,Coho,CO_01,Middle Fraser,NA,MFr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Interior Fraser Coho,Nass Sockeye,NA,1,Coho,CO_02,Fraser Canyon,NA,FrCny
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Interior Fraser Coho,Nass Sockeye,NA,2.5,Coho,CO_03,Lower Thompson,NA,Lthom
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Interior Fraser Coho,Nass Sockeye,NA,4,Coho,CO_04,North Thompson,NA,NTh
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Interior Fraser Coho,Nass Sockeye,NA,5.5,Coho,CO_05,South Thompson,NA,STh
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Pink,Nass Sockeye,NA,-0.5,Pink,PKO_01,Fraser Pink,NA,Fraser
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,-0.5,Sockeye,SkeenaNass_1,Lower Nass Sea & River Type,NA,LNassSRT
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,1,Sockeye,SkeenaNass_2,Meziadin,NA,Meziadin
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,2.5,Sockeye,SkeenaNass_3,Bowser,NA,Bowser
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,4,Sockeye,SkeenaNass_4,Oweegee,NA,Oweege
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,5.5,Sockeye,SkeenaNass_5,Kwinageese,NA,Kwinag
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,7,Sockeye,SkeenaNass_5b,Fred Wright,NA,FredWr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,8.5,Sockeye,SkeenaNass_6,Damdochax,NA,Damdoch
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Nass Sockeye,Nass Sockeye,NA,10,Sockeye,SkeenaNass_7,Upper Nass River Type,NA,UNassRT
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,-0.5,Sockeye,SkeenaNass_8,Johnston,NA,Johnston
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,1,Sockeye,SkeenaNass_9,Ecstall,NA,Ecstall
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,2.5,Sockeye,SkeenaNass_10,Alastair,NA,Alastair
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,4,Sockeye,SkeenaNass_11,Lakelse,NA,Lakelse
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,5.5,Sockeye,SkeenaNass_12,Kitsumkalum,NA,Kitsumk
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,7,Sockeye,SkeenaNass_13,Mcdonell,NA,Mcdonell
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,8.5,Sockeye,SkeenaNass_13b,Aldrich,NA,Aldrich
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,10,Sockeye,SkeenaNass_13c,Dennis,NA,Dennis
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,11.5,Sockeye,SkeenaNass_14,Kitwanga,NA,Kitwanga
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,13,Sockeye,SkeenaNass_15,Bulkley,NA,Bulkley
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,14.5,Sockeye,SkeenaNass_15b,Maxan,NA,Maxan
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,16,Sockeye,SkeenaNass_16,Morice,NA,Morice
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,17.5,Sockeye,SkeenaNass_16b,Atna,NA,Atna
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,19,Sockeye,SkeenaNass-17,Stephens,NA,Steph
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,20.5,Sockeye,SkeenaNass_17b,Swan,NA,Swan
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,22,Sockeye,SkeenaNass_17c,Club,NA,Club
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,23.5,Sockeye,SkeenaNass_18,Babine Early Wild,NA,Bab-EW
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,25,Sockeye,SkeenaNass_20,Babine Mid Wild,NA,Bab-MW
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,26.5,Sockeye,SkeenaNass_19,Babine Late Wild,NA,Bab-LW
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,28,Sockeye,SkeenaNass_23,Sicintine,NA,Sicintine
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,29.5,Sockeye,SkeenaNass_24,Slamgeesh,NA,Slamg
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,31,Sockeye,SkeenaNass_24b,Damshilgwit,NA,Damshil
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,32.5,Sockeye,SkeenaNass_25,Motase,NA,Motase
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,34,Sockeye,SkeenaNass_26,Bear,NA,Bear
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,35.5,Sockeye,SkeenaNass-26b,Azuklotz,NA,Azukl
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,37,Sockeye,SkeenaNass_27,Asitka,NA,Asitka
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,38.5,Sockeye,SkeenaNass_28,Sustut,NA,Sustut
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,40,Sockeye,SkeenaNass-28b,Johansen,NA,Johan
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,41.5,Sockeye,SkeenaNass-28c,Spawning Lake,NA,Spawning
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,43,Sockeye,SkeenaNass_29,Kluantantan,NA,Kluant
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,44.5,Sockeye,SkeenaNass_30,Kluayaz,NA,Kluayaz
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Skeena Sockeye,Nass Sockeye,NA,46,Sockeye,SkeenaNass_31,Skeena River Type,NA,Skeena RT
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Stuart,Nass Sockeye,NA,-0.5,Sockeye,CU_18,Takla Trembleur-Early Stuart,NA,Estu
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,-0.5,Sockeye,CU_1,Bowron-ES,NA,ES_Bowr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,1,Sockeye,CU_14,Nahatlatch-ES,NA,ES_Naha
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,2.5,Sockeye,CU_15,Taseko-ES,NA,ES_Tas
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,4,Sockeye,CU_17,Chilliwack-ES,NA,ES_Chill
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,5.5,Sockeye,CU_19,Anderson-Seton-ES,NA,ES_AndSet
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,7,Sockeye,CU_2,Kamloops-ES,NA,ES_Kaml
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,8.5,Sockeye,CU_20,Shuswap-ES,NA,ES_Shu
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,10,Sockeye,CU_3,Nadina-Francois-ES,NA,ES_NadFran
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,11.5,Sockeye,CU_4,North Barriere-ES,NA,ES_Nbarr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Early Summer,Nass Sockeye,NA,13,Sockeye,CU_5,Pitt-ES,NA,ES_Pitt
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,-0.5,Sockeye,CU_10,Seton-L,NA,L_Set
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,1,Sockeye,CU_11,Harrison-U/S-L,NA,L_HarrUS
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,2.5,Sockeye,CU_12,Lillooet-Harrison-L,NA,L_LilHarr
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,4,Sockeye,CU_13,Harrison-D/S-L,NA,L_HarrDS
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,5.5,Sockeye,CU_23,Shuswap-L,NA,L_Shu
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,7,Sockeye,CU_8,Cultus-L,NA,L_Cult
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Late,Nass Sockeye,NA,8.5,Sockeye,CU_16,Widgeon-RiverType,NA,RT_Wid
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Summer,Nass Sockeye,NA,-0.5,Sockeye,CU_21,Takla-Trembleur-Stuart-S,NA,S_TakTremStu
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Summer,Nass Sockeye,NA,1,Sockeye,CU_22,Quesnel-S,NA,S_Ques
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Summer,Nass Sockeye,NA,2.5,Sockeye,CU_6,Chilko-S-ES,NA,S_Chilko
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Summer,Nass Sockeye,NA,4,Sockeye,CU_7,Francois-Fraser-S,NA,S_FranFras
+OUTPUT/SMU_TimelinePlotsforSOPO,2010,2025,2022,Fraser Sockeye - Summer,Nass Sockeye,NA,5.5,Sockeye,CU_9,Harrison-RiverType,NA,RT_HarrR
