@@ -16,7 +16,8 @@ retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details_SkeenaMODS.csv")
 
 
 # List of plots with specs
-plot.specs <- read_csv("DATA_LOOKUP_FILES/TimelinePlot_Specs.csv") 
+plot.specs <- read_csv("DATA_LOOKUP_FILES/TimelinePlot_Specs.csv") %>%
+                left_join(cu.info %>% select(CU_Name,CU_ID,CU_Acro), by="CU_Name")
 plot.specs
 #view(plot.specs)
 
