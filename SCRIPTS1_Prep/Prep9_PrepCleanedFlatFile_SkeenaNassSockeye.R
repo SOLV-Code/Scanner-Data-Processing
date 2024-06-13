@@ -12,6 +12,8 @@ head(skeenanass.sk.src )
 
 
 skeenanass.sk.src$CU_Name <- gsub("Swan/Stephens", "Stephens",skeenanass.sk.src$CU_Name )
+skeenanass.sk.src$CU_Name <- gsub( "Damdochax","Damdochax/Wiminasik", skeenanass.sk.src$CU_Name )
+
 
 cu.info.main <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv")
 names(cu.info.main)
