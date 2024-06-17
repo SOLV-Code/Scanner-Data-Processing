@@ -2,9 +2,11 @@ library(tidyverse)
 library(plotrix)
 
 
-
-
-if(!dir.exists("OUTPUT/TimelinePlots")){dir.create("OUTPUT/TimelinePlots")}
+# Color settings
+alpha.use <- 1
+green.use <- rgb(184/255,225/255,134/255,alpha=alpha.use)
+red.use <- rgb(241/255,182/255,218/255,alpha=alpha.use)
+amber.use <- rgb(255/255,255/255,191/255,alpha=alpha.use)
 
 
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
@@ -12,42 +14,64 @@ cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
 
 retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details_SkeenaMODS.csv")  
 
-plot.specs <- read_csv("DATA_LOOKUP_FILES/TimelinePlot_Specs.csv") 
+
+# List of plots with specs
+plot.specs <- read_csv("DATA_LOOKUP_FILES/TimelinePlot_Specs.csv") %>%
+                left_join(cu.info %>% select(CU_Name,CU_ID,CU_Acro), by="CU_Name")
 plot.specs
 #view(plot.specs)
 
-alpha.use <- 1
-green.use <- rgb(184/255,225/255,134/255,alpha=alpha.use)
-red.use <- rgb(241/255,182/255,218/255,alpha=alpha.use)
-amber.use <- rgb(255/255,255/255,191/255,alpha=alpha.use)
+# Create required target folders
+target.folders <- unique(plot.specs$TargetFolder)
+target.folders
 
 
+for(folder.do in target.folders) { 
+  
+if(!dir.exists(folder.do)){dir.create(folder.do) }
 
-plot.list <- unique(plot.specs$Plot)
+
+plot.list <- unique(plot.specs %>% dplyr::filter(TargetFolder==folder.do) %>% select(Plot) %>% unlist() )
 plot.list
 
 
 for(plot.do in plot.list){
+  
+plot.do
 
-specs.do <- plot.specs %>% dplyr::filter(Plot == plot.do) %>%
+#if(plot.do == "Skeena Sockeye") {stop()}
+  
+specs.do <- plot.specs %>% dplyr::filter(Plot == plot.do, TargetFolder ==  folder.do) %>%
               mutate(CU_ID = gsub("_","-",CU_ID)) %>%
               mutate(CU_Label = paste0(CU_Acro," (",CU_ID,")"))	 
 specs.do
 specs.do$CU_ID
 
 
-grp.labels <- specs.do %>% select(GroupIndex,Group) %>% unique()
-grp.labels
+# do groups if there are no NA in GroupIndex column
 
-retro.yrs <- 1995:2025
+groups.do <- sum(is.na(specs.do$GroupIndex)) ==0 
+groups.do
 
-unk.end <- 2022
+if(groups.do){
+  grp.labels <- specs.do %>% select(GroupIndex,Group) %>% unique()
+  grp.labels }
+if(!groups.do){
+  grp.labels <- NULL # just in case it lingers from previous plot
+  }
+
+
+
+retro.yrs <- seq(min(specs.do$PlotYrsStart),max(specs.do$PlotYrsEnd))
+retro.yrs
+
+unk.end <- max(specs.do$PlotYrsUnkEnd)
+unk.end
 
 #########################################
 
 
-
-png(filename = paste0("OUTPUT/TimelinePlots/TimelinePlot_",plot.do,".png"),
+png(filename = paste0(folder.do,"/TimelinePlot_",plot.do,".png"),
     width = 480*4, height = 480*5, units = "px", pointsize = 14*3.1, bg = "white",  res = NA)
 par(mai=c(0.3,6,3,1))
 
@@ -67,7 +91,7 @@ text(rep(par("usr")[1],length(specs.do$CUIndex)),
      adj = c(1),xpd=NA,cex = 0.9)
 
 # only add these labels if have more than one group
-if(length(unique(specs.do$GroupIndex))>1){
+if(groups.do & length(unique(specs.do$GroupIndex))>1){
 text(rep(retro.yrs[1]-4,length(grp.labels$GroupIndex)),
      -grp.labels$GroupIndex, grp.labels$Group,
      adj = 0,xpd=NA,cex = 0.9,font=2,col="darkblue")
@@ -76,7 +100,7 @@ text(rep(retro.yrs[1]-4,length(grp.labels$GroupIndex)),
 
 for(cu.plot in specs.do$CU_ID){
 print(cu.plot)
-
+#stop()
 #if(cu.plot == "CK-33"){stop()}
   
 specs.sub <- specs.do %>% dplyr::filter(CU_ID == cu.plot) 
@@ -185,7 +209,7 @@ dev.off()
 
 } # end looping through plots
 
-
+} # end looping through target folders
 
 
 

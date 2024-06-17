@@ -156,7 +156,12 @@ for(cu.plot in cu.list){
     data.type <- cu.info.sub$DataQualkIdx
     data.type
 
-        png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_",gsub(" ","",cu.info.sub$Group),"_",cu.info.sub$CU_Acro,"_",cu.info.sub$CU_ID,".png"),
+cu.label  <- gsub("/","",cu.info.sub$CU_Acro)
+cu.label
+    
+png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_",
+                      gsub(" ","",cu.info.sub$Group),"_",
+                      cu.label,"_",cu.info.sub$CU_ID,".png"),
             width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
 
         layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
