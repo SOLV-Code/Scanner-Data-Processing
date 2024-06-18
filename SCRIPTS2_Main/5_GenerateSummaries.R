@@ -57,7 +57,7 @@ retro.yrs <- 1995:2022
 retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
+metrics.details <- read.csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
   #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
   #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
@@ -74,20 +74,22 @@ head(data.raw)
 
 sort(unique(data.raw$Group))
 
+# Remove use of retrospective_values file since this info is all in the retro synoptic details file, which will be filtered
+# based on data usage in script 4.
 
 # CU_IDs in this file are still incorrect and match those in the lookup file
-retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
-  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-names(retro.values)
-sort(unique(retro.values$Group))
+#retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
+#  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
+#names(retro.values)
+#sort(unique(retro.values$Group))
 
-retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
-  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
+#retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
+#  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
 
 
 
-head(retro.status)
-head(retro.values)
+#head(retro.status)
+#head(retro.values)
 
 
 
@@ -128,8 +130,8 @@ for(cu.plot in cu.list){
   data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.plot)
   head(data.sub )
 
-  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
-  head(retro.values.sub )
+#  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
+#  head(retro.values.sub )
 
 
   retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.alt.id)
@@ -138,7 +140,7 @@ for(cu.plot in cu.list){
 
   main.yrs.plot <- c(1960,2025)
 
-  retro.yrs.plot <- range(retro.values$Year,2025)
+  retro.yrs.plot <- range(retro.summary.tbl$Year,2025) # changed to retro synoptic file June 18 2024
   retro.yrs.plot
 
 
@@ -353,11 +355,11 @@ for(cu.plot in cu.list){
       ###########################################################
 
 
-      ylim.use <- range(0,2,retro.values.sub$LongTrend/100,na.rm=TRUE)
+      ylim.use <- range(0,2,retro.summary.sub$LongTrend/100,na.rm=TRUE)
 
       par(mai=mai.vals)
 
-      plot(retro.values.sub$Year,retro.values.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, bty="n",
+      plot(retro.summary.sub$Year,retro.summary.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, bty="n",
            xlim = retro.yrs.plot, cex=1.3, ylim = ylim.use,
            xlab = "Year", ylab = "Ratio(Current/Long-term)",type="o",axes = FALSE,cex.lab=1.4
       )
@@ -393,7 +395,7 @@ for(cu.plot in cu.list){
       abline(h=1,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],1,"Same",cex=1.4,font=1,adj=c(1,0),xpd=NA)
       abline(h=2,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],2,"Double",cex=1.4,font=1,adj=c(1,0),xpd=NA)
 
-      lines(retro.values.sub$Year,retro.values.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
+      lines(retro.summary.sub$Year,retro.summary.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
 
 
 
@@ -405,11 +407,11 @@ for(cu.plot in cu.list){
 
 
 
-      ylim.use <- range(-55,50,retro.values.sub$PercChange,na.rm=TRUE)
+      ylim.use <- range(-55,50,retro.summary.sub$PercChange,na.rm=TRUE)
 
       par(mai=mai.vals)
 
-      plot(retro.values.sub$Year,retro.values.sub$PercChange,col="darkblue",pch=19, lwd=3, bty="n",
+      plot(retro.summary.sub$Year,retro.summary.sub$PercChange,col="darkblue",pch=19, lwd=3, bty="n",
            xlim = retro.yrs.plot, cex=1.3, ylim = ylim.use,
            xlab = "Year", ylab = "% Change - 3 Gen",type="o",axes = FALSE,cex.lab=1.4)
 
@@ -445,7 +447,7 @@ for(cu.plot in cu.list){
       if(par("usr")[3] < -50){abline(h=-50,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],-50,"Half",cex=1.4,font=1,adj=c(1,0,xpd=NA))}
 
 
-      lines(retro.values.sub$Year,retro.values.sub$PercChange,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
+      lines(retro.summary.sub$Year,retro.summary.sub$PercChange,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
 
 
 
