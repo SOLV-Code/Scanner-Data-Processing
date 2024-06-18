@@ -39,46 +39,46 @@ Interior Fraser Coho,2.5,Coho,CO_03,Lower Thompson,Lthom
 Interior Fraser Coho,4,Coho,CO_04,North Thompson,NTh
 Interior Fraser Coho,5.5,Coho,CO_05,South Thompson,STh
 Fraser Pink,-0.5,Pink,PKO_01,Fraser Pink,Fraser
-Nass Sockeye,-0.5,Sockeye,SkeenaNass_1,Lower Nass Sea & River Type,LNassSRT
-Nass Sockeye,1,Sockeye,SkeenaNass_2,Meziadin,Meziadin
-Nass Sockeye,2.5,Sockeye,SkeenaNass_3,Bowser,Bowser
-Nass Sockeye,4,Sockeye,SkeenaNass_4,Oweegee,Oweege
-Nass Sockeye,5.5,Sockeye,SkeenaNass_5,Kwinageese,Kwinag
-Nass Sockeye,7,Sockeye,SkeenaNass_5b,Fred Wright,FredWr
-Nass Sockeye,8.5,Sockeye,SkeenaNass_6,Damdochax,Damdoch
-Nass Sockeye,10,Sockeye,SkeenaNass_7,Upper Nass River Type,UNassRT
-Skeena Sockeye,-0.5,Sockeye,SkeenaNass_8,Johnston,Johnston
-Skeena Sockeye,1,Sockeye,SkeenaNass_9,Ecstall,Ecstall
-Skeena Sockeye,2.5,Sockeye,SkeenaNass_10,Alastair,Alastair
-Skeena Sockeye,4,Sockeye,SkeenaNass_11,Lakelse,Lakelse
-Skeena Sockeye,5.5,Sockeye,SkeenaNass_12,Kitsumkalum,Kitsumk
-Skeena Sockeye,7,Sockeye,SkeenaNass_13,Mcdonell,Mcdonell
-Skeena Sockeye,8.5,Sockeye,SkeenaNass_13b,Aldrich,Aldrich
-Skeena Sockeye,10,Sockeye,SkeenaNass_13c,Dennis,Dennis
-Skeena Sockeye,11.5,Sockeye,SkeenaNass_14,Kitwanga,Kitwanga
-Skeena Sockeye,13,Sockeye,SkeenaNass_15,Bulkley,Bulkley
-Skeena Sockeye,14.5,Sockeye,SkeenaNass_15b,Maxan,Maxan
-Skeena Sockeye,16,Sockeye,SkeenaNass_16,Morice,Morice
-Skeena Sockeye,17.5,Sockeye,SkeenaNass_16b,Atna,Atna
-Skeena Sockeye,19,Sockeye,SkeenaNass-17,Stephens,Steph
-Skeena Sockeye,20.5,Sockeye,SkeenaNass_17b,Swan,Swan
-Skeena Sockeye,22,Sockeye,SkeenaNass_17c,Club,Club
-Skeena Sockeye,23.5,Sockeye,SkeenaNass_18,Babine Early Wild,Bab-EW
-Skeena Sockeye,25,Sockeye,SkeenaNass_20,Babine Mid Wild,Bab-MW
-Skeena Sockeye,26.5,Sockeye,SkeenaNass_19,Babine Late Wild,Bab-LW
-Skeena Sockeye,28,Sockeye,SkeenaNass_23,Sicintine,Sicintine
-Skeena Sockeye,29.5,Sockeye,SkeenaNass_24,Slamgeesh,Slamg
-Skeena Sockeye,31,Sockeye,SkeenaNass_24b,Damshilgwit,Damshil
-Skeena Sockeye,32.5,Sockeye,SkeenaNass_25,Motase,Motase
-Skeena Sockeye,34,Sockeye,SkeenaNass_26,Bear,Bear
-Skeena Sockeye,35.5,Sockeye,SkeenaNass-26b,Azuklotz,Azukl
-Skeena Sockeye,37,Sockeye,SkeenaNass_27,Asitka,Asitka
-Skeena Sockeye,38.5,Sockeye,SkeenaNass_28,Sustut,Sustut
-Skeena Sockeye,40,Sockeye,SkeenaNass-28b,Johansen,Johan
-Skeena Sockeye,41.5,Sockeye,SkeenaNass-28c,Spawning Lake,Spawning
-Skeena Sockeye,43,Sockeye,SkeenaNass_29,Kluantantan,Kluant
-Skeena Sockeye,44.5,Sockeye,SkeenaNass_30,Kluayaz,Kluayaz
-Skeena Sockeye,46,Sockeye,SkeenaNass_31,Skeena River Type,Skeena RT
+Nass Sockeye,-0.5,Sockeye,SER-20,Lower Nass Sea & River Type,LNassSRT
+Nass Sockeye,1,Sockeye,SEL-24-05,Meziadin,Meziadin
+Nass Sockeye,2.5,Sockeye,SEL-24-01,Bowser,Bowser
+Nass Sockeye,4,Sockeye,SEL-24-06,Oweegee,Oweege
+Nass Sockeye,5.5,Sockeye,SEL-24-04,Kwinageese,Kwinag
+Nass Sockeye,7,Sockeye,SEL-24-03,Fred Wright,FredWr
+Nass Sockeye,8.5,Sockeye,SEL-24-02,Damdochax/Wiminasik,Damdoch
+Nass Sockeye,10,Sockeye,SER-21,Upper Nass River Type,UNassRT
+Skeena Sockeye,-0.5,Sockeye,SEL-20-05,Johnston,Johnston
+Skeena Sockeye,1,Sockeye,SEL-20-04,Ecstall,Ecstall
+Skeena Sockeye,2.5,Sockeye,SEL-20-01,Alastair,Alastair
+Skeena Sockeye,4,Sockeye,SEL-20-07,Lakelse,Lakelse
+Skeena Sockeye,5.5,Sockeye,SEL-20-06,Kitsumkalum,Kitsumk
+Skeena Sockeye,7,Sockeye,SEL-20-08,Mcdonell,Mcdonell
+Skeena Sockeye,8.5,Sockeye,SEL-20-02,Aldrich,Aldrich
+Skeena Sockeye,10,Sockeye,SEL-20-03,Dennis,Dennis
+Skeena Sockeye,11.5,Sockeye,SEL-21-05,Kitwanga,Kitwanga
+Skeena Sockeye,13,Sockeye,SEL-21-03,Upper Bulkley Lakes,Bulkley
+Skeena Sockeye,14.5,Sockeye,SEL-21-06,Maxan,Maxan
+Skeena Sockeye,16,Sockeye,SEL-21-07,Morice,Morice
+Skeena Sockeye,17.5,Sockeye,SEL-21-01,Atna,Atna
+Skeena Sockeye,19,Sockeye,SEL-21-09,Stephens,Steph
+Skeena Sockeye,20.5,Sockeye,SEL-21-10,Swan,Swan
+Skeena Sockeye,22,Sockeye,SEL-21-10-1,Club,Club
+Skeena Sockeye,23.5,Sockeye,SEL-21-2-1,Babine Early Wild,Bab-EW
+Skeena Sockeye,25,Sockeye,SEL-21-2-2,Babine Mid Wild,Bab-MW
+Skeena Sockeye,26.5,Sockeye,SEL-21-2-3,Babine Late Wild,Bab-LW
+Skeena Sockeye,28,Sockeye,SEL-22-09,Sicintine,Sicintine
+Skeena Sockeye,29.5,Sockeye,SEL-22-10,Slamgeesh,Slamg
+Skeena Sockeye,31,Sockeye,SEL-22-04,Damshilgwit,Damshil
+Skeena Sockeye,32.5,Sockeye,SEL-22-08,Motase,Motase
+Skeena Sockeye,34,Sockeye,SEL-22-03,Bear,Bear
+Skeena Sockeye,35.5,Sockeye,SEL-22-02,Azuklotz,Azukl
+Skeena Sockeye,37,Sockeye,SEL-22-01,Asitka,Asitka
+Skeena Sockeye,38.5,Sockeye,SEL-22-12,Sustut,Sustut
+Skeena Sockeye,40,Sockeye,SEL-22-05,Johansen,Johan
+Skeena Sockeye,41.5,Sockeye,SEL-22-11,Spawning,Spawning
+Skeena Sockeye,43,Sockeye,SEL-22-06,Kluantantan,Kluant
+Skeena Sockeye,44.5,Sockeye,SEL-22-07,Kluayaz,Kluayaz
+Skeena Sockeye,46,Sockeye,SER-18,Skeena River Type,Skeena RT
 Fraser Sockeye - Early Stuart,-0.5,Sockeye,CU_18,Takla Trembleur-Early Stuart,Estu
 Fraser Sockeye - Early Summer,-0.5,Sockeye,CU_1,Bowron-ES,ES_Bowr
 Fraser Sockeye - Early Summer,1,Sockeye,CU_14,Nahatlatch-ES,ES_Naha
