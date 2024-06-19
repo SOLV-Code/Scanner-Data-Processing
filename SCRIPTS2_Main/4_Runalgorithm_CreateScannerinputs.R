@@ -79,6 +79,9 @@ retro.summary.tbl <- retro.lt3$data %>%
                                                                  PercentileCat = Percentile, RelLBMCat = RelLBM, RelUBMCat = RelUBM,
                                                                  AbsLBMCat = AbsLBM, AbsUBMCat = AbsUBM   )      , 
                                                           by = c("CU_ID","Species","Stock","DataType","Year")) %>%
+                              left_join(metrics.long %>% filter(Metric == "RelLBM") %>% 
+                                                         select(CU_ID, Stock, Year, RelAbd_LBM=LBM, RelAbd_UBM=UBM),
+                                                         by = c("CU_ID","Stock","Year")) %>%
                               left_join( as.data.frame(publ.int.status),by=c("CU_ID","Year")) %>%
                               arrange(Species,Stock,Year) %>%
                               left_join(cu.data.group  %>%   
@@ -89,6 +92,7 @@ retro.summary.tbl <- retro.lt3$data %>%
                                                       dplyr::filter(Algorithm == "SotS3") %>% 
                                                       select(BinLabel, ConfidenceRating5, ConfidenceRating3, ConfidenceRating2),
                                                       by = "BinLabel")
+                                
 
 
 
