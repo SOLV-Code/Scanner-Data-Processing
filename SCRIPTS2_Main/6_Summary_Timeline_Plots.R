@@ -12,7 +12,7 @@ amber.use <- rgb(255/255,255/255,191/255,alpha=alpha.use)
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details_SkeenaMODS.csv")  
+retro.summary.tbl <- read_csv("OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details_SkeenaMODS.csv")  
 
 
 # List of plots with specs

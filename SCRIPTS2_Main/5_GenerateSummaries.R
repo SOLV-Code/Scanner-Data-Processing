@@ -16,9 +16,7 @@
 library(tidyverse)
 library(plotrix)
 
-if(!dir.exists("OUTPUT")){dir.create("OUTPUT")}
-
-if(!dir.exists("OUTPUT/MetricsAndStatus")){dir.create("OUTPUT/MetricsAndStatus")}
+if(!dir.exists("OUTPUT/DASHBOARDS/MetricsandStatus")){dir.create("OUTPUT/DASHBOARDS/MetricsandStatus")}
 
 
 #############################################################
@@ -54,10 +52,10 @@ retro.yrs <- 1995:2022
 ###########################################################
 
 
-retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
+retro.summary.tbl <- read_csv("OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-metrics.details <- read.csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
+metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
   #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
   #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
@@ -66,7 +64,7 @@ metrics.details <- read.csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
+data.raw <- read.csv("OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
   #mutate(CU_ID = gsub("_","-",CU_ID)) %>%
   dplyr::filter(!is.na(CU_Name)) %>%
   left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
@@ -108,7 +106,15 @@ cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
 cu.list
 
 
+# Create directory for output data stages
+data.stages <- cu.info %>% filter(CU_ID_Alt2_CULookup %in% cu.list) %>%
+                           select(Data_Stage) %>% unique() %>% unlist()
 
+for (stage in data.stages){ 
+      if(!dir.exists(paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",stage))){dir.create(paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",stage)) }   
+}                                 
+                                                            
+                                                            
 
 for(cu.plot in cu.list){
   #for(cu.plot in "CK-10"){
@@ -161,7 +167,7 @@ for(cu.plot in cu.list){
   cu.label  <- gsub("/","",cu.info.sub$CU_Acro)
   cu.label
       
-  png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_",
+  png(filename = paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/",
                         gsub(" ","",cu.info.sub$Group),"_",
                       cu.label,"_",cu.info.sub$CU_ID,".png"),
             width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)

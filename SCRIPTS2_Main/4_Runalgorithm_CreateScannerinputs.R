@@ -15,8 +15,12 @@
 # Added in bits from GPs Script #5 to run the algorithm and create the main output file with algo results (Retro_Synoptic_Details.csv)
 
 
-
 library(tidyverse)
+
+
+if(!dir.exists("OUTPUT/DATA_OUT/3_ALL")){dir.create("OUTPUT/DATA_OUT/3_ALL")}
+
+
 
 if(exists("retro.lt3")){rm(retro.lt3)}
 source("CODE/synopticFunction_Source.R")   
@@ -37,9 +41,9 @@ cu.data.group <- cu.data %>%
 pop.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_POP_SUB.csv")
 
 # Retrospective metrics
-retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
+retro.values <- read.csv("DATA_PROCESSING/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
                 left_join(cu.lookup %>% select("CU_ID",Group), by="CU_ID" )
-retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
+retro.status <- read.csv("DATA_PROCESSING/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
                  left_join(cu.lookup %>% select("CU_ID",Group), by="CU_ID" )
 metrics.long <- read.csv("DATA_PROCESSING/Metrics_Longform_SUB.csv")
 
@@ -92,7 +96,7 @@ retro.summary.tbl$IntStatus5 <- retro.summary.tbl$IntStatusRaw
 retro.summary.tbl$IntStatus3 <- dplyr::recode(retro.summary.tbl$IntStatusRaw,"RedAmber" = "Red","AmberGreen" = "Amber")
 retro.summary.tbl$IntStatus2 <- dplyr::recode(retro.summary.tbl$IntStatus3, "Amber" = "NotRed","Green" = "NotRed")
 
-write.csv(retro.summary.tbl, "DATA_OUT/Retro_Synoptic_Details.csv", row.names = FALSE)   
+write.csv(retro.summary.tbl, "OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details.csv", row.names = FALSE)   
 
 
 
@@ -269,7 +273,7 @@ retro.summary.tbl.mod <- bind_rows(retro.summary.tbl.mod,johan.df)
 
 
 
-write.csv(retro.summary.tbl.mod, "DATA_OUT/Retro_Synoptic_Details_SkeenaMODS.csv", row.names = FALSE)   
+write.csv(retro.summary.tbl.mod, "OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details_SkeenaMODS.csv", row.names = FALSE)   
 
 
 
@@ -386,7 +390,7 @@ metrics.out <- metrics.dummy %>% select(-Label) %>%
 #                                  rbind(metrics.scanner)
 # #setwd("../")
 #write.csv(metrics.out, "build_PStat_data/data/METRICS_FILE_BY_CU_forPSST.csv")
-write.csv(metrics.out, "DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv")
+write.csv(metrics.out, "OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv")
 
 
 
@@ -420,7 +424,7 @@ cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild, Abd_Star
                         filter(!CU_ID=="")
 
 
-write.csv(cu.clean, "DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv")
+write.csv(cu.clean, "OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv")
 # REmove the "wild" from FR CM
 
 
@@ -446,7 +450,7 @@ pop.clean <- pop.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
 
 
 
-write.csv(pop.clean, "DATA_OUT/MERGED_FLAT_FILE_BY_POP_SCANNER.csv")
+write.csv(pop.clean, "OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_POP_SCANNER.csv")
 
 
 
