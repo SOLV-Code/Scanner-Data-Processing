@@ -52,7 +52,7 @@ retro.yrs <- 1995:2022
 ###########################################################
 
 
-retro.summary.tbl <- read_csv("OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details.csv")
+retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
 # metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
@@ -106,7 +106,7 @@ sort(unique(data.raw$Group))
 cu.list <-  cu.info %>%
                   # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
                   #select(CU_ID)
-                  filter(CU_ID %in% unique(data.raw$CU_ID)) %>%
+                  filter(CU_ID %in% unique(retro.summary.tbl$CU_ID)) %>%
                   select(CU_ID_Alt2_CULookup) %>% unlist() %>% sort() %>% unique()
 
 #cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))

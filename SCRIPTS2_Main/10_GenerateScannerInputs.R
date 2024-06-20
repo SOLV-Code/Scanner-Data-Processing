@@ -17,7 +17,7 @@ cu.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors 
 pop.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_POP_SUB.csv")
 
 # Retrospective metrics
-retro.summary.tbl <- read_csv("OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details.csv")
+retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv")
 metrics.long <- read.csv("DATA_PROCESSING/Metrics_Longform_SUB.csv")
 
 # Full metrics dummy file with all CUS (should be empty)
@@ -131,7 +131,7 @@ write.csv(metrics.out, "OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv")
 # Remove the Trends data for all CUs - no longer needed and was only different for FR SK
 # Added Oct 25 2021 to add Rel Abd metric values to time series
 
-cu.lookup$CU_ID <- gsub("-","_", cu.lookup$CU_ID)
+#cu.lookup$CU_ID <- gsub("-","_", cu.lookup$CU_ID)
 relabd.metric <- metrics.scanner %>% filter(Metric=="RelLBM")
 
 # Attaching the Alternate CU_IDs from the lookup file so this match NuSEDs. This needs to be done using two different columns for matching
@@ -141,12 +141,14 @@ cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild, Abd_Star
                          rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%
                           # Added Oct 25 2021 to have the timeseries used for assessing relative abundance metrics as an option for plotting in the Scanner
                          left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
-                         left_join(cu.lookup %>% select(CU_ID=CU_ID_Report, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%  # Use CU_ID_Report to match to the CU_ID in CU data file where this differs from the CU_ID in the lookup file
-                         mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%   # coalesce will take items from the first vector unless they are missing, in which case it will take items from the second vector
+                         #left_join(cu.lookup %>% select(CU_ID=CU_ID_Report, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%  # Use CU_ID_Report to match to the CU_ID in CU data file where this differs from the CU_ID in the lookup file
+                         #mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%   # coalesce will take items from the first vector unless they are missing, in which case it will take items from the second vector
+                         mutate(CU_ID=CU_ID_Alt2_CULookup) %>%                       
                          left_join(select(relabd.metric, CU_ID, Year, Compare), by=c("CU_ID","Year")) %>%
                          rename(RelAbd_metric_ts=Compare)%>%
                          relocate(c(CU_ID, DU_ID, CU_Name), .after=Species) %>%
-                         select(-c(CU_ID_Report, CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
+                         #select(-c(CU_ID_Report, CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
+                         select(-c(CU_ID_Alt2_CULookup))%>%                       
                          filter(!CU_ID=="")
 
 
