@@ -55,7 +55,7 @@ retro.yrs <- 1995:2022
 retro.summary.tbl <- read_csv("OUTPUT/DATA_OUT/3_ALL/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
+# metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
   #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
   #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
@@ -64,10 +64,16 @@ metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.cs
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-data.raw <- read.csv("OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
-  #mutate(CU_ID = gsub("_","-",CU_ID)) %>%
-  dplyr::filter(!is.na(CU_Name)) %>%
-  left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
+# data.raw <- read.csv("OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
+#   #mutate(CU_ID = gsub("_","-",CU_ID)) %>%
+#   dplyr::filter(!is.na(CU_Name)) %>%
+#   left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
+# head(data.raw)
+
+data.raw <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE) %>%
+            mutate(CU_ID = gsub("_","-",CU_ID)) %>% 
+            dplyr::filter(!is.na(CU_Name)) %>%
+            left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
 head(data.raw)
 
 sort(unique(data.raw$Group))
@@ -98,12 +104,13 @@ sort(unique(data.raw$Group))
 
 
 cu.list <-  cu.info %>%
-  # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
-  #select(CU_ID)
-  select(CU_ID_Alt2_CULookup)
+                  # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
+                  #select(CU_ID)
+                  filter(CU_ID %in% unique(data.raw$CU_ID)) %>%
+                  select(CU_ID_Alt2_CULookup) %>% unlist() %>% sort() %>% unique()
 
-cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
-cu.list
+#cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
+#cu.list
 
 
 # Create directory for output data stages
@@ -133,7 +140,7 @@ for(cu.plot in cu.list){
   cyclic.check <- cu.info.sub$Cyclic
 
 
-  data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.plot)
+  data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.alt.id)
   head(data.sub )
 
 #  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
@@ -142,7 +149,7 @@ for(cu.plot in cu.list){
 
   retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.alt.id)
 
-  metrics.details.sub <- metrics.details %>% dplyr::filter(CU_ID == cu.plot)
+#  metrics.details.sub <- metrics.details %>% dplyr::filter(CU_ID == cu.plot)
 
   main.yrs.plot <- c(1960,2025)
 
@@ -151,13 +158,13 @@ for(cu.plot in cu.list){
 
 
   # Add quick fix for Chum data which is total not wild
-  if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$Escapement_Total
+  if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$SpnForAbd_Total
 
   ###
 
   #START PLOT
 
-  if(sum(!is.na(data.sub$Escapement_Wild))>0){
+  if(sum(!is.na(data.sub$SpnForAbd_Wild))>0){
 
 
 
@@ -185,7 +192,7 @@ for(cu.plot in cu.list){
       #plot(1:5,1:5,main="Main retrospective time series plot")
 
 
-      cu.abd <- data.sub %>% select(Year,Escapement_Wild)
+      cu.abd <- data.sub %>% select(Year,Escapement_Wild=SpnForAbd_Wild)
 
       yrs.idx <- cu.abd$Year >= main.yrs.plot[1] & cu.abd$Year <= main.yrs.plot[2]
 
@@ -202,8 +209,8 @@ for(cu.plot in cu.list){
       gm.out <- exp(stats::filter(gm.in,rep(1/cu.avggen,times =cu.avggen),sides = 1))
       gm.out
 
-      lbm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelLBM") %>% select(LBM))
-      ubm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelUBM") %>% select(UBM))
+      lbm.plot <- unique(retro.summary.sub %>% dplyr::select(RelAbd_LBM))
+      ubm.plot <- unique(retro.summary.sub %>% dplyr::select(RelAbd_UBM))
       lbm.plot
       ubm.plot
       

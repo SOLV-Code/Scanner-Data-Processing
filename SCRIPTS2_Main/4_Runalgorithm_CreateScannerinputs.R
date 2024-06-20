@@ -85,7 +85,7 @@ retro.summary.tbl <- retro.lt3$data %>%
                               left_join( as.data.frame(publ.int.status),by=c("CU_ID","Year")) %>%
                               arrange(Species,Stock,Year) %>%
                               left_join(cu.data.group  %>%   
-                                                 select(CU_ID,Year,SpnForAbd_Wild, SpnForTrend_Wild),
+                                                 select(CU_ID,Year,SpnForAbd_Wild, SpnForTrend_Wild, SpnForAbd_Total, SpnForTrend_Total),
                                                  by= c("CU_ID","Year")   ) %>%
                               select(CU_ID,Species,Stock,	DataType,Year,SpnForAbd_Wild, SpnForTrend_Wild, everything()) %>%
                               left_join(qual.score.tab %>% 
