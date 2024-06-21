@@ -173,11 +173,14 @@ for(cu.plot in cu.list){
 
   cu.label  <- gsub("/","",cu.info.sub$CU_Acro)
   cu.label
-      
-  png(filename = paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/",
-                        gsub(" ","",cu.info.sub$Group),"_",
-                      cu.label,"_",cu.info.sub$CU_ID,".png"),
-            width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
+  
+  filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/", gsub(" ","",cu.info.sub$Group),"_",
+                     cu.label,"_",cu.info.sub$CU_ID_Alt2_CULookup,".png")
+             
+              if(cu.plot=="SEL-06-03/SEL-06-02") filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/",
+                                                             gsub(" ","",cu.info.sub$Group),"_", cu.label,"SEL-06-03_02_.png")
+  
+        png(filename=filename, width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
 
         graphics::layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
         #layout.show(6)

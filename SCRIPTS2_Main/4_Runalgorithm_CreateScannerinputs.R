@@ -94,6 +94,7 @@ retro.summary.tbl$IntStatus5 <- retro.summary.tbl$IntStatusRaw
 retro.summary.tbl$IntStatus3 <- dplyr::recode(retro.summary.tbl$IntStatusRaw,"RedAmber" = "Red","AmberGreen" = "Amber")
 retro.summary.tbl$IntStatus2 <- dplyr::recode(retro.summary.tbl$IntStatus3, "Amber" = "NotRed","Green" = "NotRed")
 
+if(!dir.exists("OUTPUT/DASHBOARDS")){dir.create("OUTPUT/DASHBOARDS")}
 write.csv(retro.summary.tbl, "OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv", row.names = FALSE)   
 
 
