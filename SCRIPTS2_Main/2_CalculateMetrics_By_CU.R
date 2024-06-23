@@ -383,7 +383,7 @@ write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/METRICS_FILE_BY_CU_PRE_CLEAN.c
 
 # GP New 2024-05-28: Extract Gen Avg  so can merge back in later (get deleted below of AbsAbd/RelAbd metrics are turned off)
 gen.avg.used.df <- metrics.cu.out.cleaned %>% dplyr::filter(Metric == "RelAbd") %>% select(CU_ID, Year,Value)
-write.csv(gen.avg.used.df,"DATA_OUT/GenerationalAvg_Values.csv",row.names=FALSE)
+write.csv(gen.avg.used.df,"DATA_PROCESSING/GenerationalAvg_Values.csv",row.names=FALSE)
 
 
 

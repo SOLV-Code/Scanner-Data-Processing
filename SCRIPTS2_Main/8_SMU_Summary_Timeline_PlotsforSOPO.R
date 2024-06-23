@@ -8,7 +8,7 @@ if(!dir.exists("OUTPUT/SMU_TimelinePlotsforSOPO")){dir.create("OUTPUT/SMU_Timeli
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")  
+retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv")  
 
 plot.specs <- read_csv("DATA_LOOKUP_FILES/SMU_TimelinePlot_SpecsforSOPO.csv") 
 plot.specs
