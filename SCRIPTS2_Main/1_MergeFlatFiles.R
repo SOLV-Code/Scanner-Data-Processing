@@ -82,7 +82,6 @@ head(flat.merged.cu)
 
 
 sort(unique(flat.merged.cu$CU_Name))
-sum(flat.merged.cu$CU_Name=="Osoyoos-L",na.rm=TRUE)
 
 
 
