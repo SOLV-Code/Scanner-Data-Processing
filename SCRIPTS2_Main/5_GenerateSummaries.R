@@ -16,9 +16,7 @@
 library(tidyverse)
 library(plotrix)
 
-if(!dir.exists("OUTPUT")){dir.create("OUTPUT")}
-
-if(!dir.exists("OUTPUT/MetricsAndStatus")){dir.create("OUTPUT/MetricsAndStatus")}
+if(!dir.exists("OUTPUT/DASHBOARDS/MetricsandStatus")){dir.create("OUTPUT/DASHBOARDS/MetricsandStatus")}
 
 
 #############################################################
@@ -54,10 +52,10 @@ retro.yrs <- 1995:2022
 ###########################################################
 
 
-retro.summary.tbl <- read_csv("DATA_OUT/Retro_Synoptic_Details.csv")
+retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv")
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
+# metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
   #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
   #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
@@ -66,28 +64,36 @@ metrics.details <- read_csv("DATA_OUT/METRICS_FILE_BY_CU_SCANNER.csv") #%>%
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-data.raw <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
-  #mutate(CU_ID = gsub("_","-",CU_ID)) %>%
-  dplyr::filter(!is.na(CU_Name)) %>%
-  left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
+# data.raw <- read.csv("OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
+#   #mutate(CU_ID = gsub("_","-",CU_ID)) %>%
+#   dplyr::filter(!is.na(CU_Name)) %>%
+#   left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
+# head(data.raw)
+
+data.raw <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE) %>%
+            mutate(CU_ID = gsub("_","-",CU_ID)) %>% 
+            dplyr::filter(!is.na(CU_Name)) %>%
+            left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
 head(data.raw)
 
 sort(unique(data.raw$Group))
 
+# Remove use of retrospective_values file since this info is all in the retro synoptic details file, which will be filtered
+# based on data usage in script 4.
 
 # CU_IDs in this file are still incorrect and match those in the lookup file
-retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
-  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-names(retro.values)
-sort(unique(retro.values$Group))
+#retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
+#  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
+#names(retro.values)
+#sort(unique(retro.values$Group))
 
-retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
-  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
+#retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
+#  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
 
 
 
-head(retro.status)
-head(retro.values)
+#head(retro.status)
+#head(retro.values)
 
 
 
@@ -98,15 +104,24 @@ head(retro.values)
 
 
 cu.list <-  cu.info %>%
-  # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
-  #select(CU_ID)
-  select(CU_ID_Alt2_CULookup)
+                  # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
+                  #select(CU_ID)
+                  filter(CU_ID %in% unique(retro.summary.tbl$CU_ID)) %>%
+                  select(CU_ID_Alt2_CULookup) %>% unlist() %>% sort() %>% unique()
 
-cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
-cu.list
+#cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
+#cu.list
 
 
+# Create directory for output data stages
+data.stages <- cu.info %>% filter(CU_ID_Alt2_CULookup %in% cu.list) %>%
+                           select(Data_Stage) %>% unique() %>% unlist()
 
+for (stage in data.stages){ 
+      if(!dir.exists(paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",stage))){dir.create(paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",stage)) }   
+}                                 
+                                                            
+                                                            
 
 for(cu.plot in cu.list){
   #for(cu.plot in "CK-10"){
@@ -125,46 +140,49 @@ for(cu.plot in cu.list){
   cyclic.check <- cu.info.sub$Cyclic
 
 
-  data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.plot)
+  data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.alt.id)
   head(data.sub )
 
-  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
-  head(retro.values.sub )
+#  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
+#  head(retro.values.sub )
 
 
   retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.alt.id)
 
-  metrics.details.sub <- metrics.details %>% dplyr::filter(CU_ID == cu.plot)
+#  metrics.details.sub <- metrics.details %>% dplyr::filter(CU_ID == cu.plot)
 
   main.yrs.plot <- c(1960,2025)
 
-  retro.yrs.plot <- range(retro.values$Year,2025)
+  retro.yrs.plot <- range(retro.summary.tbl$Year,2025) # changed to retro synoptic file June 18 2024
   retro.yrs.plot
 
 
   # Add quick fix for Chum data which is total not wild
-  if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$Escapement_Total
+  if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$SpnForAbd_Total
 
   ###
 
   #START PLOT
 
-  if(sum(!is.na(data.sub$Escapement_Wild))>0){
+  if(sum(!is.na(data.sub$SpnForAbd_Wild))>0){
 
 
 
     data.type <- cu.info.sub$DataQualkIdx
     data.type
 
-cu.label  <- gsub("/","",cu.info.sub$CU_Acro)
-cu.label
-    
-png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_",
-                      gsub(" ","",cu.info.sub$Group),"_",
-                      cu.label,"_",cu.info.sub$CU_ID,".png"),
-            width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
+  cu.label  <- gsub("/","",cu.info.sub$CU_Acro)
+  cu.label
+  
+  filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/", gsub(" ","",cu.info.sub$Group),"_",
+                     cu.label,"_",cu.info.sub$CU_ID_Alt2_CULookup,".png")
+             
+              if(cu.plot=="SEL-06-03/SEL-06-02") filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/",
+                                                             gsub(" ","",cu.info.sub$Group),"_", cu.label,"SEL-06-03_02_.png")
+  
+        png(filename=filename, width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
 
-        layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
+        graphics::layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
         #layout.show(6)
         mai.vals <- c(1,2,2,2)
 
@@ -177,7 +195,7 @@ png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_
       #plot(1:5,1:5,main="Main retrospective time series plot")
 
 
-      cu.abd <- data.sub %>% select(Year,Escapement_Wild)
+      cu.abd <- data.sub %>% select(Year,Escapement_Wild=SpnForAbd_Wild)
 
       yrs.idx <- cu.abd$Year >= main.yrs.plot[1] & cu.abd$Year <= main.yrs.plot[2]
 
@@ -194,8 +212,8 @@ png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_
       gm.out <- exp(stats::filter(gm.in,rep(1/cu.avggen,times =cu.avggen),sides = 1))
       gm.out
 
-      lbm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelLBM") %>% select(LBM))
-      ubm.plot <- unique(metrics.details.sub %>% dplyr::filter(Metric == "RelUBM") %>% select(UBM))
+      lbm.plot <- unique(retro.summary.sub %>% dplyr::select(RelAbd_LBM))
+      ubm.plot <- unique(retro.summary.sub %>% dplyr::select(RelAbd_UBM))
       lbm.plot
       ubm.plot
       
@@ -353,11 +371,11 @@ png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_
       ###########################################################
 
 
-      ylim.use <- range(0,2,retro.values.sub$LongTrend/100,na.rm=TRUE)
+      ylim.use <- range(0,2,retro.summary.sub$LongTrend/100,na.rm=TRUE)
 
       par(mai=mai.vals)
 
-      plot(retro.values.sub$Year,retro.values.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, bty="n",
+      plot(retro.summary.sub$Year,retro.summary.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, bty="n",
            xlim = retro.yrs.plot, cex=1.3, ylim = ylim.use,
            xlab = "Year", ylab = "Ratio(Current/Long-term)",type="o",axes = FALSE,cex.lab=1.4
       )
@@ -393,7 +411,7 @@ png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_
       abline(h=1,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],1,"Same",cex=1.4,font=1,adj=c(1,0),xpd=NA)
       abline(h=2,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],2,"Double",cex=1.4,font=1,adj=c(1,0),xpd=NA)
 
-      lines(retro.values.sub$Year,retro.values.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
+      lines(retro.summary.sub$Year,retro.summary.sub$LongTrend/100,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
 
 
 
@@ -405,11 +423,11 @@ png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_
 
 
 
-      ylim.use <- range(-55,50,retro.values.sub$PercChange,na.rm=TRUE)
+      ylim.use <- range(-55,50,retro.summary.sub$PercChange,na.rm=TRUE)
 
       par(mai=mai.vals)
 
-      plot(retro.values.sub$Year,retro.values.sub$PercChange,col="darkblue",pch=19, lwd=3, bty="n",
+      plot(retro.summary.sub$Year,retro.summary.sub$PercChange,col="darkblue",pch=19, lwd=3, bty="n",
            xlim = retro.yrs.plot, cex=1.3, ylim = ylim.use,
            xlab = "Year", ylab = "% Change - 3 Gen",type="o",axes = FALSE,cex.lab=1.4)
 
@@ -445,7 +463,7 @@ png(filename = paste0("OUTPUT/MetricsAndStatus/Dashboard_",cu.info.sub$Region,"_
       if(par("usr")[3] < -50){abline(h=-50,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],-50,"Half",cex=1.4,font=1,adj=c(1,0,xpd=NA))}
 
 
-      lines(retro.values.sub$Year,retro.values.sub$PercChange,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
+      lines(retro.summary.sub$Year,retro.summary.sub$PercChange,col="darkblue",pch=19, lwd=3, cex=1.3, type="o")
 
 
 
