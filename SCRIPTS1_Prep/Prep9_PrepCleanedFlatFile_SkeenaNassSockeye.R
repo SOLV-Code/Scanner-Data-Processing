@@ -36,6 +36,15 @@ skeenanass.sk.clean <- skeenanass.sk.src %>%
 
 head(skeenanass.sk.clean)
 
+# filter out years that are before the CU-specific start year
+
+skeenanass.sk.clean <- skeenanass.sk.clean %>% left_join(cu.info.main %>% select(CU_ID,Trends_StartYr,Abd_StartYr), by="CU_ID") %>%
+                          rowwise() %>% mutate(FirstYrUse = min(Trends_StartYr,Abd_StartYr) ) %>%
+                          dplyr::filter(Year >= FirstYrUse)
+
+
+
+head(skeenanass.sk.clean)
 
 write.csv(skeenanass.sk.clean, "DATA_PROCESSING/Cleaned_FlatFile_ByCU_SkeenaNassSockeye.csv",row.names=FALSE)
 
