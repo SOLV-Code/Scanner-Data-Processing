@@ -52,7 +52,13 @@ retro.yrs <- 1995:2022
 ###########################################################
 
 
-retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv")
+retro.summary.tbl <- read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",paste(datastage, collapse=""),".csv"))
+# if(length(datastage)>1){
+#   retro.summary.tbl <-  read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[1],".csv"))
+#       for(i in 2:length(datastage)){
+#         retro.summary.tbl<- rbind(retro.summary.tbl,read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[i],".csv")))
+#       }
+# }
 
 # CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
 # metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
