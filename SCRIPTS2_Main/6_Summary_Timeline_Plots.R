@@ -1,3 +1,5 @@
+
+
 library(tidyverse)
 library(plotrix)
 
@@ -12,12 +14,28 @@ amber.use <- rgb(255/255,255/255,191/255,alpha=alpha.use)
 cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
   dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
 
-retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_SkeenaMODS.csv")  
+retro.summary.tbl <- read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",paste(datastage, collapse=""),".csv"))
+  # if(length(datastage)>1){
+  #     retro.summary.tbl <-  read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[1],".csv"))
+  #     for(i in 2:length(datastage)){
+  #         retro.summary.tbl<- rbind(retro.summary.tbl,read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[i],".csv")))
+  #     }
+  # }
+
+  if(any((cu.info %>% filter(Data_Stage %in% datastage) %>% select(CU_ID))$CU_ID %in% c("SEL-20-08", "SEL-21-07", "SEL-21-09", "SEL-22-10", "SEL-22-03","SEL-22-12"))){
+    #  skeena.stage <- cu.info %>% filter(CU_ID %in% c("SEL-20-08")) %>% select(Data_Stage) 
+      retro.summary.tbl <- read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_SkeenaMODS_",paste(datastage, collapse=""),".csv")) %>% select(-ProxySource) 
+     # if(length(datastage)>1){
+    #    for(i in 1:length(datastage)){
+    #      if(!datastage[i] == skeena.stage) retro.summary.tbl<- rbind(retro.summary.tbl,read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[i],".csv")))
+    #    }
+     # }
+  }
 
 
 # List of plots with specs
 plot.specs <- read_csv("DATA_LOOKUP_FILES/TimelinePlot_Specs.csv") %>%
-                left_join(cu.info %>% select(CU_Name,CU_ID, CU_ID_Report,CU_Acro), by="CU_Name")
+                left_join(cu.info %>% select(CU_Name,CU_ID, CU_ID_Report,CU_Acro,Data_Stage), by="CU_Name")
 plot.specs
 #view(plot.specs)
 
@@ -31,10 +49,15 @@ for(folder.do in target.folders) {
   if(!dir.exists(folder.do)){dir.create(folder.do) }
   
   
-  plot.list <- unique(plot.specs %>% dplyr::filter(TargetFolder==folder.do) %>% select(Plot) %>% unlist() )
+  plot.list <- unique(plot.specs %>% dplyr::filter(TargetFolder==folder.do, Data_Stage %in% datastage) %>% select(Plot) %>% unlist() )
   plot.list
   
+  # if(any(!dir.exists(paste0(folder.do,"/", datastage)))){
+  #           sapply( paste0(folder.do,"/", datastage)[!dir.exists(paste0(folder.do,"/", datastage))], dir.create )      
+  # } 
+  if(!dir.exists(paste0(folder.do,"/", paste(datastage, collapse="")))) dir.create(paste0(folder.do,"/", paste(datastage, collapse="")))  
 
+   
   for(plot.do in plot.list){
       
       plot.do
@@ -70,8 +93,10 @@ for(folder.do in target.folders) {
       
       #########################################
       
+      # find the correct datastage for this group to determine which folder to file it in
+      cu.info %>% filter(CU_ID %in% specs.do$CU_ID) %>% select(Data_Stage) %>%unique()
       
-      png(filename = paste0(folder.do,"/TimelinePlot_",plot.do,".png"),
+      png(filename = paste0(folder.do,"/",paste(datastage, collapse=""),"/TimelinePlot_",plot.do,".png"),
           width = 480*4, height = 480*5, units = "px", pointsize = 14*3.1, bg = "white",  res = NA)
       par(mai=c(0.3,6,3,1))
       

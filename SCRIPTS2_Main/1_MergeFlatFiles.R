@@ -3,6 +3,7 @@ library(tidyverse)
 
 # BY POP -----------------------------------------
 
+
 # read in the cleaned flat files
 flat.fr.sk <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByPop_FraserSockeye.csv",stringsAsFactors = FALSE)
 flat.sbc.ck <- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByPop_SBC_Ck.csv",stringsAsFactors = FALSE)
@@ -68,21 +69,24 @@ sort(unique(flat.merged.cu$CU_Name))
 
 
 # GP ADDED March 2023: Filter out any records before CU-specific start year
+#start.yrs.df <-  read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%
+#                    select(all_of(c("CU_ID_Report","Abd_StartYr")))
+
 start.yrs.df <-  read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE) %>%
-                    select(all_of(c("CU_ID_Report","Abd_StartYr")))
+                          select(all_of(c("CU_ID","Abd_StartYr")))%>%
+                          mutate(CU_ID=gsub("_","-",CU_ID))
 
 start.yrs.df
 
 
 flat.merged.cu <- flat.merged.cu %>%
-                      mutate(CU_ID_Report = gsub("_","-", CU_ID)) %>%
-                      left_join(start.yrs.df, by = "CU_ID_Report") %>%
+                      mutate(CU_ID = gsub("_","-", CU_ID)) %>%
+                      left_join(start.yrs.df, by = "CU_ID") %>%
                       mutate(UseYear = Year >= Abd_StartYr) %>% dplyr::filter(UseYear)
 head(flat.merged.cu)
 
 
 sort(unique(flat.merged.cu$CU_Name))
-
 
 
 write.csv(flat.merged.cu,"DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",row.names = FALSE)

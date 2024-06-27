@@ -4,7 +4,7 @@ library("tidyverse")
 
 # read in the merged flat file and lookup file
 #cu.file <- read.csv("DATA_OUT/MERGED_FLAT_FILE_BY_CU.csv",stringsAsFactors = FALSE)
-cu.file <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE)
+cu.file.in <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE)
 cu.info.main <- read.csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv",stringsAsFactors = FALSE)
 cyclic.cu.bm  <- read.csv("DATA_LOOKUP_FILES/FRSK_Cycle_Rel_BMs.csv", stringsAsFactors=FALSE)
 
@@ -17,10 +17,11 @@ cyclic.cu.bm  <- read.csv("DATA_LOOKUP_FILES/FRSK_Cycle_Rel_BMs.csv", stringsAsF
 #setwd("SOS-Data-Processing")
 
 # fix the CU_ID ("_" vs. "-")
-cu.file$CU_ID <- gsub("_","-",cu.file$CU_ID)
+cu.file.in$CU_ID <- gsub("_","-",cu.file.in$CU_ID)
 cu.info.main$CU_ID <- gsub("_","-",cu.info.main$CU_ID)
 
-
+cu.file <- cu.file.in %>% left_join(cu.info.main %>% select(CU_ID, Data_Stage)) %>%
+                          filter(Data_Stage %in% datastage)
 
 # get the metrics functions
 library(devtools) # Load the devtools package.
@@ -378,12 +379,12 @@ shorttrend.fix.idx <- grepl("ShortTrend", metrics.cu.out.cleaned$Metric) & unlis
 longtrend.fix.idx <- grepl("LongTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.longtrend.list
 
 
-write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/METRICS_FILE_BY_CU_PRE_CLEAN.csv",row.names=FALSE)
+write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_CU_PRE_CLEAN.csv",row.names=FALSE)
 
 
 # GP New 2024-05-28: Extract Gen Avg  so can merge back in later (get deleted below of AbsAbd/RelAbd metrics are turned off)
 gen.avg.used.df <- metrics.cu.out.cleaned %>% dplyr::filter(Metric == "RelAbd") %>% select(CU_ID, Year,Value)
-write.csv(gen.avg.used.df,"DATA_PROCESSING/GenerationalAvg_Values.csv",row.names=FALSE)
+write.csv(gen.avg.used.df, paste0("DATA_PROCESSING/FILTERED_DATA/GenerationalAvg_Values_",paste(datastage, collapse=""),".csv"),row.names=FALSE)
 
 
 
@@ -394,7 +395,7 @@ metrics.cu.out.cleaned[shorttrend.fix.idx,c("Value","Status")] <- c(NA, NA)
 metrics.cu.out.cleaned[longtrend.fix.idx,c("Value","Status")] <- c(NA, NA)
 
 
-write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/METRICS_FILE_BY_CU_SUB.csv",row.names=FALSE)
+write.csv(metrics.cu.out.cleaned, paste0("DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_CU_SUB_",paste(datastage, collapse=""),".csv"), row.names=FALSE)
 #write.csv(metrics.percchange.comp,"DATA_OUT/PercChange_Comparison_BY_CU.csv",row.names=FALSE)
 
 print("Running of calcMetrics() took:")
