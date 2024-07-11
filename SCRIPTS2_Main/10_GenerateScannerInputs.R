@@ -3,8 +3,7 @@
 
 library(tidyverse)
 
-
-if(!dir.exists("OUTPUT/DATA_OUT/3_ALL")){dir.create("OUTPUT/DATA_OUT/3_ALL")}
+if(!dir.exists(paste0("OUTPUT/DATA_OUT/", paste(datastage, collapse="")))){dir.create(paste0("OUTPUT/DATA_OUT/", paste(datastage, collapse=""))) }
 
 # READ IN DATA
 
@@ -17,8 +16,8 @@ cu.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors 
 pop.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_POP_SUB.csv")
 
 # Retrospective metrics
-retro.summary.tbl <- read_csv("OUTPUT/DASHBOARDS/Retro_Synoptic_Details.csv")
-metrics.long <- read.csv("DATA_PROCESSING/Metrics_Longform_SUB.csv")
+retro.summary.tbl <- read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",paste(datastage, collapse=""),".csv"))
+metrics.long <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/Metrics_Longform_SUB_",paste(datastage, collapse=""),".csv"))
 
 # Full metrics dummy file with all CUS (should be empty)
 metrics.dummy <- read.csv("DATA_LOOKUP_FILES/METRICS_FILE_BY_CU_dummy.csv")
@@ -116,7 +115,7 @@ metrics.out <- metrics.dummy %>% select(-Label) %>%
 #                                  rbind(metrics.scanner)
 # #setwd("../")
 #write.csv(metrics.out, "build_PStat_data/data/METRICS_FILE_BY_CU_forPSST.csv")
-write.csv(metrics.out, "OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv")
+write.csv(metrics.out, paste0("OUTPUT/DATA_OUT/",paste(datastage, collapse=""),"/METRICS_FILE_BY_CU_SCANNER_",paste(datastage, collapse=""),".csv"))
 
 
 
@@ -140,7 +139,7 @@ cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild, Abd_Star
                                                             TRUE ~ SpnForAbd_Wild)) %>%
                          rename(Escapement_Total = SpnForAbd_Total, Escapement_Wild = SpnForAbd_Wild ) %>%
                           # Added Oct 25 2021 to have the timeseries used for assessing relative abundance metrics as an option for plotting in the Scanner
-                         left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
+                         left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup,Data_Stage), by="CU_ID" ) %>%
                          #left_join(cu.lookup %>% select(CU_ID=CU_ID_Report, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%  # Use CU_ID_Report to match to the CU_ID in CU data file where this differs from the CU_ID in the lookup file
                          #mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%   # coalesce will take items from the first vector unless they are missing, in which case it will take items from the second vector
                          mutate(CU_ID=CU_ID_Alt2_CULookup) %>%                       
@@ -149,10 +148,11 @@ cu.clean <-  cu.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild, Abd_Star
                          relocate(c(CU_ID, DU_ID, CU_Name), .after=Species) %>%
                          #select(-c(CU_ID_Report, CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
                          select(-c(CU_ID_Alt2_CULookup))%>%                       
-                         filter(!CU_ID=="")
+                         filter(!CU_ID=="", Data_Stage %in% datastage) %>%
+                         select(-Data_Stage)
 
 
-write.csv(cu.clean, "OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv")
+write.csv(cu.clean, paste0("OUTPUT/DATA_OUT/",paste(datastage, collapse=""),"/MERGED_FLAT_FILE_BY_CU_SCANNER_",paste(datastage, collapse=""),".csv"))
 # REmove the "wild" from FR CM
 
 
@@ -166,15 +166,16 @@ pop.clean <- pop.data %>% select(-c(SpnForTrend_Total, SpnForTrend_Wild)) %>%
                           # separated at teh population level (or at least HAS not been but I need to look at this and my Lynda notes to be sure)
                           # CUs with NO hatchery = Fraser Canyon (CO-05)
                           #left_join(cu.lookup %>% select(CU_ID, CU_ID_Alt2_CULookup), by="CU_ID" ) %>%
-                          left_join(cu.lookup %>% select(CU_ID=Pop_TimeSeriesData_CU_ID, CU_ID_Alt2_CULookup), by="CU_ID", na_matches = "never") %>% # Pop_TimeSeriesData column is the CU_ID used in the pop data file
+                          left_join(cu.lookup %>% select(CU_ID=Pop_TimeSeriesData_CU_ID, CU_ID_Alt2_CULookup, Data_Stage), by="CU_ID", na_matches = "never") %>% # Pop_TimeSeriesData column is the CU_ID used in the pop data file
                           #mutate(CU_ID=coalesce(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
                           mutate(CU_ID=CU_ID_Alt2_CULookup) %>%
                           #select(-c(CU_ID_Alt2_CULookup.x, CU_ID_Alt2_CULookup.y)) %>%
                           select(-CU_ID_Alt2_CULookup) %>%                       
-                          mutate(Escapement_Wild = case_when(CU_ID == "CO_02" ~ Escapement_Total, TRUE ~  Escapement_Wild)) # Note this is the CU_ID from the WSP process not NuSEDs
+                          mutate(Escapement_Wild = case_when(CU_ID == "CO_02" ~ Escapement_Total, TRUE ~  Escapement_Wild)) %>% # Note this is the CU_ID from the WSP process not NuSEDs
+                          filter(Data_Stage %in% datastage) %>%
+                          select(-Data_Stage)
 
-
-write.csv(pop.clean, "OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_POP_SCANNER.csv")
+write.csv(pop.clean, paste0("OUTPUT/DATA_OUT/",paste(datastage, collapse=""),"/MERGED_FLAT_FILE_BY_POP_SCANNER_",paste(datastage, collapse=""),".csv"))
 
 
 

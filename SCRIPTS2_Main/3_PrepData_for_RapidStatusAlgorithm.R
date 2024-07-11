@@ -38,7 +38,9 @@ library(tidyr)
   
 
   # Metrics flat file 
-  metrics.raw <- read.csv("DATA_PROCESSING/METRICS_FILE_BY_CU_SUB.csv",stringsAsFactors = FALSE) 
+  metrics.raw <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_CU_SUB_",paste(datastage, collapse=""),".csv"),stringsAsFactors = FALSE)
+  
+  
     # change to the units the algorithms are using
     metrics.raw[metrics.raw$Metric == "LongTrend","Value"] <- metrics.raw[metrics.raw$Metric == "LongTrend","Value"] * 100 
     metrics.raw[metrics.raw$Metric == "LongTrend","LBM"] <- metrics.raw[metrics.raw$Metric == "LongTrend","LBM"] * 100 
@@ -72,7 +74,7 @@ metrics.tmp2 <- metrics.tmp1 %>% rbind(metrics.tmp1 %>% filter(Metric == "RelLBM
 
 
 # Write long format metrics to sub file
-write.csv(metrics.tmp2, "DATA_PROCESSING/Metrics_Longform_SUB.csv")
+write.csv(metrics.tmp2, paste0("DATA_PROCESSING/FILTERED_DATA/Metrics_Longform_SUB_",paste(datastage, collapse=""),".csv"))
 
 std.metrics <- c("AbsLBM","AbsUBM","LongTrend","PercChange","RelLBM","RelUBM")
 
@@ -89,7 +91,7 @@ metrics.synoptic.values[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.v
 metrics.synoptic.status[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.status[,std.metrics]))
 
 # add in GenAvg
-gen.avg.used.df <- read_csv("DATA_PROCESSING/GenerationalAvg_Values.csv") %>% dplyr::rename(GenAvgUsed = Value)
+gen.avg.used.df <- read_csv(paste0("DATA_PROCESSING/FILTERED_DATA/GenerationalAvg_Values_",paste(datastage, collapse=""),".csv")) %>% dplyr::rename(GenAvgUsed = Value)
 
 metrics.synoptic.values <- metrics.synoptic.values %>% left_join(gen.avg.used.df, by=c("CU_ID", "Year"))
 metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.used.df, by=c("CU_ID", "Year"))
@@ -100,8 +102,8 @@ metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.used.df
 
 																														   
 # Write files for running the algorithms in retro
-write.csv( metrics.synoptic.values,"DATA_PROCESSING/Retrospective_Metrics_Values.csv", row.names = FALSE)
-write.csv( metrics.synoptic.status,"DATA_PROCESSING/Retrospective_Metrics_Status.csv", row.names = FALSE)                     
+write.csv( metrics.synoptic.values, paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Metrics_Values_",paste(datastage, collapse=""),".csv"), row.names = FALSE)
+write.csv( metrics.synoptic.status, paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Metrics_Status_",paste(datastage, collapse=""),".csv"), row.names = FALSE)                     
 
 # mutate(Value = case_when( ((Metric == "RelAbd" | Metric == "AbsAbd") & AbdMetric==FALSE) ~ NA_real_, 
 #                           (Metric != "RelAbd" & Metric != "AbsAbd") ~ (Compare)
