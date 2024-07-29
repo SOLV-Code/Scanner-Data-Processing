@@ -223,35 +223,8 @@ OUTPUT/DASHBOARDS/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Frase
 OUTPUT/DASHBOARDS/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,4,Sockeye,Fran_Fras_S,NA
 OUTPUT/DASHBOARDS/SMU_TimelinePlots,1995,2025,2022,Fraser Sockeye - Summer,Fraser Sockeye - Summer,NA,5,Sockeye,Harrison_R,NA
 OUTPUT/DASHBOARDS/SMU_TimelinePlots,1995,2025,2022,Sockeye_Okanagan,Sockeye - Okanagan,NA,1,Sockeye,Osoyoos-Skaha-Okanagan,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,1,Sockeye,Johnston,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,2,Sockeye,Ecstall,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,3,Sockeye,Alastair,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,4,Sockeye,Lakelse,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,5,Sockeye,Kitsumkalum,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,1,Sockeye,Mcdonell,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,2,Sockeye,Dennis,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,3,Sockeye,Aldrich,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,4,Sockeye,Kitwanga,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,5,Sockeye,Stephens,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,6,Sockeye,Swan,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part2_ZymoetzKitwangaKispiox,"Zymoetz, Kitwanga, and Kispiox Components of Skeena Sockeye SMU",NA,7,Sockeye,Club,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part3_Bukley,Bulkley Component of Skeena Sockeye SMU,NA,1,Sockeye,Bulkley,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part3_Bukley,Bulkley Component of Skeena Sockeye SMU,NA,2,Sockeye,Maxan,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part3_Bukley,Bulkley Component of Skeena Sockeye SMU,NA,3,Sockeye,Morice,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part3_Bukley,Bulkley Component of Skeena Sockeye SMU,NA,4,Sockeye,Atna,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part4_NonChannelBabine,Babine (excl. Channels),NA,1,NA,Babine Early Wild,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part4_NonChannelBabine,Babine (excl. Channels),NA,2,NA,Babine Mid Wild,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part4_NonChannelBabine,Babine (excl. Channels),NA,3,NA,Babine Late Wild,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part5_UpperSkeenaSustut,Sustut Watershed in the Skeena Sockeye SMU,NA,1,NA,Bear,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part5_UpperSkeenaSustut,Sustut Watershed in the Skeena Sockeye SMU,NA,2,NA,Azuklotz,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part5_UpperSkeenaSustut,Sustut Watershed in the Skeena Sockeye SMU,NA,3,NA,Asitka,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part5_UpperSkeenaSustut,Sustut Watershed in the Skeena Sockeye SMU,NA,4,NA,Sustut,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part5_UpperSkeenaSustut,Sustut Watershed in the Skeena Sockeye SMU,NA,5,NA,Johansen,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part5_UpperSkeenaSustut,Sustut Watershed in the Skeena Sockeye SMU,NA,6,NA,Spawning,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part6_UpperSkeenaOther,Upper Skeena (excl. Sustut) Component of Skeena Sockeye SMU,NA,1,NA,Sicintine,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part6_UpperSkeenaOther,Upper Skeena (excl. Sustut) Component of Skeena Sockeye SMU,NA,2,NA,Slamgeesh,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part6_UpperSkeenaOther,Upper Skeena (excl. Sustut) Component of Skeena Sockeye SMU,NA,3,NA,Damshilgwit,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part6_UpperSkeenaOther,Upper Skeena (excl. Sustut) Component of Skeena Sockeye SMU,NA,4,NA,Motase,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part6_UpperSkeenaOther,Upper Skeena (excl. Sustut) Component of Skeena Sockeye SMU,NA,5,NA,Kluatantan,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part6_UpperSkeenaOther,Upper Skeena (excl. Sustut) Component of Skeena Sockeye SMU,NA,6,NA,Kluayaz,NA
-OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part7_SkeenaRiverType,River-Type Sockeye Component of Skeena Sockeye SMU,NA,1,NA,Skeena River Type,NA
+OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,2,Sockeye,Johnston,NA
+OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,3,Sockeye,Ecstall,NA
+OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,4,Sockeye,Alastair,NA
+OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,5,Sockeye,Lakelse,NA
+OUTPUT/DASHBOARDS/TimelinePlots_SkeenaSummaries,1995,2025,2022,Part1_LowerSkeena,Lower Skeena Component of Skeena Sockeye SMU,NA,6,Sockeye,Kitsumkalum,NA

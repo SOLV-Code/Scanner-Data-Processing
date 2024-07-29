@@ -16,7 +16,7 @@
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2009,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,163.707979108127
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2010,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,159.528936947511
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2011,"Rel_Idx",NA,NA,NA,"Amber",NA,NA,NA,NA,NA,NA,1,199.148569662188
-"CK-29","Chinook","East Vancouver Island-North_FA_0.x",2012,"Rel_Idx",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,178.257435657779
+"CK-29","Chinook","East Vancouver Island-North_FA_0.x",2012,"Rel_Idx",NA,NA,NA,"Amber",NA,NA,NA,NA,NA,NA,1,178.257435657779
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2013,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,163.520628034086
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2014,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,131.879526975763
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2015,"Rel_Idx",NA,NA,"Amber","Green",NA,NA,NA,NA,NA,NA,2,95.3369997640323
@@ -104,7 +104,7 @@
 "CK-33","Chinook","West Vancouver Island-North_FA_0.x",2013,"Abs_Abd","Green",NA,"Amber","Red",NA,NA,"Green",NA,"Green",NA,4,2519.71527887646
 "CK-33","Chinook","West Vancouver Island-North_FA_0.x",2014,"Abs_Abd","Green",NA,"Amber","Red",NA,NA,"Green",NA,"Green",NA,4,1991.76656886749
 "CK-33","Chinook","West Vancouver Island-North_FA_0.x",2015,"Abs_Abd","Green",NA,"Amber","Red",NA,NA,"Green",NA,"Green",NA,4,2443.6224618275
-"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2016,"Abs_Abd","Green",NA,"Amber","Amber",NA,NA,"Green",NA,"Green",NA,4,2302.42071718513
+"CK-33","Chinook","West Vancouver Island-North_FA_0.x",2016,"Abs_Abd","Green",NA,"Amber","Red",NA,NA,"Green",NA,"Green",NA,4,2302.42071718513
 "CK-33","Chinook","West Vancouver Island-North_FA_0.x",2017,"Abs_Abd","Green",NA,"Green","Green",NA,NA,"Green",NA,"Green",NA,4,3938.48433817841
 "CK-33","Chinook","West Vancouver Island-North_FA_0.x",2018,"Abs_Abd","Green",NA,"Green","Amber",NA,NA,"Green",NA,"Green",NA,4,3503.14675968893
 "CK-33","Chinook","West Vancouver Island-North_FA_0.x",2019,"Abs_Abd","Green",NA,"Green","Green",NA,NA,"Green",NA,"Green",NA,4,3311.81722636165
@@ -167,90 +167,90 @@
 "SEL-22-01","Sockeye","Asitka",2020,"Abs_Abd","Amber","Red","Green","Green",NA,"Green","Amber","Red","Amber","Red",6,573.384646640454
 "SEL-22-01","Sockeye","Asitka",2021,"Abs_Abd","Green","Red","Green","Green",NA,"Green","Green","Red","Green","Red",6,606.013468364123
 "SEL-22-01","Sockeye","Asitka",2022,"Abs_Abd","Green","Red","Green","Green",NA,"Green","Green","Red","Green","Red",6,644.554934566853
-"SEL-21-2-1","Sockeye","Babine Early Wild",1995,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,40004.0568359772
-"SEL-21-2-1","Sockeye","Babine Early Wild",1996,"Abs_Abd","Green","Green","Green","Amber",NA,"Red","Green","Green","Green","Green",6,40298.0349433084
-"SEL-21-2-1","Sockeye","Babine Early Wild",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,45131.0157241438
-"SEL-21-2-1","Sockeye","Babine Early Wild",1998,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,54596.9758098218
-"SEL-21-2-1","Sockeye","Babine Early Wild",1999,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,65760.7784043189
-"SEL-21-2-1","Sockeye","Babine Early Wild",2000,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,66547.0244414851
-"SEL-21-2-1","Sockeye","Babine Early Wild",2001,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,87014.276891868
-"SEL-21-2-1","Sockeye","Babine Early Wild",2002,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,69190.5233978591
-"SEL-21-2-1","Sockeye","Babine Early Wild",2003,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,72645.2464288054
-"SEL-21-2-1","Sockeye","Babine Early Wild",2004,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,66040.6956496798
-"SEL-21-2-1","Sockeye","Babine Early Wild",2005,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,51815.1891641959
-"SEL-21-2-1","Sockeye","Babine Early Wild",2006,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,36588.8467698853
-"SEL-21-2-1","Sockeye","Babine Early Wild",2007,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,41165.4934376638
-"SEL-21-2-1","Sockeye","Babine Early Wild",2008,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,36132.1550891034
-"SEL-21-2-1","Sockeye","Babine Early Wild",2009,"Abs_Abd","Amber","Green","Green","Amber",NA,"Amber","Amber","Green","Amber","Green",6,31683.7399678253
-"SEL-21-2-1","Sockeye","Babine Early Wild",2010,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,30403.1323838772
-"SEL-21-2-1","Sockeye","Babine Early Wild",2011,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,33320.0007394253
-"SEL-21-2-1","Sockeye","Babine Early Wild",2012,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,34286.0607420317
-"SEL-21-2-1","Sockeye","Babine Early Wild",2013,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,27048.0812300547
-"SEL-21-2-1","Sockeye","Babine Early Wild",2014,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,27000.116525122
-"SEL-21-2-1","Sockeye","Babine Early Wild",2015,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,32569.1133076444
-"SEL-21-2-1","Sockeye","Babine Early Wild",2016,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,29823.8346672367
-"SEL-21-2-1","Sockeye","Babine Early Wild",2017,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,25530.7666229367
-"SEL-21-2-1","Sockeye","Babine Early Wild",2018,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,27124.6337571675
-"SEL-21-2-1","Sockeye","Babine Early Wild",2019,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,21905.0338300961
-"SEL-21-2-1","Sockeye","Babine Early Wild",2020,"Abs_Abd","Red","Green","Amber","Red",NA,"Red","Red","Green","Red","Green",6,16911.4503656044
-"SEL-21-2-1","Sockeye","Babine Early Wild",2021,"Abs_Abd","Red","Green","Red","Red",NA,"Red","Red","Green","Red","Green",6,15472.0190496415
-"SEL-21-2-1","Sockeye","Babine Early Wild",2022,"Abs_Abd","Red","Green","Red","Red",NA,"Red","Red","Green","Red","Green",6,16112.8135172071
-"SEL-21-2-3","Sockeye","Babine Late Wild",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,267922.411613637
-"SEL-21-2-3","Sockeye","Babine Late Wild",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,214806.722902332
-"SEL-21-2-3","Sockeye","Babine Late Wild",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,159110.460428993
-"SEL-21-2-3","Sockeye","Babine Late Wild",1998,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,110886.661485861
-"SEL-21-2-3","Sockeye","Babine Late Wild",1999,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,114460.651339678
-"SEL-21-2-3","Sockeye","Babine Late Wild",2000,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,139217.986436639
-"SEL-21-2-3","Sockeye","Babine Late Wild",2001,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,186447.369095729
-"SEL-21-2-3","Sockeye","Babine Late Wild",2002,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,186662.509605275
-"SEL-21-2-3","Sockeye","Babine Late Wild",2003,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,187195.044031284
-"SEL-21-2-3","Sockeye","Babine Late Wild",2004,"Abs_Abd","Green","Green","Green","Red",NA,"Amber","Green","Green","Green","Green",6,205838.402783987
-"SEL-21-2-3","Sockeye","Babine Late Wild",2005,"Abs_Abd","Green","Green","Green","Red",NA,"Amber","Green","Green","Green","Green",6,200731.272818816
-"SEL-21-2-3","Sockeye","Babine Late Wild",2006,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,148683.711403268
-"SEL-21-2-3","Sockeye","Babine Late Wild",2007,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,141140.018491084
-"SEL-21-2-3","Sockeye","Babine Late Wild",2008,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,139353.578767075
-"SEL-21-2-3","Sockeye","Babine Late Wild",2009,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,114611.93030016
-"SEL-21-2-3","Sockeye","Babine Late Wild",2010,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,97879.4320265433
-"SEL-21-2-3","Sockeye","Babine Late Wild",2011,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,99969.3503744172
-"SEL-21-2-3","Sockeye","Babine Late Wild",2012,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,102145.594878796
-"SEL-21-2-3","Sockeye","Babine Late Wild",2013,"Abs_Abd","Red","Green","Amber","Red",NA,"Red","Red","Green","Red","Green",6,86083.0699732644
-"SEL-21-2-3","Sockeye","Babine Late Wild",2014,"Abs_Abd","Red","Green","Red","Red",NA,"Red","Red","Green","Red","Green",6,92419.3910200812
-"SEL-21-2-3","Sockeye","Babine Late Wild",2015,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,104978.261450262
-"SEL-21-2-3","Sockeye","Babine Late Wild",2016,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,106539.170801475
-"SEL-21-2-3","Sockeye","Babine Late Wild",2017,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,100717.80686289
-"SEL-21-2-3","Sockeye","Babine Late Wild",2018,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,138165.462079325
-"SEL-21-2-3","Sockeye","Babine Late Wild",2019,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,126455.948579851
-"SEL-21-2-3","Sockeye","Babine Late Wild",2020,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,101962.456012301
-"SEL-21-2-3","Sockeye","Babine Late Wild",2021,"Abs_Abd","Red","Green","Amber","Amber",NA,"Red","Red","Green","Red","Green",6,73360.5603419323
-"SEL-21-2-3","Sockeye","Babine Late Wild",2022,"Abs_Abd","Red","Green","Amber","Amber",NA,"Red","Red","Green","Red","Green",6,62571.6346925826
-"SEL-21-2-2","Sockeye","Babine Mid Wild",1995,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,11803.2060531996
-"SEL-21-2-2","Sockeye","Babine Mid Wild",1996,"Abs_Abd","Amber","Amber","Green","Green",NA,"Amber","Amber","Amber","Amber","Amber",6,9393.55840199747
-"SEL-21-2-2","Sockeye","Babine Mid Wild",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,12464.3160553717
-"SEL-21-2-2","Sockeye","Babine Mid Wild",1998,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,11777.8630983668
-"SEL-21-2-2","Sockeye","Babine Mid Wild",1999,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,14706.2979144703
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2000,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,18378.7738600901
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2001,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,26295.8008912272
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2002,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,24547.7205539905
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2003,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,33904.0407557378
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2004,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,39892.2002504476
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2005,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,43658.291374886
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2006,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,33391.1340394415
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2007,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,29213.4113943338
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2008,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,20075.658179414
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2009,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,16314.6402313758
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2010,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,11744.7206619485
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2011,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15040.9762436352
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2012,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,21896.0324829031
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2013,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,19929.0327268675
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2014,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,19066.480735114
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2015,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,30955.359532227
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2016,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,30424.7104523442
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2017,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,23170.1429247791
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2018,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,18692.8530021078
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2019,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,17470.1853838127
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2020,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,17111.8848722119
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2021,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,11386.2422168792
-"SEL-21-2-2","Sockeye","Babine Mid Wild",2022,"Abs_Abd","Amber","Green","Green","Amber",NA,"Amber","Amber","Green","Amber","Green",6,10948.9267324186
+"SEL-21-02-1","Sockeye","Babine Early Wild",1995,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,40004.0568359772
+"SEL-21-02-1","Sockeye","Babine Early Wild",1996,"Abs_Abd","Green","Green","Green","Amber",NA,"Red","Green","Green","Green","Green",6,40298.0349433084
+"SEL-21-02-1","Sockeye","Babine Early Wild",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,45131.0157241438
+"SEL-21-02-1","Sockeye","Babine Early Wild",1998,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,54596.9758098218
+"SEL-21-02-1","Sockeye","Babine Early Wild",1999,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,65760.7784043189
+"SEL-21-02-1","Sockeye","Babine Early Wild",2000,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,66547.0244414851
+"SEL-21-02-1","Sockeye","Babine Early Wild",2001,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,87014.276891868
+"SEL-21-02-1","Sockeye","Babine Early Wild",2002,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,69190.5233978591
+"SEL-21-02-1","Sockeye","Babine Early Wild",2003,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,72645.2464288054
+"SEL-21-02-1","Sockeye","Babine Early Wild",2004,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,66040.6956496798
+"SEL-21-02-1","Sockeye","Babine Early Wild",2005,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,51815.1891641959
+"SEL-21-02-1","Sockeye","Babine Early Wild",2006,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,36588.8467698853
+"SEL-21-02-1","Sockeye","Babine Early Wild",2007,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,41165.4934376638
+"SEL-21-02-1","Sockeye","Babine Early Wild",2008,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,36132.1550891034
+"SEL-21-02-1","Sockeye","Babine Early Wild",2009,"Abs_Abd","Amber","Green","Green","Amber",NA,"Amber","Amber","Green","Amber","Green",6,31683.7399678253
+"SEL-21-02-1","Sockeye","Babine Early Wild",2010,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,30403.1323838772
+"SEL-21-02-1","Sockeye","Babine Early Wild",2011,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,33320.0007394253
+"SEL-21-02-1","Sockeye","Babine Early Wild",2012,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,34286.0607420317
+"SEL-21-02-1","Sockeye","Babine Early Wild",2013,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,27048.0812300547
+"SEL-21-02-1","Sockeye","Babine Early Wild",2014,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,27000.116525122
+"SEL-21-02-1","Sockeye","Babine Early Wild",2015,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,32569.1133076444
+"SEL-21-02-1","Sockeye","Babine Early Wild",2016,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,29823.8346672367
+"SEL-21-02-1","Sockeye","Babine Early Wild",2017,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,25530.7666229367
+"SEL-21-02-1","Sockeye","Babine Early Wild",2018,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,27124.6337571675
+"SEL-21-02-1","Sockeye","Babine Early Wild",2019,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,21905.0338300961
+"SEL-21-02-1","Sockeye","Babine Early Wild",2020,"Abs_Abd","Red","Green","Amber","Red",NA,"Red","Red","Green","Red","Green",6,16911.4503656044
+"SEL-21-02-1","Sockeye","Babine Early Wild",2021,"Abs_Abd","Red","Green","Red","Red",NA,"Red","Red","Green","Red","Green",6,15472.0190496415
+"SEL-21-02-1","Sockeye","Babine Early Wild",2022,"Abs_Abd","Red","Green","Red","Red",NA,"Red","Red","Green","Red","Green",6,16112.8135172071
+"SEL-21-02-3","Sockeye","Babine Late Wild",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,267922.411613637
+"SEL-21-02-3","Sockeye","Babine Late Wild",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,214806.722902332
+"SEL-21-02-3","Sockeye","Babine Late Wild",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,159110.460428993
+"SEL-21-02-3","Sockeye","Babine Late Wild",1998,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,110886.661485861
+"SEL-21-02-3","Sockeye","Babine Late Wild",1999,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,114460.651339678
+"SEL-21-02-3","Sockeye","Babine Late Wild",2000,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,139217.986436639
+"SEL-21-02-3","Sockeye","Babine Late Wild",2001,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,186447.369095729
+"SEL-21-02-3","Sockeye","Babine Late Wild",2002,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,186662.509605275
+"SEL-21-02-3","Sockeye","Babine Late Wild",2003,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,187195.044031284
+"SEL-21-02-3","Sockeye","Babine Late Wild",2004,"Abs_Abd","Green","Green","Green","Red",NA,"Amber","Green","Green","Green","Green",6,205838.402783987
+"SEL-21-02-3","Sockeye","Babine Late Wild",2005,"Abs_Abd","Green","Green","Green","Red",NA,"Amber","Green","Green","Green","Green",6,200731.272818816
+"SEL-21-02-3","Sockeye","Babine Late Wild",2006,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,148683.711403268
+"SEL-21-02-3","Sockeye","Babine Late Wild",2007,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,141140.018491084
+"SEL-21-02-3","Sockeye","Babine Late Wild",2008,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,139353.578767075
+"SEL-21-02-3","Sockeye","Babine Late Wild",2009,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,114611.93030016
+"SEL-21-02-3","Sockeye","Babine Late Wild",2010,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,97879.4320265433
+"SEL-21-02-3","Sockeye","Babine Late Wild",2011,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,99969.3503744172
+"SEL-21-02-3","Sockeye","Babine Late Wild",2012,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,102145.594878796
+"SEL-21-02-3","Sockeye","Babine Late Wild",2013,"Abs_Abd","Red","Green","Amber","Red",NA,"Red","Red","Green","Red","Green",6,86083.0699732644
+"SEL-21-02-3","Sockeye","Babine Late Wild",2014,"Abs_Abd","Red","Green","Red","Red",NA,"Red","Red","Green","Red","Green",6,92419.3910200812
+"SEL-21-02-3","Sockeye","Babine Late Wild",2015,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,104978.261450262
+"SEL-21-02-3","Sockeye","Babine Late Wild",2016,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,106539.170801475
+"SEL-21-02-3","Sockeye","Babine Late Wild",2017,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,100717.80686289
+"SEL-21-02-3","Sockeye","Babine Late Wild",2018,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,138165.462079325
+"SEL-21-02-3","Sockeye","Babine Late Wild",2019,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,126455.948579851
+"SEL-21-02-3","Sockeye","Babine Late Wild",2020,"Abs_Abd","Amber","Green","Amber","Amber",NA,"Red","Amber","Green","Amber","Green",6,101962.456012301
+"SEL-21-02-3","Sockeye","Babine Late Wild",2021,"Abs_Abd","Red","Green","Amber","Amber",NA,"Red","Red","Green","Red","Green",6,73360.5603419323
+"SEL-21-02-3","Sockeye","Babine Late Wild",2022,"Abs_Abd","Red","Green","Amber","Red",NA,"Red","Red","Green","Red","Green",6,62571.6346925826
+"SEL-21-02-2","Sockeye","Babine Mid Wild",1995,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,11803.2060531996
+"SEL-21-02-2","Sockeye","Babine Mid Wild",1996,"Abs_Abd","Amber","Amber","Green","Green",NA,"Amber","Amber","Amber","Amber","Amber",6,9393.55840199747
+"SEL-21-02-2","Sockeye","Babine Mid Wild",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,12464.3160553717
+"SEL-21-02-2","Sockeye","Babine Mid Wild",1998,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,11777.8630983668
+"SEL-21-02-2","Sockeye","Babine Mid Wild",1999,"Abs_Abd","Green","Green","Green","Green",NA,"Amber","Green","Green","Green","Green",6,14706.2979144703
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2000,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,18378.7738600901
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2001,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,26295.8008912272
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2002,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,24547.7205539905
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2003,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,33904.0407557378
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2004,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,39892.2002504476
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2005,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,43658.291374886
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2006,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,33391.1340394415
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2007,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,29213.4113943338
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2008,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,20075.658179414
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2009,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,16314.6402313758
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2010,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,11744.7206619485
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2011,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15040.9762436352
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2012,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,21896.0324829031
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2013,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,19929.0327268675
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2014,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,19066.480735114
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2015,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,30955.359532227
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2016,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,30424.7104523442
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2017,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,23170.1429247791
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2018,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,18692.8530021078
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2019,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,17470.1853838127
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2020,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,17111.8848722119
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2021,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,11386.2422168792
+"SEL-21-02-2","Sockeye","Babine Mid Wild",2022,"Abs_Abd","Amber","Green","Green","Amber",NA,"Amber","Amber","Green","Amber","Green",6,10948.9267324186
 "SEL-22-03","Sockeye","Bear",1995,"Abs_Abd","Green","Amber","Green",NA,NA,"Green","Green","Amber","Green","Amber",5,6905.79696091843
 "SEL-22-03","Sockeye","Bear",1996,"Abs_Abd","Green","Amber","Green",NA,NA,"Green","Green","Amber","Green","Amber",5,6734.01017897372
 "SEL-22-03","Sockeye","Bear",1997,"Abs_Abd","Green","Amber","Green",NA,NA,"Green","Green","Amber","Green","Amber",5,6358.35624505858
@@ -335,19 +335,19 @@
 "SEL-20-05","Sockeye","Johnston",2020,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-20-05","Sockeye","Johnston",2021,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-20-05","Sockeye","Johnston",2022,"Abs_Abd","Red","Red",NA,NA,NA,NA,"Red","Red","Red","Red",4,402.043623603101
-"SEL-20-06","Sockeye","Kitsumkalum",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15168.7641557765
-"SEL-20-06","Sockeye","Kitsumkalum",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15903.1321328188
-"SEL-20-06","Sockeye","Kitsumkalum",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15614.5417061725
-"SEL-20-06","Sockeye","Kitsumkalum",1998,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15956.1663189616
-"SEL-20-06","Sockeye","Kitsumkalum",1999,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,15526.2785005798
-"SEL-20-06","Sockeye","Kitsumkalum",2000,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,16017.1512276203
-"SEL-20-06","Sockeye","Kitsumkalum",2001,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,19124.2419049852
-"SEL-20-06","Sockeye","Kitsumkalum",2002,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,21330.0432263482
-"SEL-20-06","Sockeye","Kitsumkalum",2003,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,26449.5908517935
-"SEL-20-06","Sockeye","Kitsumkalum",2004,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,27394.5873787091
-"SEL-20-06","Sockeye","Kitsumkalum",2005,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,25243.7076879593
-"SEL-20-06","Sockeye","Kitsumkalum",2006,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,25015.9889194958
-"SEL-20-06","Sockeye","Kitsumkalum",2007,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,22807.9566002846
+"SEL-20-06","Sockeye","Kitsumkalum",1995,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,15168.7641557765
+"SEL-20-06","Sockeye","Kitsumkalum",1996,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,15903.1321328188
+"SEL-20-06","Sockeye","Kitsumkalum",1997,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,15614.5417061725
+"SEL-20-06","Sockeye","Kitsumkalum",1998,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,15956.1663189616
+"SEL-20-06","Sockeye","Kitsumkalum",1999,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,15526.2785005798
+"SEL-20-06","Sockeye","Kitsumkalum",2000,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,16017.1512276203
+"SEL-20-06","Sockeye","Kitsumkalum",2001,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,19124.2419049852
+"SEL-20-06","Sockeye","Kitsumkalum",2002,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,21330.0432263482
+"SEL-20-06","Sockeye","Kitsumkalum",2003,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,26449.5908517935
+"SEL-20-06","Sockeye","Kitsumkalum",2004,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,27394.5873787091
+"SEL-20-06","Sockeye","Kitsumkalum",2005,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,25243.7076879593
+"SEL-20-06","Sockeye","Kitsumkalum",2006,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,25015.9889194958
+"SEL-20-06","Sockeye","Kitsumkalum",2007,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,22807.9566002846
 "SEL-20-06","Sockeye","Kitsumkalum",2008,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,19363.182125943
 "SEL-20-06","Sockeye","Kitsumkalum",2009,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,19531.6249593881
 "SEL-20-06","Sockeye","Kitsumkalum",2010,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,24882.7389811337
@@ -371,25 +371,25 @@
 "SEL-21-05","Sockeye","Kitwanga",2000,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-21-05","Sockeye","Kitwanga",2001,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-21-05","Sockeye","Kitwanga",2002,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-21-05","Sockeye","Kitwanga",2003,"Abs_Abd","Red","Red",NA,NA,NA,NA,"Red","Red","Red","Red",4,640.794155841472
+"SEL-21-05","Sockeye","Kitwanga",2003,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-21-05","Sockeye","Kitwanga",2004,"Abs_Abd","Red","Red",NA,NA,NA,NA,"Red","Red","Red","Red",4,990.175077467845
 "SEL-21-05","Sockeye","Kitwanga",2005,"Abs_Abd","Red","Amber",NA,NA,NA,NA,"Red","Amber","Red","Amber",4,1420.85192602085
 "SEL-21-05","Sockeye","Kitwanga",2006,"Abs_Abd","Red","Amber",NA,NA,NA,NA,"Red","Amber","Red","Amber",4,2151.21472046505
 "SEL-21-05","Sockeye","Kitwanga",2007,"Abs_Abd","Red","Amber",NA,NA,NA,NA,"Red","Amber","Red","Amber",4,1116.4583264098
 "SEL-21-05","Sockeye","Kitwanga",2008,"Abs_Abd","Red","Amber",NA,NA,NA,NA,"Red","Amber","Red","Amber",4,1090.79059507179
 "SEL-21-05","Sockeye","Kitwanga",2009,"Abs_Abd","Red","Amber",NA,NA,NA,NA,"Red","Amber","Red","Amber",4,1464.78741700368
-"SEL-21-05","Sockeye","Kitwanga",2010,"Abs_Abd","Red","Amber","Green",NA,NA,"Green","Red","Amber","Red","Amber",5,2077.74218480062
-"SEL-21-05","Sockeye","Kitwanga",2011,"Abs_Abd","Green","Amber","Green",NA,NA,"Green","Green","Amber","Green","Amber",5,3662.72085622533
-"SEL-21-05","Sockeye","Kitwanga",2012,"Abs_Abd","Green","Amber","Green",NA,NA,"Green","Green","Amber","Green","Amber",5,5353.33436317394
-"SEL-21-05","Sockeye","Kitwanga",2013,"Abs_Abd","Green","Amber","Green",NA,NA,"Green","Green","Amber","Green","Amber",5,3865.12764000171
-"SEL-21-05","Sockeye","Kitwanga",2014,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",6,3481.76412030973
-"SEL-21-05","Sockeye","Kitwanga",2015,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",6,4119.37678624037
-"SEL-21-05","Sockeye","Kitwanga",2016,"Abs_Abd","Amber","Amber","Green","Green",NA,"Green","Amber","Amber","Amber","Amber",6,2757.8067403832
-"SEL-21-05","Sockeye","Kitwanga",2017,"Abs_Abd","Red","Amber","Green","Green",NA,"Green","Red","Amber","Red","Amber",6,2234.72094039679
+"SEL-21-05","Sockeye","Kitwanga",2010,"Abs_Abd","Red","Amber",NA,NA,NA,NA,"Red","Amber","Red","Amber",4,2077.74218480062
+"SEL-21-05","Sockeye","Kitwanga",2011,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",4,3662.72085622533
+"SEL-21-05","Sockeye","Kitwanga",2012,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",4,5353.33436317394
+"SEL-21-05","Sockeye","Kitwanga",2013,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",4,3865.12764000171
+"SEL-21-05","Sockeye","Kitwanga",2014,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",4,3481.76412030973
+"SEL-21-05","Sockeye","Kitwanga",2015,"Abs_Abd","Green","Amber",NA,"Green",NA,NA,"Green","Amber","Green","Amber",5,4119.37678624037
+"SEL-21-05","Sockeye","Kitwanga",2016,"Abs_Abd","Amber","Amber",NA,"Green",NA,NA,"Amber","Amber","Amber","Amber",5,2757.8067403832
+"SEL-21-05","Sockeye","Kitwanga",2017,"Abs_Abd","Red","Amber",NA,"Green",NA,NA,"Red","Amber","Red","Amber",5,2234.72094039679
 "SEL-21-05","Sockeye","Kitwanga",2018,"Abs_Abd","Red","Amber","Green","Green",NA,"Green","Red","Amber","Red","Amber",6,1271.12532087651
-"SEL-21-05","Sockeye","Kitwanga",2019,"Abs_Abd","Red","Red","Green","Red",NA,"Green","Red","Red","Red","Red",6,515.086320766466
-"SEL-21-05","Sockeye","Kitwanga",2020,"Abs_Abd","Red","Red","Amber","Red",NA,"Amber","Red","Red","Red","Red",6,299.060701963504
-"SEL-21-05","Sockeye","Kitwanga",2021,"Abs_Abd","Red","Red","Red","Red",NA,"Amber","Red","Red","Red","Red",6,314.206097390332
+"SEL-21-05","Sockeye","Kitwanga",2019,"Abs_Abd","Red","Red","Amber","Red",NA,"Amber","Red","Red","Red","Red",6,515.086320766466
+"SEL-21-05","Sockeye","Kitwanga",2020,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,299.060701963504
+"SEL-21-05","Sockeye","Kitwanga",2021,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,314.206097390332
 "SEL-21-05","Sockeye","Kitwanga",2022,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,314.370302357476
 "SEL-24-04","Sockeye","Kwinageese",1995,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",4,3171.02361651886
 "SEL-24-04","Sockeye","Kwinageese",1996,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",4,2760.53639558581
@@ -645,7 +645,7 @@
 "SEL-22-12","Sockeye","Sustut",2022,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",6,1680.37153281749
 "SEL-21-09","Sockeye","Stephens",1995,"Abs_Abd","Green","Green","Green",NA,NA,"Green","Green","Green","Green","Green",5,36606.1085981885
 "SEL-21-09","Sockeye","Stephens",1996,"Abs_Abd","Green","Green","Green",NA,NA,"Green","Green","Green","Green","Green",5,32173.8522274883
-"SEL-21-09","Sockeye","Stephens",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,16459.7469951878
+"SEL-21-09","Sockeye","Stephens",1997,"Abs_Abd","Green","Green","Green","Amber",NA,"Green","Green","Green","Green","Green",6,16459.7469951878
 "SEL-21-09","Sockeye","Stephens",1998,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,12456.7434114955
 "SEL-21-09","Sockeye","Stephens",1999,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,15645.3265129993
 "SEL-21-09","Sockeye","Stephens",2000,"Abs_Abd","Green","Green","Amber","Red",NA,"Amber","Green","Green","Green","Green",6,15353.4099634651
@@ -699,35 +699,35 @@
 "SER-21","Sockeye","Upper Nass River Type",2020,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,121.154292730829
 "SER-21","Sockeye","Upper Nass River Type",2021,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,134.126385022408
 "SER-21","Sockeye","Upper Nass River Type",2022,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,428.324142845081
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",1998,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",1999,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2000,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2001,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2002,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2003,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2004,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2005,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2006,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2007,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2008,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2009,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2010,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2011,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2012,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2013,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2014,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2015,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,64783.3941344679
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2016,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,62157.4178034016
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2017,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,59171.704688319
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2018,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,43353.7113616981
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2019,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,47432.2924725833
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2020,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,46311.2013206875
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2021,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,39799.2762841913
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2022,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,46531.0969795693
-"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan CU",2023,"Abs_Abd","Amber","Green",NA,"Red",NA,NA,"Amber","Green","Amber","Green",5,47636.0555636752
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",1998,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",1999,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2000,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2001,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2002,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2003,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2004,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2005,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2006,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2007,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2008,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2009,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2010,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2011,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2012,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2013,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2014,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2015,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,64783.3941344679
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2016,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,62157.4178034016
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2017,"Abs_Abd","Green","Green",NA,NA,NA,NA,"Green","Green","Green","Green",4,59171.704688319
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2018,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,43353.7113616981
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2019,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,47432.2924725833
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2020,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,46311.2013206875
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2021,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,39799.2762841913
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2022,"Abs_Abd","Amber","Green",NA,NA,NA,NA,"Amber","Green","Amber","Green",4,46531.0969795693
+"SEL-01-01","Sockeye","Osoyoos-Skaha-Okanagan",2023,"Abs_Abd","Amber","Green",NA,"Red",NA,NA,"Amber","Green","Amber","Green",5,47636.0555636752
 "SEL-01-01-old","Sockeye","Osoyoos (Old CU)",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-01-01-old","Sockeye","Osoyoos (Old CU)",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-01-01-old","Sockeye","Osoyoos (Old CU)",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
