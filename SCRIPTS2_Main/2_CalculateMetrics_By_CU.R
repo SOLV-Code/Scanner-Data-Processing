@@ -383,6 +383,7 @@ absabd.fix.idx <- grepl("AbsAbd", metrics.cu.out.cleaned$Metric) & unlist(metric
 shorttrend.fix.idx <- grepl("ShortTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.shorttrend.list
 longtrend.fix.idx <- grepl("LongTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.longtrend.list
 
+if(!dir.exists("DATA_PROCESSING/FILTERED_DATA")){dir.create("DATA_PROCESSING/FILTERED_DATA")}
 
 write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_CU_PRE_CLEAN.csv",row.names=FALSE)
 
