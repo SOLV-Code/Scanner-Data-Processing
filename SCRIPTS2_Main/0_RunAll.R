@@ -26,7 +26,5 @@ Run <- function(datastage="Approved"){
       source("SCRIPTS2_Main/10_GenerateScannerInputs.R", local=TRUE)
 }
 
-#Run(c("Approved", "Prep"))
- 
-Run("All")
+ Run("Approved")
 
