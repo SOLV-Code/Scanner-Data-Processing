@@ -6,6 +6,36 @@
 # runAllout: set to FALSE to just run dashboards 
 
 
+# IF YOU WANT TO INSTALL/UPDATE THE METRICS PACKAGES, 
+# RUN THE CODE INSIDE THIS EXCLUSION LINE BY LINE
+# GP TO CHECK DEV VS MAIN VERSION OF WSPMetrics (STAN vs. JAGS?)
+
+if(FALSE){
+
+  library(devtools) # Load the devtools package.
+ 
+
+  if(metric.pkg.install){
+    install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", #ref = "DEV",  
+                   dependencies = TRUE, build_vignettes = FALSE) }
+  
+  library(WSPMetrics)
+  
+  # THIS IS PLAN B. FOR NOW USING DEV BRANCH OF WSP METRICS PACKAGE
+  # NOTE: THIS HAS SOME FUNCTIONS THAT OVERWRITE THE WSPMETRICS FUNCTIONS.
+  # IT IS NOT ENOUGH TO JUST CALL THEM WITH THE PACKAGE PREFIX ("MetricsCOSEWIC::" or "WSPMetrics::", because
+  # the underlying subroutines also have overlapping names).
+  # Need to load/detach the packages as needed.
+  # TO USE COSEWIC VERSION:  detach("package:WSPMetrics") ; library(MetricsCOSEWIC)
+  # TO USE WSP VERSION: detach("package:MetricsCOSEWIC") ; library(WSPMetrics)
+  #if(metric.pkg.install){install_github("SOLV-Code/MetricsCOSEWIC", dependencies = TRUE, build_vignettes = FALSE)}
+  
+  
+  
+}
+
+
+
 
 Run <- function(datastage="Approved"){
       print(paste("---running", toupper(datastage),"data---"))
@@ -27,4 +57,9 @@ Run <- function(datastage="Approved"){
 }
 
  Run("Approved")
+
+ Run("Explore") # SkeenaNass SK in this group for now
+ 
+ Run("Prep")
+ 
 
