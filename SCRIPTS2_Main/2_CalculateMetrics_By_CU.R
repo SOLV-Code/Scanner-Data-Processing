@@ -397,4 +397,7 @@ print( proc.time() - start.time)
 #library("tidyverse")
 #tmp <- metrics.cu.out.cleaned %>% dplyr::filter(Stock == "Taseko_ES")
 
+# clear the output (so it doesn't stick around in memory if you run this script from within the function in script 0)
+if(exists("metrics.cu.out")){rm(metrics.cu.out)}
+if(exists("metrics.percchange.comp")){rm(metrics.percchange.comp)}
 

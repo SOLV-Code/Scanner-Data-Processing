@@ -1,32 +1,4 @@
 "CU_ID","Species","Stock","Year","DataType","RelLBM","AbsLBM","LongTrend","PercChange","ProbDeclBelowLBM","Percentile","RelUBM","AbsUBM","RelAbd","AbsAbd","NumStdMetrics","GenAvgUsed"
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1998,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1999,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2000,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2001,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2002,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,252.650486487941
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2003,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,214.534739313624
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2004,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,252.636904279873
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2005,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,199.922533128249
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2006,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,205.966929799598
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2007,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,81.1983884861687
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2008,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,66.1318358628737
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2009,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,41.5319154037143
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2010,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,38.4142654026047
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2011,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,43.203857825429
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2012,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,28.2118688249982
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2013,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,45.8301206840219
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2014,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,38.0523047972635
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2015,"Rel_Idx",NA,NA,"Green",NA,NA,NA,NA,NA,NA,NA,1,78.3788871713425
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2016,"Rel_Idx",NA,NA,"Green",NA,NA,NA,NA,NA,NA,NA,1,64.52350438852
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2017,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,35.0607760064759
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2018,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,16.1782710894244
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2019,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,4.67026458425094
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2020,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2021,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2022,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
@@ -44,7 +16,7 @@
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2009,"Rel_Idx",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,163.707979108127
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2010,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,159.528936947511
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2011,"Rel_Idx",NA,NA,NA,"Amber",NA,NA,NA,NA,NA,NA,1,199.148569662188
-"CK-29","Chinook","East Vancouver Island-North_FA_0.x",2012,"Rel_Idx",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,178.257435657779
+"CK-29","Chinook","East Vancouver Island-North_FA_0.x",2012,"Rel_Idx",NA,NA,NA,"Amber",NA,NA,NA,NA,NA,NA,1,178.257435657779
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2013,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,163.520628034086
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2014,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,131.879526975763
 "CK-29","Chinook","East Vancouver Island-North_FA_0.x",2015,"Rel_Idx",NA,NA,"Amber","Green",NA,NA,NA,NA,NA,NA,2,95.3369997640323
@@ -324,7 +296,7 @@
 "SEL-24-02","Sockeye","Damdochax/Wiminasik",2009,"Abs_Abd","Green","Amber","Red","Red",NA,"Red","Green","Amber","Green","Amber",6,1435.41238639654
 "SEL-24-02","Sockeye","Damdochax/Wiminasik",2010,"Abs_Abd","Green","Amber","Amber","Red",NA,"Red","Green","Amber","Green","Amber",6,1884.56733433655
 "SEL-24-02","Sockeye","Damdochax/Wiminasik",2011,"Abs_Abd","Green","Amber","Amber","Red",NA,"Amber","Green","Amber","Green","Amber",6,2110.46987895977
-"SEL-24-02","Sockeye","Damdochax/Wiminasik",2012,"Abs_Abd","Green","Amber","Green","Green",NA,"Amber","Green","Amber","Green","Amber",6,2078.47506401528
+"SEL-24-02","Sockeye","Damdochax/Wiminasik",2012,"Abs_Abd","Green","Amber","Green","Amber",NA,"Amber","Green","Amber","Green","Amber",6,2078.47506401528
 "SEL-24-02","Sockeye","Damdochax/Wiminasik",2013,"Abs_Abd","Green","Amber","Green","Green",NA,"Amber","Green","Amber","Green","Amber",6,2137.39301904715
 "SEL-24-02","Sockeye","Damdochax/Wiminasik",2014,"Abs_Abd","Green","Amber","Green","Green",NA,"Amber","Green","Amber","Green","Amber",6,2597.55120377757
 "SEL-24-02","Sockeye","Damdochax/Wiminasik",2015,"Abs_Abd","Green","Amber","Green","Green",NA,"Amber","Green","Amber","Green","Amber",6,3010.14242982393
@@ -348,7 +320,7 @@
 "SEL-20-05","Sockeye","Johnston",2005,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-20-05","Sockeye","Johnston",2006,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-20-05","Sockeye","Johnston",2007,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
-"SEL-20-05","Sockeye","Johnston",2008,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"SEL-20-05","Sockeye","Johnston",2008,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-20-05","Sockeye","Johnston",2009,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-20-05","Sockeye","Johnston",2010,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-20-05","Sockeye","Johnston",2011,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
@@ -575,7 +547,7 @@
 "SEL-21-07","Sockeye","Morice",2008,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,16436.1024328094
 "SEL-21-07","Sockeye","Morice",2009,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,18785.8311349388
 "SEL-21-07","Sockeye","Morice",2010,"Abs_Abd","Green","Green","Green","Red",NA,"Green","Green","Green","Green","Green",6,19791.8830001759
-"SEL-21-07","Sockeye","Morice",2011,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,16529.2660600181
+"SEL-21-07","Sockeye","Morice",2011,"Abs_Abd","Green","Green","Green","Amber",NA,"Green","Green","Green","Green","Green",6,16529.2660600181
 "SEL-21-07","Sockeye","Morice",2012,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,11340.1164489603
 "SEL-21-07","Sockeye","Morice",2013,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,10030.2599942633
 "SEL-21-07","Sockeye","Morice",2014,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",6,9148.35470112061
@@ -591,7 +563,7 @@
 "SEL-22-08","Sockeye","Motase",1996,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-22-08","Sockeye","Motase",1997,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-22-08","Sockeye","Motase",1998,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
-"SEL-22-08","Sockeye","Motase",1999,"Abs_Abd",NA,NA,NA,"Green",NA,NA,NA,NA,NA,NA,1,NA
+"SEL-22-08","Sockeye","Motase",1999,"Abs_Abd",NA,NA,NA,"Amber",NA,NA,NA,NA,NA,NA,1,NA
 "SEL-22-08","Sockeye","Motase",2000,"Abs_Abd","Green","Red",NA,"Green",NA,NA,"Green","Red","Green","Red",5,350.906204087401
 "SEL-22-08","Sockeye","Motase",2001,"Abs_Abd","Green","Red",NA,"Green",NA,NA,"Green","Red","Green","Red",5,475.555746930202
 "SEL-22-08","Sockeye","Motase",2002,"Abs_Abd","Green","Red",NA,"Green",NA,NA,"Green","Red","Green","Red",5,452.411399475088
@@ -613,7 +585,7 @@
 "SEL-22-08","Sockeye","Motase",2018,"Abs_Abd","Green","Red",NA,"Red",NA,NA,"Green","Red","Green","Red",5,409.348729932008
 "SEL-22-08","Sockeye","Motase",2019,"Abs_Abd","Green","Red",NA,"Red",NA,NA,"Green","Red","Green","Red",5,456.195018540704
 "SEL-22-08","Sockeye","Motase",2020,"Abs_Abd","Green","Red",NA,"Red",NA,NA,"Green","Red","Green","Red",5,371.844681668408
-"SEL-22-08","Sockeye","Motase",2021,"Abs_Abd","Green","Red",NA,"Green",NA,NA,"Green","Red","Green","Red",5,326.34883441945
+"SEL-22-08","Sockeye","Motase",2021,"Abs_Abd","Green","Red",NA,"Red",NA,NA,"Green","Red","Green","Red",5,326.34883441945
 "SEL-22-08","Sockeye","Motase",2022,"Abs_Abd","Green","Red","Green","Green",NA,"Amber","Green","Red","Green","Red",6,301.863031724519
 "SEL-22-10","Sockeye","Slamgeesh",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "SEL-22-10","Sockeye","Slamgeesh",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
