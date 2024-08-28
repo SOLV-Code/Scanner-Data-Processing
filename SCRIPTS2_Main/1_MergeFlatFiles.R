@@ -19,7 +19,7 @@ flat.fr.cm<- read.csv("DATA_PROCESSING/Cleaned_FlatFile_ByPop_FraserChum_all.csv
 vars.use <- intersect(intersect(intersect(intersect(names(flat.fr.sk),names(flat.sbc.ck)),names(flat.fr.co)), names(flat.fr.pk)),
                       names(flat.fr.cm))#, names(flat.isc.cm))
 flat.merged <- bind_rows(list(Sk_Fraser= select(flat.fr.sk,all_of(vars.use)),Ck_SBC = select(flat.sbc.ck,all_of(vars.use)),
-                              Co_Fraser = select(flat.fr.co,all_of(vars.use)), Pk_Fraser = select(flat.fr.pk,vars.use),
+                              Co_Fraser = select(flat.fr.co,all_of(vars.use)), Pk_Fraser = select(flat.fr.pk,all_of(vars.use)),
                               Cm_Fraser = select(flat.fr.cm,all_of(vars.use))), #Cm_ISC = select(flat.isc.cm, all_of(vars.use))),
                 .id = "DataSet")
 head(flat.merged)

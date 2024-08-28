@@ -3,6 +3,7 @@
 
 library(tidyverse)
 
+if(!dir.exists("OUTPUT/DATA_OUT")){dir.create("OUTPUT/DATA_OUT/") }
 if(!dir.exists(paste0("OUTPUT/DATA_OUT/", paste(datastage, collapse="")))){dir.create(paste0("OUTPUT/DATA_OUT/", paste(datastage, collapse=""))) }
 
 # READ IN DATA
