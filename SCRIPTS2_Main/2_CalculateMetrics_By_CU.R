@@ -187,10 +187,13 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
 
 #	CHECK THAT LOOKUPS AND INPUT VALUES ARE FED IN PROPERLY
 
-    print(paste("starting  BMAC changes for", cu.name, series.do))
+
 
 
 	if(cu.lookup.sub$Cyclic==TRUE){
+	  
+    print(paste("starting  BMAC changes for", cu.name, series.do))	  
+	  
         # Set to NA first (AbsAbd BMs don't need to be changed)
         metrics.tmp[metrics.tmp$Metric == "RelAbd", c("Value","LBM","UBM","Status")] <- NA
        # metrics.tmp[metrics.tmp$Metric == "AbsAbd", c("Value","Status")] <- NA   # Changed Nov 9 2021 as we decided to use the geom average for
@@ -227,9 +230,13 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
         # Insert Statuses
         metrics.tmp <- metrics.tmp %>%
                                mutate(Status = ifelse(Value <= LBM, "Red", ifelse(Value > UBM, "Green", "Amber")))
+        
+        
+        print(paste("ending  BMAC changes for", cu.name, series.do))
+        
   } # end cyclic
 
-    print(paste("ending  BMAC changes for", cu.name, series.do))
+
 
   # ********************************** End BMAC changes ******************************
 
@@ -398,6 +405,9 @@ print( proc.time() - start.time)
 #tmp <- metrics.cu.out.cleaned %>% dplyr::filter(Stock == "Taseko_ES")
 
 # clear the output (so it doesn't stick around in memory if you run this script from within the function in script 0)
-if(exists("metrics.cu.out")){rm(metrics.cu.out)}
-if(exists("metrics.percchange.comp")){rm(metrics.percchange.comp)}
+#if(exists("metrics.cu.out")){rm(metrics.cu.out)}
+#if(exists("metrics.percchange.comp")){rm(metrics.percchange.comp)}
+# This didn't work, because it deletes this even if it's called within the function
+
+
 
