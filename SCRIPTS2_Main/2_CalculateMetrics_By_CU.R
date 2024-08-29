@@ -34,8 +34,6 @@ cu.info.main$CU_ID <- gsub("_","-",cu.info.main$CU_ID)
 cu.file <- cu.file.in %>% left_join(cu.info.main %>% select(CU_ID, Data_Stage)) %>%
                           filter(Data_Stage %in% datastage)
 
-
-
 #library(R2jags)
 
 cu.list <- unique(cu.file[,c("Species","CU_Name","CU_ID")])
