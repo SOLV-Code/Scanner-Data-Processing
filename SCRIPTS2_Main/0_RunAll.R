@@ -6,6 +6,45 @@
 # runAllout: set to FALSE to just run dashboards 
 
 
+# NEED A CLEAR_OUTPUT() FUNCTION
+# Testing the steps. THis seems to work. Just need to add all the locations we want to clear
+if(FALSE){
+  
+  out.files <- c(list.files("OUTPUT/DASHBOARDS", include.dirs = T, full.names = T, recursive = T),
+                 list.files("OUTPUT/DATA_OUT", include.dirs = T, full.names = T, recursive = T)
+                 )
+  # remove the files
+  file.remove(out.files)  
+  
+  
+  
+}
+
+
+# IF YOU WANT TO INSTALL/UPDATE THE METRICS PACKAGES, 
+# RUN THE CODE INSIDE THIS EXCLUSION LINE BY LINE
+library(tidyverse)
+
+if(FALSE){
+
+  pkg.list <- installed.packages() %>% as.data.frame() %>% select(Package) %>% unlist()
+  
+  if("WSPMetrics" %in% pkg.list){
+    remove.packages("WSPMetrics")
+    detach("package:WSPMetrics", unload = TRUE)
+  }
+  
+  
+  library(devtools) # Load the devtools package.
+   install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", #ref = "DEV",  
+                   dependencies = TRUE, build_vignettes = FALSE) 
+    library(WSPMetrics)
+
+  
+}
+
+
+
 
 Run <- function(datastage="Approved"){
       print(paste("---running", toupper(datastage),"data---"))
@@ -27,4 +66,9 @@ Run <- function(datastage="Approved"){
 }
 
  Run("Approved")
+
+ Run("Explore") # SkeenaNass SK in this group for now
+ 
+ Run("Prep")
+ 
 

@@ -1,5 +1,11 @@
 
+# IMPORTANT: This script is called within a function in script 0_RunAll.R
+# that function provides a required argument: datastages 
+
+# ALSO NOTE: OPTION TO INSTALL METRICS PACKAGES HAS BEEN MOVED THERE
+
 library("tidyverse")
+library(WSPMetrics)
 
 
 # read in the merged flat file and lookup file
@@ -27,29 +33,6 @@ cu.info.main$CU_ID <- gsub("_","-",cu.info.main$CU_ID)
 
 cu.file <- cu.file.in %>% left_join(cu.info.main %>% select(CU_ID, Data_Stage)) %>%
                           filter(Data_Stage %in% datastage)
-
-# get the metrics functions
-library(devtools) # Load the devtools package.
-
-# Obsolete Package
-#install_github("SOLV-Code/MetricsTest", dependencies = TRUE, build_vignettes = FALSE)
-#library(MetricsTest)
-
-# Official Package
-#install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
-# Working with DEV branch for now (has the stan version of MCMC and the ComparePercBM fn)
-install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", ref = "master",  dependencies = TRUE, build_vignettes = FALSE)
-library(WSPMetrics)
-
-# THIS IS PLAN B. FOR NOW USING DEV BRANCH OF WSP METRICS PACKAGE
-# NOTE: THIS HAS SOME FUNCTIONS THAT OVERWRITE THE WSPMETRICS FUNCTIONS.
-# IT IS NOT ENOUGH TO JUST CALL THEM WITH THE PACKAGE PREFIX ("MetricsCOSEWIC::" or "WSPMetrics::", because
-# the underlying subroutines also have overlapping names).
-# Need to load/detach the packages as needed.
-# TO USE COSEWIC VERSION:  detach("package:WSPMetrics") ; library(MetricsCOSEWIC)
-# TO USE WSP VERSION: detach("package:MetricsCOSEWIC") ; library(WSPMetrics)
-install_github("SOLV-Code/MetricsCOSEWIC", dependencies = TRUE, build_vignettes = FALSE)
-
 
 #library(R2jags)
 
@@ -202,10 +185,13 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
 
 #	CHECK THAT LOOKUPS AND INPUT VALUES ARE FED IN PROPERLY
 
-    print(paste("starting  BMAC changes for", cu.name, series.do))
+
 
 
 	if(cu.lookup.sub$Cyclic==TRUE){
+	  
+    print(paste("starting  BMAC changes for", cu.name, series.do))	  
+	  
         # Set to NA first (AbsAbd BMs don't need to be changed)
         metrics.tmp[metrics.tmp$Metric == "RelAbd", c("Value","LBM","UBM","Status")] <- NA
        # metrics.tmp[metrics.tmp$Metric == "AbsAbd", c("Value","Status")] <- NA   # Changed Nov 9 2021 as we decided to use the geom average for
@@ -242,9 +228,13 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
         # Insert Statuses
         metrics.tmp <- metrics.tmp %>%
                                mutate(Status = ifelse(Value <= LBM, "Red", ifelse(Value > UBM, "Green", "Amber")))
+        
+        
+        print(paste("ending  BMAC changes for", cu.name, series.do))
+        
   } # end cyclic
 
-    print(paste("ending  BMAC changes for", cu.name, series.do))
+
 
   # ********************************** End BMAC changes ******************************
 
@@ -411,5 +401,11 @@ print( proc.time() - start.time)
 
 #library("tidyverse")
 #tmp <- metrics.cu.out.cleaned %>% dplyr::filter(Stock == "Taseko_ES")
+
+# clear the output (so it doesn't stick around in memory if you run this script from within the function in script 0)
+#if(exists("metrics.cu.out")){rm(metrics.cu.out)}
+#if(exists("metrics.percchange.comp")){rm(metrics.percchange.comp)}
+# This didn't work, because it deletes this even if it's called within the function
+
 
 

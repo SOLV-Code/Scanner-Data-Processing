@@ -100,7 +100,10 @@ metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.used.df
 
 #metrics.synoptic.values$GenAvgUsed <- metrics.synoptic.values$AbsLBM *1000 # back calculate from the Ratio relative to 1,000 BM
 
-																														   
+					
+str(metrics.synoptic.values)
+
+																									   
 # Write files for running the algorithms in retro
 write.csv( metrics.synoptic.values, paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Metrics_Values_",paste(datastage, collapse=""),".csv"), row.names = FALSE)
 write.csv( metrics.synoptic.status, paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Metrics_Status_",paste(datastage, collapse=""),".csv"), row.names = FALSE)                     
