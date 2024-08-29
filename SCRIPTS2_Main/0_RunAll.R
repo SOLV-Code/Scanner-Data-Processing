@@ -11,7 +11,8 @@
 if(FALSE){
   
   out.files <- c(list.files("OUTPUT/DASHBOARDS", include.dirs = T, full.names = T, recursive = T),
-                 list.files("OUTPUT/DATA_OUT", include.dirs = T, full.names = T, recursive = T))
+                 list.files("OUTPUT/DATA_OUT", include.dirs = T, full.names = T, recursive = T)
+                 )
   # remove the files
   file.remove(out.files)  
   
