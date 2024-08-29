@@ -6,9 +6,22 @@
 # runAllout: set to FALSE to just run dashboards 
 
 
+# NEED A CLEAR_OUTPUT() FUNCTION
+# Testing the steps. THis seems to work. Just need to add all the locations we want to clear
+if(FALSE){
+  
+  out.files <- c(list.files("OUTPUT/DASHBOARDS", include.dirs = T, full.names = T, recursive = T),
+                 list.files("OUTPUT/DATA_OUT", include.dirs = T, full.names = T, recursive = T))
+  # remove the files
+  file.remove(out.files)  
+  
+  
+  
+}
+
+
 # IF YOU WANT TO INSTALL/UPDATE THE METRICS PACKAGES, 
 # RUN THE CODE INSIDE THIS EXCLUSION LINE BY LINE
-# GP TO CHECK DEV VS MAIN VERSION OF WSPMetrics (STAN vs. JAGS?)
 library(tidyverse)
 
 if(FALSE){
@@ -19,6 +32,7 @@ if(FALSE){
     remove.packages("WSPMetrics")
     detach("package:WSPMetrics", unload = TRUE)
   }
+  
   
   library(devtools) # Load the devtools package.
    install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", #ref = "DEV",  
