@@ -38,7 +38,7 @@ library(devtools) # Load the devtools package.
 # Official Package
 #install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
 # Working with DEV branch for now (has the stan version of MCMC and the ComparePercBM fn)
-install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", ref = "DEV",  dependencies = TRUE, build_vignettes = FALSE)
+install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", ref = "master",  dependencies = TRUE, build_vignettes = FALSE)
 library(WSPMetrics)
 
 # THIS IS PLAN B. FOR NOW USING DEV BRANCH OF WSP METRICS PACKAGE
