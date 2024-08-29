@@ -27,7 +27,7 @@
 "CU-1","Sockeye","Bowron_ES",2020,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,343.57866560535
 "CU-1","Sockeye","Bowron_ES",2021,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,646.832503531879
 "CU-1","Sockeye","Bowron_ES",2022,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,506.78867208349
-"CU-1","Sockeye","Bowron_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-1","Sockeye","Bowron_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-10","Sockeye","Seton_L",1995,"Abs_Abd","Amber","Amber","Green","Green",NA,"Green","Amber","Amber","Amber","Amber",6,7697.94665187166
 "CU-10","Sockeye","Seton_L",1996,"Abs_Abd","Amber","Amber","Green","Green",NA,"Green","Amber","Amber","Amber","Amber",6,7879.21531236501
 "CU-10","Sockeye","Seton_L",1997,"Abs_Abd","Amber","Amber","Green","Green",NA,"Green","Amber","Amber","Amber","Amber",6,6436.4531304223
@@ -56,7 +56,7 @@
 "CU-10","Sockeye","Seton_L",2020,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,785.586423872608
 "CU-10","Sockeye","Seton_L",2021,"Abs_Abd","Red","Amber","Red","Red",NA,"Red","Red","Amber","Red","Amber",6,1013.85007741005
 "CU-10","Sockeye","Seton_L",2022,"Abs_Abd","Red","Red","Red","Red",NA,"Red","Red","Red","Red","Red",6,858.097856147303
-"CU-10","Sockeye","Seton_L",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-10","Sockeye","Seton_L",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-11","Sockeye","Harrison_US_L",1995,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,49099.8582854971
 "CU-11","Sockeye","Harrison_US_L",1996,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,47166.1023165388
 "CU-11","Sockeye","Harrison_US_L",1997,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,33883.3393108479
@@ -85,7 +85,7 @@
 "CU-11","Sockeye","Harrison_US_L",2020,"Abs_Abd","Red","Amber","Red","Red",NA,"Red","Red","Amber","Red","Amber",6,2635.16987787225
 "CU-11","Sockeye","Harrison_US_L",2021,"Abs_Abd","Red","Amber","Red","Red",NA,"Red","Red","Amber","Red","Amber",6,3312.34067010685
 "CU-11","Sockeye","Harrison_US_L",2022,"Abs_Abd","Red","Amber","Red","Red",NA,"Red","Red","Amber","Red","Amber",6,4471.12071721087
-"CU-11","Sockeye","Harrison_US_L",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-11","Sockeye","Harrison_US_L",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-12","Sockeye","Lillooet_Harr_L",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,89628.0027364164
 "CU-12","Sockeye","Lillooet_Harr_L",1996,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,65212.9112895557
 "CU-12","Sockeye","Lillooet_Harr_L",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,43321.4919859545
@@ -114,7 +114,7 @@
 "CU-12","Sockeye","Lillooet_Harr_L",2020,"Abs_Abd","Red","Amber","Red","Red",NA,"Red","Red","Amber","Red","Amber",6,7013.62147636081
 "CU-12","Sockeye","Lillooet_Harr_L",2021,"Abs_Abd","Red","Amber","Red","Red",NA,"Red","Red","Amber","Red","Amber",6,8861.24933390774
 "CU-12","Sockeye","Lillooet_Harr_L",2022,"Abs_Abd","Amber","Green","Red","Red",NA,"Red","Amber","Green","Amber","Green",6,15140.8882387836
-"CU-12","Sockeye","Lillooet_Harr_L",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-12","Sockeye","Lillooet_Harr_L",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-13","Sockeye","Harrison_DS_L",1995,"Rel_Idx",NA,NA,"Green","Green",NA,"Green",NA,NA,NA,NA,2,1330.66416122568
 "CU-13","Sockeye","Harrison_DS_L",1996,"Rel_Idx",NA,NA,"Green","Green",NA,"Green",NA,NA,NA,NA,2,1337.15450157858
 "CU-13","Sockeye","Harrison_DS_L",1997,"Rel_Idx",NA,NA,"Green","Green",NA,"Green",NA,NA,NA,NA,2,1436.94283676158
@@ -142,8 +142,8 @@
 "CU-13","Sockeye","Harrison_DS_L",2019,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,928.472646401325
 "CU-13","Sockeye","Harrison_DS_L",2020,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,441.159458185792
 "CU-13","Sockeye","Harrison_DS_L",2021,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,331.672353418338
-"CU-13","Sockeye","Harrison_DS_L",2022,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,351.132673383496
-"CU-13","Sockeye","Harrison_DS_L",2023,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-13","Sockeye","Harrison_DS_L",2022,"Rel_Idx",NA,NA,"Amber","Red",NA,"Green",NA,NA,NA,NA,2,351.132673383496
+"CU-13","Sockeye","Harrison_DS_L",2023,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-14","Sockeye","Nahatlatch_ES",1995,"Abs_Abd",NA,"Amber","Green","Green",NA,"Green",NA,"Amber",NA,"Amber",4,3149.40332985269
 "CU-14","Sockeye","Nahatlatch_ES",1996,"Abs_Abd",NA,"Amber","Green","Green",NA,"Green",NA,"Amber",NA,"Amber",4,4219.3317902033
 "CU-14","Sockeye","Nahatlatch_ES",1997,"Abs_Abd",NA,"Amber","Green","Green",NA,"Green",NA,"Amber",NA,"Amber",4,6132.83893896401
@@ -171,8 +171,8 @@
 "CU-14","Sockeye","Nahatlatch_ES",2019,"Abs_Abd",NA,"Amber","Amber","Green",NA,"Amber",NA,"Amber",NA,"Amber",4,1660.01241645569
 "CU-14","Sockeye","Nahatlatch_ES",2020,"Abs_Abd",NA,"Amber","Amber","Green",NA,"Amber",NA,"Amber",NA,"Amber",4,1771.90540939195
 "CU-14","Sockeye","Nahatlatch_ES",2021,"Abs_Abd",NA,"Amber","Amber","Green",NA,"Amber",NA,"Amber",NA,"Amber",4,2383.00318281266
-"CU-14","Sockeye","Nahatlatch_ES",2022,"Abs_Abd",NA,"Amber","Green","Amber",NA,"Amber",NA,"Amber",NA,"Amber",4,2939.87371521715
-"CU-14","Sockeye","Nahatlatch_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-14","Sockeye","Nahatlatch_ES",2022,"Abs_Abd",NA,"Amber","Green","Green",NA,"Amber",NA,"Amber",NA,"Amber",4,2939.87371521715
+"CU-14","Sockeye","Nahatlatch_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-15","Sockeye","Taseko_ES",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-15","Sockeye","Taseko_ES",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-15","Sockeye","Taseko_ES",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,671.044127550769
@@ -197,10 +197,10 @@
 "CU-15","Sockeye","Taseko_ES",2016,"Rel_Idx",NA,NA,"Red","Red",NA,"Red",NA,NA,NA,NA,2,210.165298197928
 "CU-15","Sockeye","Taseko_ES",2017,"Rel_Idx",NA,NA,"Red","Red",NA,"Red",NA,NA,NA,NA,2,133.967011606445
 "CU-15","Sockeye","Taseko_ES",2018,"Rel_Idx",NA,NA,"Red","Red",NA,"Red",NA,NA,NA,NA,2,120.483183779916
-"CU-15","Sockeye","Taseko_ES",2019,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
-"CU-15","Sockeye","Taseko_ES",2020,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
-"CU-15","Sockeye","Taseko_ES",2021,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
-"CU-15","Sockeye","Taseko_ES",2022,"Rel_Idx",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-15","Sockeye","Taseko_ES",2019,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"CU-15","Sockeye","Taseko_ES",2020,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"CU-15","Sockeye","Taseko_ES",2021,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
+"CU-15","Sockeye","Taseko_ES",2022,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-15","Sockeye","Taseko_ES",2023,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-16","Sockeye","Widgeon_RT",1995,"Abs_Abd",NA,NA,"Red","Red",NA,"Red",NA,NA,NA,NA,2,NA
 "CU-16","Sockeye","Widgeon_RT",1996,"Abs_Abd",NA,NA,"Red","Red",NA,"Red",NA,NA,NA,NA,2,NA
@@ -230,7 +230,7 @@
 "CU-16","Sockeye","Widgeon_RT",2020,"Abs_Abd",NA,"Red","Red","Red",NA,"Red",NA,"Red",NA,"Red",4,174.992704358686
 "CU-16","Sockeye","Widgeon_RT",2021,"Abs_Abd",NA,"Red","Red","Red",NA,"Red",NA,"Red",NA,"Red",4,172.517306717657
 "CU-16","Sockeye","Widgeon_RT",2022,"Abs_Abd",NA,"Red","Red","Red",NA,"Red",NA,"Red",NA,"Red",4,177.664080917586
-"CU-16","Sockeye","Widgeon_RT",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-16","Sockeye","Widgeon_RT",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-17","Sockeye","Chilliwack_ES",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-17","Sockeye","Chilliwack_ES",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-17","Sockeye","Chilliwack_ES",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
@@ -259,7 +259,7 @@
 "CU-17","Sockeye","Chilliwack_ES",2020,"Abs_Abd","Red","Amber","Green","Green",NA,"Amber","Red","Amber","Red","Amber",6,4798.21112588238
 "CU-17","Sockeye","Chilliwack_ES",2021,"Abs_Abd","Red","Amber","Amber","Red",NA,"Amber","Red","Amber","Red","Amber",6,3473.39718769064
 "CU-17","Sockeye","Chilliwack_ES",2022,"Abs_Abd","Red","Amber","Amber","Red",NA,"Red","Red","Amber","Red","Amber",6,4059.91380372288
-"CU-17","Sockeye","Chilliwack_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-17","Sockeye","Chilliwack_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-18","Sockeye","Takla_Trem_EStu",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,679754.8169
 "CU-18","Sockeye","Takla_Trem_EStu",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,679754.8169
 "CU-18","Sockeye","Takla_Trem_EStu",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,217302.4682
@@ -317,7 +317,7 @@
 "CU-19","Sockeye","Anderson_Seton_ES",2020,"Abs_Abd","Amber","Amber","Green","Green",NA,"Green","Amber","Amber","Amber","Amber",6,5441.58561878816
 "CU-19","Sockeye","Anderson_Seton_ES",2021,"Abs_Abd","Amber","Amber","Green","Red",NA,"Green","Amber","Amber","Amber","Amber",6,8248.89252450251
 "CU-19","Sockeye","Anderson_Seton_ES",2022,"Abs_Abd","Amber","Amber","Green","Red",NA,"Green","Amber","Amber","Amber","Amber",6,8046.04755844213
-"CU-19","Sockeye","Anderson_Seton_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-19","Sockeye","Anderson_Seton_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-2","Sockeye","Kamloops_ES",1995,"Abs_Abd","Red","Amber","Amber","Red",NA,"Red","Red","Amber","Red","Amber",6,2886.69706033396
 "CU-2","Sockeye","Kamloops_ES",1996,"Abs_Abd","Red","Amber","Green","Red",NA,"Amber","Red","Amber","Red","Amber",6,4276.43965949339
 "CU-2","Sockeye","Kamloops_ES",1997,"Abs_Abd","Red","Amber","Green","Green",NA,"Green","Red","Amber","Red","Amber",6,4273.86592491641
@@ -346,7 +346,7 @@
 "CU-2","Sockeye","Kamloops_ES",2020,"Abs_Abd","Red","Amber","Green","Red",NA,"Amber","Red","Amber","Red","Amber",6,2514.43499769252
 "CU-2","Sockeye","Kamloops_ES",2021,"Abs_Abd","Red","Amber","Amber","Red",NA,"Amber","Red","Amber","Red","Amber",6,2404.33166497351
 "CU-2","Sockeye","Kamloops_ES",2022,"Abs_Abd","Red","Amber","Amber","Red",NA,"Amber","Red","Amber","Red","Amber",6,2457.21216977934
-"CU-2","Sockeye","Kamloops_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-2","Sockeye","Kamloops_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-20","Sockeye","Shuswap_ES",1995,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,131126.024
 "CU-20","Sockeye","Shuswap_ES",1996,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,131126.024
 "CU-20","Sockeye","Shuswap_ES",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,131126.024
@@ -375,7 +375,7 @@
 "CU-20","Sockeye","Shuswap_ES",2020,"Abs_Abd","Green","Amber","Amber","Red",NA,"Red","Green","Amber","Green","Amber",6,182167.224
 "CU-20","Sockeye","Shuswap_ES",2021,"Abs_Abd","Green","Green","Amber","Red",NA,"Red","Green","Green","Green","Green",6,182167.224
 "CU-20","Sockeye","Shuswap_ES",2022,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,79625.4205
-"CU-20","Sockeye","Shuswap_ES",2023,"Abs_Abd","Amber",NA,NA,"Red",NA,NA,"Amber",NA,"Amber",NA,3,79625.4205
+"CU-20","Sockeye","Shuswap_ES",2023,"Abs_Abd","Amber",NA,NA,NA,NA,NA,"Amber",NA,"Amber",NA,2,79625.4205
 "CU-21","Sockeye","Takla_Trem_S_S",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,1799182.2911
 "CU-21","Sockeye","Takla_Trem_S_S",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,1799182.2911
 "CU-21","Sockeye","Takla_Trem_S_S",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,795952.7364
@@ -400,11 +400,11 @@
 "CU-21","Sockeye","Takla_Trem_S_S",2016,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,130426.8585
 "CU-21","Sockeye","Takla_Trem_S_S",2017,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,142409.0804
 "CU-21","Sockeye","Takla_Trem_S_S",2018,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,142409.0804
-"CU-21","Sockeye","Takla_Trem_S_S",2019,"Abs_Abd","Amber","Green","Green","Amber",NA,"Green","Amber","Green","Amber","Green",6,142409.0804
+"CU-21","Sockeye","Takla_Trem_S_S",2019,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,142409.0804
 "CU-21","Sockeye","Takla_Trem_S_S",2020,"Abs_Abd","Amber","Green","Green","Amber",NA,"Green","Amber","Green","Amber","Green",6,142409.0804
 "CU-21","Sockeye","Takla_Trem_S_S",2021,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,379351.1715
 "CU-21","Sockeye","Takla_Trem_S_S",2022,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,379351.1715
-"CU-21","Sockeye","Takla_Trem_S_S",2023,"Abs_Abd","Amber",NA,NA,"Red",NA,NA,"Amber",NA,"Amber",NA,3,379351.1715
+"CU-21","Sockeye","Takla_Trem_S_S",2023,"Abs_Abd","Amber",NA,NA,NA,NA,NA,"Amber",NA,"Amber",NA,2,379351.1715
 "CU-22","Sockeye","Quesnel_S",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,2556111.1558
 "CU-22","Sockeye","Quesnel_S",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,2556111.1558
 "CU-22","Sockeye","Quesnel_S",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,1651326.7457
@@ -433,7 +433,7 @@
 "CU-22","Sockeye","Quesnel_S",2020,"Abs_Abd","Red","Green","Green","Red",NA,"Green","Red","Green","Red","Green",6,105880.2722
 "CU-22","Sockeye","Quesnel_S",2021,"Abs_Abd","Red","Green","Green","Green",NA,"Green","Red","Green","Red","Green",6,100565.5158
 "CU-22","Sockeye","Quesnel_S",2022,"Abs_Abd","Red","Green","Green","Green",NA,"Green","Red","Green","Red","Green",6,100565.5158
-"CU-22","Sockeye","Quesnel_S",2023,"Abs_Abd","Red",NA,NA,"Red",NA,NA,"Red",NA,"Red",NA,3,100565.5158
+"CU-22","Sockeye","Quesnel_S",2023,"Abs_Abd","Red",NA,NA,NA,NA,NA,"Red",NA,"Red",NA,2,100565.5158
 "CU-23","Sockeye","Shuswap_L",1995,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,1361672.5386
 "CU-23","Sockeye","Shuswap_L",1996,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,1361672.5386
 "CU-23","Sockeye","Shuswap_L",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,1361672.5386
@@ -462,7 +462,7 @@
 "CU-23","Sockeye","Shuswap_L",2020,"Abs_Abd","Amber","Amber","Red","Red",NA,"Red","Amber","Amber","Amber","Amber",6,1502077.0386
 "CU-23","Sockeye","Shuswap_L",2021,"Abs_Abd","Amber","Amber","Red","Red",NA,"Red","Amber","Amber","Amber","Amber",6,1502077.0386
 "CU-23","Sockeye","Shuswap_L",2022,"Abs_Abd","Amber","Amber","Red","Red",NA,"Red","Amber","Amber","Amber","Amber",6,703128.3648
-"CU-23","Sockeye","Shuswap_L",2023,"Abs_Abd","Amber",NA,NA,"Red",NA,NA,"Amber",NA,"Amber",NA,3,703128.3648
+"CU-23","Sockeye","Shuswap_L",2023,"Abs_Abd","Amber",NA,NA,NA,NA,NA,"Amber",NA,"Amber",NA,2,703128.3648
 "CU-3","Sockeye","Nadina_Francois_ES",1995,"Abs_Abd","Red","Amber","Green","Amber",NA,"Amber","Red","Amber","Red","Amber",6,6028.76173944814
 "CU-3","Sockeye","Nadina_Francois_ES",1996,"Abs_Abd","Red","Green","Green","Amber",NA,"Amber","Red","Green","Red","Green",6,10161.1347678796
 "CU-3","Sockeye","Nadina_Francois_ES",1997,"Abs_Abd","Red","Amber","Green","Amber",NA,"Red","Red","Amber","Red","Amber",6,9724.10020224465
@@ -491,7 +491,7 @@
 "CU-3","Sockeye","Nadina_Francois_ES",2020,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,23753.7646139531
 "CU-3","Sockeye","Nadina_Francois_ES",2021,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,30369.950741762
 "CU-3","Sockeye","Nadina_Francois_ES",2022,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,36583.6662447531
-"CU-3","Sockeye","Nadina_Francois_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-3","Sockeye","Nadina_Francois_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-4","Sockeye","North_Barriere_ES",1995,"Abs_Abd","Green","Amber","Green","Green",NA,"Green","Green","Amber","Green","Amber",6,8181.52218555504
 "CU-4","Sockeye","North_Barriere_ES",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,10807.3117888199
 "CU-4","Sockeye","North_Barriere_ES",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,11079.4295555185
@@ -520,7 +520,7 @@
 "CU-4","Sockeye","North_Barriere_ES",2020,"Abs_Abd","Amber","Red","Red","Red",NA,"Red","Amber","Red","Amber","Red",6,922.49635162233
 "CU-4","Sockeye","North_Barriere_ES",2021,"Abs_Abd","Amber","Amber","Red","Red",NA,"Red","Amber","Amber","Amber","Amber",6,1004.23340648926
 "CU-4","Sockeye","North_Barriere_ES",2022,"Abs_Abd","Amber","Amber","Red","Red",NA,"Red","Amber","Amber","Amber","Amber",6,1234.5605904899
-"CU-4","Sockeye","North_Barriere_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-4","Sockeye","North_Barriere_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-5","Sockeye","Pitt_ES",1995,"Abs_Abd","Amber","Amber","Amber","Amber",NA,"Red","Amber","Amber","Amber","Amber",6,9627.16834692404
 "CU-5","Sockeye","Pitt_ES",1996,"Abs_Abd","Amber","Green","Green","Green",NA,"Red","Amber","Green","Amber","Green",6,14775.926983138
 "CU-5","Sockeye","Pitt_ES",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Amber","Amber","Green","Amber","Green",6,16396.4678994044
@@ -549,7 +549,7 @@
 "CU-5","Sockeye","Pitt_ES",2020,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,10085.7250493186
 "CU-5","Sockeye","Pitt_ES",2021,"Abs_Abd","Amber","Amber","Green","Red",NA,"Amber","Amber","Amber","Amber","Amber",6,8751.74556942229
 "CU-5","Sockeye","Pitt_ES",2022,"Abs_Abd","Amber","Green","Amber","Red",NA,"Red","Amber","Green","Amber","Green",6,10632.0500764277
-"CU-5","Sockeye","Pitt_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-5","Sockeye","Pitt_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-6","Sockeye","Chilko_S_ES",1995,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,499766.230151814
 "CU-6","Sockeye","Chilko_S_ES",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,579719.967331859
 "CU-6","Sockeye","Chilko_S_ES",1997,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,655506.693862937
@@ -578,7 +578,7 @@
 "CU-6","Sockeye","Chilko_S_ES",2020,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,207497.244115869
 "CU-6","Sockeye","Chilko_S_ES",2021,"Abs_Abd","Amber","Green","Green","Red",NA,"Green","Amber","Green","Amber","Green",6,261578.895048439
 "CU-6","Sockeye","Chilko_S_ES",2022,"Abs_Abd","Amber","Green","Green","Red",NA,"Amber","Amber","Green","Amber","Green",6,286164.683589036
-"CU-6","Sockeye","Chilko_S_ES",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-6","Sockeye","Chilko_S_ES",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-7","Sockeye","Fran_Fras_S",1995,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,98035.7996212725
 "CU-7","Sockeye","Fran_Fras_S",1996,"Abs_Abd","Green","Green","Green","Green",NA,"Green","Green","Green","Green","Green",6,130896.787383679
 "CU-7","Sockeye","Fran_Fras_S",1997,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,114686.274924914
@@ -607,7 +607,7 @@
 "CU-7","Sockeye","Fran_Fras_S",2020,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,74989.5195563408
 "CU-7","Sockeye","Fran_Fras_S",2021,"Abs_Abd","Amber","Green","Green","Green",NA,"Green","Amber","Green","Amber","Green",6,80323.7608665164
 "CU-7","Sockeye","Fran_Fras_S",2022,"Abs_Abd","Amber","Green","Green","Amber",NA,"Green","Amber","Green","Amber","Green",6,73335.9583044815
-"CU-7","Sockeye","Fran_Fras_S",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-7","Sockeye","Fran_Fras_S",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CU-9","Sockeye","Harrison_R",1995,"Abs_Abd",NA,"Amber",NA,NA,NA,NA,NA,"Amber",NA,"Amber",2,3531.85451864922
 "CU-9","Sockeye","Harrison_R",1996,"Abs_Abd",NA,"Amber",NA,NA,NA,NA,NA,"Amber",NA,"Amber",2,9339.08904334846
 "CU-9","Sockeye","Harrison_R",1997,"Abs_Abd",NA,"Amber",NA,NA,NA,NA,NA,"Amber",NA,"Amber",2,7577.53119103646
@@ -636,7 +636,7 @@
 "CU-9","Sockeye","Harrison_R",2020,"Abs_Abd",NA,"Green","Green","Red",NA,"Green",NA,"Green",NA,"Green",4,21238.0114558275
 "CU-9","Sockeye","Harrison_R",2021,"Abs_Abd",NA,"Green","Green","Red",NA,"Green",NA,"Green",NA,"Green",4,21914.8582220915
 "CU-9","Sockeye","Harrison_R",2022,"Abs_Abd",NA,"Green","Green","Red",NA,"Amber",NA,"Green",NA,"Green",4,26054.7976737667
-"CU-9","Sockeye","Harrison_R",2023,"Abs_Abd",NA,NA,NA,"Red",NA,NA,NA,NA,NA,NA,1,NA
+"CU-9","Sockeye","Harrison_R",2023,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-04","Chinook","Lower Fraser River_SP_1.3",1995,"Rel_Idx",NA,NA,"Green","Red",NA,NA,NA,NA,NA,NA,2,357.293984997069
 "CK-04","Chinook","Lower Fraser River_SP_1.3",1996,"Rel_Idx",NA,NA,"Green","Red",NA,NA,NA,NA,NA,NA,2,374.204606247232
 "CK-04","Chinook","Lower Fraser River_SP_1.3",1997,"Rel_Idx",NA,NA,"Green","Amber",NA,NA,NA,NA,NA,NA,2,359.355781061562
@@ -889,34 +889,6 @@
 "CK-14","Chinook","South Thompson_SU_1.3",2020,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,646.953244284511
 "CK-14","Chinook","South Thompson_SU_1.3",2021,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,1017.76299445784
 "CK-14","Chinook","South Thompson_SU_1.3",2022,"Rel_Idx",NA,NA,"Green","Green",NA,NA,NA,NA,NA,NA,2,964.59619000792
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1995,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1996,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1997,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1998,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",1999,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2000,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2001,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2002,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,252.650486487941
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2003,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,214.534739313624
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2004,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,252.636904279873
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2005,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,199.922533128249
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2006,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,205.966929799598
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2007,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,81.1983884861687
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2008,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,66.1318358628737
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2009,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,41.5319154037143
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2010,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,38.4142654026047
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2011,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,43.203857825429
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2012,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,28.2118688249982
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2013,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,45.8301206840219
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2014,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,38.0523047972635
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2015,"Rel_Idx",NA,NA,"Green",NA,NA,NA,NA,NA,NA,NA,1,78.3788871713425
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2016,"Rel_Idx",NA,NA,"Green",NA,NA,NA,NA,NA,NA,NA,1,64.52350438852
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2017,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,35.0607760064759
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2018,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,16.1782710894244
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2019,"Rel_Idx",NA,NA,"Red",NA,NA,NA,NA,NA,NA,NA,1,4.67026458425094
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2020,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2021,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
-"CK-16","Chinook","South Thompson-Bessette Creek_SU_1.2",2022,"Rel_Idx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-17","Chinook","Lower Thompson_SP_1.2",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-17","Chinook","Lower Thompson_SP_1.2",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "CK-17","Chinook","Lower Thompson_SP_1.2",1997,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
@@ -940,7 +912,7 @@
 "CK-17","Chinook","Lower Thompson_SP_1.2",2015,"Abs_Abd","Amber","Amber","Green","Green",NA,NA,"Amber","Amber","Amber","Amber",6,5769.81207542016
 "CK-17","Chinook","Lower Thompson_SP_1.2",2016,"Abs_Abd","Amber","Amber","Green","Green",NA,NA,"Amber","Amber","Amber","Amber",6,6318.45275781467
 "CK-17","Chinook","Lower Thompson_SP_1.2",2017,"Abs_Abd","Amber","Amber","Green","Green",NA,NA,"Amber","Amber","Amber","Amber",6,6535.10397471942
-"CK-17","Chinook","Lower Thompson_SP_1.2",2018,"Abs_Abd","Amber","Amber","Amber","Green",NA,NA,"Amber","Amber","Amber","Amber",6,2436.24749109478
+"CK-17","Chinook","Lower Thompson_SP_1.2",2018,"Abs_Abd","Amber","Amber","Amber","Amber",NA,NA,"Amber","Amber","Amber","Amber",6,2436.24749109478
 "CK-17","Chinook","Lower Thompson_SP_1.2",2019,"Abs_Abd","Red","Amber","Red","Red",NA,NA,"Red","Amber","Red","Amber",6,1722.83099658714
 "CK-17","Chinook","Lower Thompson_SP_1.2",2020,"Abs_Abd","Red","Amber","Red","Red",NA,NA,"Red","Amber","Red","Amber",6,1551.50371239779
 "CK-17","Chinook","Lower Thompson_SP_1.2",2021,"Abs_Abd","Red","Amber","Red","Red",NA,NA,"Red","Amber","Red","Amber",6,1378.0187971724
@@ -1156,7 +1128,7 @@
 "CO-05","Coho","South Thompson",2007,"Abs_Abd","Amber","Amber",NA,NA,NA,NA,"Amber","Amber","Amber","Amber",4,3574.40091025599
 "CO-05","Coho","South Thompson",2008,"Abs_Abd","Green","Amber",NA,NA,NA,NA,"Green","Amber","Green","Amber",4,5280.62253525984
 "CO-05","Coho","South Thompson",2009,"Abs_Abd","Green","Amber",NA,"Green",NA,NA,"Green","Amber","Green","Amber",5,6453.7539496923
-"CO-05","Coho","South Thompson",2010,"Abs_Abd","Green","Amber",NA,"Green",NA,NA,"Green","Amber","Green","Amber",5,5775.23645302344
+"CO-05","Coho","South Thompson",2010,"Abs_Abd","Green","Amber",NA,"Amber",NA,NA,"Green","Amber","Green","Amber",5,5775.23645302344
 "CO-05","Coho","South Thompson",2011,"Abs_Abd","Amber","Amber",NA,"Amber",NA,NA,"Amber","Amber","Amber","Amber",5,4838.36362662954
 "CO-05","Coho","South Thompson",2012,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",6,7331.94924767445
 "CO-05","Coho","South Thompson",2013,"Abs_Abd","Green","Amber","Green","Green",NA,NA,"Green","Amber","Green","Amber",6,8229.32376205964
