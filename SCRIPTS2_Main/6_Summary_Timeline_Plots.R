@@ -3,8 +3,6 @@
 library(tidyverse)
 library(plotrix)
 
-
-# Color settings
 alpha.use <- 1
 green.use <- rgb(184/255,225/255,134/255,alpha=alpha.use)
 red.use <- rgb(241/255,182/255,218/255,alpha=alpha.use)
@@ -126,7 +124,7 @@ for(folder.do in target.folders) {
       for(cu.plot in specs.do$CU_ID){
         print(cu.plot)
         #stop()
-        #if(cu.plot == "CK-33"){stop()}
+        #if(cu.plot == "SEL-21-04"){stop()}
           
         specs.sub <- specs.do %>% dplyr::filter(CU_ID == cu.plot) 
         specs.sub
