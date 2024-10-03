@@ -145,6 +145,8 @@ names(retro.summary.tbl)
 # Only run this if the selected datatype contains the Skeena/Nass CUs
 if(any(unique(retro.summary.tbl$CU_ID) %in% c("SEL-20-08", "SEL-21-07", "SEL-21-09", "SEL-22-10", "SEL-22-03","SEL-22-12"))){
   
+  print("flag")
+  
     bulkley.df <- data.frame(CU_ID= "SEL-21-03", Species= "Sockeye",
                              Stock = "Upper Bulkley Lakes", Year = 1995:2022,
                              RapidStatus = "Ext", BinLabel = "Ext",BinPath = "Ext",
@@ -211,7 +213,7 @@ if(any(unique(retro.summary.tbl$CU_ID) %in% c("SEL-20-08", "SEL-21-07", "SEL-21-
                              ConfidenceRating2 = "Low"  ) %>% 
       left_join(stephens.src,by="Year")
     
-    club.df <- data.frame(CU_ID= "SEL-21-10-1", Species= "Sockeye",
+    club.df <- data.frame(CU_ID= "SEL-21-04", Species= "Sockeye",
                             Stock = "Club", Year = 1995:2022,
                             BinLabel = "Proxy",BinPath = "Proxy",
                             ConfidenceRating5 = "Low", ConfidenceRating3 = "Low",
