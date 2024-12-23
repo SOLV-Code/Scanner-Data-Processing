@@ -1,7 +1,8 @@
 
 calculateMetricsByCU <- function(cu.file,cu.info,cyclic.cu.bm = NULL,
                                  retro.start.use = 1995,
-								 out.filepath = "metrics_output.csv"){
+								 out.label = "MetricsOut",
+								 out.filepath = ""){
   
 # retro.start.use start year for retrospective calculation of metrics  
 # WARNING: THIS MUST INCLUDE AT LEAST 4 YEARS (so that  all 4 cycle-specific BM calc get used to populate outputs below; crashes otherwise!)
@@ -35,17 +36,22 @@ start.time <- proc.time()
 for(i in 1:dim(cu.list)[1]){
   print("----------------------------")
   print(i)
-  cu.id <- cu.list[i,"CU_ID"]
-  cu.name <- cu.list[i,"CU_Name"]
-  cu.species <- cu.list[i,"Species"]
+  cu.id <- cu.list[i,"CU_ID"] %>% unlist()
+  cu.name <- cu.list[i,"CU_Name"] %>% unlist()
+  cu.species <- cu.list[i,"Species"] %>% unlist()
 
   print(cu.name)
   print(cu.id)
 
-  cu.lookup.sub<- dplyr::filter(cu.info,CU_ID == cu.id)
+  cu.lookup.sub <- dplyr::filter(cu.info,CU_ID == cu.id)
   cu.lookup.sub
 
+print("cu.lookup.sub --")
+print(cu.lookup.sub)
+
 if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the lookup file
+
+
 
   cu.avggen <- cu.lookup.sub$Avg_Gen
   cu.avggen
@@ -103,11 +109,16 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
 
   for(series.do in c("SpnForAbd_Wild","SpnForTrend_Wild" )){  #"SpnForAbd_Total","SpnForTrend_Total",
 
+print("---- series ---")
   print(series.do)
 
-  cu.series <- data.sub[,series.do]
+  cu.series <- data.sub[,series.do] %>% unlist()
   cu.series[!is.finite(cu.series)] <- NA
-  cu.yrs <- data.sub[,"Year"]
+  cu.yrs <- data.sub[,"Year"] %>% unlist()
+
+
+print(cu.series)
+print(cu.yrs)
 
   #cu.series
   #cu.yrs
@@ -260,7 +271,7 @@ write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_
 
 # GP New 2024-05-28: Extract Gen Avg  so can merge back in later (get deleted below of AbsAbd/RelAbd metrics are turned off)
 gen.avg.used.df <- metrics.cu.out.cleaned %>% dplyr::filter(Metric == "RelAbd") %>% select(CU_ID, Year,Value)
-write.csv(gen.avg.used.df, paste0("DATA_PROCESSING/FILTERED_DATA/GenerationalAvg_Values_",paste(datastage, collapse=""),".csv"),row.names=FALSE)
+write.csv(gen.avg.used.df, paste0(out.filepath,"/GenerationalAvg_Values_",paste(datastage, collapse=""),".csv"),row.names=FALSE)
 
 metrics.cu.out.cleaned[abd.fix.idx,c("Value","Status")] <- c(NA, NA)
 metrics.cu.out.cleaned[absabd.fix.idx,c("Value","Status")] <- c(NA, NA)
