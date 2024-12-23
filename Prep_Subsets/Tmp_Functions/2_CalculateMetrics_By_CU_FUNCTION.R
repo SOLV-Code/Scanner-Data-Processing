@@ -17,7 +17,9 @@ cu.info$CU_ID <- gsub("_","-",cu.info$CU_ID)
 cu.list <- unique(cu.file[,c("Species","CU_Name","CU_ID")])
 cu.list
 
+print("----------------")
 print(cu.list)
+print("----------------")
 
 # if have any cyclic CUs in the set, need an extra input file with cyclic BM
 if(any(cu.info$Cyclic) & is.null(cyclic.cu.bm)){
@@ -26,7 +28,7 @@ if(any(cu.info$Cyclic) & is.null(cyclic.cu.bm)){
 
 
 # clear the output (need this if inside a function?)
-if(exists("metrics.cu.out")){rm(metrics.cu.out)}
+#if(exists("metrics.cu.out")){rm(metrics.cu.out)}
 
 start.time <- proc.time()
 
@@ -113,6 +115,8 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
 # calculate metrics only if have at least 5 non-zero values
   if(sum(!is.na(cu.series))>5 &  sum(cu.series>0,na.rm=TRUE)>5){
 
+	print("DOING CALCS")
+
   metrics.tmp <- WSPMetrics::calcMetrics(series.in = cu.series,
                               yrs.in = cu.yrs,
                               gen.in = cu.avggen,
@@ -182,8 +186,15 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
 
   # ********************************** End BMAC changes ******************************
 
-    if(exists("metrics.cu.out")){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
-    if(!exists("metrics.cu.out")){metrics.cu.out <- metrics.tmp }
+    
+	
+	
+	
+	#if(exists("metrics.cu.out")){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
+    #if(!exists("metrics.cu.out")){metrics.cu.out <- metrics.tmp }
+
+	if(i >1){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
+	if(i == 1){metrics.cu.out <- metrics.tmp }
 
 
     if(cu.slope.specs$slope.smooth){
@@ -209,7 +220,7 @@ if( dim(cu.lookup.sub)[1]==1){ # do only if have exactly 1 matching CU_ID in the
 
 print(paste("last row done =",i))
 
-head(metrics.cu.out)
+print(head(metrics.cu.out))
 
 #------------------------------------------------------------------------------------
 # clear out metrics that are not meaningful (e.g. abs BM on data for trends)

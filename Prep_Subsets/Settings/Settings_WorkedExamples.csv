@@ -1,6 +1,6 @@
 CU_ID,CU_Acro,New_CU_ID,New_CU_Acro,New_CU_Name,Description
 CU_2,Kaml,Case1,Sockeye_CU_A,Sockeye_CU_A,Add Text here
-CU_6b,ChilkoES,Case2,Sockeye_CU_B,Sockeye_CU_B,Add Text here
+CU_6,Chilko_S,Case2,Sockeye_CU_B,Sockeye_CU_B,Add Text here
 SEL-22-01,Asitka,Case3,Sockeye_CU_C,Sockeye_CU_C,Add Text here
 SEL-20-07,Lakelse,Case4,Sockeye_CU_D,Sockeye_CU_D,Add Text here
 CK_04,LFR-spring,Case5,Chinook_CU_A,Chinook_CU_A,Add Text here
