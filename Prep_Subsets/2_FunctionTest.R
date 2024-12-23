@@ -18,6 +18,7 @@ worked.examples.metrics.out <- calculateMetricsByCU(cu.file = read_csv("Prep_Sub
                                cu.info = read_csv("Prep_Subsets/Output/WorkedExamples/CU_Specs_WorkedExamples.csv")     ,
                                cyclic.cu.bm = NULL,
                                retro.start.use = 1995,
+                               out.label = "WorkedExamples",
                                out.filepath = "Prep_Subsets/Output/WorkedExamples/RetrospectiveMetrics_Output.csv")
 
 
