@@ -36,9 +36,9 @@ start.time <- proc.time()
 for(i in 1:dim(cu.list)[1]){
   print("----------------------------")
   print(i)
-  cu.id <- cu.list[i,"CU_ID"] %>% unlist()
-  cu.name <- cu.list[i,"CU_Name"] %>% unlist()
-  cu.species <- cu.list[i,"Species"] %>% unlist()
+  cu.id <- cu.list$CU_ID[i] 
+  cu.name <- cu.list$CU_Name[i] 
+  cu.species <- cu.list$Species[i]  
 
   print(cu.name)
   print(cu.id)
@@ -140,9 +140,22 @@ print(cu.yrs)
                               retro.start = retro.start.use,
                               tracing = TRUE)
 
-    metrics.tmp <- cbind(CU_ID = cu.id, metrics.tmp)
+
+print("Flag 1--------------------")
+
+
+	print(str(cu.id))
+	print(str(metrics.tmp))
+
+
+
+
+    metrics.tmp <- cbind(CU_ID = cu.id, metrics.tmp, make.row.names=FALSE)
 
   # ********************************* BMac changes ***********************************
+
+
+print("Flag 2--------------------")
 
 
 #	CHECK THAT LOOKUPS AND INPUT VALUES ARE FED IN PROPERLY
@@ -204,7 +217,7 @@ print(cu.yrs)
 	#if(exists("metrics.cu.out")){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
     #if(!exists("metrics.cu.out")){metrics.cu.out <- metrics.tmp }
 
-	if(i >1){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
+	if(i >1){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp, make.row.names=FALSE)  }
 	if(i == 1){metrics.cu.out <- metrics.tmp }
 
 
@@ -242,7 +255,8 @@ print(head(metrics.cu.out))
 #filter( !(grepl("Trend", Label) & (grepl("RelBM", Metric) | grepl("AbsBM", Metric)) ))
 metrics.cu.out.cleaned  <-  rbind(
         metrics.cu.out %>% dplyr::filter(grepl("Abd", Label) & (grepl("RelAbd", Metric) | grepl("AbsAbd", Metric))),
-        metrics.cu.out %>% dplyr::filter(grepl("Trend", Label) & !(grepl("RelAbd", Metric) | grepl("AbsAbd", Metric)))
+        metrics.cu.out %>% dplyr::filter(grepl("Trend", Label) & !(grepl("RelAbd", Metric) | grepl("AbsAbd", Metric)),
+		make.row.names=FALSE)
                                              ) %>%
         left_join(cu.info %>% select(CU_ID,DataQualkIdx) %>% rename(Data_Type = DataQualkIdx) , by ="CU_ID")
 
@@ -271,21 +285,18 @@ write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_
 
 # GP New 2024-05-28: Extract Gen Avg  so can merge back in later (get deleted below of AbsAbd/RelAbd metrics are turned off)
 gen.avg.used.df <- metrics.cu.out.cleaned %>% dplyr::filter(Metric == "RelAbd") %>% select(CU_ID, Year,Value)
-write.csv(gen.avg.used.df, paste0(out.filepath,"/GenerationalAvg_Values_",paste(datastage, collapse=""),".csv"),row.names=FALSE)
+write.csv(gen.avg.used.df,  paste0(out.filepath,"/",out.label,"_GenerationalAvg_Values.csv"),row.names=FALSE)
 
 metrics.cu.out.cleaned[abd.fix.idx,c("Value","Status")] <- c(NA, NA)
 metrics.cu.out.cleaned[absabd.fix.idx,c("Value","Status")] <- c(NA, NA)
 metrics.cu.out.cleaned[shorttrend.fix.idx,c("Value","Status")] <- c(NA, NA)
 metrics.cu.out.cleaned[longtrend.fix.idx,c("Value","Status")] <- c(NA, NA)
 
-
-write.csv(metrics.cu.out.cleaned, out.filepath, row.names=FALSE)
-
 print("Running of calcMetrics() took:")
 print( proc.time() - start.time)
 
 
-
+write.csv(metrics.cu.out.cleaned, paste0(out.filepath,"/",out.label,"_RetrospectiveMetrics.csv"), row.names=FALSE)
 return(metrics.cu.out.cleaned)
 
 

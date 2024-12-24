@@ -12,6 +12,10 @@ source("Prep_Subsets/Tmp_Functions/2_CalculateMetrics_By_CU_FUNCTION.R")
 
 
 
+
+  #options(warn=0)
+
+
 # Run on "Worked Examples" set
 
 worked.examples.metrics.out <- calculateMetricsByCU(cu.file = read_csv("Prep_Subsets/Output/WorkedExamples/CU_Data_WorkedExamples.csv"),  
@@ -19,7 +23,7 @@ worked.examples.metrics.out <- calculateMetricsByCU(cu.file = read_csv("Prep_Sub
                                cyclic.cu.bm = NULL,
                                retro.start.use = 1995,
                                out.label = "WorkedExamples",
-                               out.filepath = "Prep_Subsets/Output/WorkedExamples/RetrospectiveMetrics_Output.csv")
+                               out.filepath = "Prep_Subsets/Output/WorkedExamples")
 
 
 
