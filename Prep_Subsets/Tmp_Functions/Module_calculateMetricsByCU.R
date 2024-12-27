@@ -165,7 +165,7 @@ print("Flag 1--------------------")
 
 
 
-    metrics.tmp <- cbind(CU_ID = cu.id, metrics.tmp, make.row.names=FALSE)
+    metrics.tmp <- cbind(CU_ID = cu.id, metrics.tmp)
 
   # ********************************* BMac changes ***********************************
 
@@ -232,7 +232,7 @@ print("Flag 2--------------------")
 	#if(exists("metrics.cu.out")){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
     #if(!exists("metrics.cu.out")){metrics.cu.out <- metrics.tmp }
 
-	if(i >1){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp, make.row.names=FALSE)  }
+	if(i >1){metrics.cu.out <- rbind(metrics.cu.out,metrics.tmp)  }
 	if(i == 1){metrics.cu.out <- metrics.tmp }
 
 
@@ -270,8 +270,7 @@ print(head(metrics.cu.out))
 #filter( !(grepl("Trend", Label) & (grepl("RelBM", Metric) | grepl("AbsBM", Metric)) ))
 metrics.cu.out.cleaned  <-  rbind(
         metrics.cu.out %>% dplyr::filter(grepl("Abd", Label) & (grepl("RelAbd", Metric) | grepl("AbsAbd", Metric))),
-        metrics.cu.out %>% dplyr::filter(grepl("Trend", Label) & !(grepl("RelAbd", Metric) | grepl("AbsAbd", Metric)),
-		make.row.names=FALSE)
+        metrics.cu.out %>% dplyr::filter(grepl("Trend", Label) & !(grepl("RelAbd", Metric) | grepl("AbsAbd", Metric)))
                                              ) %>%
         left_join(cu.info %>% select(CU_ID,DataQualkIdx) %>% rename(Data_Type = DataQualkIdx) , by ="CU_ID")
 

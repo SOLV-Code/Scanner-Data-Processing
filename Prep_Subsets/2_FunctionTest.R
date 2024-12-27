@@ -27,14 +27,16 @@ worked.examples.metrics.out <- calculateMetricsByCU(cu.file = read_csv("Prep_Sub
 names(worked.examples.metrics.out)
 
 
+names(worked.examples.metrics.out$Metrics)
+
 rapid.status.input <- prepDataForRapidStatus(worked.examples.metrics.out$Specs,
                           metrics.raw = worked.examples.metrics.out$Metrics,
                           gen.avg.src = worked.examples.metrics.out$GenAvg, 
                           out.label = "WorkedExamples",
                           out.filepath = "Prep_Subsets/Output/WorkedExamples")
   
-
-
+names(rapid.status.input)
+head(rapid.status.input$Values)
 
 
 

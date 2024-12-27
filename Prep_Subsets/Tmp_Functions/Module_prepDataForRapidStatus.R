@@ -65,11 +65,14 @@ metrics.synoptic.status <- metrics.tmp2 %>%
                                             pivot_wider(names_from = Metric, values_from=Status) %>%
                                             mutate(RelAbd = RelUBM, AbsAbd = AbsLBM)
 
+
+
 metrics.synoptic.values[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.values[,std.metrics]))
 metrics.synoptic.status[["NumStdMetrics"]] <-  rowSums(!is.na(metrics.synoptic.status[,std.metrics]))
 
-metrics.synoptic.values <- metrics.synoptic.values %>% left_join(gen.avg.used.df, by=c("CU_ID", "Year"))
-metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.used.df, by=c("CU_ID", "Year"))
+
+metrics.synoptic.values <- metrics.synoptic.values %>% left_join(gen.avg.src, by=c("CU_ID", "Year"))
+metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.src, by=c("CU_ID", "Year"))
 																								   
 # Write files for running the algorithms in retro
 write.csv( metrics.synoptic.values, paste0(out.filepath,"Retrospective_Metrics_Values_",out.label,".csv"), row.names = FALSE)
