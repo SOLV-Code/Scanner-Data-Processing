@@ -312,7 +312,10 @@ print( proc.time() - start.time)
 
 
 write.csv(metrics.cu.out.cleaned, paste0(out.filepath,"/",out.label,"_RetrospectiveMetrics.csv"), row.names=FALSE)
-return(metrics.cu.out.cleaned)
+
+return(list(Metrics = metrics.cu.out.cleaned,
+GenAvg = gen.avg.used.df,
+Specs = cu.info) )
 
 
 }
