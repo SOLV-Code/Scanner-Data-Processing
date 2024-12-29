@@ -8,7 +8,7 @@ library(WSPMetrics)
 # function to replace script 2_CalculateMetrics_By_CU.R
 source("Prep_Subsets/Tmp_Functions/Module_calculateMetricsByCU.R")
 source("Prep_Subsets/Tmp_Functions/Module_prepDataForRapidStatus.R")
-
+source("Prep_Subsets/Tmp_Functions/Module_applyRapidStatusTree.R")
 
 
 
@@ -39,5 +39,7 @@ names(rapid.status.input)
 head(rapid.status.input$Values)
 
 
+applyRapidStatus(data.df = rapid.status.input$Values, 
+                 id.col = "CU_ID", group.var = NULL)
 
 
