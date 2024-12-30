@@ -3,7 +3,7 @@
 #'
 #' this function reorganizes the outputs from prepDataForRapidStatus(), applies the function applyRapidStatusTree(), and then does some post-processing. Note: "proxy" statuses for some CUs are being explored, but are not yet included in this function!
 #' @param cu.info a data frame with specifications for each CU. For details, see help file for calculateMetricsByCU().
-
+#' @param cu.data a data frame with CU time series. This is the same data frame used for the cu.file argument in the call to calculateMetricsbyCU(). For details, see that help file.
 #' @keywords trend
 #' @export
 
@@ -26,8 +26,7 @@ qual.score.tab <- data.frame(
 
 
 
-# Escapement data
-cu.data <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE) 
+# add grouping variable to spn data file
 cu.data.group <- cu.data %>%
                     mutate(CU_ID = gsub("_","-",CU_ID)) %>% 
                     dplyr::filter(!is.na(CU_Name)) %>%

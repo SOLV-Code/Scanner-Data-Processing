@@ -45,7 +45,7 @@ if(!dir.exists(path.out.set)){dir.create(path.out.set)}
 
 # subset and put CU spec file
 specs.sub <- cu.specs.source %>% dplyr::filter(CU_ID %in% settings.use$CU_ID) %>%
-                select(CU_ID,CU_Acro,CU_Name,DataQualkIdx,AbdMetric,	AbsAbdMetric,	ShortTrendMetric,
+                select(CU_ID,CU_Acro,CU_Name,Group,DataQualkIdx,AbdMetric,	AbsAbdMetric,	ShortTrendMetric,
                        LongTrendMetric,	PercentileMetric,	Avg_Gen,	Cyclic,	Cyc_Dom,	Cyc_Dom_Year,
                        TrendNumGen,	TrendExtraYears,	TrendLog,	TrendSmooth,	AvgType,	AvgSmooth,
                        AvgRecentExcl,	LongTrendMinYears,	RelAbd_AvgData,	RelAbd_LBM,	RelAbd_UBM,
