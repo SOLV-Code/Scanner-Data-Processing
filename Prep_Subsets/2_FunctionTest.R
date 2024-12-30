@@ -39,7 +39,11 @@ names(rapid.status.input)
 head(rapid.status.input$Values)
 
 
-applyRapidStatus(data.df = rapid.status.input$Values, 
-                 id.col = "CU_ID", group.var = NULL)
+
+# reminder: add grouping variable to cu.data input!
+
+
+#applyRapidStatus(data.df = rapid.status.input$Values, 
+#                 id.col = "CU_ID", group.var = NULL)
 
 
