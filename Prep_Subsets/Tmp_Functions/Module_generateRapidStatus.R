@@ -4,12 +4,13 @@
 #' this function reorganizes the outputs from prepDataForRapidStatus(), applies the function applyRapidStatusTree(), and then does some post-processing. Note: "proxy" statuses for some CUs are being explored, but are not yet included in this function!
 #' @param cu.info a data frame with specifications for each CU. For details, see help file for calculateMetricsByCU().
 #' @param cu.data a data frame with CU time series. This is the same data frame used for the cu.file argument in the call to calculateMetricsbyCU(). For details, see that help file.
+#' @param publ.status.src a data frame with Red/Amber/Green designations from integrated status workshops
 #' @keywords trend
 #' @export
 
 
 
-generateRapidStatus <- function(cu.info,cu.data){
+generateRapidStatus <- function(cu.info,cu.data,publ.status.src){
 
 library(tidyverse)
 
@@ -40,7 +41,7 @@ retro.status <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Met
 metrics.long <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/Metrics_Longform_SUB_",paste(datastage, collapse=""),".csv"))
 
 # WSP integrated statuses
-publ.status.raw <- read.csv("DATA_LOOKUP_FILES/Published_Integrated_Status_Summary.csv",stringsAsFactors = FALSE)
+
 publ.int.status <- publ.status.raw %>%  dplyr::filter(Metric == "IntStatus") %>%
                                         select(CU_ID,Year, Status) %>% 
                                         dplyr::rename(IntStatusRaw = Status) %>%
