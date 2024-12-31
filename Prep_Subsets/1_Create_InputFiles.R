@@ -15,6 +15,7 @@ sets.vec <- list.files(settings.folder, pattern = "Settings_",full.names=TRUE)
 cu.specs.source <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv")
 cu.data.source <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE)
 cyclic.bm.source  <- read.csv("DATA_LOOKUP_FILES/FRSK_Cycle_Rel_BMs.csv", stringsAsFactors=FALSE)
+publ.status.source <- read.csv("DATA_LOOKUP_FILES/Published_Integrated_Status_Summary.csv",stringsAsFactors = FALSE)
 
 
 for(i in 1:length(sets.vec)){
@@ -69,24 +70,42 @@ cu.data.sub <- cu.data.source %>%
   dplyr::rename(CU_ID = New_CU_ID, CU_Name = New_CU_Name ) %>%
   select(CU_ID,CU_Name, everything()) %>%
   arrange(CU_ID)
+
 print(head(cu.data.sub))
 write_csv(cu.data.sub,paste0(path.out.set,"/","CU_Data_",set.label,".csv"))
 
 
 
 # need an additional input file for highly cyclic CUs
-if(any(specs.sub$Cyclic)){
-  
-cyclic.bm.sub <- cyclic.bm.source %>% dplyr::filter(CU_ID %in% settings.use$CU_ID)
-print(head(cu.data.sub))
+# generate regardless, so that always have the same set of input files
+
+cyclic.bm.sub <- cyclic.bm.source %>% dplyr::filter(CU_ID %in% settings.use$CU_ID) %>%
+  select(-CU_Name) %>% 
+  left_join(settings.use ,by="CU_ID") %>% select(-CU_ID, -CU_Acro) %>%
+  dplyr::rename(CU_ID = New_CU_ID, CU_Acro = New_CU_Acro, CU_Name = New_CU_Name ) %>%
+  select(CU_ID,CU_Acro,CU_Name,Description, everything()) %>%
+  arrange(CU_ID)
+print(head(cyclic.bm.sub))
 write_csv(cyclic.bm.sub,paste0(path.out.set,"/","CU_CyclicBM_",set.label,".csv"))
 
-}
+
+
+publ.status.sub <- publ.status.source %>% dplyr::filter(CU_ID %in% settings.use$CU_ID,Metric=="IntStatus") %>%
+  select(-Stock) %>% 
+  left_join(settings.use ,by="CU_ID") %>% select(-CU_ID, -CU_Acro) %>%
+  dplyr::rename(CU_ID = New_CU_ID, CU_Acro = New_CU_Acro, CU_Name = New_CU_Name ) %>%
+  select(CU_ID,CU_Acro,CU_Name,Description, everything()) %>%
+  arrange(CU_ID)
+print(head(publ.status.sub))
+write_csv(publ.status.sub,paste0(path.out.set,"/","CU_PublishedIntegratedStatuses_",set.label,".csv"))
 
 
 
   
-}
+} # end looping through settings files
+
+
+
 
 
 

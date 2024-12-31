@@ -52,7 +52,7 @@ metrics.tmp2 <- metrics.tmp1 %>% rbind(metrics.tmp1 %>% filter(Metric == "RelLBM
 
 
 # Write long format metrics to sub file
-write.csv(metrics.tmp2, paste0(out.filepath,"Metrics_Longform_SUB_",out.label,".csv"))
+write.csv(metrics.tmp2, paste0(out.filepath,"/Metrics_Longform_SUB_",out.label,".csv"))
 
 std.metrics <- c("AbsLBM","AbsUBM","LongTrend","PercChange","RelLBM","RelUBM")
 
@@ -75,8 +75,10 @@ metrics.synoptic.values <- metrics.synoptic.values %>% left_join(gen.avg.src, by
 metrics.synoptic.status <- metrics.synoptic.status %>% left_join(gen.avg.src, by=c("CU_ID", "Year"))
 																								   
 # Write files for running the algorithms in retro
-write.csv( metrics.synoptic.values, paste0(out.filepath,"Retrospective_Metrics_Values_",out.label,".csv"), row.names = FALSE)
-write.csv( metrics.synoptic.status, paste0(out.filepath,"Retrospective_Metrics_Status_",out.label,".csv"), row.names = FALSE)                     
+write.csv( metrics.synoptic.values, paste0(out.filepath,"/Retrospective_Metrics_Values_",out.label,".csv"), row.names = FALSE)
+write.csv( metrics.synoptic.status, paste0(out.filepath,"/Retrospective_Metrics_Status_",out.label,".csv"), row.names = FALSE)     
+
+                
 return(list(Values = metrics.synoptic.values,
 	   Status = metrics.synoptic.values,
 	   LongForm = metrics.tmp2))
