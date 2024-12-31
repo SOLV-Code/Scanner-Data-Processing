@@ -170,7 +170,7 @@ print("Flag 1--------------------")
   # ********************************* BMac changes ***********************************
 
 
-print("Flag 2--------------------")
+
 
 
 #	CHECK THAT LOOKUPS AND INPUT VALUES ARE FED IN PROPERLY
@@ -293,9 +293,10 @@ absabd.fix.idx <- grepl("AbsAbd", metrics.cu.out.cleaned$Metric) & unlist(metric
 shorttrend.fix.idx <- grepl("ShortTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.shorttrend.list
 longtrend.fix.idx <- grepl("LongTrend", metrics.cu.out.cleaned$Metric) & unlist(metrics.cu.out.cleaned$CU_ID) %in%  not.longtrend.list
 
-if(!dir.exists("DATA_PROCESSING/FILTERED_DATA")){dir.create("DATA_PROCESSING/FILTERED_DATA")}
 
-write.csv(metrics.cu.out.cleaned,"DATA_PROCESSING/FILTERED_DATA/METRICS_FILE_BY_CU_PRE_CLEAN.csv",row.names=FALSE)
+write.csv(metrics.cu.out.cleaned,
+ paste0(out.filepath,"/",out.label,"_METRICS_FILE_BY_CU_PRE_CLEAN.csv"),
+ row.names=FALSE)
 
 # GP New 2024-05-28: Extract Gen Avg  so can merge back in later (get deleted below of AbsAbd/RelAbd metrics are turned off)
 gen.avg.used.df <- metrics.cu.out.cleaned %>% dplyr::filter(Metric == "RelAbd") %>% select(CU_ID, Year,Value)
@@ -314,7 +315,8 @@ write.csv(metrics.cu.out.cleaned, paste0(out.filepath,"/",out.label,"_Retrospect
 
 return(list(Metrics = metrics.cu.out.cleaned,
 GenAvg = gen.avg.used.df,
-Specs = cu.info) )
+Specs = cu.info,
+Data = cu.file) )
 
 
 }

@@ -3,14 +3,24 @@
 #'
 #' this function reorganizes the outputs from prepDataForRapidStatus(), applies the function applyRapidStatusTree(), and then does some post-processing. Note: "proxy" statuses for some CUs are being explored, but are not yet included in this function!
 #' @param cu.info a data frame with specifications for each CU. For details, see help file for calculateMetricsByCU().
-#' @param cu.data a data frame with CU time series. This is the same data frame used for the cu.file argument in the call to calculateMetricsbyCU(). For details, see that help file.
-#' @param publ.status.src a data frame with Red/Amber/Green designations from integrated status workshops
+#' @param cu.data a data frame with CU time series. This is the same data frame used for the cu.file argument in the call to calculateMetricsbyCU() and is included as the $Data list element in the output from that function. For details, see that help file.
+#' @param publ.status.src a data frame with Red/Amber/Green designations from integrated status workshops. Required variables are CU_ID,Year, Status. Status is one of Red, RedAmber, Amber, AmberGreen, or Green.
+#' @param retro.values data frame with retrospective values for individual WSP status metrics (e.g., long-term trend). Part of output from prepDataForRapidStatus().
+#' @param retro.status data frame with retrospective status categories for individual WSP status metrics (e.g., long-term trend). Part of output from prepDataForRapidStatus().
+#' @param metrics.long long form version of retrospective metric results. Part of output from prepDataForRapidStatus().
+#' @param group.var variable for grouping output. Default is 'Species'.
+#' @param out.label label to use in the filenames for the output
+#' @param out.filepath folder for storing the output files 
 #' @keywords trend
 #' @export
 
 
 
-generateRapidStatus <- function(cu.info,cu.data,publ.status.src){
+generateRapidStatus <- function(cu.info,cu.data,publ.status.src,
+						retro.values, retro.status, metrics.long,
+						group.var = "Species",
+						out.label = "RapidStatusOut",
+								 out.filepath = ""){
 
 library(tidyverse)
 
@@ -33,34 +43,27 @@ cu.data.group <- cu.data %>%
                     dplyr::filter(!is.na(CU_Name)) %>%
                     left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
 
-# Retrospective metrics
-retro.values <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Metrics_Values_",paste(datastage, collapse=""),".csv"),stringsAsFactors = FALSE) %>%
-                left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-retro.status <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/Retrospective_Metrics_Status_",paste(datastage, collapse=""),".csv"),stringsAsFactors = FALSE)  %>%
-                 left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-metrics.long <- read.csv(paste0("DATA_PROCESSING/FILTERED_DATA/Metrics_Longform_SUB_",paste(datastage, collapse=""),".csv"))
+# Reorg WSP integrated statuses
 
-# WSP integrated statuses
-
-publ.int.status <- publ.status.raw %>%  dplyr::filter(Metric == "IntStatus") %>%
+publ.int.status <- publ.status.src %>%  dplyr::filter(Metric == "IntStatus") %>%
                                         select(CU_ID,Year, Status) %>% 
                                         dplyr::rename(IntStatusRaw = Status) %>%
                                         mutate(IntStatus = recode(IntStatusRaw, RedAmber = "Red", AmberGreen = "Amber")) %>%
                                         mutate(IntStatusRaw_Short = recode(IntStatusRaw, Red = "R",RedAmber = "RA", Amber = "A",AmberGreen = "AG",Green = "G"),
                                                IntStatus_Short = recode(IntStatus, Red = "R", Amber = "A",Green = "G"))
 
-# Algorithm outputs IF reading these in
-#algo.results <- read.csv("DATA_PROCESSING/Retro_Synoptic_Details.csv")
 
 
+# == Apply the Rapid Status Decision Tree ========================================= #
 
-# ========================= RUN THE RETROSPECTIVE WITH THE RAPID STATUS FUNCTION ========================================= #
+retro.rapid.status <- applyRapidStatusTree(data.df = retro.values, id.col = "CU_ID", group.var = group.var) 
 
-retro.lt3 <- rapid_status(data.df = retro.values, algorithm = "StateOfTheSalmon3" ,group.var = "Species") 
-write.csv(retro.lt3$data, paste0("DATA_PROCESSING/FILTERED_DATA/Retro_Results_LT3_",paste(datastage, collapse=""),".csv"),row.names = FALSE)
+# ================================================================================== #
 
+write.csv(retro.rapid.status$data, 
+		paste0(out.filepath,"/Retrospective_RapidStatus_",out.label,".csv"),row.names = FALSE)
 
-retro.summary.tbl <- retro.lt3$data %>%
+retro.summary.tbl <- retro.rapid.status$data %>%
                               dplyr::rename(RapidStatus = SynStatus,RapidScore = SynScore) %>%
                               select(-IntStatus,-IntScore,-ErrorScore,-ErrorType) %>%
                               left_join(retro.status %>% select(-NumStdMetrics,-Group) %>% 
@@ -84,14 +87,16 @@ retro.summary.tbl <- retro.lt3$data %>%
                                                       by = "BinLabel")
                                 
 
-
-
 retro.summary.tbl$IntStatus5 <- retro.summary.tbl$IntStatusRaw
 retro.summary.tbl$IntStatus3 <- dplyr::recode(retro.summary.tbl$IntStatusRaw,"RedAmber" = "Red","AmberGreen" = "Amber")
 retro.summary.tbl$IntStatus2 <- dplyr::recode(retro.summary.tbl$IntStatus3, "Amber" = "NotRed","Green" = "NotRed")
 
-if(!dir.exists("OUTPUT/DASHBOARDS")){dir.create("OUTPUT/DASHBOARDS")}
-write.csv(retro.summary.tbl, paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",paste(datastage, collapse=""),".csv"), row.names = FALSE)   
+write.csv(retro.summary.tbl, 
+	paste0(out.filepath,"/Retro_Synoptic_Details_",out.label,".csv"),
+	row.names = FALSE)   
+
+
+return(list(Summary = retro.summary.tbl,retro.rapid.status))
 
 
 }
