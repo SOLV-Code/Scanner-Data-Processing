@@ -43,6 +43,8 @@ cu.data.group <- cu.data %>%
                     dplyr::filter(!is.na(CU_Name)) %>%
                     left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
 
+print(names(cu.data.group))
+
 # Reorg WSP integrated statuses
 
 publ.int.status <- publ.status.src %>%  dplyr::filter(Metric == "IntStatus") %>%
@@ -66,7 +68,7 @@ write.csv(retro.rapid.status$data,
 retro.summary.tbl <- retro.rapid.status$data %>%
                               dplyr::rename(RapidStatus = SynStatus,RapidScore = SynScore) %>%
                               select(-IntStatus,-IntScore,-ErrorScore,-ErrorType) %>%
-                              left_join(retro.status %>% select(-NumStdMetrics,-Group) %>% 
+                              left_join(retro.status %>% select(-NumStdMetrics) %>% #,-Group
                                                          rename(RelAbdCat = RelAbd, AbsAbdCat = AbsAbd, LongTrendCat = LongTrend,              
                                                                  PercChangeCat = PercChange, ProbDeclBelowLBMCat = ProbDeclBelowLBM,
                                                                  PercentileCat = Percentile, RelLBMCat = RelLBM, RelUBMCat = RelUBM,
@@ -82,8 +84,7 @@ retro.summary.tbl <- retro.rapid.status$data %>%
                                                  by= c("CU_ID","Year")   ) %>%
                               select(CU_ID,Species,Stock,	DataType,Year,SpnForAbd_Wild, SpnForTrend_Wild, everything()) %>%
                               left_join(qual.score.tab %>% 
-                                                      dplyr::filter(Algorithm == "SotS3") %>% 
-                                                      select(BinLabel, ConfidenceRating5, ConfidenceRating3, ConfidenceRating2),
+                                           select(BinLabel, ConfidenceRating5, ConfidenceRating3, ConfidenceRating2),
                                                       by = "BinLabel")
                                 
 
@@ -96,7 +97,8 @@ write.csv(retro.summary.tbl,
 	row.names = FALSE)   
 
 
-return(list(Summary = retro.summary.tbl,retro.rapid.status))
+return(list(Summary = retro.summary.tbl,
+			Details = retro.rapid.status))
 
 
 }
