@@ -35,6 +35,10 @@ names(rapid.status.input)
 head(rapid.status.input$Values)
 
 
+names(worked.examples.metrics.out$Specs)
+names(worked.examples.metrics.out$Data)
+names(rapid.status.input$Status)
+names(rapid.status.input$Values)
 
 rapid.status.results <- generateRapidStatus(cu.info = worked.examples.metrics.out$Specs,
                                 cu.data = worked.examples.metrics.out$Data,
@@ -45,8 +49,12 @@ rapid.status.results <- generateRapidStatus(cu.info = worked.examples.metrics.ou
                                 group.var = "Species",
                                 out.label = "WorkedExamples",
                                 out.filepath = "Prep_Subsets/Output/WorkedExamples")
+names(rapid.status.results)
+rapid.status.results$Summary
+rapid.status.results$SummaryTable
+rapid.status.results$Data
+rapid.status.results$Rules
 
-
-
+# error matrix not in output?
 
 
