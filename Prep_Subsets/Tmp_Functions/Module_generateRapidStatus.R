@@ -62,6 +62,11 @@ retro.rapid.status <- applyRapidStatusTree(data.df = retro.values, id.col = "CU_
 
 # ================================================================================== #
 
+print("---")
+print(names(retro.rapid.status))
+print("---")
+print(names(retro.rapid.status$data))
+
 write.csv(retro.rapid.status$data, 
 		paste0(out.filepath,"/Retrospective_RapidStatus_",out.label,".csv"),row.names = FALSE)
 
@@ -97,8 +102,10 @@ write.csv(retro.summary.tbl,
 	row.names = FALSE)   
 
 
-return(list(Summary = retro.summary.tbl,
-			Details = retro.rapid.status))
+return(list(SummaryTable = retro.summary.tbl,
+			Rules = retro.rapid.status$rules,
+			Data = retro.rapid.status$data,
+			Summary  = retro.rapid.status$summary))
 
 
 }
