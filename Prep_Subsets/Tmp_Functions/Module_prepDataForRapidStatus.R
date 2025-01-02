@@ -80,7 +80,7 @@ write.csv( metrics.synoptic.status, paste0(out.filepath,"/Retrospective_Metrics_
 
                 
 return(list(Values = metrics.synoptic.values,
-	   Status = metrics.synoptic.values,
+	   Status = metrics.synoptic.status,
 	   LongForm = metrics.tmp2))
 
 }                         
