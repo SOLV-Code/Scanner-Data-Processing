@@ -1,30 +1,37 @@
-#############################################################
-#  Generate summaries
-# (basically some key bits from the case study paper, so we can always have the
-#  the latest outputs  here, without changing anything in the tech report, and without
-# having to copy files back and forth)
+#' plotStatusDashboards
+#'
+#' this function takes outputs from generateRapidStatus() and creates 1 png file with standard diagnostics for each CU.
+#' @param cu.info a data frame with specifications for each CU. For details, see help file for calculateMetricsByCU().
+#' @param cu.data a data frame with CU time series. This is the same data frame used for the cu.file argument in the call to calculateMetricsbyCU() and is included as the $Data list element in the output from that function. For details, see that help file.
+#' @param retro.summary.tbl data frame which is the $SummaryTable component of the output from generateRapidStatus()
+#' @param
+#' @param
+#' @param retro.yrs vector with years for the restrospective plots. default is 1995:2022
+#' @param out.label label to use in the filenames for the output
+#' @param out.filepath folder for storing the output files 
+#' @keywords dashboard, plot
+#' @export
 
-# NOTE: IMAGE OUTPUTS ARE NOT TRACKED ON GIT, BUT
-# THE REQUIRED INPUT FILES ARE. JUST RUN THIS SCRIPT TO
-# GET THE PLOTS.
 
 
-####################################################################################
-# GENERATE THE DASHBOARDS
+plotStatusDashboards <- function(
+				cu.info,
+				retro.summary.tbl
+				cu.data, 
+				retro.yrs = 1995:2022,
+				out.label = "RapidStatusOut",
+				out.filepath = "")
 
 
 library(tidyverse)
-library(plotrix)
-
-if(!dir.exists("OUTPUT/DASHBOARDS/MetricsandStatus")){dir.create("OUTPUT/DASHBOARDS/MetricsandStatus")}
+#library(plotrix) CHECK IF STILL NEEDED
 
 
 #############################################################
-# DASHBOARD SETTINGS
+# DASHBOARD SETTINGS - Not making these arguments. These settings have stabilized
 ###########################################################
 
 bm.areas <- TRUE
-
 
 # Michael Arbeider's color scheme for IF Coho RPA:
 # from colorbrewer2, 5 data classes, diverging, colorblind safe (2nd option):
@@ -44,88 +51,21 @@ amber.use.timeline <- rgb(255/255,255/255,191/255,alpha=alpha.use.timeline)
 
 
 
-retro.yrs <- 1995:2022
-
-
-#############################################################
-# READ IN DATA
-###########################################################
-
-
-retro.summary.tbl <- read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",paste(datastage, collapse=""),".csv"))
-# if(length(datastage)>1){
-#   retro.summary.tbl <-  read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[1],".csv"))
-#       for(i in 2:length(datastage)){
-#         retro.summary.tbl<- rbind(retro.summary.tbl,read_csv(paste0("OUTPUT/DASHBOARDS/Retro_Synoptic_Details_",datastage[i],".csv")))
-#       }
-# }
-
-# CU_IDs are now correct format and match NUSEDs. Skeena/Nass SK do no have CU_IDs
-# metrics.details <- read.csv("OUTPUT/DATA_OUT/3_ALL/METRICS_FILE_BY_CU_SCANNER.csv") #%>% 
-  #left_join(cu.info %>% select(CU_ID = CU_ID_Alt2_CULookup, New_CU_ID = CU_ID), by="CU_ID" )
-  #dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
-
-# CU_IDs in the lookup file do not match those in the metrics output or data anymore because those have been corrected. They match with
-# CU_ID_Alt2_CULookup in the lookup file
-cu.info <- read_csv("DATA_LOOKUP_FILES/MOD_MAIN_CU_LOOKUP_FOR_SOS.csv") %>%
-  dplyr::mutate(CU_ID = gsub("_","-",CU_ID))
-
-# data.raw <- read.csv("OUTPUT/DATA_OUT/3_ALL/MERGED_FLAT_FILE_BY_CU_SCANNER.csv",stringsAsFactors = FALSE) %>%
-#   #mutate(CU_ID = gsub("_","-",CU_ID)) %>%
-#   dplyr::filter(!is.na(CU_Name)) %>%
-#   left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
-# head(data.raw)
-
-data.raw <- read.csv("DATA_PROCESSING/MERGED_ESC_BY_CU_SUB.csv",stringsAsFactors = FALSE) %>%
-            mutate(CU_ID = gsub("_","-",CU_ID)) %>% 
-            dplyr::filter(!is.na(CU_Name)) %>%
-            left_join(cu.info %>% select(CU_Name,Group), by="CU_Name" )
-head(data.raw)
-
-sort(unique(data.raw$Group))
-
-# Remove use of retrospective_values file since this info is all in the retro synoptic details file, which will be filtered
-# based on data usage in script 4.
-
-# CU_IDs in this file are still incorrect and match those in the lookup file
-#retro.values <- read.csv("DATA_OUT/Retrospective_Metrics_Values.csv",stringsAsFactors = FALSE) %>%
-#  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-#names(retro.values)
-#sort(unique(retro.values$Group))
-
-#retro.status <- read.csv("DATA_OUT/Retrospective_Metrics_Status.csv",stringsAsFactors = FALSE)  %>%
-#  left_join(cu.info %>% select("CU_ID",Group), by="CU_ID" )
-
-
-
-#head(retro.status)
-#head(retro.values)
-
-
-
-
-#############################################################
-# SUBSET THE DATA
-###########################################################
-
-
 cu.list <-  cu.info %>%
                   # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
                   #select(CU_ID)
-                  filter(CU_ID %in% unique(retro.summary.tbl$CU_ID)) %>%
-                  select(CU_ID_Alt2_CULookup) %>% unlist() %>% sort() %>% unique()
+                  filter(CU_ID %in% unique(retro.summary.tbl$CU_ID)) #%>%
+                  select(CU_ID) %>% unlist() %>% sort() %>% unique()
+				  # OLD
+				  #select(CU_ID_Alt2_CULookup) %>% unlist() %>% sort() %>% unique()
+				  #Need to handle CU_ID mismatches earlier, if any remaining
 
-#cu.list <- sort(intersect(unlist(cu.list), unique(data.raw$CU_ID)))
-#cu.list
+print("---cu.list---")
+print(cu.list)
 
-
-# Create directory for output data stages
-data.stages <- cu.info %>% filter(CU_ID_Alt2_CULookup %in% cu.list) %>%
-                           select(Data_Stage) %>% unique() %>% unlist()
-
-for (stage in data.stages){ 
-      if(!dir.exists(paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",stage))){dir.create(paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",stage)) }   
-}                                 
+#############################################################
+# LOOP THROUGH CU LIST
+###########################################################                     
                                                             
                                                             
 
@@ -146,7 +86,7 @@ for(cu.plot in cu.list){
   cyclic.check <- cu.info.sub$Cyclic
 
 
-  data.sub <- data.raw  %>% dplyr::filter(CU_ID == cu.alt.id)
+  data.sub <- cu.data  %>% dplyr::filter(CU_ID == cu.alt.id)
   head(data.sub )
 
 #  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
@@ -608,4 +548,4 @@ for(cu.plot in cu.list){
 
 
 
-
+} # end plotting function
