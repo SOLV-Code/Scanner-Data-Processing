@@ -54,11 +54,13 @@ publ.int.status <- publ.status.src %>%  dplyr::filter(Metric == "IntStatus") %>%
                                         mutate(IntStatusRaw_Short = recode(IntStatusRaw, Red = "R",RedAmber = "RA", Amber = "A",AmberGreen = "AG",Green = "G"),
                                                IntStatus_Short = recode(IntStatus, Red = "R", Amber = "A",Green = "G"))
 
-
+print(publ.int.status)
 
 # == Apply the Rapid Status Decision Tree ========================================= #
 
-retro.rapid.status <- applyRapidStatusTree(data.df = retro.values, id.col = "CU_ID", group.var = group.var) 
+retro.rapid.status <- applyRapidStatusTree(data.df = retro.values %>%
+					left_join( as.data.frame(publ.int.status),by=c("CU_ID","Year")),
+					id.col = "CU_ID", group.var = group.var) 
 
 # ================================================================================== #
 
@@ -73,7 +75,7 @@ write.csv(retro.rapid.status$data,
 retro.summary.tbl <- retro.rapid.status$data %>%
                               dplyr::rename(RapidStatus = SynStatus,RapidScore = SynScore) %>%
                               select(-IntStatus,-IntScore,-ErrorScore,-ErrorType) %>%
-                              left_join(retro.status %>% select(-NumStdMetrics) %>% #,-Group
+                              left_join(retro.status %>% select(-NumStdMetrics,-Value) %>% #,-Group
                                                          rename(RelAbdCat = RelAbd, AbsAbdCat = AbsAbd, LongTrendCat = LongTrend,              
                                                                  PercChangeCat = PercChange, ProbDeclBelowLBMCat = ProbDeclBelowLBM,
                                                                  PercentileCat = Percentile, RelLBMCat = RelLBM, RelUBMCat = RelUBM,
@@ -82,7 +84,7 @@ retro.summary.tbl <- retro.rapid.status$data %>%
                               left_join(metrics.long %>% filter(Metric == "RelLBM") %>% 
                                                          select(CU_ID, Stock, Year, RelAbd_LBM=LBM, RelAbd_UBM=UBM),
                                                          by = c("CU_ID","Stock","Year")) %>%
-                              left_join( as.data.frame(publ.int.status),by=c("CU_ID","Year")) %>%
+                              #left_join( as.data.frame(publ.int.status),by=c("CU_ID","Year")) %>%
                               arrange(Species,Stock,Year) %>%
                               left_join(cu.data.group  %>%   
                                                  select(CU_ID,Year,SpnForAbd_Wild, SpnForTrend_Wild, SpnForAbd_Total, SpnForTrend_Total),
@@ -94,18 +96,28 @@ retro.summary.tbl <- retro.rapid.status$data %>%
                                 
 
 retro.summary.tbl$IntStatus5 <- retro.summary.tbl$IntStatusRaw
-retro.summary.tbl$IntStatus3 <- dplyr::recode(retro.summary.tbl$IntStatusRaw,"RedAmber" = "Red","AmberGreen" = "Amber")
-retro.summary.tbl$IntStatus2 <- dplyr::recode(retro.summary.tbl$IntStatus3, "Amber" = "NotRed","Green" = "NotRed")
+retro.summary.tbl <- retro.summary.tbl %>% 
+						mutate(IntStatus3 = recode(IntStatusRaw, RedAmber = "Red", AmberGreen = "Amber")) %>% 
+						mutate(IntStatus2 = recode(IntStatus3, "Amber" = "NotRed","Green" = "NotRed"))
 
 write.csv(retro.summary.tbl, 
 	paste0(out.filepath,"/Retro_Synoptic_Details_",out.label,".csv"),
 	row.names = FALSE)   
 
 
-return(list(SummaryTable = retro.summary.tbl,
+out.obj <- list(SummaryTable = retro.summary.tbl,
 			Rules = retro.rapid.status$rules,
 			Data = retro.rapid.status$data,
-			Summary  = retro.rapid.status$summary))
+			Summary  = retro.rapid.status$summary)
+
+if("confusion" %in% names(retro.rapid.status)){
+out.obj <- c(out.obj,list(ConfusionMatrix = retro.rapid.status$confusion,
+						  RawConfusionMatrix = retro.rapid.status$confusion.raw,
+						  Accuracy = retro.rapid.status$accuracy))
+	}
+
+
+return(out.obj)
 
 
 }

@@ -54,7 +54,6 @@ rapid.status.results$Summary
 rapid.status.results$SummaryTable
 rapid.status.results$Data
 rapid.status.results$Rules
-
-# error matrix not in output?
-
-
+rapid.status.results$ConfusionMatrix
+rapid.status.results$RawConfusionMatrix
+rapid.status.results$Accuracy
