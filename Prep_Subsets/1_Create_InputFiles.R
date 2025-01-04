@@ -46,16 +46,17 @@ if(!dir.exists(path.out.set)){dir.create(path.out.set)}
 
 # subset and put CU spec file
 specs.sub <- cu.specs.source %>% dplyr::filter(CU_ID %in% settings.use$CU_ID) %>%
-                select(CU_ID,CU_Acro,CU_Name,Group,DataQualkIdx,AbdMetric,	AbsAbdMetric,	ShortTrendMetric,
+                select(CU_ID,CU_Acro,CU_Name,DataQualkIdx,AbdMetric,	AbsAbdMetric,	ShortTrendMetric,
                        LongTrendMetric,	PercentileMetric,	Avg_Gen,	Cyclic,	Cyc_Dom,	Cyc_Dom_Year,
                        TrendNumGen,	TrendExtraYears,	TrendLog,	TrendSmooth,	AvgType,	AvgSmooth,
                        AvgRecentExcl,	LongTrendMinYears,	RelAbd_AvgData,	RelAbd_LBM,	RelAbd_UBM,
                        AbsAbd_LBM,	AbsAbd_UBM,	LongTrend_LBM,	LongTrend_UBM,	PercChange_LBM,
                        PercChange_UBM,	ProbDeclBelowLBM_LBM,	ProbDeclBelowLBM_UBM,	Trends_StartYr,	
                        Abd_StartYr) %>% select(-CU_Acro,-CU_Name) %>% 
-              left_join(settings.use ,by="CU_ID") %>% select(-CU_ID, -CU_Acro) %>%
-              dplyr::rename(CU_ID = New_CU_ID, CU_Acro = New_CU_Acro, CU_Name = New_CU_Name ) %>%
-              select(CU_ID,CU_Acro,CU_Name,Description, everything()) %>%
+              left_join(settings.use ,by="CU_ID") %>% select(-CU_ID, -CU_Acro, -Group) %>%
+              dplyr::rename(CU_ID = New_CU_ID, CU_Acro = New_CU_Acro, CU_Name = New_CU_Name,
+                            Group = New_Group) %>%
+              select(CU_ID,CU_Acro,CU_Name,Group,Description, everything()) %>%
               arrange(CU_ID)
               
 

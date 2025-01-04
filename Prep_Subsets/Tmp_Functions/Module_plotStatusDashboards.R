@@ -6,7 +6,6 @@
 #' @param retro.summary.tbl data frame which is the $SummaryTable component of the output from generateRapidStatus()
 #' @param
 #' @param
-#' @param retro.yrs vector with years for the restrospective plots. default is 1995:2022
 #' @param out.label label to use in the filenames for the output
 #' @param out.filepath folder for storing the output files 
 #' @keywords dashboard, plot
@@ -16,16 +15,17 @@
 
 plotStatusDashboards <- function(
 				cu.info,
-				retro.summary.tbl
+				retro.summary.tbl,
 				cu.data, 
-				retro.yrs = 1995:2022,
 				out.label = "RapidStatusOut",
-				out.filepath = "")
+				out.filepath = ""){
 
 
 library(tidyverse)
 #library(plotrix) CHECK IF STILL NEEDED
 
+
+if(!dir.exists(out.filepath)){dir.create(out.filepath)}
 
 #############################################################
 # DASHBOARD SETTINGS - Not making these arguments. These settings have stabilized
@@ -48,13 +48,13 @@ red.use.timeline <- rgb(241/255,182/255,218/255,alpha=alpha.use.timeline)
 amber.use.timeline <- rgb(255/255,255/255,191/255,alpha=alpha.use.timeline)
 
 
-
-
+retro.yrs <- min(retro.summary.tbl$Year):max(retro.summary.tbl$Year)
+first.retro.yr <- min(retro.yrs)
 
 cu.list <-  cu.info %>%
                   # dplyr::filter(Area %in% c("Nass","Skeena"))   %>%
                   #select(CU_ID)
-                  filter(CU_ID %in% unique(retro.summary.tbl$CU_ID)) #%>%
+                  filter(CU_ID %in% unique(retro.summary.tbl$CU_ID)) %>%
                   select(CU_ID) %>% unlist() %>% sort() %>% unique()
 				  # OLD
 				  #select(CU_ID_Alt2_CULookup) %>% unlist() %>% sort() %>% unique()
@@ -76,24 +76,25 @@ for(cu.plot in cu.list){
   print("_______________")
   print(cu.plot)
 
-  cu.info.sub <- cu.info %>% dplyr::filter(CU_ID_Alt2_CULookup == cu.plot)
-  if(cu.plot =="SEL-06-03/SEL-06-02") cu.info.sub <- cu.info.sub %>% filter(CU_ID=="CU-6")
-  cu.alt.id <- cu.info.sub$CU_ID
 
+  cu.info.sub <- cu.info %>% dplyr::filter(CU_ID == cu.plot)
+  # need to fix CU_ID mismatches earlier, if any remain
+  #cu.info.sub <- cu.info %>% dplyr::filter(CU_ID_Alt2_CULookup == cu.plot)
+  #if(cu.plot =="SEL-06-03/SEL-06-02") cu.info.sub <- cu.info.sub %>% filter(CU_ID=="CU-6")
+  #cu.alt.id <- cu.info.sub$CU_ID
   #print(cu.info$CU_ID)
-
 
   cyclic.check <- cu.info.sub$Cyclic
 
 
-  data.sub <- cu.data  %>% dplyr::filter(CU_ID == cu.alt.id)
+  data.sub <- cu.data  %>% dplyr::filter(CU_ID == cu.plot)
   head(data.sub )
 
-#  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.alt.id)
+#  retro.values.sub <-  retro.values %>% dplyr::filter(CU_ID == cu.plot)
 #  head(retro.values.sub )
 
 
-  retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.alt.id)
+  retro.summary.sub <- retro.summary.tbl %>% dplyr::filter(CU_ID == cu.plot)
 
 #  metrics.details.sub <- metrics.details %>% dplyr::filter(CU_ID == cu.plot)
 
@@ -104,7 +105,9 @@ for(cu.plot in cu.list){
 
 
   # Add quick fix for Chum data which is total not wild
-  if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$SpnForAbd_Total
+  # need to fix this earlier, not inside the function
+  if(cu.plot ==  "CM-02"){warning("NOTE: Need to fix total vs. wild for CM-02 before using this function")}
+  #if(cu.plot ==  "CM-02") data.sub$Escapement_Wild = data.sub$SpnForAbd_Total
 
   ###
 
@@ -112,21 +115,21 @@ for(cu.plot in cu.list){
 
   if(sum(!is.na(data.sub$SpnForAbd_Wild))>0){
 
-
-
     data.type <- cu.info.sub$DataQualkIdx
     data.type
 
   cu.label  <- gsub("/","",cu.info.sub$CU_Acro)
   cu.label
   
-  filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/", gsub(" ","",cu.info.sub$Group),"_",
-                     cu.label,"_",cu.info.sub$CU_ID_Alt2_CULookup,".png")
+  filename <- paste0(out.filepath,"/", 
+					 gsub(" ","",cu.info.sub$Group),"_",
+                     cu.label,"_",gsub("-","_",cu.plot),".png")
              
-              if(cu.plot=="SEL-06-03/SEL-06-02") filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/",
-                                                             gsub(" ","",cu.info.sub$Group),"_", cu.label,"SEL-06-03_02_.png")
+   # Need to fix this before feeding into the function
+   #if(cu.plot=="SEL-06-03/SEL-06-02") filename <- paste0("OUTPUT/DASHBOARDS/MetricsandStatus/",cu.info.sub$Data_Stage,"/",
+   #                                                          gsub(" ","",cu.info.sub$Group),"_", cu.label,"SEL-06-03_02_.png")
   
-        png(filename=filename, width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
+png(filename=filename, width = 480*4.5, height = 480*4.8, units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
 
 
         graphics::layout(mat=matrix(c(1,2,3,4,5,5),ncol=2,byrow=TRUE),heights = c(1,1,1.1))
@@ -206,8 +209,8 @@ for(cu.plot in cu.list){
       }
 
       
-      # TWEAKED 2024-03-16: as per above, only show areas if plot setting b,.areas = TRUE
-      # and AbdMetric = TRUE tp indicating to use Rel Abd metric for rapid status
+      # TWEAKED 2024-03-16: as per above, only show areas if plot setting bm.areas = TRUE
+      # and AbdMetric = TRUE  indicating to use Rel Abd metric for rapid status
       if(bm.areas & cu.info.sub$AbdMetric){
         rect(par("usr")[1],lbm.plot/axis.scale, par("usr")[2],ubm.plot/axis.scale, col=amber.use,
              border = amber.use)
@@ -217,7 +220,7 @@ for(cu.plot in cu.list){
              border = red.use)
       }
 
-      abline(v=1995,col="darkgrey",lty=2,lwd=4)
+      abline(v=first.retro.yr,col="darkgrey",lty=2,lwd=4)
 
 
 
@@ -297,7 +300,7 @@ for(cu.plot in cu.list){
              border = red.use)
       }
 
-      abline(v=1995,col="darkgrey",lty=2,lwd=4)
+      abline(v=first.retro.yr,col="darkgrey",lty=2,lwd=4)
 
       axis(1,  cex.axis=1.5)
       axis(2,at = log.ticks[ticks.use],labels = log.labels[ticks.use] ,las=1,  cex.axis=1.5)
@@ -352,7 +355,7 @@ for(cu.plot in cu.list){
       }
 
 
-      abline(v=1995,col="darkgrey",lty=2,lwd=4)
+      abline(v=first.retro.yr,col="darkgrey",lty=2,lwd=4)
 
       text(par("usr")[2],cu.info.sub$LongTrend_UBM,"3/4",cex=1.4,font=1,adj=c(1,0),xpd=NA)
       text(par("usr")[2],cu.info.sub$LongTrend_LBM,"Half",cex=1.4,font=1,adj=c(1,0),xpd=NA)
@@ -404,7 +407,7 @@ for(cu.plot in cu.list){
       }
 
 
-      abline(v=1995,col="darkgrey",lty=2,lwd=4)
+      abline(v=first.retro.yr,col="darkgrey",lty=2,lwd=4)
 
       abline(h=0,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],0,"Same",cex=1.4,font=1,adj=c(1,0),xpd=NA)
       if(par("usr")[4] > 100){abline(h=100,col="darkgrey",lwd=2,lty=2); text(par("usr")[2],100,"Double",cex=1.4,font=1,adj=c(1,0),xpd=NA)}
