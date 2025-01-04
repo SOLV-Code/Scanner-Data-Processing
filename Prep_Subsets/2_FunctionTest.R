@@ -10,6 +10,7 @@ source("Prep_Subsets/Tmp_Functions/Module_calculateMetricsByCU.R")
 source("Prep_Subsets/Tmp_Functions/Module_prepDataForRapidStatus.R")
 source("Prep_Subsets/Tmp_Functions/Module_applyRapidStatusTree.R")
 source("Prep_Subsets/Tmp_Functions/Module_generateRapidStatus.R")
+source("Prep_Subsets/Tmp_Functions/Module_plotStatusDashboards.R")
 
 # Run on "Worked Examples" set
 
@@ -57,3 +58,15 @@ rapid.status.results$Rules
 rapid.status.results$ConfusionMatrix
 rapid.status.results$RawConfusionMatrix
 rapid.status.results$Accuracy
+
+range(rapid.status.results$Data$Year)
+
+
+
+plotStatusDashboards(
+    cu.info =  worked.examples.metrics.out$Specs,
+    retro.summary.tbl = rapid.status.results$SummaryTable,
+    cu.data = worked.examples.metrics.out$Data, 
+    out.label = "RapidStatusOut",
+    out.filepath = "Prep_Subsets/Output/WorkedExamples/Dashboards")
+
