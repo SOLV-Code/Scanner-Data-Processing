@@ -4,8 +4,6 @@
 #' @param cu.info a data frame with specifications for each CU. For details, see help file for calculateMetricsByCU().
 #' @param cu.data a data frame with CU time series. This is the same data frame used for the cu.file argument in the call to calculateMetricsbyCU() and is included as the $Data list element in the output from that function. For details, see that help file.
 #' @param retro.summary.tbl data frame which is the $SummaryTable component of the output from generateRapidStatus()
-#' @param
-#' @param
 #' @param out.label label to use in the filenames for the output
 #' @param out.filepath folder for storing the output files 
 #' @keywords dashboard, plot

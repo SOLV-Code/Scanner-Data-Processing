@@ -1,6 +1,6 @@
 ---
 title: "Worked Examples - Notes"
-format: html
+format: docx
 editor: visual
 execute: 
   warning: false

@@ -11,6 +11,7 @@ source("Prep_Subsets/Tmp_Functions/Module_prepDataForRapidStatus.R")
 source("Prep_Subsets/Tmp_Functions/Module_applyRapidStatusTree.R")
 source("Prep_Subsets/Tmp_Functions/Module_generateRapidStatus.R")
 source("Prep_Subsets/Tmp_Functions/Module_plotStatusDashboards.R")
+source("Prep_Subsets/Tmp_Functions/Module_generateReportTemplate.R")
 
 # Run on "Worked Examples" set
 
@@ -70,3 +71,17 @@ plotStatusDashboards(
     out.label = "RapidStatusOut",
     out.filepath = "Prep_Subsets/Output/WorkedExamples/Dashboards")
 
+
+source("Prep_Subsets/Tmp_Functions/Module_generateReportTemplate.R")
+generateReportTemplate(type = "readme", 
+                       file.label = "Report", # doesn't apply to readme
+                       files.path = "Prep_Subsets/Output/WorkedExamples", 
+                       plots.path = "Prep_Subsets/Output/WorkedExamples/Dashboards", 
+                       report.path = "Prep_Subsets/Output/WorkedExamples/BasicReadme")
+
+
+generateReportTemplate(type = "quarto", 
+                       file.label = "Report", # doesn't apply to readme
+                       files.path = "Prep_Subsets/Output/WorkedExamples", 
+                       plots.path = "Prep_Subsets/Output/WorkedExamples/Dashboards", 
+                       report.path = "Prep_Subsets/Output/WorkedExamples/BasicQuarto")
