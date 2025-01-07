@@ -76,12 +76,10 @@ source("Prep_Subsets/Tmp_Functions/Module_generateReportTemplate.R")
 generateReportTemplate(type = "readme", 
                        file.label = "Report", # doesn't apply to readme
                        files.path = "Prep_Subsets/Output/WorkedExamples", 
-                       plots.path = "Prep_Subsets/Output/WorkedExamples/Dashboards", 
-                       report.path = "Prep_Subsets/Output/WorkedExamples/BasicReadme")
+                       repo.path = "https://github.com/SOLV-Code/Scanner-Data-Processing/tree/main/")
 
 
 generateReportTemplate(type = "quarto", 
                        file.label = "Report", # doesn't apply to readme
                        files.path = "Prep_Subsets/Output/WorkedExamples", 
-                       plots.path = "../Dashboards", 
-                       report.path = "Prep_Subsets/Output/WorkedExamples/BasicQuarto")
+                       repo.path = NULL)

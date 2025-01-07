@@ -4,21 +4,18 @@
 #' @param type one of "readme" or "quarto". "readme" creates a basic README.md file that will display formatted text including figures when viewed on Github or Gitlab. "quarto" creates a "*.qmd" file as a starting point for a more comprehensive document. 
 #' @param file.label label to be used for markdown file (if type = "quarto")
 #' @param files.path path to folder with input files and output files. The following files are required: "CU_Specs_LABEL.csv", and a sub folder "Dashboards" with the plots 
+#' @param repo.path if type = "readme", need to provide a path for the repository that the folder with the files (i.e., the part before the files.path argument). For example, if files.path is "OUTPUT", and repo.path is "https://github.com/UserName/RepoName", then the Readmde.md file will look for plots in https://github.com/UserName/RepoName/OUTPUT/Dashboards".
 #' @keywords markdown, report, readme
 #' @export
 
 
 
 generateReportTemplate <- function(type = "readme", file.label = "Report",
-				files.path, plots.path, report.path){
+				files.path, repo.path=NULL){
 
 
 library(tidyverse)
 #library(plotrix) CHECK IF STILL NEEDED
-
-
-report.path
-
 
 
 
@@ -116,14 +113,28 @@ cu.name <- specs.sub$CU_Name
 
 print(cu.name)
 
+if(type=="readme"){
+
+cat("
+
+
+",file = file.name,append=TRUE)
+
+}
+
+
+if(type=="quarto"){
+
 cat("
 
 {{< pagebreak >}}
 
 ",file = file.name,append=TRUE)
 
-cat(paste0("### ",cu.name," (",specs.sub$CU_ID,", ",specs.sub$Group,")\n"),file = file.name,append=TRUE)
+}
 
+
+cat(paste0("### ",cu.name," (",specs.sub$CU_ID,", ",specs.sub$Group,")\n"),file = file.name,append=TRUE)
 
 cat(specs.sub$Description,file = file.name,append=TRUE)
 
@@ -132,31 +143,22 @@ cat("
 
 ",file = file.name,append=TRUE)
 
+fig.name <- grep(cu.do,fig.list,value=TRUE)
+print(fig.name)
+
+if(length(fig.name)>0){
+
 if(type=="readme"){
 
-
-#cat(paste0("<img src=\" ", #https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/blob/main/OUTPUT/DataOverview_Part2.png"
-	#width="600">
-#"
-#,file = file.name,append=TRUE)
-
+cat(paste0('<img src=\" ', repo.path,'/blob/main/',files.path,'/Dashboards/',fig.name,'\") width="600">'),file = file.name,append=TRUE)
 
 }
 
 
 if(type=="quarto"){
-
-print("----")
-print(cu.do)
-print("----")
-
-
-fig.name <- grep(cu.do,fig.list,value=TRUE)
-print(fig.name)
-
-cat(paste0('![Status Metrics and Rapid Status for ',cu.name,'](../Dashboards/',fig.name,')'),
-file = file.name,append=TRUE)
-
+	cat(paste0('![Status Metrics and Rapid Status for ',cu.name,'](../Dashboards/',fig.name,')'),
+			file = file.name,append=TRUE)
+}
 
 }
 
