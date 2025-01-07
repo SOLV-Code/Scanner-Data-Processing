@@ -5,6 +5,9 @@ DATA_PROCESSING/
 *.xls
 *.xlsx
 *.pdf
+*.doc
+*.docx
+*.html
 
 OUTPUT/
 

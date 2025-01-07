@@ -3,9 +3,7 @@
 #' this function creates a basic markdown template after the other functions have been used to calculate metrics, apply the rapid status decision tree, and plot dashboards.
 #' @param type one of "readme" or "quarto". "readme" creates a basic README.md file that will display formatted text including figures when viewed on Github or Gitlab. "quarto" creates a "*.qmd" file as a starting point for a more comprehensive document. 
 #' @param file.label label to be used for markdown file (if type = "quarto")
-#' @param files.path path to folder with input files and output files. The following files are required: "CU_Specs_LABEL.csv",
-#' @param plots.path path to folder with dashboard plots. For a readme this is the full path to the png images on Github/Gitlab (e.g., "https://github.com/USER_NAME/REPO_NAME/blob/main/OUTPUT/Dashboards"). For the quarto option, this is a relative path within the R working directory (e.g., "OUTPUT/Dashboards").
-#' @param report.path path to folder where markdown output goes
+#' @param files.path path to folder with input files and output files. The following files are required: "CU_Specs_LABEL.csv", and a sub folder "Dashboards" with the plots 
 #' @keywords markdown, report, readme
 #' @export
 
@@ -19,12 +17,25 @@ library(tidyverse)
 #library(plotrix) CHECK IF STILL NEEDED
 
 
+report.path
+
+
+
+
+
+if(type=="readme"){
+report.path <- paste0(files.path,"/MarkdownReadme")
+file.name <- paste0(report.path,"/README.md")
+}
+
+
+if(type=="quarto"){
+report.path <- paste0(files.path,"/Quarto")
+file.name <- paste0(report.path,"/",file.label,".qmd")
+}
+
+
 if(!dir.exists(report.path)){dir.create(report.path)}
-
-
-if(type=="readme"){file.name <- paste0(report.path,"/README.md")}
-if(type=="quarto"){file.name <- paste0(report.path,"/",file.label,".qmd")}
-
 
 if(type=="readme"){
 
@@ -87,20 +98,27 @@ cu.specs <- read_csv(spec.file.path)
 cu.list <- cu.specs %>% select(CU_ID) %>% unlist()
 print(cu.list)
 
-fig.list <- list.files(path=plots.path,pattern = ".png",full.names=FALSE)
+
+fig.list <- list.files(path=paste0(files.path,"/","Dashboards"),pattern = ".png",full.names=FALSE)
 print(fig.list)
 
 # loop through CUs
 
 
-for(cu.do in cu.list)
+for(cu.do in cu.list){
+
+
+print(cu.do)
 
 specs.sub <- cu.specs %>% dplyr::filter(CU_ID==cu.do)
 
 cu.name <- specs.sub$CU_Name
 
+print(cu.name)
 
-cat("{{< pagebreak >}}
+cat("
+
+{{< pagebreak >}}
 
 ",file = file.name,append=TRUE)
 
@@ -128,10 +146,15 @@ if(type=="readme"){
 
 if(type=="quarto"){
 
-fig.link <- grep(cu.do,fig.list,value=TRUE)
-print(fig.link)
+print("----")
+print(cu.do)
+print("----")
 
-cat(paste0('![Status Metrics and Rapid Status for ',cu.name,'](',fig.link,')'),
+
+fig.name <- grep(cu.do,fig.list,value=TRUE)
+print(fig.name)
+
+cat(paste0('![Status Metrics and Rapid Status for ',cu.name,'](../Dashboards/',fig.name,')'),
 file = file.name,append=TRUE)
 
 
@@ -142,7 +165,7 @@ file = file.name,append=TRUE)
 
 
 
-
+} # end looping through CUs
 
 
 } # end report function

@@ -83,5 +83,5 @@ generateReportTemplate(type = "readme",
 generateReportTemplate(type = "quarto", 
                        file.label = "Report", # doesn't apply to readme
                        files.path = "Prep_Subsets/Output/WorkedExamples", 
-                       plots.path = "Prep_Subsets/Output/WorkedExamples/Dashboards", 
+                       plots.path = "../Dashboards", 
                        report.path = "Prep_Subsets/Output/WorkedExamples/BasicQuarto")
