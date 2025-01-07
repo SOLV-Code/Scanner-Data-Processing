@@ -67,11 +67,14 @@ write_csv(specs.sub,paste0(path.out.set,"/","CU_Specs_",set.label,".csv"))
 cu.data.sub <- cu.data.source %>%  
   dplyr::filter(CU_ID %in% settings.use$CU_ID) %>%
   select(-DataSet,-DU_ID) %>%
-  left_join(settings.use %>% select(-Description),by="CU_ID") %>% select(-CU_ID, -CU_Name,-CU_Acro,-New_CU_Acro) %>%
-  dplyr::rename(CU_ID = New_CU_ID, CU_Name = New_CU_Name ) %>%
+  left_join(settings.use %>% select(-Description),by="CU_ID") %>% 
+  select(-CU_ID, -CU_Name,-CU_Acro,-New_CU_Acro,-Group) %>%
+  dplyr::rename(CU_ID = New_CU_ID, CU_Name = New_CU_Name, Group = New_Group ) %>%
   select(CU_ID,CU_Name, everything()) %>%
   arrange(CU_ID)
 
+
+print(names(cu.data.sub))
 print(head(cu.data.sub))
 write_csv(cu.data.sub,paste0(path.out.set,"/","CU_Data_",set.label,".csv"))
 
@@ -93,8 +96,9 @@ write_csv(cyclic.bm.sub,paste0(path.out.set,"/","CU_CyclicBM_",set.label,".csv")
 
 publ.status.sub <- publ.status.source %>% dplyr::filter(CU_ID %in% settings.use$CU_ID,Metric=="IntStatus") %>%
   select(-Stock) %>% 
-  left_join(settings.use ,by="CU_ID") %>% select(-CU_ID, -CU_Acro) %>%
-  dplyr::rename(CU_ID = New_CU_ID, CU_Acro = New_CU_Acro, CU_Name = New_CU_Name ) %>%
+  left_join(settings.use ,by="CU_ID") %>% select(-CU_ID, -CU_Acro, -Group) %>%
+  dplyr::rename(CU_ID = New_CU_ID, CU_Acro = New_CU_Acro, CU_Name = New_CU_Name,
+                Group = New_Group ) %>%
   select(CU_ID,CU_Acro,CU_Name,Description, everything()) %>%
   arrange(CU_ID)
 print(head(publ.status.sub))
