@@ -6,12 +6,13 @@ library(tidyverse)
 library(WSPMetrics)
 
 # function to replace script 2_CalculateMetrics_By_CU.R
-source("Prep_Subsets/Tmp_Functions/Module_calculateMetricsByCU.R")
-source("Prep_Subsets/Tmp_Functions/Module_prepDataForRapidStatus.R")
-source("Prep_Subsets/Tmp_Functions/Module_applyRapidStatusTree.R")
-source("Prep_Subsets/Tmp_Functions/Module_generateRapidStatus.R")
-source("Prep_Subsets/Tmp_Functions/Module_plotStatusDashboards.R")
-source("Prep_Subsets/Tmp_Functions/Module_generateReportTemplate.R")
+# ONLY FOR LOCAL DEBUGGING. USE PACKAGE FUNCTIONS NOW!
+#source("Prep_Subsets/Tmp_Functions/Module_calculateMetricsByCU.R")
+#source("Prep_Subsets/Tmp_Functions/Module_prepDataForRapidStatus.R")
+#source("Prep_Subsets/Tmp_Functions/Module_applyRapidStatusTree.R")
+#source("Prep_Subsets/Tmp_Functions/Module_generateRapidStatus.R")
+#source("Prep_Subsets/Tmp_Functions/Module_plotStatusDashboards.R")
+#source("Prep_Subsets/Tmp_Functions/Module_generateReportTemplate.R")
 
 
 
